@@ -1109,8 +1109,8 @@ SHC = {
 	color_ui = rgb { 240 175 55 }
 }
 GND = {
-	color = rgb { 63 91 168 }
-	color_ui = rgb { 63 91 168 }
+	color = rgb { 87 109 165 }
+	color_ui = rgb { 87 109 165 }
 }
 PIL = {
 	color = rgb { 121 110 183 }
@@ -5400,6 +5400,6 @@ NWR = {
 	color_ui = rgb { 0 11 112 }
 }
 XJK = {
-	color = rgb { 154 0 0 }
-	color_ui = rgb { 154 0 0 }
+	color = rgb { 140 0 0 }
+	color_ui = rgb { 140 0 0 }
 }
