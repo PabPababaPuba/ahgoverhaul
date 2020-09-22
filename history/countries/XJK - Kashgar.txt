@@ -1,26 +1,24 @@
-﻿capital = 3292
+﻿capital = 3058
 
-oob = "TNG_1936"
+oob = "XJKs_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	mass_assault = 1
 }
-
-
+set_stability = 0.6
+set_war_support = 0.7
 
 	set_popularities = {
-		democratic
-			 = 0
-		fascism
-			 = 0
-		communism
-			 = 0
-			
+		neutrality 
+			 = 30
 		stratocratic
-			 = 100
-	}
+			 = 40
+		vanguardism
+			 = 30
+			
+		}
 	set_politics = { 
  ruling_party = stratocratic
 	last_election = "1936.1.1"
@@ -28,17 +26,19 @@ set_technology = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Ma Hu-shan"
-	desc = ""
-	picture = "Portrait_Ma_Hushan.dds"
-	expire = "1975.7.1"
-	ideology = militarism
-	traits = {
-		#
-	}
+
+add_ideas = {
+	closed_economy
+	service_by_requirement
+	partial_economic_mobilisation
 }
 
-
-
-
+create_country_leader = {
+	name = "Liu Pin"
+	desc = ""
+	picture = "Portrait_Liu_Bin.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
