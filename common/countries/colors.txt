@@ -4609,8 +4609,13 @@ ANW = {
 	color_ui = rgb { 150 150 150 }
 }
 KWC = {
+<<<<<<< HEAD
 	color = rgb { 16 25 114 }
 	color_ui = rgb { 16 25 114 }
+=======
+	color = rgb { 103 101 140}
+	color_ui = rgb { 150 150 150 }
+>>>>>>> parent of 488a93bd... Update colors.txt
 }
 CIL = {
 	color = rgb { 150 150 150 }
