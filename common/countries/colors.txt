@@ -1088,16 +1088,16 @@ LOU = {
 }
 #Chinese Warlords
 TUG = {
-	color = rgb { 196 86 66 }
-	color_ui = rgb { 196 86 66 }
+	color = rgb { 191 67 45 }
+	color_ui = rgb { 191 67 45 }
 }
 XIG = {
 	color = rgb { 39 86 112 }
 	color_ui = rgb { 39 86 112 }
 }
 HMI = {
-	color = rgb { 226 150 36 }
-	color_ui = rgb { 226 150 36 }
+	color = rgb { 234 148 0 }
+	color_ui = rgb { 234 148 0 }
 }
 
 NIX = {
@@ -5009,8 +5009,8 @@ DEE = {
 	color_ui = rgb { 150 150 150 }
 }
 LNT = {
-	color = rgb { 200 140 25 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 0 62 96 }
+	color_ui = rgb { 0 62 96 }
 }
 NGH = {
 	color = rgb { 230 187 48 }
