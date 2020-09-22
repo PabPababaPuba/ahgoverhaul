@@ -258,8 +258,8 @@ VEN = {
 	color_ui = rgb { 216 153 110 }
 }
 YUN = {
-	color = rgb { 173 199 216 }
-	color_ui = rgb { 173 199 216 }
+	color = rgb { 161 201 226 }
+	color_ui = rgb { 161 201 226 }
 }
 USA = {
 	color = rgb { 53 105 165 }
@@ -4609,7 +4609,8 @@ ANW = {
 	color_ui = rgb { 150 150 150 }
 }
 KWC = {
-	color = rgb { 16 25 114 }
+	color = rgb { 0 11 112 }
+	color_ui = rgb { 0 11 112 }
 }
 CIL = {
 	color = rgb { 150 150 150 }
@@ -4632,8 +4633,8 @@ CKG = {
 	color_ui = rgb { 150 150 150 }
 }
 HNN = {
-	color = rgb { 16 25 114 }
-	color_ui = rgb { 16 25 114 }
+	color = rgb { 0 11 112 }
+	color_ui = rgb { 0 11 112 }
 }
 PKG = {
 	color = rgb { 150 150 150 }
