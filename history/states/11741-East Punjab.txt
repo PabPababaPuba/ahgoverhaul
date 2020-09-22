@@ -1,22 +1,20 @@
 
 state={
-	id=439
-	name="STATE_439"
+	id=11741
+	name="STATE_11741"
 
 	history={
 		owner = RAJ 
 		add_core_of = RAJ
 		add_core_of = IND
-		victory_points = {
-			2086 30
-		}
+		add_core_of = KHL
 
 	}
 
 	provinces={
-		2032 2086 12868 20724
+		2002 10729 15028
 	}
-	manpower=31136800
+	manpower=1000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 }
