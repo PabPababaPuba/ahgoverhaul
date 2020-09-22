@@ -34,9 +34,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Ching Yuehhsiu"
+	name = "Yang Hu-ch'eng"
 	desc = ""
-	picture = "Portrait_Jing_Yuexiu.tga"
+	picture = "Portrait_Yang_Hucheng.tga"
 	expire = "1965.1.1"
 	ideology = militarism
 	traits = {
