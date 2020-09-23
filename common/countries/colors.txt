@@ -1096,8 +1096,8 @@ XIG = {
 	color_ui = rgb { 39 86 112 }
 }
 HMI = {
-	color = rgb { 234 148 0 }
-	color_ui = rgb { 234 148 0 }
+	color = rgb { 181 102 41 }
+	color_ui = rgb { 181 102 41 }
 }
 
 NIX = {
