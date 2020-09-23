@@ -7,6 +7,14 @@ on_actions = {
 		effect = {
 			FROM.FROM = {	
 
+					### KOR ###
+					if = {
+						limit = {
+							ROOT = {tag = KOR}
+						}
+						do_korean_renames = yes
+					}
+
 					### PRC ###
 					if = {
 						limit = {
@@ -580,14 +588,6 @@ on_actions = {
 						                  has_cosmetic_tag = MZB_FRA}}
 						}
 						do_french_renames = yes
-					}	
-					
-					### KOR ###
-					if = {
-						limit = {
-							ROOT = {tag = KOR}
-						}
-						do_korean_renames = yes
 					}	
 			}
 		}
