@@ -331,8 +331,8 @@ SHX = {
 	color_ui = rgb { 77 90 112 }
 }
 XSM = {
-	color = rgb { 0 62 96 }
-	color_ui = rgb { 0 62 96 }
+	color = rgb { 9  171  190 }
+	color_ui = rgb { 9  171  190 }
 }
 NEA = {
 	color = rgb { 0 11 112 }
@@ -1101,8 +1101,8 @@ HMI = {
 }
 
 NIX = {
-	color = rgb { 0 62 96 }
-	color_ui = rgb { 0 62 96 }
+	color = rgb { 9  171  190 }
+	color_ui = rgb { 9  171  190 }
 }
 SHC = {
 	color = rgb { 51 113 147 }
