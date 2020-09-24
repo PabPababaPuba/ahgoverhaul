@@ -10,7 +10,7 @@ on_actions = {
 					### KOR ###
 					if = {
 						limit = {
-							ROOT = {tag = KOR}
+							ROOT = {OR = {tag = DPK tag = ROK tag = KOR}}
 						}
 						do_korean_renames = yes
 					}
