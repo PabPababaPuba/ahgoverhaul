@@ -1,6 +1,13 @@
 state={
 	id=11808
 	name="STATE_11808"
+	history={
+		owner = RAJ
+		add_core_of = NFT
+		add_core_of = RAJ
+		add_core_of = IND
+
+	}
 	provinces={
 		20739 
 	}

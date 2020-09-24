@@ -1,15 +1,15 @@
 state={
-	id=11781
-	name="STATE_11781"
+	id=11812
+	name="STATE_11812"
 	history={
 		owner = RAJ
-		add_core_of = MAH
+		add_core_of = UTT
 		add_core_of = RAJ
 		add_core_of = IND
 
 	}
 	provinces={
-		20711 
+		20740
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

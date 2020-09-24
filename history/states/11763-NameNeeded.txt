@@ -1,6 +1,13 @@
 state={
 	id=11763
 	name="STATE_11763"
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = IND
+		add_core_of = TML
+	}
+
 	provinces={
 		5032 
 	}

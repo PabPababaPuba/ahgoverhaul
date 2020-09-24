@@ -1,9 +1,17 @@
 state={
 	id=11794
 	name="STATE_11794"
+	history={
+		owner = RAJ
+		add_core_of = MDP
+		add_core_of = RAJ
+		add_core_of = IND
+
+	}
 	provinces={
-		20708 
+		10469
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }
+20708 
