@@ -8,6 +8,7 @@ state={
 	    owner = CNL
         add_core_of = CNL
         add_core_of = BRA
+        add_core_of = AMZ
     }	
 	manpower=1000
 	state_category=pastoral

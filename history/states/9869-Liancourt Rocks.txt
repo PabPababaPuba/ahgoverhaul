@@ -13,6 +13,7 @@ state={
 		owner = JAP
 		add_core_of = KOR
 		add_core_of = ROK
+		add_core_of = SHI
 		buildings = {
 			infrastructure = 1
 		}

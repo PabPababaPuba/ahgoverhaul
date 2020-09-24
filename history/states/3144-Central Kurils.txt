@@ -6,6 +6,7 @@ state={
 		owner = JAP 
 		add_core_of = JAP
 		add_core_of = EZO
+		add_core_of = HOK
 		add_claim_by = SOV
 		add_claim_by = PRJ
 		buildings = {

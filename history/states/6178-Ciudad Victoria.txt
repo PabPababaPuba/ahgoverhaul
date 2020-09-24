@@ -11,8 +11,7 @@ state={
 	history={
 		owner = MEX
 		add_core_of = MEX
-		add_core_of = NLE
-		add_core_of = CAU
+		add_core_of = TMU
 	}
 	
 	buildings_max_level_factor=1.000

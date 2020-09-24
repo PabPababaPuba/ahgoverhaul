@@ -8,6 +8,7 @@ state={
 	    owner = YMM
         add_core_of = YMM
         add_core_of = BRA
+        add_core_of = ROR
     }	
 	manpower=1000
 	state_category=pastoral
