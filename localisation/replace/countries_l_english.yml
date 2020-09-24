@@ -2490,6 +2490,8 @@
  INS_communism_DEF:0 "The Colony of the Dutch East Indies"
  INS_monarchism:0 "Colony of the Dutch East Indies" 
  INS_monarchism_DEF:0 "The Colony of the Dutch East Indies" 
+ INS_authoritarian_monarchism:0 "Colony of the Dutch East Indies" 
+ INS_authoritarian_monarchism_DEF:0 "The Colony of the Dutch East Indies" 
  INS_monarchism_ADJ:0 "Indonesian"
  INS_fascism_ADJ:0 "Indonesian"
  INS_democratic_ADJ:0 "Indonesian"
