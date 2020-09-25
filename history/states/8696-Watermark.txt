@@ -14,6 +14,7 @@ state={
 		add_core_of = WTR
 		add_core_of = INN
 		add_core_of = UCL
+		add_core_of = DST
 
 	}
 	manpower = 1

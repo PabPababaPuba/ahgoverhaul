@@ -20,6 +20,10 @@
  XJK_DEF:0 "The Kashgar National Assembly"
  XJK_ADJ:0 "Kashgari"
 
+ DST:0 "Disputed Territory"
+ DST_DEF:0 "Disputed Territory"
+ DST_ADJ:0 "Disputed"
+
  DLH:0 "Delhi"
  DLH_DEF:0 "Delhi"
  DLH_ADJ:0 "Delhiite"
