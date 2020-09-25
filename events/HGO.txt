@@ -83,7 +83,7 @@ country_event = { #Hehe Russia
 country_event = { #Unite China
 	id = hgo.4
 	title = "Reunification of China"
-	desc = "This event allows you to put the tragic warlord era in China to end. A single question remains, however - who shall unite China under its banner?"
+	desc = "This event allows you to put the tragic warlord era in China to end. A single question remains, however - who shall unite China under their banner?"
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -121,9 +121,19 @@ country_event = { #Unite China
 			factor = 0
 		}
 				hidden_effect = {
-        every_country = {
-		release = CHI
-		}
+					every_state = {
+						limit = {
+								OR = {
+									is_claimed_by = CHI
+									is_core_of = CHI
+								}
+						}
+						set_temp_variable = { unitechinaa = THIS.id }
+						CHI = {
+							transfer_state = unitechinaa
+							add_state_core = unitechinaa
+						}
+					}
 		CHI = {
 			annex_country = {
 				target = TIB
@@ -136,7 +146,8 @@ country_event = { #Unite China
 			annex_country = {
 				target = MON
 				transfer_troops = yes
-			}	
+			}
+            transfer_state = unite_chinab					
 }
 			every_state = {
 				limit = {
@@ -153,9 +164,19 @@ country_event = { #Unite China
 			factor = 0
 		}
 				hidden_effect = {
-        every_country = {
-		release = CHI
-		}
+					every_state = {
+						limit = {
+								OR = {
+									is_claimed_by = CHI
+									is_core_of = CHI
+								}
+						}
+						set_temp_variable = { unitechinab = THIS.id }
+						CHI = {
+							transfer_state = unitechinab
+							add_state_core = unitechinab
+						}
+					}
 			CHI = {
 		set_cosmetic_tag = CHI_FOXITE
 			annex_country = {
@@ -169,7 +190,7 @@ country_event = { #Unite China
 			annex_country = {
 				target = MON
 				transfer_troops = yes
-			}			
+			}				
 		}
 			every_state = {
 				limit = {
@@ -186,12 +207,19 @@ country_event = { #Unite China
 			factor = 0
 		}
 				hidden_effect = {
-        every_country = {
-		release = PRC
-		}
-		every_state = {
-		remove_core_of = TUG
-		}
+					every_state = {
+						limit = {
+								OR = {
+									is_claimed_by = PRC
+									is_core_of = PRC
+								}
+						}
+						set_temp_variable = { unitechinac = THIS.id }
+						PRC = {
+							transfer_state = unitechinac
+							add_state_core = unitechinac
+						}
+					}
 		PRC = {
 			annex_country = {
 				target = TIB
@@ -204,9 +232,9 @@ country_event = { #Unite China
 			annex_country = {
 				target = MON
 				transfer_troops = yes
-			}
+			}		
 		set_cosmetic_tag = PRC_FOXITE			
-            set_capital = 608		
+            set_capital = 608				
 }
 			every_state = {
 				limit = {
