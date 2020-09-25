@@ -12766,8 +12766,14 @@ do_pinyin_renames = {
 			id = 6999
 			name = "Chóngqìng"
 		}	
+	}
+
+	if = {
+		limit = {
+			state = 11629
+		}		
 		set_province_name = {
-			id = 4925
+			id = 8026
 			name = "Chéngdū"
 		}
 	}
@@ -15299,8 +15305,14 @@ do_japanese_renames = {
 			id = 6999
 			name = "Jūkei"
 		}	
+	}
+
+	if = {
+		limit = {
+			state = 11629
+		}		
 		set_province_name = {
-			id = 4925
+			id = 8026
 			name = "Seito"
 		}
 	}
@@ -15742,16 +15754,22 @@ do_chinese_renames = {
 			id = 6999
 			name = "Chungking"
 		}	
-		set_province_name = {
-			id = 4925
-			name = "Chengtu"
-		}
 	}
 
 	if = {
 		limit = {
+			state = 11629
+		}	
+		set_province_name = {
+			id = 8026
+			name = "Chengtu"
+		}
+	}
+
+	if = {	
+		limit = {
 			state = 3285
-		}		
+		}	
 		set_province_name = {
 			id = 7418
 			name = "Sian"
@@ -26220,7 +26238,7 @@ do_polish_renames = {
 		}		
 		set_province_name = {
 			id = 3384
-			name = "Wolodino"
+			name = "Wołodino"
 		}
 	}
 
@@ -37134,6 +37152,40 @@ do_icelandic_renames = {
 }
 
 do_norwegian_renames = {
+		
+	if = {
+		limit = {
+			state = 10955
+		}		
+		set_state_name = Godhavn
+	}
+		
+	if = {
+		limit = {
+			state = 10913
+		}		
+		set_state_name = Godhaap
+	}
+
+	if = {
+		limit = {
+			state = 100
+		}		
+		set_province_name = {
+			id = 12674
+			name = "Røykvik"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 337
+		}		
+		set_province_name = {
+			id = 13003
+			name = "Torshavn"
+		}
+	}
 
 	if = {
 		limit = {
