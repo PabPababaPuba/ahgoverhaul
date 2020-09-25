@@ -1,4 +1,4 @@
-﻿capital = 7209
+﻿capital = 7203
 
 oob = "SRN_1936"
 
