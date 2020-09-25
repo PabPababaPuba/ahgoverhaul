@@ -5408,3 +5408,7 @@ SUI = {
 	color = rgb { 97 128 183 }
 	color_ui = rgb { 97 128 183 }
 }
+DST = {
+	color = rgb { 255 230 221 }
+	color_ui = rgb { 255 230 221 }
+}
