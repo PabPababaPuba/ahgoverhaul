@@ -10,12 +10,12 @@ oob = "XSM_1936"
 		communism
 			 = 0
 			
-		neutrality
+		stratocratic
 			 = 100
 		
 	}
 	set_politics = { 
- ruling_party = neutrality
+ ruling_party = stratocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -26,7 +26,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Xibei_San_Ma_Ma_Bufang.dds"
 	expire = "1975.7.1"
-	ideology = despotism
+	ideology = stratocratic
 	traits = {
 		#
 	}

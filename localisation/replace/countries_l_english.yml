@@ -1859,6 +1859,9 @@
  YUN_democratic_ADJ:0 "Yunnanese"
  YUN_neutrality_ADJ:0 "Yunnanese"
  YUN_communism_ADJ:0 "Yunnanese"
+ YUN_stratocratic:0 "Province of Yunnan"
+ YUN_stratocratic_DEF:0 "Province of Yunnan"
+ YUN_stratocratic_ADJ:0 "Yunnan"
  
 
  
@@ -2086,8 +2089,8 @@
  GXC_fascism_DEF:0 "The Third Kwangsi Clique"
  GXC_democratic:0 "Kwangsi Independent Republic"
  GXC_democratic_DEF:0 "The Kwangsi Independent Republic"
- GXC_neutrality:0 "New Kwangsi Clique"
- GXC_neutrality_DEF:0 "The New Kwangsi Clique"
+ GXC_neutrality:0 "Kwangsi Clique"
+ GXC_neutrality_DEF:0 "The Kwangsi Clique"
  GXC_communism:0 "Socialist Republic of the Zhu Jiang"
  GXC_communism_DEF:0 "The Socialist Republic of the Zhu Jiang"
  GXC_monarchism:0 "Kingdom of Kwangsi" 
@@ -2097,6 +2100,9 @@
  GXC_neutrality_ADJ:0 "Kwangsi"
  GXC_democratic_ADJ:0 "Kwangsi"
  GXC_communism_ADJ:0 "Kwangsi"
+ GXC_stratocratic:0 "New Kwangsi Clique"
+ GXC_stratocratic_DEF:0 "The New Kwangsi Clique"
+ GXC_stratocratic_ADJ:0 "Kwangsi"
  
  SHX_fascism:0 "Shansi Yan State"
  SHX_fascism_DEF:0 "The Shansi Yan State"
@@ -2113,6 +2119,9 @@
  SHX_democratic_ADJ:0 "Shansi"
  SHX_neutrality_ADJ:0 "Shansi"
  SHX_communism_ADJ:0 "Shansi"
+ SHX_stratocratic:0 "Shansi Province"
+ SHX_stratocratic_DEF:0 "The Shansi Province"
+ SHX_stratocratic_ADJ:0 "Shansi"
  
  XSM_fascism:0 "Tsinghai Military Clique"
  XSM_fascism_DEF:0 "The Tsinghai Military Clique"
@@ -2129,6 +2138,9 @@
  XSM_democratic_ADJ:0 "Tsinghai"
  XSM_neutrality_ADJ:0 "Tsinghai"
  XSM_communism_ADJ:0 "Tsinghai"
+ XSM_stratocratic:1 "Tsinghai Ma Clique"
+ XSM_stratocratic_DEF:1 "The Tsinghai Ma Clique"
+ XSM_stratocratic_ADJ:1 "Tsinghai"
  
  MEN_fascism:0 "Mongol Military Government"
  MEN_fascism_DEF:0 "The Mongol Military Government"
@@ -5885,6 +5897,9 @@
  XIG_monarchism:0 "Kingdom of Hsikang"
  XIG_monarchism_DEF:0 "The Kingdom of Hsikang"
  XIG_monarchism_ADJ:0 "Hsikang"
+ XIG_stratocratic:1 "Hsikang Clique"
+ XIG_stratocratic_DEF:1 "The Hsikang Clique"
+ XIG_stratocratic_ADJ:1 "Hsikang"
  
  NIX_fascism:0 "Ningsia Military Government"
  NIX_fascism_DEF:0 "The Ningsia Military Government"
@@ -5901,6 +5916,9 @@
  NIX_monarchism:0 "Kingdom of Ningsia"
  NIX_monarchism_DEF:0 "The Kingdom of Ningsia"
  NIX_monarchism_ADJ:0 "Ningsia"
+ NIX_stratocratic_DEF:0 "The Republic of Ningsia"
+ NIX_stratocratic:1 "Ningsia Ma Clique"
+ NIX_stratocratic_ADJ:1 "Ningsia"
  
  SHC_fascism:0 "Szechwan Military Government"
  SHC_fascism_DEF:0 "The Szechwan Military Government"
@@ -5933,6 +5951,9 @@
  GND_monarchism:0 "Kingdom of Kwangtung"
  GND_monarchism_DEF:0 "The Kingdom of Kwangtung"
  GND_monarchism_ADJ:0 "Kwangtung"
+ GND_stratocratic:1 "Kwangtung Clique"
+ GND_stratocratic_DEF:1 "The Kwangtung Clique"
+ GND_stratocratic_ADJ:1 "Kwangtung"
  
  PIL_fascism:0 "Mengjiang"
  PIL_fascism_DEF:0 "Mengjiang"
