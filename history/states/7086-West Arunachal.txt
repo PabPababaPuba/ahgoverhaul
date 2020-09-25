@@ -5,7 +5,8 @@ state={
 		12730 
 	}
 	history={
-	    owner = NFT 
+	    owner = TIB 
+		add_core_of = TIB
 		add_core_of = NFT
 		add_core_of = ASM
         add_core_of = RAJ 

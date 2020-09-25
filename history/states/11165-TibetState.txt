@@ -6,10 +6,9 @@ state={
 	state_category=pastoral
 	
 	history={
-		owner = SKM
-		add_core_of = SKM
-		add_core_of = ASS
-		add_claim_by = IND
+		owner = BHU
+		add_core_of = BHU
+		add_core_of = TIB
 	}
 	provinces={
 		20655 
