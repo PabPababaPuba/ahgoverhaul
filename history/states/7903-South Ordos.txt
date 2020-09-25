@@ -4,7 +4,8 @@ state={
 	name="STATE_7903"
 
 	history={
-		owner = PIL
+		owner = SUI
+		add_core_of = SUI
 		add_core_of = PIL
 		add_core_of = CHI
 		add_core_of = PRC

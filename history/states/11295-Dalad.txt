@@ -2,8 +2,9 @@ state={
 	id=11295
 	name="STATE_11295"
 	
-	history = {
-		owner = PIL
+	history = {		
+		owner = SUI
+		add_core_of = SUI
 		add_core_of = PIL
 		add_core_of = CHI
 		add_core_of = PRC

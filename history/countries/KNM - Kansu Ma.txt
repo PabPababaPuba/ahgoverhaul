@@ -73,9 +73,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "To Be Added"
+	name = "Chu Shaoliang"
 	desc = ""
-	picture = "To_be_added.dds"
+	picture = "Portrait_Zhu_Shaoliang.tga"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

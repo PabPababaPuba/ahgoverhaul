@@ -2,7 +2,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "countryoccupationview"
-		position = { x = -206 y = 135}	
+		position = { x = -2060 y = 135}	
 		show_position = { x = -6 y = 135 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
@@ -372,7 +372,7 @@ guiTypes = {
 		iconType = {
 			name = "top_bg_locked"
 			spriteType = "GFX_occupation_country_entry_bg_top_locked"
-			position = { x = -5 y = 0 }
+			position = { x = 0 y = 0 }
 		}
 		
 		buttonType = {

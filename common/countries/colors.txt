@@ -1096,8 +1096,8 @@ XIG = {
 	color_ui = rgb { 39 86 112 }
 }
 HMI = {
-	color = rgb { 181 102 41 }
-	color_ui = rgb { 181 102 41 }
+	color = rgb { 209 93 51 }
+	color_ui = rgb { 209 93 51 }
 }
 
 NIX = {
@@ -5374,8 +5374,8 @@ TRR = {
 }
 TLG = {
 	color = rgb { 230 187 48 }
-	color_ui = rgb { 230 187 48 }
-}
+ 	color_ui = rgb { 230 187 48 }
+} 
 LMU = {
 	color = rgb { 230 187 48 }
 	color_ui = rgb { 230 187 48 }
@@ -5401,6 +5401,10 @@ NWR = {
 	color_ui = rgb { 0 11 112 }
 }
 XJK = {
-	color = rgb { 140 0 0 }
-	color_ui = rgb { 140 0 0 }
+	color = rgb { 194 138 138 }
+	color_ui = rgb { 194 138 138 }
+}
+SUI = {
+	color = rgb { 97 128 183 }
+	color_ui = rgb { 97 128 183 }
 }

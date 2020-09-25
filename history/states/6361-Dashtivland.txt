@@ -9,6 +9,7 @@ state={
         add_core_of = PER
         add_core_of = GLN
         add_core_of = TBR
+	add_core_of = SAZ
 		victory_points = {
 			17196 1 
 		}

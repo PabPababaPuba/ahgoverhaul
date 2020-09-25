@@ -13337,6 +13337,16 @@ do_japanese_renames = {
 
 	if = {
 		limit = {
+			state = 9721
+		}		
+		set_province_name = {
+			id = 4056
+			name = "Pusan"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 524
 		}		
 		set_province_name = {
