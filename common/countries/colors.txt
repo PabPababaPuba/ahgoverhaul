@@ -5401,8 +5401,8 @@ NWR = {
 	color_ui = rgb { 0 11 112 }
 }
 XJK = {
-	color = rgb { 194 138 138 }
-	color_ui = rgb { 194 138 138 }
+	color = rgb { 140 0 0 }
+	color_ui = rgb { 140 0 0 }
 }
 SUI = {
 	color = rgb { 97 128 183 }
