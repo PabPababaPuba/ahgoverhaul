@@ -15353,7 +15353,7 @@ do_japanese_renames = {
 		}		
 		set_province_name = {
 			id = 1047
-			name = "Kanton"
+			name = "Kōshū"
 		}
 	}
 
