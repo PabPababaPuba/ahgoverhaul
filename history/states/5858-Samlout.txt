@@ -9,7 +9,8 @@ state={
 	state_category = pastoral
 
 	history={
-	    owner = 
+	    owner = INC
+		add_core_of = INC
 		add_core_of = VIN
 		add_core_of = CAM
 	}
