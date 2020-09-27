@@ -31,9 +31,9 @@
  DLH_monarchism_DEF:0 "The Delhi Sultanate"
  DLH_monarchism_ADJ:0 "Delhiite"
  
- AND:0 "Andaman and Nicobar Islands"
- AND_DEF:0 "The Andaman and Nicobar Islands"
- AND_ADJ:0 "Andamanian"
+ ANI:0 "Andaman and Nicobar Islands"
+ ANI_DEF:0 "The Andaman and Nicobar Islands"
+ ANI_ADJ:0 "Andamanian"
  
  WTR_DEF:0 "Water"
  WTR_ADJ:0 "Aquatic"

@@ -5968,9 +5968,9 @@
  AJR_RAJ_DEF:0 "The Ajmer-Merwara Province"
  AJR_RAJ_ADJ:0 "Ajmer-Merwari"
 
- AND_RAJ:0 "Andaman and Nicobar Islands Provinces"
- AND_RAJ_DEF:0 "Andaman and Nicobar Islands Provinces"
- AND_RAJ_ADJ:0 "Andamanian"
+ ANI_RAJ:0 "Andaman and Nicobar Islands Provinces"
+ ANI_RAJ_DEF:0 "Andaman and Nicobar Islands Provinces"
+ ANI_RAJ_ADJ:0 "Andamanian"
 
  ASM_RAJ:0 "Assam Province"
  ASM_RAJ_DEF:0 "The Assam Province"

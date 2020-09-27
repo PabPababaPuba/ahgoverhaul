@@ -1,8 +1,8 @@
 ﻿capital = 3136
 
-set_cosmetic_tag = AND_RAJ
+set_cosmetic_tag = ANI_RAJ
 
-oob = "AND_1936"
+oob = "ANI_1936"
 
 set_popularities = {
         monarchism = 0
