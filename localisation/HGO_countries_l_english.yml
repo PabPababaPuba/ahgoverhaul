@@ -4602,8 +4602,8 @@
  BYB_centrist_monarchism:0 "Kingdom of Constantinople"
  BYB_centrist_monarchism_DEF:0 "Kingdom of Constantinople"
  BYB_centrist_monarchism_ADJ:0 "Constantinian"
- BYB_stratocratic_monarchism:0 "Themate of Constantinople"
- BYB_stratocratic_monarchism_DEF:0 "Themate of Constantinople"
+ BYB_stratocratic_monarchism:0 "Theme of Constantinople"
+ BYB_stratocratic_monarchism_DEF:0 "Theme of Constantinople"
  BYB_stratocratic_monarchism_ADJ:0 "Constantinian"
 
  OST_neutrality:0 "State of Österland"
