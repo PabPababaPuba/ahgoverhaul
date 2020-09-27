@@ -12,6 +12,9 @@ state={
 		add_core_of = SOV
 		add_core_of = UZB
 		add_core_of = BKH
+		victory_points = {
+			1573 1 
+		}
 
 	}
 

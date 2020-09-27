@@ -8,6 +8,9 @@ state={
 		add_core_of = UZB
 		add_core_of = KPK
 		add_core_of = KHI
+				victory_points = {
+			12465 5
+		}
 		buildings = {
 			infrastructure = 4
 			
