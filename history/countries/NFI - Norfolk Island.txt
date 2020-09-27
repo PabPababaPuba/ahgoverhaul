@@ -12,21 +12,23 @@ set_technology = {
 }
 
 
-set_convoys = 10
+set_convoys = 5
 
 
 
 	set_popularities = {
-        authoriatarian_monarchism =  100
-        communism =  0
-        fascism =  0
-        neutrality =  0
-
-	}
-	
+		democratic 
+			 = 10
+		fascism
+			 = 10
+		communism
+			 = 20
+		authoritarian_monarchism 
+			 = 60
+		}
 	set_politics = { 
- ruling_party = authoriatarian_monarchism
-	last_election = "1933.1.1"
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
