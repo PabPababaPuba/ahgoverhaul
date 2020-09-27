@@ -6749,6 +6749,9 @@
  PNG_monarchism:0 "Kingdom of New Guinea"
  PNG_monarchism_DEF:0 "The Kingdom of New Guinea"
  PNG_monarchism_ADJ:0 "New Guinean"
+ PNG_authoritarian_monarchism:0 "Territory of Papua"
+ PNG_authoritarian_monarchism_DEF:0 "The Territory of Papua"
+ PNG_authoritarian_monarchism_ADJ:0 "Papuan"
  
  SOL_communism:0 "Solomon Islands"
  SOL_communism_DEF:0 "The Solomon Islands"
@@ -19940,8 +19943,10 @@
 
  NFI_fascism:0 "Norfolk Empire"
  NFI_fascism_DEF:0 "Empire of the Norfolk Islanders"
- NFI_democratic:0 "Territory of Norfolk Island"
- NFI_democratic_DEF:0 "Territory of Norfolk Island"
+ NFI_democratic:0 "Republic of Norfolk Island"
+ NFI_democratic_DEF:0 "The Republic of Norfolk Island"
+ NFI_authoriatarian_monarchism:0 "Territory of Norfolk Island"
+ NFI_authoriatarian_monarchism_DEF:0 "The Territory of Norfolk Island"
  NFI_neutrality:0 "Teratri a' Norf'k Ailen"
  NFI_neutrality_DEF:0 "Teratri a' Norf'k Ailen"
  NFI_communism:0 "Norfolk Island Commune"

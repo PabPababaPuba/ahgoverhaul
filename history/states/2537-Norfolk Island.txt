@@ -2,9 +2,13 @@ state={
 	id=2537
 	name="STATE_2537"
 	history={
-		owner = AST 
+		owner = NFI 
 		add_core_of = NFI
 		add_core_of = AST
+		add_claim_by = NSW
+  		victory_points = {
+			14019 5 
+		}
 		buildings = {
 			infrastructure = 4
 			

@@ -9,8 +9,9 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = AST
+		owner = PNG
 		add_core_of = PNG
+		add_claim_by = QNS
 		buildings = {
 			infrastructure = 1
 		}

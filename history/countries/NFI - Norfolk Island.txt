@@ -2,6 +2,8 @@
 
 oob = "NFI_1936"
 
+set_cosmetic_tag = NFI_AST
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -15,7 +17,7 @@ set_convoys = 10
 
 
 	set_popularities = {
-        democratic =  100
+        authoriatarian_monarchism =  100
         communism =  0
         fascism =  0
         neutrality =  0
@@ -23,7 +25,7 @@ set_convoys = 10
 	}
 	
 	set_politics = { 
- ruling_party = democratic
+ ruling_party = authoriatarian_monarchism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -31,11 +33,11 @@ set_convoys = 10
 
 
 create_country_leader = {
-	name = "Sir Charles Rosenthal"
+	name = "Charles Robert Pinney"
 	desc = ""
-	picture = "Portrait_Sir_Charles_Rosenthal.dds"
+	picture = "Portrait_Sir_Charles_Rosenthal.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = authmon
 	traits = {
 		#
 	}

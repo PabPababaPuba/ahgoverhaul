@@ -2995,3 +2995,13 @@ MRN_ESP = {
 color = rgb { 58 183 57}
 color_ui = rgb { 58 183 57 }
 }
+
+NFI_AST = {
+color = rgb { 57 143 97 }
+color_ui = rgb { 74 186 126 }
+}
+
+PNG_AST = {
+color = rgb { 57 143 97 }
+color_ui = rgb { 74 186 126 }
+}
