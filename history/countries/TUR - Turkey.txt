@@ -6,17 +6,17 @@ oob = "TUR_1936"
 
 	set_popularities = {
 		democratic 
-			 = 10
+			 = 0
 		fascism
 			 = 0
 			
 		communism
 			 = 0
-		liberal_republic 
-			 = 90
+		neutrality
+			 = 100
 		}
 	set_politics = { 
- ruling_party = liberal_republic
+ ruling_party = neutrality
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -29,7 +29,7 @@ create_country_leader = {
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
 	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = socdem
 	traits = {
 		#
 	}
@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	expire = "1938.11.10"
-	ideology = socdem
+	ideology = despotism
 	traits = {
 		#
 	}
