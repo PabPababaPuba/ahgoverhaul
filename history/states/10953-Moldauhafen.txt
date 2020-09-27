@@ -10,6 +10,7 @@ state={
 		add_core_of = CZE
 		add_core_of = GER
 		add_core_of = WGR
+		add_core_of = FRS
 		add_core_of = HAM
 
 	}

@@ -8,6 +8,8 @@ state={
 		
 		owner = FRA 
 		add_core_of = FRA
+		add_core_of = BRG
+		add_core_of = OCC
 		buildings = {
 			infrastructure = 4
 			

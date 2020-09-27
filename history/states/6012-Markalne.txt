@@ -11,6 +11,8 @@ state={
 	history={
 		owner = LAT
 		add_core_of = LAT
+        add_core_of = LIV
+        add_core_of = LTG
 	}
 	
 	buildings_max_level_factor=1.000

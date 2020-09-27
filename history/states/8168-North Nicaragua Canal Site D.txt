@@ -8,6 +8,7 @@ state={
 		owner = NIC
 		add_core_of = NIC
 		add_core_of = NCZ
+		add_core_of = MSQ
 	}
 	manpower = 1000
 	state_category = pastoral

@@ -8,6 +8,8 @@ state={
 		owner = RUS
 		add_core_of = RUS
 		add_core_of = SOV
+		add_core_of = CCS
+		add_core_of = DON
 
 	}
 	manpower = 1000

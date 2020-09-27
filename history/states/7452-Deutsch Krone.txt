@@ -9,7 +9,9 @@ state={
         add_core_of = GER
         add_core_of = DDR
 		add_core_of = PRE
+		add_core_of = KSH
 	add_core_of = WPR
+	add_core_of = PWP
 
     }	
 	manpower=1000

@@ -11,6 +11,7 @@ state={
 	history={
 		owner = ZAM
 		add_core_of = ZAM
+		add_core_of = BSL
 	}
 	
 	buildings_max_level_factor=1.000

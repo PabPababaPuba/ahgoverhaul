@@ -8,6 +8,7 @@ state={
 	    owner = JAP
         add_core_of = JAP
 		add_core_of = TOY
+        add_core_of = ROJ
     }	
 	manpower=1000
 	state_category = pastoral

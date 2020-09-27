@@ -9,7 +9,9 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = MET
 		add_core_of = MNS
+		add_core_of = GMA
 
 	}
 	

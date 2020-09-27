@@ -8,6 +8,7 @@ state={
 	    owner = NMB
         add_core_of = NMB
         add_core_of = LKB
+        add_core_of = HRR
     }	
 	manpower=1000
 	state_category = pastoral

@@ -5,6 +5,7 @@ state={
 	history = {
 		owner = RUS
 		add_core_of = RUS
+		add_core_of = SBR
 		add_core_of = SOV
 	}
 	manpower = 1000
