@@ -159,7 +159,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pedro VI de Bragança"
+	name = "Pedro VI de Orléans-Bragança"
 	desc = ""
 	picture = "POR_Pedro.tga"
 	expire = "1965.1.1"
