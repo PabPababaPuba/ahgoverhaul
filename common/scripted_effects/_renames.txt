@@ -101,6 +101,56 @@ do_french_renames = {
 
 	if = {
 		limit = {
+			state = 352
+		}		
+		set_province_name = {
+			id = 6935
+			name = "Éva"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 3398
+		}		
+		set_province_name = {
+			id = 11853
+			name = "Théodosepoli"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 349
+		}		
+		set_province_name = {
+			id = 9777
+			name = "Sébaste"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7167
+		}		
+		set_province_name = {
+			id = 921
+			name = "Césarée de Cappadoce"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7230
+		}		
+		set_province_name = {
+			id = 3983
+			name = "Acroënus"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 1168
 		}		
 		set_province_name = {
@@ -16059,6 +16109,56 @@ do_russian_renames = {
 
 	if = {
 		limit = {
+			state = 352
+		}		
+		set_province_name = {
+			id = 6935
+			name = "Van"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 3398
+		}		
+		set_province_name = {
+			id = 11853
+			name = "Feodiziopol'"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 349
+		}		
+		set_province_name = {
+			id = 9777
+			name = "Sebastiya"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7167
+		}		
+		set_province_name = {
+			id = 921
+			name = "Tsezar' Kappodokiya"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7230
+		}		
+		set_province_name = {
+			id = 3983
+			name = "Nikopol'"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 1168
 		}		
 		set_province_name = {
@@ -20915,6 +21015,56 @@ do_english_renames = {
 }
 
 do_latin_renames = {
+
+	if = {
+		limit = {
+			state = 352
+		}		
+		set_province_name = {
+			id = 6935
+			name = "Eva"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 3398
+		}		
+		set_province_name = {
+			id = 11853
+			name = "Theodosiopolis"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 349
+		}		
+		set_province_name = {
+			id = 9777
+			name = "Sebastia"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7167
+		}		
+		set_province_name = {
+			id = 921
+			name = "Caesarea ad Cappadocia"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7230
+		}		
+		set_province_name = {
+			id = 3983
+			name = "Nicopolis"
+		}
+	}
 
 	if = {
 		limit = {
@@ -31130,6 +31280,56 @@ do_greek_renames = {
 
 	if = {
 		limit = {
+			state = 352
+		}		
+		set_province_name = {
+			id = 6935
+			name = "Éva"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 3398
+		}		
+		set_province_name = {
+			id = 11853
+			name = "Theodosioúpolis"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 349
+		}		
+		set_province_name = {
+			id = 9777
+			name = "Sevásteia"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7167
+		}		
+		set_province_name = {
+			id = 921
+			name = "Kaisáreia"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7230
+		}		
+		set_province_name = {
+			id = 3983
+			name = "Nikópolis"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 1168
 		}		
 		set_province_name = {
@@ -31671,7 +31871,7 @@ do_greek_renames = {
 		}		
 		set_province_name = {
 			id = 12029
-			name = "Antiókheia"
+			name = "Antiócheia sto Orónte"
 		}
 	}
 
@@ -32141,7 +32341,7 @@ do_greek_renames = {
 		}		
 		set_province_name = {
 			id = 11746
-			name = "Ádana"
+			name = "Antiócheia tis Kilikías"
 		}
 	}
 	if = {
@@ -32186,7 +32386,7 @@ do_greek_renames = {
 		}		
 		set_province_name = {
 			id = 904
-			name = "Ntoúztze"
+			name = "Kíeros"
 		}
 	}
 	if = {
@@ -32258,7 +32458,7 @@ do_greek_renames = {
 		}
 		set_province_name = {
 			id = 10203
-			name = "Corfu"
+			name = "Kérkyra"
 		}
 	}
 	if = {
@@ -32294,7 +32494,7 @@ do_greek_renames = {
 		}		
 		set_province_name = {
 			id = 13724
-			name = "Athina"
+			name = "Athína"
 		}
 	}
 	if = {
@@ -32527,7 +32727,7 @@ do_non_ottoman_turkish_renames = {
 		}
 		set_province_name = {
 			id = 7211
-			name = "Patras"
+			name = "Patrá"
 		}
 	}
 	
@@ -32552,6 +32752,56 @@ do_non_ottoman_turkish_renames = {
 	}
 }
 do_turkish_renames = {
+
+	if = {
+		limit = {
+			state = 352
+		}		
+		set_province_name = {
+			id = 6935
+			name = "Van"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 3398
+		}		
+		set_province_name = {
+			id = 11853
+			name = "Erzurum"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 349
+		}		
+		set_province_name = {
+			id = 9777
+			name = "Sivas"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7167
+		}		
+		set_province_name = {
+			id = 921
+			name = "Kayseri"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7230
+		}		
+		set_province_name = {
+			id = 3983
+			name = "Ayfon"
+		}
+	}
 
 	if = {
 		limit = {
@@ -37564,6 +37814,56 @@ do_ethiopian_renames = {
 	}	
 }
 do_italian_renames = {
+
+	if = {
+		limit = {
+			state = 352
+		}		
+		set_province_name = {
+			id = 6935
+			name = "Eva"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 3398
+		}		
+		set_province_name = {
+			id = 11853
+			name = "Teodosiopoli"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 349
+		}		
+		set_province_name = {
+			id = 9777
+			name = "Sebaste"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7167
+		}		
+		set_province_name = {
+			id = 921
+			name = "Cesarea di Cappadocia"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7230
+		}		
+		set_province_name = {
+			id = 3983
+			name = "Nicopoli"
+		}
+	}
 
 	if = {
 		limit = {
