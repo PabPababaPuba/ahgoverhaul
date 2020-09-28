@@ -5,7 +5,7 @@ tags={
 	"Gameplay"
 }
 name="Historic Geographical Overhaul"
-picture="newhgoverhaulss.jpg"
+picture="newhgoverhaulss.png"
 replace_path="history/states"
 replace_path="history/countries"
 replace_path="history/units"
