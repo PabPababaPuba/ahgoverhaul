@@ -2,34 +2,36 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "countrydiplomacyview"
-		position = { x=-606 y=78}	
-		show_position = { x=-6 y =78 }
+		position = { x=-106 y=98}	
+		show_position = { x=-6 y =98 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300	
-		size = { width=550 height=102%% }
+		size = { width=550 height=300 }
 		verticalScrollbar = "right_vertical_slider"
 		#horizontalScrollbar = "bottom_horizontal_slider"
+                clipping = no
 		
-		#hide_sound = menu_close_window
+		hide_sound = menu_close_window
 		show_sound = menu_open_window
 		
 		background = {
 			name = "Background"	
-			position = { x = 10000 y = 10000}	
+			position = { x = 0 y = 0}	
 			spriteType ="GFX_tiled_bg"
 		}
 		
-		containerWindowType = {
+		containerWindowType = {	
 			name = "country_info"
-			position = { x = -10 y = 5}	
+			position = { x = 0 y = 55}	
 			size = { width = 530 height = 100%% }
+                        clipping = no
 
 			iconType = {
 				name = "diplo_upper_win_bg"
 				position = { x = 139 y = -4 }
 				spriteType = "GFX_diplo_upper_win_bg"
-			}				
+			}					
 			
 			iconType = {
 				name = "diplo_country_flag"
@@ -89,8 +91,7 @@ guiTypes = {
 				text = "Rudolf Kittler"
 				maxWidth = 280
 				maxHeight = 20
-				format = left
-				fixedsize = yes						
+				format = left				
 			}
 
 			containerWindowType = {
@@ -221,11 +222,12 @@ guiTypes = {
 					
 			containerWindowType = {
 				name = "diplomacy_tab_top"
+				clipping = no
 				position = { x=0 y= 63 }
 					
 				iconType = {
 					name = "leader_portrait"
-					position = { x = 20 y = 10 }
+					position = { x = 23 y = 5 }
 					spriteType = "GFX_leader_unknown"
 					scale = 0.74
 				}
@@ -714,7 +716,7 @@ guiTypes = {
 				spriteType = "GFX_main_screens_bottom"
 				position = { x = 30000 y = -55 }
 				Orientation = "LOWER_LEFT"
-			}
+			}	
 			
 			buttonType = {
 				name = "back_button"
@@ -731,7 +733,7 @@ guiTypes = {
 		iconType ={
 			name ="production_header_bg"
 			spriteType = "GFX_header_bg"
-			position = { x= 5000 y = 07 }
+			position = { x= 5 y = 6 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -772,13 +774,13 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "diplomacy_title"
-			position = { x = 45000 y = 8 }
+			position = { x = 20 y = 8 }
 			textureFile = ""
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
-			text = "DIPLOMACY_DIPLOMACY"
-			maxWidth = 240
-			maxHeight = 20
+			text = "Country Diplomacy View"
+			maxWidth = 500
+			maxHeight = 200
 			format = left
 		}
 		
@@ -892,7 +894,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "close_button"
-			position = { x = -58 y = 1 }
+			position = { x = -43 y = 8 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
