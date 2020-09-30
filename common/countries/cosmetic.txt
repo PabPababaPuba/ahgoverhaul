@@ -1,3 +1,51 @@
+C_CS = {
+	color = rgb { 109 170 248 }
+	color_ui = rgb { 109 170 248 }
+}
+C_CUM = {
+	color = rgb { 245 204 255 }
+	color_ui = rgb { 245 204 255 }
+}
+C_STR = {
+	color = rgb { 255 204 204 }
+	color_ui = rgb { 255 204 204 }
+}
+C_CIR = {
+	color = rgb { 204 204 255 }
+	color_ui = rgb { 204 204 255 }
+}
+C_ALTCUM = {
+	color = rgb { 255 255 204 }
+	color_ui = rgb { 255 255 204 }
+}
+C_ALTSTR = {
+	color = rgb { 255 237 204 }
+	color_ui = rgb { 255 237 204 }
+}
+C_CIRCUM = {
+	color = rgb { 204 255 255 }
+	color_ui = rgb { 204 255 255 }
+}
+C_CIRSTA = {
+	color = rgb { 204 255 204 }
+	color_ui = rgb { 204 255 204 }
+}
+C_CUMONI = {
+	color = rgb { 204 204 204 }
+	color_ui = rgb { 204 204 204 }
+}
+C_NIMSTR = {
+	color = rgb { 151 159 168 }
+	color_ui = rgb { 151 159 168 }
+}
+C_STRCUM = {
+	color = rgb { 255 204 238 }
+	color_ui = rgb { 255 204 238 }
+}
+C_LEN = {
+	color = rgb { 136 136 136 }
+	color_ui = rgb { 136 136 136 }
+}
 AIB_ROME = {
 	color = rgb { 153 0 0 }
 	color_ui = rgb { 153 0 0 }
