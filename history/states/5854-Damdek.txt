@@ -11,6 +11,7 @@ state={
 	history={
 	    owner = INC
 		add_core_of = CAM
+		add_core_of = INC
 	}
 	
 	buildings_max_level_factor=1.000
