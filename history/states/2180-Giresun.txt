@@ -1,11 +1,13 @@
+
 state={
 	id=2180
 	name="STATE_2180"
-	
+
 	history={
 		owner = TUR
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = TUR
 		add_core_of = CNK
@@ -13,9 +15,8 @@ state={
 
 	}
 
-	
 	provinces={
-		975 14577
+		975 
 	}
 	manpower=51863
 	buildings_max_level_factor=1.000
