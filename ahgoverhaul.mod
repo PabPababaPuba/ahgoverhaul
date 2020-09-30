@@ -4,7 +4,7 @@ tags={
 	"Events"
 	"Gameplay"
 }
-name="Historic Geographical Overhaul"
+name="Historic Geographical Overhaul - Github Version"
 picture="newhgoverhaulss.jpg"
 replace_path="history/states"
 replace_path="history/countries"
