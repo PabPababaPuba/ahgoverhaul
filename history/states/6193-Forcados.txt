@@ -12,6 +12,8 @@ state={
 		owner = NGA
 		add_core_of = NGA
 		add_core_of = BIA
+        add_core_of = ORV
+        add_core_of = SNI
 	}
 	
 	buildings_max_level_factor=1.000

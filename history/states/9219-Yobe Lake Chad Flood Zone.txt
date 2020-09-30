@@ -8,6 +8,8 @@ state={
 		owner = NGA
 		add_core_of = NGA
 		add_core_of = LCH
+        add_core_of = NNI
+
 	}
 	state_category=pastoral
 	manpower=1000
