@@ -15,7 +15,7 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = UZB
-		add_core_of = KOK
+                add_core_of = BKH
 	}
 	buildings_max_level_factor=1.000
 }

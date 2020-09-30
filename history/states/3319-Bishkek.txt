@@ -1,9 +1,11 @@
 state={
-	id=5901
-	name="STATE_5901"
+	id=3319
+	name="STATE_3319"
 	provinces={
-		16351 
+		12583 
 	}
+	
+	
 	manpower = 1000
 	
 	state_category = pastoral
@@ -11,9 +13,10 @@ state={
 	history={
 		owner = KYR
 		add_core_of = SOV
-		add_core_of = TAJ
-                add_core_of = BKH
+		add_core_of = KYR
+		buildings = {
+			infrastructure = 1
+		}
 	}
-	
 	buildings_max_level_factor=1.000
 }
