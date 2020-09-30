@@ -15,7 +15,9 @@ state={
 		add_core_of = ENG
 		add_core_of = SHT
 		add_core_of = SCO
-
+		victory_points = {
+			6196 5 
+		}
 	}
 
 	provinces={

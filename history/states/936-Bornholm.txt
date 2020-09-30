@@ -14,7 +14,9 @@ state={
 		}
 		add_core_of = BHM
 		add_core_of = DEN
-
+		victory_points = {
+			6361 5 
+		}
 	}
 
 	provinces={
