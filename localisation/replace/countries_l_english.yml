@@ -5426,6 +5426,9 @@
  MSC_monarchism:0 "Grand Principality of Moscow"
  MSC_monarchism_DEF:0 "The Grand Principality of Moscow"
  MSC_monarchism_ADJ:0 "Muscovian"
+ MSC_national_socialism:0 "Reichskommissariat Moskowien"
+ MSC_national_socialism_DEF:0 "das Reichskommissariat Moskowien"
+ MSC_national_socialism_ADJ:0 "Moskauer"
  
  KMI_fascism:0 "Empire of Komi"
  KMI_fascism_DEF:0 "The Empire of Komi"
