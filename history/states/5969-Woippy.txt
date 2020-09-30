@@ -12,6 +12,9 @@ state={
 		owner = FRA
 		add_core_of = FRA
 		add_core_of = LOR
+		victory_points = {
+			16415 1 
+		}
 	}
 	
 	buildings_max_level_factor=1.000
