@@ -15,7 +15,8 @@ country_event = { #Hehe Russia
 		}
 
 		hidden_effect = {
-		RUS = {
+		SOV = {
+			annex_country = { target = RUS }
 			annex_country = { target = UKR }
 			annex_country = { target = BLR }
 			annex_country = { target = MOL }
