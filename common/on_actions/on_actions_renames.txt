@@ -7,6 +7,23 @@ on_actions = {
 		effect = {
 			FROM.FROM = {	
 
+
+					### AZR ###
+					if = {
+						limit = {
+							ROOT = {OR = {tag = AZR tag = SAZ}}
+						}
+						do_azerbaijani_renames = yes
+					}
+
+					### ARM ###
+					if = {
+						limit = {
+							ROOT = {tag = ARM}
+						}
+						do_armenian_renames = yes
+					}
+
 					### KOR ###
 					if = {
 						limit = {
