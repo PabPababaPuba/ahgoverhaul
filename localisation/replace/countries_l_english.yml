@@ -5104,6 +5104,9 @@
  TRV_monarchism:0 "Principality of Transylvania"
  TRV_monarchism_DEF:0 "The Principality of Transylvania"
  TRV_monarchism_ADJ:0 "Transylvanian"
+ TRV_national_socialism:0 "Reichskommissariat Karpaten"
+ TRV_national_socialism_DEF:0 "Reichskommissariat Karpaten"
+ TRV_national_socialism_ADJ:0 "Karpatisch"
  
  DLM_fascism:0 "Empire of Dalmatia"
  DLM_fascism_DEF:0 "The Empire of Dalmatia"
@@ -23857,3 +23860,9 @@
  PON_stratocratic_monarchism_DEF:0 "Kingdom of Pontus"
  PON_stratocratic_monarchism_ADJ:0 "Pontic"
 
+ ILY_national_socialism:0 "Reichskommissariat Balkanhalbinsel"
+ ILY_national_socialism_DEF:0 "Reichskommissariat Balkanhalbinsel"
+ ILY_national_socialism_ADJ:0 "Balkanisch"
+ ILY_republican_fascism:0 "Reichskommissariat Balkan"
+ ILY_republican_fascism_DEF:0 "Reichskommissariat Balkan"
+ ILY_republican_fascism_ADJ:0 "Balkanisch"
