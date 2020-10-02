@@ -9,11 +9,9 @@ state={
 		add_core_of = CRO
 		add_core_of = IST
 		add_core_of = FIU
-		buildings = {
-			infrastructure = 2
-
+		victory_points = {
+			13275 5
 		}
-
 	}
 
 	provinces={

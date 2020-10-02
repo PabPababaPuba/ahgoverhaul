@@ -1,6 +1,31 @@
 ﻿l_english:
 
- VICTORY_POINTS_12068:0 "Takao"
+##Yugoslaia
+ VICTORY_POINTS_13276:0 "Capodistria" #Koper, Slovenia. It's also in Italy as of 1936, but fuck it.
+ VICTORY_POINTS_20594:0 "Kranj"
+ VICTORY_POINTS_3654:0 "Celje"
+ VICTORY_POINTS_596:0 "Maribor"
+ VICTORY_POINTS_3596:0 "Velika Gorica"
+ VICTORY_POINTS_3943:0 "Zara" #Zadar, Croatia. It's also in Italy as of 1936, but fuck it.
+ VICTORY_POINTS_6647:0 "Osijek"
+ VICTORY_POINTS_11574:0 "Slavonski Brod"
+ VICTORY_POINTS_13275:0 "Fiume" #Rijeka, Croatia. It's actually in Italy as of 1936, but fuck it.
+ VICTORY_POINTS_11574:0 "Slavonski Brod"
+ VICTORY_POINTS_9821:0 "Cetinje"
+ VICTORY_POINTS_3922:0 "Bijelo Polje"
+ VICTORY_POINTS_17046:0 "Bar"
+ VICTORY_POINTS_17462:0 "Pljevlja"
+ VICTORY_POINTS_3868:0 "Herceg Novi"
+ VICTORY_POINTS_13269:0 "Nikšić"
+ VICTORY_POINTS_6619:0 "Prijedor"
+ VICTORY_POINTS_6942:0 "Mostar"
+ VICTORY_POINTS_606:0 "Bijeljina"
+ VICTORY_POINTS_6799:0 "Tuzla"
+ VICTORY_POINTS_9588:0 "Banja Luka"
+ VICTORY_POINTS_3984:0 "Kragujevac"
+ VICTORY_POINTS_13629:0 "Leskovac"
+ VICTORY_POINTS_17416:0 "Novi Sad"
+
 ##Cyprus
  VICTORY_POINTS_11984:0 "North Nicosia"
  VICTORY_POINTS_7193:0 "Nicosia"
@@ -189,7 +214,6 @@
  VICTORY_POINTS_13812:0 "Civitas Vaticana"
  VICTORY_POINTS_11741:0 "Istočno Sarajevo"
  VICTORY_POINTS_13858:0 "Rovigno"
- VICTORY_POINTS_11574:0 "Oprisavci"
  VICTORY_POINTS_9263:0 "Gdynia"
  VICTORY_POINTS_18013:0 "Langensalza"
  VICTORY_POINTS_405:0 "Bielefeld"
@@ -372,6 +396,7 @@
 
 ###East Asia
  VICTORY_POINTS_1464:0 "Vieng Chan"
+ VICTORY_POINTS_12068:0 "Takao"
  VICTORY_POINTS_12260:0 "Phnom Penh"
  VICTORY_POINTS_13282:0 "Weihaiwei" #It called Port Edward in TGW
  VICTORY_POINTS_7387:0 "Bandar Seri Begawan"
@@ -405,16 +430,16 @@
  VICTORY_POINTS_1923:0 "Al-Makkah"
 
 ##Romania
- VICTORY_POINTS_6706:0 "Galaţi"
+ VICTORY_POINTS_6706:0 "Galați"
  VICTORY_POINTS_9606:0 "Timişoara"
  VICTORY_POINTS_6652:0 "Craiova"
- VICTORY_POINTS_9548:0 "Cernăuţi"
+ VICTORY_POINTS_9548:0 "Cernăuți"
  VICTORY_POINTS_9670:0 "Târgu Mureş"
  VICTORY_POINTS_3665:0 "Hunedoara"
  VICTORY_POINTS_3696:0 "Oradea"
  VICTORY_POINTS_6727:0 "Cetatea Albă"
  VICTORY_POINTS_3707:0 "Chişinău"
- VICTORY_POINTS_9635:0 "Constanţa"
+ VICTORY_POINTS_9635:0 "Constanța"
  VICTORY_POINTS_746:0 "Sighet"
 
 #isreal

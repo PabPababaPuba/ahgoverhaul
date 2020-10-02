@@ -7,9 +7,8 @@ state={
 		add_core_of = YUG
 		add_core_of = MNT
 		add_core_of = ILY
-		buildings = {
-			infrastructure = 4
-			
+		victory_points = {
+			9821 5
 		}
 	}
 	provinces={

@@ -10,6 +10,9 @@ state={
         add_core_of = MNT
         add_core_of = SDJ
 		add_core_of = ILY
+		victory_points = {
+			17462 5
+		}
     }	
 	manpower=1000
 	state_category = pastoral
