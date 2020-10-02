@@ -4729,8 +4729,8 @@ KPY = {
 	color_ui = rgb { 150 150 150 }
 }
 YKT = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 81 160 198 }
+	color_ui = rgb { 81 160 198 }
 }
 MRE = {
 	color = rgb { 150 150 150 }
