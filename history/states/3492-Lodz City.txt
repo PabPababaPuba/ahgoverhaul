@@ -9,6 +9,9 @@ state={
 	state_category = pastoral
 
 	history={
+		victory_points = {
+			9508 25 
+		}
 		owner = POL
 		add_core_of = POL
 		add_core_of = LDZ

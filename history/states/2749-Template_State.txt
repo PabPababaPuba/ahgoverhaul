@@ -7,7 +7,7 @@ state={
 		add_core_of = POL
 		add_core_of = KIE
 		victory_points = {
-			3586 25 
+			3586 5 
 		}
 		buildings = {
 			infrastructure = 4

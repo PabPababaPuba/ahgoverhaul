@@ -8,7 +8,7 @@ state={
 		add_core_of = PWP
 		add_core_of = POS
 		victory_points = {
-			3381 25
+			3381 5
 		}
 
 		buildings = {
