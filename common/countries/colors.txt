@@ -5416,3 +5416,7 @@ AJ2 = {
 	color = rgb { 132 255 221 }
 	color_ui = rgb { 132 255 221 }
 }
+FAT = {
+	color = rgb { 37 72 155 }
+	color_ui = rgb { 37 72 155 }
+}

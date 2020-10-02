@@ -6,6 +6,7 @@ state={
 
 	history={
 		owner = MAD
+		add_core_of = FAT
 		buildings = {
 			infrastructure = 1
 			2165 = {

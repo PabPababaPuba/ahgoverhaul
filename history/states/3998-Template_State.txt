@@ -8,7 +8,7 @@ state={
 			
 		}
 		add_core_of = ATC
-		add_claim_by = MAD
+		add_core_of = FAT
 	}
 	provinces={
 		14812
