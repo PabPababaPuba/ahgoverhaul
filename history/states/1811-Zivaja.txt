@@ -9,7 +9,7 @@ state={
 		add_core_of = SVA
 		add_core_of = ILY
 		victory_points = {
-			3956 25
+			3596 25
 		}
 	}
 	provinces={
