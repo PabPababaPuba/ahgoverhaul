@@ -101,6 +101,26 @@ do_french_renames = {
 
 	if = {
 		limit = {
+			state = 5969
+		}		
+		set_province_name = {
+			id = 16415
+			name = "Woippy"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 36
+		}		
+		set_province_name = {
+			id = 9335
+			name = "Groningue"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 984
 		}		
 		set_province_name = {
@@ -3856,7 +3876,7 @@ do_french_renames = {
 		}		
 		set_province_name = {
 			id = 9561
-			name = "Y"
+			name = "Amiens"
 		}
 	}
 
@@ -6586,7 +6606,7 @@ do_spanish_renames = {
 		}		
 		set_province_name = {
 			id = 9335
-			name = "Ee"
+			name = "Groninga"
 		}
 	}
 
@@ -6837,7 +6857,7 @@ do_spanish_renames = {
 		}		
 		set_province_name = {
 			id = 9561
-			name = "Y"
+			name = "Amiens"
 		}
 	}
 
@@ -8178,6 +8198,26 @@ do_celtic_renames = {
 
 }
 do_german_renames = {
+
+	if = {
+		limit = {
+			state = 5969
+		}		
+		set_province_name = {
+			id = 16415
+			name = "Wappingen"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 36
+		}		
+		set_province_name = {
+			id = 9335
+			name = "Gröningen"
+		}
+	}
 
 	if = {
 		limit = {
@@ -21272,6 +21312,16 @@ do_latin_renames = {
 
 	if = {
 		limit = {
+			state = 5969
+		}		
+		set_province_name = {
+			id = 16415
+			name = "Vappinga"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 934
 		}		
 		set_province_name = {
@@ -23489,7 +23539,7 @@ do_latin_renames = {
 		}		
 		set_province_name = {
 			id = 9335
-			name = "Dongeradilia"
+			name = "Groninga"
 		}
 	}
 
@@ -23699,7 +23749,7 @@ do_latin_renames = {
 		}		
 		set_province_name = {
 			id = 9561
-			name = "Sumina"
+			name = "Ambianum"
 		}
 	}
 
@@ -30010,7 +30060,7 @@ do_dutch_renames = {
 		}		
 		set_province_name = {
 			id = 9335
-			name = "Ee"
+			name = "Groningen"
 		}
 	}
 
