@@ -101,6 +101,26 @@ do_french_renames = {
 
 	if = {
 		limit = {
+			state = 984
+		}		
+		set_province_name = {
+			id = 13288
+			name = "Saint-Pierre-Port"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3147
+		}		
+		set_province_name = {
+			id = 13287
+			name = "Saint-Hélier"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 352
 		}		
 		set_province_name = {
@@ -7854,6 +7874,26 @@ do_celtic_renames = {
 
 	if = {
 		limit = {
+			state = 934
+		}		
+		set_province_name = {
+			id = 6196
+			name = "Liùrabhaig"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 935
+		}		
+		set_province_name = {
+			id = 3311
+			name = "Doolish"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 4964
 		}		
 		set_province_name = {
@@ -8138,6 +8178,86 @@ do_celtic_renames = {
 
 }
 do_german_renames = {
+
+	if = {
+		limit = {
+			state = 938
+		}		
+		set_province_name = {
+			id = 10
+			name = "Neubergsund"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 4077
+		}		
+		set_province_name = {
+			id = 6258
+			name = "Wisstadt"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1134
+		}		
+		set_province_name = {
+			id = 211
+			name = "Burgholm"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 936
+		}		
+		set_province_name = {
+			id = 6361
+			name = "Rönne"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 934
+		}		
+		set_province_name = {
+			id = 6196
+			name = "Lerwig"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 935
+		}		
+		set_province_name = {
+			id = 3311
+			name = "Duglas"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 984
+		}		
+		set_province_name = {
+			id = 13288
+			name = "Sanktpeterhafen"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3147
+		}		
+		set_province_name = {
+			id = 13287
+			name = "Sankt Helier"
+		}
+	}
 
 	if = {
 		limit = {
@@ -9954,7 +10074,7 @@ do_german_renames = {
 		}		
 		set_province_name = {
 			id = 316
-			name = "Dünenmühlen"
+			name = "Tyrstadt"
 		}
     }
 
@@ -16193,6 +16313,16 @@ do_russian_renames = {
 
 	if = {
 		limit = {
+			state = 2803
+		}		
+		set_province_name = {
+			id = 14213
+			name = "Mariyekhamn"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 352
 		}		
 		set_province_name = {
@@ -20455,6 +20585,46 @@ do_english_renames = {
 
 	if = {
 		limit = {
+			state = 934
+		}		
+		set_province_name = {
+			id = 6196
+			name = "Lerwick"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 935
+		}		
+		set_province_name = {
+			id = 3311
+			name = "Douglas"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 984
+		}		
+		set_province_name = {
+			id = 13288
+			name = "Saint Peter Port"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3147
+		}		
+		set_province_name = {
+			id = 13287
+			name = "Saint Helier"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 1168
 		}		
 		set_province_name = {
@@ -21099,6 +21269,36 @@ do_english_renames = {
 }
 
 do_latin_renames = {
+
+	if = {
+		limit = {
+			state = 934
+		}		
+		set_province_name = {
+			id = 6196
+			name = "Lervicum"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 984
+		}		
+		set_province_name = {
+			id = 13288
+			name = "Sacnti Petri Portus"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3147
+		}		
+		set_province_name = {
+			id = 13287
+			name = "Sancti Helier"
+		}
+	}
 
 	if = {
 		limit = {
@@ -35686,7 +35886,18 @@ do_turkish_renames = {
 		}
 	}
 }
+
 do_finnish_renames = {
+
+	if = {
+		limit = {
+			state = 2803
+		}		
+		set_province_name = {
+			id = 14213
+			name = "Maarianhamina"
+		}
+	}
 
 	if = {
 		limit = {
@@ -35954,6 +36165,96 @@ do_faroese_renames = {
 	}
 }
 do_danish_renames = {
+
+	if = {
+		limit = {
+			state = 938
+		}		
+		set_province_name = {
+			id = 10
+			name = "Nybjergsund"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 2803
+		}		
+		set_province_name = {
+			id = 14213
+			name = "Mariehavn"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 4077
+		}		
+		set_province_name = {
+			id = 6258
+			name = "Visby"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1134
+		}		
+		set_province_name = {
+			id = 211
+			name = "Borgholm"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 936
+		}		
+		set_province_name = {
+			id = 6361
+			name = "Rønne"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 934
+		}		
+		set_province_name = {
+			id = 6196
+			name = "Laarvig"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 935
+		}		
+		set_province_name = {
+			id = 3311
+			name = "Doglas"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 984
+		}		
+		set_province_name = {
+			id = 13288
+			name = "Sankt Peter Havn"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3147
+		}		
+		set_province_name = {
+			id = 13287
+			name = "Sankt Helier"
+		}
+	}
 
 	if = {
 		limit = {
@@ -37209,7 +37510,7 @@ do_danish_renames = {
 		}		
 		set_province_name = {
 			id = 13822
-			name = "Dybbøl Sogn"
+			name = "Dybbøl"
 		}
 	}
 
@@ -37219,7 +37520,7 @@ do_danish_renames = {
 		}		
 		set_province_name = {
 			id = 316
-			name = "Klitmøller"
+			name = "Thisted"
 		}
     }
 
@@ -37482,6 +37783,26 @@ do_icelandic_renames = {
 }
 
 do_norwegian_renames = {
+
+	if = {
+		limit = {
+			state = 938
+		}		
+		set_province_name = {
+			id = 10
+			name = "Nybergsund"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 934
+		}		
+		set_province_name = {
+			id = 6196
+			name = "Leirvik"
+		}
+	}
 		
 	if = {
 		limit = {
@@ -37561,6 +37882,56 @@ do_swedish_renames = {
 
 	if = {
 		limit = {
+			state = 938
+		}		
+		set_province_name = {
+			id = 10
+			name = "Nybergsund"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 2803
+		}		
+		set_province_name = {
+			id = 14213
+			name = "Mariehamn"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 4077
+		}		
+		set_province_name = {
+			id = 6258
+			name = "Visby"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1134
+		}		
+		set_province_name = {
+			id = 211
+			name = "Borgholm"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 936
+		}		
+		set_province_name = {
+			id = 6361
+			name = "Rönne"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 100
 		}		
 		set_province_name = {
@@ -37585,7 +37956,7 @@ do_swedish_renames = {
 		}		
 		set_province_name = {
 			id = 13822
-			name = "Dybböl Socken"
+			name = "Dybböl"
 		}
 	}
 
@@ -37595,7 +37966,7 @@ do_swedish_renames = {
 		}		
 		set_province_name = {
 			id = 316
-			name = "Klitmöller"
+			name = "Thistad"
 		}
     }
 
