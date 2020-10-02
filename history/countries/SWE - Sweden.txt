@@ -4,7 +4,7 @@ oob = "SWE_1936"
 
 
 	set_popularities = {
-		democratic_monarchism 
+		socialist_monarchy 
 			 = 75
 		neutrality
 			  = 14
@@ -17,7 +17,7 @@ oob = "SWE_1936"
 	}
 	
 	set_politics = { 
- ruling_party = democratic_monarchism
+ ruling_party = socialist_monarchy
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
@@ -26,45 +26,222 @@ oob = "SWE_1936"
 
 
 create_country_leader = {
+	name = "Birger Furugård"
+	desc = ""
+	picture = "Portrait_Birger_Furugard.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf V av Bernadotte"
+	desc = ""
+	picture = "Portrait_Gustaf_V.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Salomon Arvid Achates Lindman"
+	desc = ""
+	picture = "Portrait_Arvid_Lindman.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sven Harald Linderot"
+	desc = ""
+	picture = "Portrait_Sven_Linderot.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Nils Svante Flyg"
+	desc = ""
+	picture = "Portrait_Nils_flyg.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Per Albin Hansson"
+	desc = ""
+	picture = "Portrait_Albin_Hansson.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf V av Bernadotte"
+	desc = ""
+	picture = "Portrait_Gustaf_V.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jonas Eliel Löfgren"
+	desc = ""
+	picture = "Portrait_Eliel_Lofgren.tga"
+	expire = "1965.1.1"
+	ideology = socdem
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Gustaf V av Bernadotte"
 	desc = ""
 	picture = "Portrait_Gustaf_V.dds"
 	expire = "1965.1.1"
 	ideology = liberal_constitutionalism
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Sven Olov Lindholm"
-	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "Eugen I av Bernadotte"
+	desc = ""
+	picture = "Portrait_Eugen_Sweden.tga"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = conservative_constitutionalism
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Sven Linderot"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	name = "Olof Olsson i Kullenbergstorp"
+	desc = ""
+	picture = "Portrait_Olof_olsson.tga"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = cenrep
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Axel Pehrsson-Bramstorp"
-	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	name = "Eugen I av Bernadotte"
+	desc = ""
+	picture = "Portrait_Eugen_Sweden.tga"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = cenmon
 	traits = {
-		#
+	}
+}
+
+create_country_leader = {
+	name = "Carl Gustaf Ekman"
+	desc = ""
+	picture = "Portrait_Carl_Ekman.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oscar Eugéne Nygren"
+	desc = ""
+	picture = "Portrait_Oscar_Nygren.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oscar III av Bernadotte"
+	desc = ""
+	picture = "Portrait_Oscar_Sweden.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Carl XVI av Bernadotte"
+	desc = ""
+	picture = "Portrait_Carl_Sweden.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Erling Eidem"
+	desc = ""
+	picture = "Portrait_Erling_Eidem.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Frederick II av Bernadotte"
+	desc = ""
+	picture = "Portrait_Frederick_Sweden.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konrad Otto Kristian Hallgren"
+	desc = ""
+	picture = "Portrait_Konrad_Hallgren.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
 	}
 }
