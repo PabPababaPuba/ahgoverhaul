@@ -2,6 +2,9 @@ Do you fucking hate cosmetic tags? Do you wish that some important cities could 
 
 Use the following console commands to rename certain Russian cities, regardless of who owns them.
 
+event hgo.982 - renames Kalinin back to Kalinin (Soviet Name)
+event hgo.983 - renames Kalinin to Tver (Normal Russian Name)
+
 event hgo.986 - renames Istanbul back to Istanbul (Modern Turkish Name)
 event hgo.987 - renames Istanbul to Konstantinoúpoli (Modern Greek Name)
 event hgo.988 - renames Istanbul to Constantinople (Anglicised Greek Name)
