@@ -1,4 +1,4 @@
-﻿
+
 add_namespace = hgo
 
 country_event = { #Hehe Russia
@@ -13,65 +13,30 @@ country_event = { #Hehe Russia
 		ai_chance = {
 			factor = 0
 		}
-
-		hidden_effect = {
-		SOV = {
-			annex_country = { target = RUS }
-			annex_country = { target = UKR }
-			annex_country = { target = BLR }
-			annex_country = { target = MOL }
-			annex_country = { target = CRM }
-			annex_country = { target = KAR }
-			annex_country = { target = VJR }
-			annex_country = { target = MRD }
-			annex_country = { target = CVS }
-			annex_country = { target = MRE }
-			annex_country = { target = TTR }
-			annex_country = { target = KMI }
-			annex_country = { target = PCE }
-			annex_country = { target = KAZ }
-			annex_country = { target = KMK }
-			annex_country = { target = ADY }
-			annex_country = { target = CHR }
-			annex_country = { target = KRC }
-			annex_country = { target = ABK }
-			annex_country = { target = ADJ }
-			annex_country = { target = KBK }
-			annex_country = { target = TSC }
-			annex_country = { target = SOS }
-			annex_country = { target = NOS }
-			annex_country = { target = CHE }
-			annex_country = { target = NAK }
-			annex_country = { target = NGK }
-			annex_country = { target = DAG }
-			annex_country = { target = KPK }
-			annex_country = { target = TMS }
-			annex_country = { target = UZB }
-			annex_country = { target = TAJ }
-			annex_country = { target = PMR }
-			annex_country = { target = KYR }
-			annex_country = { target = YML }
-			annex_country = { target = KTM }
-			annex_country = { target = ALI }
-			annex_country = { target = TMY }
-			annex_country = { target = KSS }
-			annex_country = { target = EVK }
-			annex_country = { target = BML }
-			annex_country = { target = VMO }
-			annex_country = { target = YKT }
-			annex_country = { target = KYK }
-			annex_country = { target = CCI }
-                        annex_country = { target = VGR }
-                        annex_country = { target = BSH }
-                        annex_country = { target = UDM }
-                        annex_country = { target = KPY }
-                        annex_country = { target = PCR }
-                        annex_country = { target = KSS }
-                        annex_country = { target = JAO }
-                        annex_country = { target = KKS }
-		    }
+				hidden_effect = {
+					every_state = {
+						limit = {
+								OR = {
+									is_claimed_by = SOV
+									is_core_of = SOV
+								}
+						}
+						set_temp_variable = { unitedussr = THIS.id }
+						SOV = {
+							transfer_state = unitedussr
+							add_state_core = unitedussr
+						}
+					}
+			random_country = {
+				limit = {
+					num_of_controlled_states > 1
+					is_ai = no
+				}
+			SOV = { change_tag_from = ROOT }	
+			}
 		}
 	}
+	
 	option = { #reject
 		name = hgo.3.b
 		ai_chance = {
@@ -244,6 +209,39 @@ country_event = { #Unite China
 				add_core_of = PRC
 				add_core_of = CHI				
 			}		
+}
+		}
+	option = { #Reject
+		name = "I've changed my mind!"
+		ai_chance = {
+			factor = 100
+		}
+
+	}		
+}
+
+country_event = { #Remilitarise everything
+	id = hgo.5
+	title = "Remilitarisation of the world"
+	desc = "This event allows you to remilitarise every state in the world!"
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = { #Accept
+		name = "Let's do this!" 
+		ai_chance = {
+			factor = 0
+		}
+				hidden_effect = {
+					every_state = {
+						limit = {
+                            is_demilitarized_zone = yes
+						}
+						set_temp_variable = { demrems = THIS.id }
+						demrems = {
+                        set_demilitarized_zone = no 
+						}
+					}			
 }
 		}
 	option = { #Reject
