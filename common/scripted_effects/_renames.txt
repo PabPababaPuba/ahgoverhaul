@@ -13121,6 +13121,130 @@ do_japanese_renames = {
 
 	if = {
 		limit = {
+			state = 3163
+		}		
+		set_province_name = {
+			id = 8241
+			name = "Inbākāgiru"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3162
+		}		
+		set_province_name = {
+			id = 12980
+			name = "Kuīnzutaun"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 723
+		}		
+		set_province_name = {
+			id = 8204
+			name = "Gureimausu"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3159
+		}		
+		set_province_name = {
+			id = 12632
+			name = "Neruson"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3157
+		}		
+		set_province_name = {
+			id = 4804
+			name = "Pāmasuton'nōsu"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 10924
+		}		
+		set_province_name = {
+			id = 12604
+			name = "Nyūpurimasu"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 10922
+		}		
+		set_province_name = {
+			id = 10609
+			name = "Neipia"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3155
+		}		
+		set_province_name = {
+			id = 4718
+			name = "Tauranga"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3164
+		}		
+		set_province_name = {
+			id = 2211
+			name = "Danīden"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3160
+		}		
+		set_province_name = {
+			id = 2197
+			name = "Kuraisutochāchi"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3158
+		}		
+		set_province_name = {
+			id = 1814
+			name = "U~Erinton"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 284
+		}		
+		set_province_name = {
+			id = 4543
+			name = "Ōkurando"
+		}
+		set_province_name = {
+			id = 7887
+			name = "Hamiruton"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 976
 		}		
 		set_province_name = {
@@ -14594,46 +14718,6 @@ do_japanese_renames = {
 		set_province_name = {
 			id = 1150
 			name = "Dairen"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 3164
-		}		
-		set_province_name = {
-			id = 2211
-			name = "Danīden"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 3160
-		}		
-		set_province_name = {
-			id = 2197
-			name = "Kuraisutochāchi"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 3158
-		}		
-		set_province_name = {
-			id = 1814
-			name = "U~Erinton"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 284
-		}		
-		set_province_name = {
-			id = 4543
-			name = "Ōkurando"
 		}
 	}
 
