@@ -75,17 +75,17 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Fyodor_Dan.tga"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = demsoc
 	traits = {
 	}
 }
 
 create_country_leader = {
-	name = "Viktor Mikhailovich Chernov"
+	name = "Maria Alexandrovna Spiridonova"
 	desc = ""
-	picture = "gfx/leaders/Russia/Portrait_Viktor_Chernov.tga"
+	picture = "gfx/leaders/Russia/Portrait_RUS_Maria.tga"
 	expire = "1965.1.1"
-	ideology = demsoc
+	ideology = marxism
 	traits = {
 	}
 }
