@@ -808,6 +808,62 @@ country_event = { #Decolonise Arabia
 
 #rename city
 country_event = {
+	id = hgo.982
+	title = hgo.982.t
+	desc = hgo.982.desc
+	picture = GFX_report_event_german_reichstag_gathering
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = GER
+		GER = {
+			has_government = fascism
+			owns_state = 217 
+			owns_state = 195 
+		}
+	}
+
+	option = { #a great idea!
+		name = hgo.982.a
+		ai_chance = {
+			base = 100
+		}
+		set_province_name = { id = 6245 name = "Kalinin"}
+		247 = { set_state_name = Kalinin }
+	}
+}
+
+#rename city
+country_event = {
+	id = hgo.983
+	title = hgo.983.t
+	desc = hgo.983.desc
+	picture = GFX_report_event_german_reichstag_gathering
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = GER
+		GER = {
+			has_government = fascism
+			owns_state = 217 
+			owns_state = 195 
+		}
+	}
+
+	option = { #a great idea!
+		name = hgo.983.a
+		ai_chance = {
+			base = 100
+		}
+		set_province_name = { id = 6245 name = "Tver"}
+		247 = { set_state_name = Tver }
+	}
+}
+
+#rename city
+country_event = {
 	id = hgo.984
 	title = hgo.984.t
 	desc = hgo.984.desc

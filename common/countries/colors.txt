@@ -5412,3 +5412,7 @@ DST = {
 	color = rgb { 255 230 221 }
 	color_ui = rgb { 255 230 221 }
 }
+AJ2 = {
+	color = rgb { 132 255 221 }
+	color_ui = rgb { 132 255 221 }
+}
