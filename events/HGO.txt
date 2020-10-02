@@ -253,6 +253,149 @@ country_event = { #Remilitarise everything
 	}		
 }
 
+country_event = { #Desovietization 
+	id = hgo.6
+	title = "The Desovietization"
+	desc = "This event allows you to dismantle the USSR and have the post-Soviet countries somehow become stable democracies!"
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = { #Accept
+		name = "Let's do this!" 
+		ai_chance = {
+			factor = 0
+		}
+				hidden_effect = {
+				if = {
+				limit = {
+				exists = SOV 
+				}
+				SOV = {
+				release = RUS 
+				release = UKR 
+				release = BLR 
+				release = KAZ 
+				release = UZB 
+				release = TMS 
+				release = TAJ 
+				release = KYR 
+				release = MLV 
+				release = GEO
+				release = AZR
+				release = ARM
+				release = ABK
+                release = NAK 
+                release = NGK
+                release = FIN
+                release = LIT
+                release = LAT
+                release = EST
+                release = POL
+}
+}
+                if = {
+                limit = {
+                SOV = {
+                is_ai = no
+                }
+                }
+                RUS = { change_tag_from = SOV }
+}
+                if = {
+                limit = {
+                AND = {
+                RUS = {
+                exists = yes 
+                }
+                SOV = {
+                exists = yes 
+                }
+                }
+                }
+                RUS = {
+                annex_country = {
+                target = SOV  				
+				}
+				}
+				}
+					every_country = {
+						limit = {
+                            has_government = vanguardism
+							NOT = {
+							tag = PRC
+							}
+						}
+                        drop_cosmetic_tag = yes
+                        set_politics = {
+                        	ruling_party = socialism_ideology
+                        	last_election = "1935.1.1"
+                        	election_frequency = 48
+                        	elections_allowed = yes
+                        }
+
+                        set_popularities = {
+                        	socialism_ideology = 35
+                        	liberal_republic = 20
+                        	democratic = 25
+                        	centrist_republic = 20
+                        }				
+						}
+					every_state = {
+						limit = {
+								OR = {
+									is_claimed_by = RUS
+									is_core_of = RUS
+								}
+						}
+						set_temp_variable = { uniterus = THIS.id }
+						RUS = {
+							transfer_state = uniterus
+							add_state_core = uniterus
+						}
+					}
+                    RUS = {
+                    every_owned_state = {
+                    add_core_of = RUS 
+                    }
+                    }
+                    if = { 
+                    limit = { 
+                    TSC = {
+                    exists = yes 
+                    }
+                    }
+ 				TSC = { 
+				release = GEO
+				release = AZR
+				release = ARM
+				release = ABK
+                release = NAK 
+                release = NGK
+}    
+} 
+                    if = { 
+                    limit = { 
+                    ADJ = {
+                    exists = yes 
+                    }
+                    }
+                GEO = {
+                annex_country = {
+                target = ADJ  				
+				}
+				}
+}				
+}              					
+					}			
+	option = { #Reject
+		name = "I've changed my mind!"
+		ai_chance = {
+			factor = 100
+		}
+
+	}		
+}
+
 country_event = { #Yeet the princely states
 	id = hgo.1
 	title = hgo.1.t
