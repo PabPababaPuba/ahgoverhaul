@@ -42644,7 +42644,7 @@ do_azerbaijani_renames = {
 		}		
 		set_province_name = {
 			id = 1467
-			name = "Xankendi"
+			name = "Xankəndi"
 		}
 	}	
 
@@ -42654,7 +42654,7 @@ do_azerbaijani_renames = {
 		}		
 		set_province_name = {
 			id = 11674
-			name = "Gence"
+			name = "Gəncə"
 		}
 	}	
 
@@ -42694,7 +42694,7 @@ do_azerbaijani_renames = {
 		}		
 		set_province_name = {
 			id = 4512
-			name = "Diyarbekir"
+			name = "Diyarbəkir"
 		}
 	}
 
@@ -42708,17 +42708,17 @@ do_azerbaijani_renames = {
 		}
 	}	
 
-		if = {
+	if = {
 		limit = {
 			state = 2358
 		}		
 		set_province_name = {
 			id = 12320
-			name = "İrevan"
+			name = "İrəvan"
 		}
 	}	
 
-		if = {
+	if = {
 		limit = {
 			state = 950
 		}		
@@ -42728,32 +42728,32 @@ do_azerbaijani_renames = {
 		}
 
 	}	
-		if = {
+	if = {
 		limit = {
 			state = 6361
 		}		
 		set_province_name = {
 			id = 17196
-			name = "Reşt"
+			name = "Rəşt"
 		}
 
 	}	
-			if = {
+	if = {
 		limit = {
 			state = 419
 		}		
 		set_province_name = {
 			id = 1896
-			name = "Tebriz"
+			name = "Təbriz"
 		}
 
 	}	
-			if = {
+	if = {
 		limit = {
-			state = 3398
+			state = 354
 		}		
 		set_province_name = {
-			id = 11853
+			id = 9932
 			name = "Erzurum"
 		}
 	}	
@@ -42777,7 +42777,7 @@ do_azerbaijani_renames = {
 			name = "Tehran"
 		}
 	}
-
+	
 		if = {
 		limit = {
 			state = 349
