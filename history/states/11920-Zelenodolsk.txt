@@ -1,0 +1,18 @@
+state={
+	id=11920
+	name="STATE_11920"
+	
+	history = {
+		owner = TTR
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = KZN
+		add_core_of = TTR
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		19834 
+	}
+	buildings_max_level_factor=1.000
+}
