@@ -10,7 +10,7 @@ state={
 		add_core_of = BOS
 		add_core_of = ILY
 		victory_points = {
-			11899 5
+			11899 25
 		}
 	}
 	buildings_max_level_factor=1.000

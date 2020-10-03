@@ -7,7 +7,7 @@ state={
 		add_core_of = YUG
 		add_core_of = ILY
 		victory_points = {
-			13269 25
+			13269 5
 		}
 
 	}
