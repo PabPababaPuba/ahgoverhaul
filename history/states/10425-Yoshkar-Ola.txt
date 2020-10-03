@@ -1,9 +1,8 @@
+
 state={
 	id=10425
 	name="STATE_10425"
-	provinces={
-		260 282 404 3394 6307 9305 9336 9381 11286 11387 19844 19850 19851 19852 19853 19859 
-	}
+
 	history={
 		owner = RUS
 		buildings = {
@@ -16,7 +15,11 @@ state={
 		add_core_of = MRE
 
 	}
-	manpower = 1000
-	state_category = pastoral
+
+	provinces={
+		282 3315 3394 6307 9305 9381 11286 11387 19840 19842 19844 19850 19851 19852 19853 19859  
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

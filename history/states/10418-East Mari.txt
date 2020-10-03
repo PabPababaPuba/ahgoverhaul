@@ -5,7 +5,7 @@ state={
 		7403 
 	}
 	history={
-		owner = RUS
+		owner = UDM
 		buildings = {
 			infrastructure = 8
 
@@ -13,6 +13,7 @@ state={
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = PRR
+		add_Core_of = UDM
 
 	}
 	manpower = 1000

@@ -1,9 +1,8 @@
+
 state={
 	id=10413
 	name="STATE_10413"
-	provinces={
-		9307 11243 11292 11356 19815 19816 19826 19831 
-	}
+
 	history={
 		owner = CVS
 		buildings = {
@@ -15,7 +14,11 @@ state={
 		add_core_of = CVS
 
 	}
-	manpower = 1000
-	state_category = pastoral
+
+	provinces={
+		3282 6253 6312 6357 9307 9373 11356 19811 19819 19825 19826  
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
