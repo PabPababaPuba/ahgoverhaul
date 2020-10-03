@@ -13,8 +13,8 @@ state={
 		add_core_of = YUG
 		add_core_of = MNT
 		add_core_of = ILY
-		buildings = {
-			infrastructure = 1
+		victory_points = {
+			13267 5
 		}
 	}
 	buildings_max_level_factor=1.000

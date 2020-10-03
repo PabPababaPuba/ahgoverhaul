@@ -8,7 +8,7 @@ state={
 		add_core_of = CRT
 		add_core_of = SLV
 		victory_points = {
-			3654 25 
+			3654 5 
 		}
 	}
 	provinces={
