@@ -1532,7 +1532,7 @@ do_french_renames = {
 		}
 		set_province_name = {
 			id = 9791
-			name = "Dráma"
+			name = "Kavala"
 		}
 	}
 	
@@ -10214,7 +10214,7 @@ do_german_renames = {
 		}
 		set_province_name = {
 			id = 9791
-			name = "Drama"
+			name = "Kavala"
 		}
 	}
 
@@ -17192,7 +17192,7 @@ do_russian_renames = {
 		}
 		set_province_name = {
 			id = 9791
-			name = "Drama"
+			name = "Kavala"
 		}
 	}
 	
@@ -22495,7 +22495,7 @@ do_latin_renames = {
 		}
 		set_province_name = {
 			id = 9791
-			name = "Drama"
+			name = "Kavala"
 		}
 	}
 
@@ -25976,7 +25976,7 @@ do_polish_renames = {
 		}
 		set_province_name = {
 			id = 9791
-			name = "Drama"
+			name = "Kawala"
 		}
 	}
 	
@@ -31516,7 +31516,7 @@ do_bulgarian_renames = {
 		}
 		set_province_name = {
 			id = 9791
-			name = "Drama"
+			name = "Kavala"
 		}
 	}
 	if = {
@@ -32756,7 +32756,7 @@ do_greek_renames = {
 		}
 		set_province_name = {
 			id = 9791
-			name = "Dráma"
+			name = "Kavála"
 		}
 	}
 	if = {
@@ -34231,7 +34231,7 @@ do_turkish_renames = {
 		}
 		set_province_name = {
 			id = 9791
-			name = "Drama"
+			name = "Kavala"
 		}
 	}
 	
@@ -39586,7 +39586,7 @@ do_italian_renames = {
 		}
 		set_province_name = {
 			id = 9791
-			name = "Drama"
+			name = "Kavala"
 		}
 	}
 
