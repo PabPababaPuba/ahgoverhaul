@@ -1105,6 +1105,9 @@
  MNB_right_anarchism_party:0 "HBC"
  MNB_right_anarchism_party_long:0 "Hudson's Bay Company"
 
+ UTR_national_socialism_party:0 "NSDAP"
+ UTR_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+
  BAH_authoritarian_monarchism_party:0 "GtB"
  BAH_authoritarian_monarchism_party_long:0 "Viceroyalty of the Bahamas"
  BAH_monarchism_party:0 "Windsor"

@@ -12983,6 +12983,9 @@
  UTR_monarchism:0 "Kingdom of Utrecht"
  UTR_monarchism_DEF:0 "The Kingdom of Utrecht"
  UTR_monarchism_ADJ:0 "Utrechter"
+ UTR_national_socialism:0 "Reichskommissariat Niederlande"
+ UTR_national_socialism_DEF:0 "Reichskommissariat für die Besetzten Niederländischen Gebiete" 
+ UTR_national_socialism_ADJ:0 "Niederländisch"
  
  ZEE_democratic:0 "Republic of Zeeland"
  ZEE_democratic_DEF:0 "The Republic of Zeeland"
