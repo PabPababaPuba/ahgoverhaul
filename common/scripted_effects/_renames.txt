@@ -38274,6 +38274,16 @@ do_swedish_renames = {
 			name = "Malmö"
 		}
 	}
+	
+	if = {
+		limit = {
+			state = 195
+		}		
+		set_province_name = {
+			id = 3151
+			name = "Nyen"
+		}
+	}
 }
 
 do_ethiopian_renames = {
