@@ -20,7 +20,7 @@ oob = "MGN_1936"
 }
 
 create_country_leader = {
-	name = "Rafael Hitarov"
+	name = "Rafael Movsesovich Khitarov"
 	desc = ""
 	picture = "Portrait_Rafael_Hitarov.dds"
 	expire = "1953.3.1"
