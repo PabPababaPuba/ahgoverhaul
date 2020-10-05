@@ -17,8 +17,12 @@ country_event = { #Hehe Russia
 					every_state = {
 						limit = {
 								OR = {
-									is_claimed_by = SOV
 									is_core_of = SOV
+								}
+								NOT = {
+									is_core_of = TAN
+									is_core_of = FIN
+									is_core_of = LAT
 								}
 						}
 						set_temp_variable = { unitedussr = THIS.id }
@@ -32,7 +36,7 @@ country_event = { #Hehe Russia
 					num_of_controlled_states > 1
 					is_ai = no
 				}
-			SOV = { change_tag_from = ROOT }	
+
 			}
 		}
 	}
@@ -90,8 +94,9 @@ country_event = { #Unite China
 					every_state = {
 						limit = {
 								OR = {
-									is_claimed_by = CHI
 									is_core_of = CHI
+									is_core_of = TIB
+									is_claimed_by = TIB
 								}
 						}
 						set_temp_variable = { unitechinaa = THIS.id }
@@ -113,6 +118,12 @@ country_event = { #Unite China
 				target = MON
 				transfer_troops = yes
 			}
+			annex_country = {
+				target = TAN
+				transfer_troops = yes
+			}
+			set_state_owner = 1007
+			set_state_controller = 1007
             transfer_state = unite_chinab					
 }
 			every_state = {
@@ -133,8 +144,9 @@ country_event = { #Unite China
 					every_state = {
 						limit = {
 								OR = {
-									is_claimed_by = CHI
 									is_core_of = CHI
+									is_core_of = TIB
+									is_claimed_by = TIB
 								}
 						}
 						set_temp_variable = { unitechinab = THIS.id }
@@ -156,7 +168,13 @@ country_event = { #Unite China
 			annex_country = {
 				target = MON
 				transfer_troops = yes
-			}				
+			}
+			annex_country = {
+				target = TAN
+				transfer_troops = yes
+			}	
+			set_state_owner = 1007
+			set_state_controller = 1007			
 		}
 			every_state = {
 				limit = {
@@ -176,8 +194,9 @@ country_event = { #Unite China
 					every_state = {
 						limit = {
 								OR = {
-									is_claimed_by = PRC
 									is_core_of = PRC
+									is_core_of = TIB
+									is_claimed_by = TIB
 								}
 						}
 						set_temp_variable = { unitechinac = THIS.id }
@@ -198,8 +217,14 @@ country_event = { #Unite China
 			annex_country = {
 				target = MON
 				transfer_troops = yes
-			}		
-		set_cosmetic_tag = PRC_FOXITE			
+			}
+			annex_country = {
+				target = TAN
+				transfer_troops = yes
+			}
+			set_state_owner = 1007
+			set_state_controller = 1007		
+		set_cosmetic_tag = PRC_proclaimed_communism			
             set_capital = 608				
 }
 			every_state = {
