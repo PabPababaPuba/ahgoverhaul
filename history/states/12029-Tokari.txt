@@ -1,0 +1,18 @@
+state={
+	id=12029
+	name="STATE_12029"
+	provinces={
+		3084 6057 6106 
+	}
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = VEP
+		add_core_of = MSC
+
+	}
+	manpower=1000 
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

@@ -13,13 +13,13 @@ state={
 				bunker = 2
 
 			}
-			
+
 		}
 
 	}
 
 	provinces={
-		3050 6150 9105 11162 
+		3050 6150 
 	}
 	manpower=418635
 	buildings_max_level_factor=1.000
