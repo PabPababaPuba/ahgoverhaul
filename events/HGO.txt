@@ -357,6 +357,52 @@ country_event = { #Desovietization
                         	election_frequency = 48
                         	elections_allowed = yes
                         }
+			GEO = {
+				drop_cosmetic_tag = yes
+			set_politics = {
+                        	ruling_party = socialism_ideology
+                        	last_election = "1935.1.1"
+                        	election_frequency = 48
+                        	elections_allowed = yes
+                        set_popularities = {
+                        	socialism_ideology = 35
+                        	liberal_republic = 20
+                        	democratic = 25
+                        	centrist_republic = 20
+                        }
+				}
+			}
+			ARM = {
+				drop_cosmetic_tag = yes
+			set_politics = {
+                        	ruling_party = socialism_ideology
+                        	last_election = "1935.1.1"
+                        	election_frequency = 48
+                        	elections_allowed = yes
+                        set_popularities = {
+                        	socialism_ideology = 35
+                        	liberal_republic = 20
+                        	democratic = 25
+                        	centrist_republic = 20
+                        }
+				}
+			}
+
+			AZR = {
+				drop_cosmetic_tag = yes
+				set_politics = {
+                        		ruling_party = socialism_ideology
+                        		last_election = "1935.1.1"
+                        		election_frequency = 48
+                        		elections_allowed = yes
+                     	  	set_popularities = {
+                        		socialism_ideology = 35
+                        		liberal_republic = 20
+                        		democratic = 25
+                        		centrist_republic = 20
+                        }
+				}
+			}
 
                         set_popularities = {
                         	socialism_ideology = 35
@@ -368,8 +414,12 @@ country_event = { #Desovietization
 					every_state = {
 						limit = {
 								OR = {
-									is_claimed_by = RUS
 									is_core_of = RUS
+								}
+								NOT = {
+									is_core_of = FIN
+									is_core_of = TAN
+									is_core_of = LAT
 								}
 						}
 						set_temp_variable = { uniterus = THIS.id }
@@ -390,9 +440,9 @@ country_event = { #Desovietization
                     }
                     }
  				TSC = { 
-				release = GEO
 				release = AZR
 				release = ARM
+				release = GEO
 				release = ABK
                 release = NAK 
                 release = NGK
@@ -408,8 +458,13 @@ country_event = { #Desovietization
                 annex_country = {
                 target = ADJ  				
 				}
+                    }
+                SIK = {
+                annex_country = {
+                target = XJK  				
 				}
-}				
+				}
+			}			
 }              					
 					}			
 	option = { #Reject
