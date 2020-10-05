@@ -127,9 +127,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustaf V av Bernadotte"
+	name = "Gustaf VI av Bernadotte"
 	desc = ""
-	picture = "Portrait_Gustaf_V.dds"
+	picture = "Portrait_Gustaf_VI.tga"
 	expire = "1965.1.1"
 	ideology = liberal_constitutionalism
 	traits = {
