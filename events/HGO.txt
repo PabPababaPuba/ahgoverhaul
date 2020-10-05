@@ -421,6 +421,976 @@ country_event = { #Desovietization
 	}		
 }
 
+country_event = { #Atlantropa!
+	id = hgo.7
+	title = hgo.7.t
+	desc = hgo.7.d
+	is_triggered_only = yes
+
+	option = { #Drain it!
+		name = hgo.7.a
+		ai_chance = {
+			base = 0
+		}
+
+		hidden_effect = {
+			845 = {
+				owner = {
+					transfer_state = 8488
+					transfer_state = 8496
+			   }
+			}
+			3219 = {
+				owner = {
+					transfer_state = 10459
+			   }
+			}
+			1113 = {
+				owner = {
+					transfer_state = 10458
+			   }
+			}
+			5945 = {
+				owner = {
+					transfer_state = 8489
+			   }
+			}
+			160 = {
+				owner = {
+					transfer_state = 8491
+			   }
+			}
+			5940 = {
+				owner = {
+					transfer_state = 10461
+			   }
+			}
+			1157 = {
+				owner = {
+					transfer_state = 10462
+			   }
+			}
+			2265 = {
+				owner = {
+					transfer_state = 8492
+			   }
+			}
+			2292 = {
+				owner = {
+					transfer_state = 8493
+			   }
+			}
+			2291 = {
+				owner = {
+					transfer_state = 9076
+			   }
+			}
+			2293 = {
+				owner = {
+					transfer_state = 8494
+			   }
+			}
+			163 = {
+				owner = {
+					transfer_state = 10340
+			   }
+			}
+			2294 = {
+				owner = {
+					transfer_state = 8495
+			   }
+			}
+			2371 = {
+				owner = {
+					transfer_state = 8501
+			   }
+			}
+			2290 = {
+				owner = {
+					transfer_state = 8502
+			   }
+			}
+			1310 = {
+				owner = {
+					transfer_state = 10460
+			   }
+			}
+			1295 = {
+				owner = {
+					transfer_state = 8487
+			   }
+			}
+			4112 = {
+				owner = {
+					transfer_state = 8485
+					transfer_state = 9072
+					transfer_state = 9073
+			   }
+			}
+			4113 = {
+				owner = {
+					transfer_state = 9071
+			   }
+			}
+			3880 = {
+				owner = {
+					transfer_state = 8497
+			   }
+			}
+			3879 = {
+				owner = {
+					transfer_state = 9889
+			   }
+			}
+			3418 = {
+				owner = {
+					transfer_state = 8503
+					transfer_state = 8504
+			   }
+			}
+			932 = {
+				owner = {
+					transfer_state = 8505
+			   }
+			}
+			2335 = {
+				owner = {
+					transfer_state = 9075
+			   }
+			}
+			44 = {
+				owner = {
+					transfer_state = 8507
+			   }
+			}
+			2337 = {
+				owner = {
+					transfer_state = 9077
+			   }
+			}
+			4930 = {
+				owner = {
+					transfer_state = 8484
+			   }
+			}
+			5032 = {
+				owner = {
+					transfer_state = 8483
+			   }
+			}
+			4040 = {
+				owner = {
+					transfer_state = 8506
+			   }
+			}
+			821 = {
+				owner = {
+					transfer_state = 8508
+			   }
+			}
+			1020 = {
+				owner = {
+					transfer_state = 9074
+			   }
+			}
+			4360 = {
+				owner = {
+					transfer_state = 8509
+			   }
+			}
+			3331 = {
+				owner = {
+					transfer_state = 8510
+			   }
+			}
+			7275 = {
+				owner = {
+					transfer_state = 8512
+			   }
+			}
+			7254 = {
+				owner = {
+					transfer_state = 8516
+			   }
+			}
+			2199 = {
+				owner = {
+					transfer_state = 8519
+			   }
+			}
+			186 = {
+				owner = {
+					transfer_state = 8518
+			   }
+			}
+			1224 = {
+				owner = {
+					transfer_state = 8517
+			   }
+			}
+			7274 = {
+				owner = {
+					transfer_state = 8515
+			   }
+			}
+			1226 = {
+				owner = {
+					transfer_state = 8521
+			   }
+			}
+			47 = {
+				owner = {
+					transfer_state = 8523
+			   }
+			}
+			1476 = {
+				owner = {
+					transfer_state = 8529
+			   }
+			}
+			4347 = {
+				owner = {
+					transfer_state = 8530
+			   }
+			}
+			2198 = {
+				owner = {
+					transfer_state = 9824
+			   }
+			}
+			2201 = {
+				owner = {
+					transfer_state = 8531
+			   }
+			}
+			1223 = {
+				owner = {
+					transfer_state = 8524
+			   }
+			}
+			1033 = {
+				owner = {
+					transfer_state = 8533
+			   }
+			}
+			1034 = {
+				owner = {
+					transfer_state = 9097
+					transfer_state = 9089
+			   }
+			}
+			187 = {
+				owner = {
+					transfer_state = 8538
+			   }
+			}
+			5724 = {
+				owner = {
+					transfer_state = 8926
+			   }
+			}
+			11843 = {
+				owner = {
+					transfer_state = 8537
+			   }
+			}
+			829 = {
+				owner = {
+					transfer_state = 9831
+			   }
+			}
+			4344 = {
+				owner = {
+					transfer_state = 9845
+			   }
+			}
+			164 = {
+				owner = {
+					transfer_state = 8541
+					transfer_state = 9087
+					transfer_state = 9088
+			   }
+			}
+			2196 = {
+				owner = {
+					transfer_state = 8526
+			   }
+			}
+			3403 = {
+				owner = {
+					transfer_state = 8534
+			   }
+			}
+			5726 = {
+				owner = {
+					transfer_state = 9823
+			   }
+			}
+			2200 = {
+				owner = {
+					transfer_state = 8535
+			   }
+			}
+			4386 = {
+				owner = {
+					transfer_state = 8536
+					transfer_state = 9829
+			   }
+			}
+			2194 = {
+				owner = {
+					transfer_state = 8520
+			   }
+			}
+			2195 = {
+				owner = {
+					transfer_state = 8527
+			   }
+			}
+			5724 = {
+				owner = {
+					transfer_state = 9826
+			   }
+			}
+			4345 = {
+				owner = {
+					transfer_state = 9825
+			   }
+			}
+			5721 = {
+				owner = {
+					transfer_state = 9844
+			   }
+			}
+			4351 = {
+				owner = {
+					transfer_state = 8539
+			   }
+			}
+			4348 = {
+				owner = {
+					transfer_state = 8653
+			   }
+			}
+			7196 = {
+				owner = {
+					transfer_state = 9843
+			   }
+			}
+			4371 = {
+				owner = {
+					transfer_state = 9846
+			   }
+			}
+			4349 = {
+				owner = {
+					transfer_state = 8525
+			   }
+			}
+			182 = {
+				owner = {
+					transfer_state = 8522
+					transfer_state = 9085
+			   }
+			}
+			4368 = {
+				owner = {
+					transfer_state = 9086
+			   }
+			}
+			4350 = {
+				owner = {
+					transfer_state = 8542
+			   }
+			}
+			4359 = {
+				owner = {
+					transfer_state = 8528
+			   }
+			}
+			4346 = {
+				owner = {
+					transfer_state = 8532
+			   }
+			}
+			4029 = {
+				owner = {
+					transfer_state = 9885
+			   }
+			}
+			7192 = {
+				owner = {
+					transfer_state = 8543
+			   }
+			}
+			7179 = {
+				owner = {
+					transfer_state = 8544
+			   }
+			}
+			344 = {
+				owner = {
+					transfer_state = 8545
+			   }
+			}
+			898 = {
+				owner = {
+					transfer_state = 9035
+			   }
+			}
+			9848 = {
+				owner = {
+					transfer_state = 3416
+			   }
+			}
+			1142 = {
+				owner = {
+					transfer_state = 8546
+			   }
+			}
+			3362 = {
+				owner = {
+					transfer_state = 8547
+			   }
+			}
+			3385 = {
+				owner = {
+					transfer_state = 8548
+			   }
+			}
+			3376 = {
+				owner = {
+					transfer_state = 8549
+			   }
+			}
+			6937 = {
+				owner = {
+					transfer_state = 8550
+			   }
+			}
+			1025 = {
+				owner = {
+					transfer_state = 8576
+			   }
+			}
+			6793 = {
+				owner = {
+					transfer_state = 8575
+			   }
+			}
+			2364 = {
+				owner = {
+					transfer_state = 8570
+			   }
+			}
+			1168 = {
+				owner = {
+					transfer_state = 8553
+			   }
+			}
+			7597 = {
+				owner = {
+					transfer_state = 8554
+			   }
+			}
+			1169 = {
+				owner = {
+					transfer_state = 8551
+			   }
+			}
+			183 = {
+				owner = {
+					transfer_state = 8555
+					transfer_state = 8556
+			   }
+			}
+			1170 = {
+				owner = {
+					transfer_state = 8552
+			   }
+			}
+			8572 = {
+				owner = {
+					transfer_state = 8574
+			   }
+			}
+			9784 = {
+				owner = {
+					transfer_state = 9783
+			   }
+			}
+			3434 = {
+				owner = {
+					transfer_state = 8569
+			   }
+			}
+			451 = {
+				owner = {
+					transfer_state = 8568
+			   }
+			}
+			7271 = {
+				owner = {
+					transfer_state = 8567
+			   }
+			}
+			450 = {
+				owner = {
+					transfer_state = 9084
+			   }
+			}
+			448 = {
+				owner = {
+					transfer_state = 8564
+			   }
+			}
+			449 = {
+				owner = {
+					transfer_state = 8565
+			   }
+			}
+			2683 = {
+				owner = {
+					transfer_state = 8563
+					transfer_state = 9079
+			   }
+			}
+			458 = {
+				owner = {
+					transfer_state = 8562
+					transfer_state = 9036
+					transfer_state = 9078
+					transfer_state = 9081
+			   }
+			}
+			3426 = {
+				owner = {
+					transfer_state = 9070
+			   }
+			}
+			3446 = {
+				owner = {
+					transfer_state = 8465
+			   }
+			}
+			3427 = {
+				owner = {
+					transfer_state = 8454
+			   }
+			}
+			1458 = {
+				owner = {
+					transfer_state = 9069
+			   }
+			}
+			850 = {
+				owner = {
+					transfer_state = 8453
+			   }
+			}
+			4567 = {
+				owner = {
+					transfer_state = 8450
+			   }
+			}
+			4566 = {
+				owner = {
+					transfer_state = 8451
+			   }
+			}
+			290 = {
+				owner = {
+					transfer_state = 8452
+			   }
+			}
+			849 = {
+				owner = {
+					transfer_state = 8446
+			   }
+			}
+			4369 = {
+				owner = {
+					transfer_state = 10338
+			   }
+			}
+			169 = {
+				owner = {
+					transfer_state = 8449
+			   }
+			}
+			3397 = {
+				owner = {
+					transfer_state = 8447
+					transfer_state = 9040
+			   }
+			}
+			173 = {
+				owner = {
+					transfer_state = 8448
+			   }
+			}
+			168 = {
+				owner = {
+					transfer_state = 8455
+			   }
+			}
+			11009 = {
+				owner = {
+					transfer_state = 8456
+			   }
+			}
+			167 = {
+				owner = {
+					transfer_state = 8457
+			   }
+			}
+			165 = {
+				owner = {
+					transfer_state = 8458
+			   }
+			}
+			906 = {
+				owner = {
+					transfer_state = 8462
+			   }
+			}
+			22 = {
+				owner = {
+					transfer_state = 8463
+			   }
+			}
+			5149 = {
+				owner = {
+					transfer_state = 8464
+			   }
+			}
+			1892 = {
+				owner = {
+					transfer_state = 8466
+			   }
+			}
+			764 = {
+				owner = {
+					transfer_state = 8467
+			   }
+			}
+			1301 = {
+				owner = {
+					transfer_state = 8468
+			   }
+			}
+			162 = {
+				owner = {
+					transfer_state = 8469
+			   }
+			}
+			2384 = {
+				owner = {
+					transfer_state = 8476
+					transfer_state = 9542
+			   }
+			}
+			4805 = {
+				owner = {
+					transfer_state = 8477
+			   }
+			}
+			1297 = {
+				owner = {
+					transfer_state = 8478
+			   }
+			}
+			4927 = {
+				owner = {
+					transfer_state = 8479
+			   }
+			}
+			156 = {
+				owner = {
+					transfer_state = 8480
+					transfer_state = 8481
+			   }
+			}
+			3455 = {
+				owner = {
+					transfer_state = 8486
+			   }
+			}
+			3457 = {
+				owner = {
+					transfer_state = 8559
+					transfer_state = 8561
+			   }
+			}
+			3454 = {
+				owner = {
+					transfer_state = 8558
+					transfer_state = 8566
+					transfer_state = 9037
+					transfer_state = 9080
+			   }
+			}
+			4807 = {
+				owner = {
+					transfer_state = 8482
+			   }
+			}
+			7492 = {
+				owner = {
+					transfer_state = 8481
+			   }
+			}
+			1 = {
+				owner = {
+					transfer_state = 8470
+			   }
+			}
+			2117 = {
+				owner = {
+					transfer_state = 8459
+			   }
+			}
+			177 = {
+				owner = {
+					transfer_state = 8460
+			   }
+			}
+			1089 = {
+				owner = {
+					transfer_state = 8461
+			   }
+			}
+			4806 = {
+				owner = {
+					transfer_state = 8557
+					transfer_state = 9083
+				}
+			}
+			116 = {
+				owner = {
+					transfer_state = 8560
+					transfer_state = 9890
+			   }
+			}
+			4809 = {
+				owner = {
+					transfer_state = 8471
+			   }
+			}
+			3451 = {
+				owner = {
+					transfer_state = 8473
+			   }
+			}
+			3630 = {
+				owner = {
+					transfer_state = 8474
+			   }
+			}
+			114 = {
+				owner = {
+					transfer_state = 8475
+			   }
+			}
+			3448 = {
+				owner = {
+					transfer_state = 8472
+			   }
+			}
+		}
+	}
+
+	option = { #Flood it
+		name = hgo.7.b
+		ai_chance = {
+			base = 0
+		}
+
+		hidden_effect = {
+			WTR = {
+				transfer_state = 8488
+				transfer_state = 8496
+				transfer_state = 10459
+				transfer_state = 10458
+				transfer_state = 8489
+				transfer_state = 8491
+				transfer_state = 10461
+				transfer_state = 10462
+				transfer_state = 8492
+				transfer_state = 8493
+				transfer_state = 9076
+				transfer_state = 8494
+				transfer_state = 10340
+				transfer_state = 8495
+				transfer_state = 8501
+				transfer_state = 8502
+				transfer_state = 10460
+				transfer_state = 8487
+				transfer_state = 8485
+				transfer_state = 9072
+				transfer_state = 9073
+				transfer_state = 9071
+				transfer_state = 8497
+				transfer_state = 9889
+				transfer_state = 8503
+				transfer_state = 8504
+				transfer_state = 8505
+				transfer_state = 9075
+				transfer_state = 8507
+				transfer_state = 9077
+				transfer_state = 8484
+				transfer_state = 8483
+				transfer_state = 8506
+				transfer_state = 8508
+				transfer_state = 9074
+				transfer_state = 8509
+				transfer_state = 8510
+				transfer_state = 8512
+				transfer_state = 8516
+				transfer_state = 8519
+				transfer_state = 8518
+				transfer_state = 8517
+				transfer_state = 8515
+				transfer_state = 8521
+				transfer_state = 8523
+				transfer_state = 8529
+				transfer_state = 8530
+				transfer_state = 9824
+				transfer_state = 8531
+				transfer_state = 8524
+				transfer_state = 8533
+				transfer_state = 9097
+				transfer_state = 9089
+				transfer_state = 8538
+				transfer_state = 8926
+				transfer_state = 8537
+				transfer_state = 9831
+				transfer_state = 9845
+				transfer_state = 8541
+				transfer_state = 9087
+				transfer_state = 9088
+				transfer_state = 8526
+				transfer_state = 8534
+				transfer_state = 9823
+				transfer_state = 8535
+				transfer_state = 8536
+				transfer_state = 9829
+				transfer_state = 8520
+				transfer_state = 8527
+				transfer_state = 9826
+				transfer_state = 9825
+				transfer_state = 9844
+				transfer_state = 8539
+				transfer_state = 8653
+				transfer_state = 9843
+				transfer_state = 9846
+				transfer_state = 8525
+				transfer_state = 8522
+				transfer_state = 9085
+				transfer_state = 9086
+				transfer_state = 8542
+				transfer_state = 8528
+				transfer_state = 8532
+				transfer_state = 9885
+				transfer_state = 8543
+				transfer_state = 8544
+				transfer_state = 8545
+				transfer_state = 9035
+				transfer_state = 3416
+				transfer_state = 8546
+				transfer_state = 8547
+				transfer_state = 8548
+				transfer_state = 8549
+				transfer_state = 8550
+				transfer_state = 8576
+				transfer_state = 8575
+				transfer_state = 8570
+				transfer_state = 8553
+				transfer_state = 8554
+				transfer_state = 8551
+				transfer_state = 8555
+				transfer_state = 8556
+				transfer_state = 8552
+				transfer_state = 8574
+				transfer_state = 9783
+				transfer_state = 8569
+				transfer_state = 8568
+				transfer_state = 8567
+				transfer_state = 9084
+				transfer_state = 8564
+				transfer_state = 8565
+				transfer_state = 8563
+				transfer_state = 9079
+				transfer_state = 8562
+				transfer_state = 9036
+				transfer_state = 9078
+				transfer_state = 9081
+				transfer_state = 9070
+				transfer_state = 8465
+				transfer_state = 8454
+				transfer_state = 9069
+				transfer_state = 8453
+				transfer_state = 8450
+				transfer_state = 8451
+				transfer_state = 8452
+				transfer_state = 8446
+				transfer_state = 10338
+				transfer_state = 8449
+				transfer_state = 8447
+				transfer_state = 9040
+				transfer_state = 8448
+				transfer_state = 8455
+				transfer_state = 8456
+				transfer_state = 8457
+				transfer_state = 8458
+				transfer_state = 8462
+				transfer_state = 8463
+				transfer_state = 8464
+				transfer_state = 8466
+				transfer_state = 8467
+				transfer_state = 8468
+				transfer_state = 8469
+				transfer_state = 8476
+				transfer_state = 9542
+				transfer_state = 8477
+				transfer_state = 8478
+				transfer_state = 8479
+				transfer_state = 8480
+				transfer_state = 8481
+				transfer_state = 8486
+				transfer_state = 8559
+				transfer_state = 8561
+				transfer_state = 8558
+				transfer_state = 8566
+				transfer_state = 9037
+				transfer_state = 9080
+				transfer_state = 8482
+				transfer_state = 8481
+				transfer_state = 8470
+				transfer_state = 8459
+				transfer_state = 8460
+				transfer_state = 8461
+				transfer_state = 8557
+				transfer_state = 9083
+				transfer_state = 8560
+				transfer_state = 9890
+				transfer_state = 8471
+				transfer_state = 8473
+				transfer_state = 8474
+				transfer_state = 8475
+				transfer_state = 8472
+			}
+		}
+	}
+
+	option = { #Leave it
+		name = hgo.7.c
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
 country_event = { #Yeet the princely states
 	id = hgo.1
 	title = hgo.1.t
