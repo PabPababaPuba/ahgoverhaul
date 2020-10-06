@@ -5428,3 +5428,7 @@ RNL = {
 color = rgb { 94 149 204 }
 color_ui = rgb { 94 149 204 }
 }
+FLV = {
+color = rgb { 115 46 34 }
+color_ui = rgb { 115 46 34 }
+}
