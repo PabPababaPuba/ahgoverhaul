@@ -36000,7 +36000,7 @@ do_turkish_renames = {
 		}		
 		set_province_name = {
 			id = 11586
-			name = "Belergad"
+			name = "Belgrad"
 		}
 	}	
 	if = {
