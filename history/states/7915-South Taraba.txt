@@ -7,7 +7,10 @@ state={
 	history={
 		owner = NGA
 		add_core_of = NGA
-        add_core_of = NNI
+        add_core_of = NGA
+        add_core_of = SNI
+        add_core_of = ORV
+        add_core_of = NGC
 
 	}
 	manpower = 1000
