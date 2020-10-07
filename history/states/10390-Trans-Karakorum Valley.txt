@@ -12,6 +12,7 @@ state={
 		owner = TUG
 		add_core_of = KAS
 		add_core_of = TUG
+		add_core_of = UYG
 	}
 	buildings_max_level_factor=1.000
 }

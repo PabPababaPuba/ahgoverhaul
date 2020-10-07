@@ -5432,3 +5432,7 @@ FLV = {
 color = rgb { 115 46 34 }
 color_ui = rgb { 115 46 34 }
 }
+UYG = {
+color = rgb { 40 162 183 }
+color_ui = rgb { 40 162 183 }
+}
