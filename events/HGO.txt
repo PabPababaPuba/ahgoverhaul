@@ -752,6 +752,7 @@ country_event = { #Atlantropa!
 			829 = {
 				owner = {
 					transfer_state = 9831
+					transfer_state = 9828
 			   }
 			}
 			4344 = {
@@ -820,6 +821,11 @@ country_event = { #Atlantropa!
 			4351 = {
 				owner = {
 					transfer_state = 8539
+			   }
+			}
+			3146 = {
+				owner = {
+					transfer_state = 8540
 			   }
 			}
 			4348 = {
@@ -1075,8 +1081,12 @@ country_event = { #Atlantropa!
 			}
 			3397 = {
 				owner = {
-					transfer_state = 8447
 					transfer_state = 9040
+			   }
+			}
+			118 = {
+				owner = {
+					transfer_state = 8447
 			   }
 			}
 			173 = {
@@ -1320,6 +1330,7 @@ country_event = { #Atlantropa!
 				transfer_state = 8926
 				transfer_state = 8537
 				transfer_state = 9831
+				transfer_state = 9828
 				transfer_state = 9845
 				transfer_state = 8541
 				transfer_state = 9087
@@ -1336,6 +1347,7 @@ country_event = { #Atlantropa!
 				transfer_state = 9825
 				transfer_state = 9844
 				transfer_state = 8539
+				transfer_state = 8540
 				transfer_state = 8653
 				transfer_state = 9843
 				transfer_state = 9846
