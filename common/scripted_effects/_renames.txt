@@ -8199,6 +8199,226 @@ do_celtic_renames = {
 }
 do_german_renames = {
 
+    if = {
+		limit = {
+			state = 11043
+		}		
+		set_province_name = {
+			id = 20594
+			name = "Krainburg"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 808
+		}		
+		set_province_name = {
+			id = 13276
+			name = "Gafers"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 163
+		}		
+		set_province_name = {
+			id = 3943
+			name = "Zara"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 807
+		}		
+		set_province_name = {
+			id = 13275
+			name = "Sankt Veit am Flaum"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1311
+		}		
+		set_province_name = {
+			id = 6889
+			name = "Ragusa"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 102
+		}		
+		set_province_name = {
+			id = 3654
+			name = "Cilli"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2278
+		}		
+		set_province_name = {
+			id = 596
+			name = "Marburg an der Drau"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1811
+		}		
+		set_province_name = {
+			id = 3596
+			name = "Groß-Gorica"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 3201
+		}		
+		set_province_name = {
+			id = 6647
+			name = "Esseg"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2791
+		}		
+		set_province_name = {
+			id = 9821
+			name = "Zetinje"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 810
+		}		
+		set_province_name = {
+			id = 3922
+			name = "Weißfeld"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7341
+		}		
+		set_province_name = {
+			id = 17046
+			name = "Antibari"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7623
+		}		
+		set_province_name = {
+			id = 17462
+			name = "Plewla"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2289
+		}		
+		set_province_name = {
+			id = 3868
+			name = "Neukastell"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 105
+		}		
+		set_province_name = {
+			id = 13269
+			name = "Nikschiz"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2787
+		}		
+		set_province_name = {
+			id = 6619
+			name = "Prijedor"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 5150
+		}		
+		set_province_name = {
+			id = 606
+			name = "Bieglin"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7354
+		}		
+		set_province_name = {
+			id = 6799
+			name = "Tuzla"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 104
+		}		
+		set_province_name = {
+			id = 9588
+			name = "Weina Luka"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7335
+		}		
+		set_province_name = {
+			id = 3984
+			name = "Kragujewaz"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1234
+		}		
+		set_province_name = {
+			id = 13692
+			name = "Leskowaz"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7379
+		}		
+		set_province_name = {
+			id = 17416
+			name = "Neusatz"
+		}
+	}
+
 	if = {
 		limit = {
 			state = 587
