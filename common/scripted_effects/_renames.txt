@@ -26098,6 +26098,226 @@ do_swiss_renames = {
 
 do_polish_renames = {
 
+    if = {
+		limit = {
+			state = 11043
+		}		
+		set_province_name = {
+			id = 20594
+			name = "Kranj"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 808
+		}		
+		set_province_name = {
+			id = 13276
+			name = "Koper"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 163
+		}		
+		set_province_name = {
+			id = 3943
+			name = "Zadar"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 807
+		}		
+		set_province_name = {
+			id = 13275
+			name = "Rijeka"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1311
+		}		
+		set_province_name = {
+			id = 6889
+			name = "Dubrownik"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 102
+		}		
+		set_province_name = {
+			id = 3654
+			name = "Celje"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2278
+		}		
+		set_province_name = {
+			id = 596
+			name = "Maribor"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1811
+		}		
+		set_province_name = {
+			id = 3596
+			name = "Wielka Gorica"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 3201
+		}		
+		set_province_name = {
+			id = 6647
+			name = "Osijek"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2791
+		}		
+		set_province_name = {
+			id = 9821
+			name = "Cetynia"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 810
+		}		
+		set_province_name = {
+			id = 3922
+			name = "Białe Pole"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7341
+		}		
+		set_province_name = {
+			id = 17046
+			name = "Bar"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7623
+		}		
+		set_province_name = {
+			id = 17462
+			name = "Plewla"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2289
+		}		
+		set_province_name = {
+			id = 3868
+			name = "Herceg Nowy"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 105
+		}		
+		set_province_name = {
+			id = 13269
+			name = "Nikszicz"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2787
+		}		
+		set_province_name = {
+			id = 6619
+			name = "Prijedor"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 5150
+		}		
+		set_province_name = {
+			id = 606
+			name = "Białyin"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7354
+		}		
+		set_province_name = {
+			id = 6799
+			name = "Tuzła"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 104
+		}		
+		set_province_name = {
+			id = 9588
+			name = "Bania Łuka"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7335
+		}		
+		set_province_name = {
+			id = 3984
+			name = "Kragujewac"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1234
+		}		
+		set_province_name = {
+			id = 13692
+			name = "Leskowac"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7379
+		}		
+		set_province_name = {
+			id = 17416
+			name = "Nowy Sad"
+		}
+	}
+
 	if = {
 		limit = {
 			state = 587
