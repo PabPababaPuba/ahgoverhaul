@@ -33567,7 +33567,227 @@ do_non_ottoman_turkish_renames = {
 		}
 	}
 }
-do_turkish_renames = {
+do_turkish_renames = {    
+
+	if = {
+		limit = {
+			state = 11043
+		}		
+		set_province_name = {
+			id = 20594
+			name = "Karin"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 808
+		}		
+		set_province_name = {
+			id = 13276
+			name = "Koper"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 163
+		}		
+		set_province_name = {
+			id = 3943
+			name = "Cara"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 807
+		}		
+		set_province_name = {
+			id = 13275
+			name = "Fiyumi"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1311
+		}		
+		set_province_name = {
+			id = 6889
+			name = "Raguza"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 102
+		}		
+		set_province_name = {
+			id = 3654
+			name = "Silli"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2278
+		}		
+		set_province_name = {
+			id = 596
+			name = "Marburg"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1811
+		}		
+		set_province_name = {
+			id = 3596
+			name = "Büyük Görice"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 3201
+		}		
+		set_province_name = {
+			id = 6647
+			name = "Ösek"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2791
+		}		
+		set_province_name = {
+			id = 9821
+			name = "Çetine"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 810
+		}		
+		set_province_name = {
+			id = 3922
+			name = "Akova"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7341
+		}		
+		set_province_name = {
+			id = 17046
+			name = "Antibari"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7623
+		}		
+		set_province_name = {
+			id = 17462
+			name = "Taşlıca"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2289
+		}		
+		set_province_name = {
+			id = 3868
+			name = "Kastelnova"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 105
+		}		
+		set_province_name = {
+			id = 13269
+			name = "Nikşık"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2787
+		}		
+		set_province_name = {
+			id = 6619
+			name = "Pridor"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 5150
+		}		
+		set_province_name = {
+			id = 606
+			name = "Biyelina"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7354
+		}		
+		set_province_name = {
+			id = 6799
+			name = "Kızılca Tuzla"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 104
+		}		
+		set_province_name = {
+			id = 9588
+			name = "Bana Luka"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7335
+		}		
+		set_province_name = {
+			id = 3984
+			name = "Karacofça"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1234
+		}		
+		set_province_name = {
+			id = 13692
+			name = "Leskofça"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7379
+		}		
+		set_province_name = {
+			id = 17416
+			name = "Raçka Varoş"
+		}
+	}
 
 	if = {
 		limit = {
