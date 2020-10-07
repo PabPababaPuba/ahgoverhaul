@@ -10,8 +10,10 @@ state={
         add_core_of = WGR
 		add_core_of = PRE
 		add_core_of = NSU
+		add_core_of = FPR
 		add_core_of = HEN
 		add_core_of = HSN
+		add_core_of = ASB
 		buildings = {
 			infrastructure = 4
 		}

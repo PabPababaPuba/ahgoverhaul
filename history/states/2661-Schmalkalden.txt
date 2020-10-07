@@ -12,6 +12,7 @@ state={
 		add_core_of = HKA
 		add_core_of = DDR
 		add_core_of = THU
+		add_core_of = KWF
 		buildings = {
 			infrastructure = 5
 		}

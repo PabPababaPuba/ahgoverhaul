@@ -12,6 +12,7 @@ state={
         add_core_of = PRE
 		add_core_of = HKA
 		add_core_of = HEN
+		add_core_of = HNU
 		buildings = {
 			infrastructure = 4
 		}

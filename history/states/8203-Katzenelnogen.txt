@@ -12,6 +12,7 @@ state={
 		add_core_of = RLP
 		add_core_of = NSU
 		add_core_of = HEN
+		add_core_of = KNB
 		victory_points = {
 			17946 1 
 		}
