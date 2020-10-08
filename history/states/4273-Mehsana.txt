@@ -9,6 +9,9 @@ state={
 	state_category = pastoral
 
 	history={
+		victory_points = {
+			14945 5
+		}
 		owner = BDA
 		buildings = {
 			infrastructure = 1

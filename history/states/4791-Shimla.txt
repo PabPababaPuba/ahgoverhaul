@@ -5,7 +5,9 @@ state={
 		12708 
 	}
 	history={
-		
+		victory_points = {
+			12708 5
+		}
 		owner = RAJ 
 		add_core_of = KHL
 		add_core_of = RAJ 

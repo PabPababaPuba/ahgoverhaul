@@ -5,6 +5,9 @@ state={
 	
 	state_category = town
 	history={
+		victory_points = {
+			5157 5 
+		}
 		owner = RAJ 
 		add_core_of = UTT
 		buildings = {
