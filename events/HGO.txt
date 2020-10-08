@@ -291,7 +291,6 @@ option = { #Modern China
 				transfer_troops = yes
 			}
 			transfer_state = 2647
-			set_state_controller = 2647
 			}
 		HKG = {
 			set_cosmetic_tag = HKG_PRC
@@ -336,13 +335,6 @@ option = { #Modern China
 			every_state = {
 				limit = {
 					is_owned_by = PRC
-					is_owned_by = CHI
-					is_owned_by = HKG
-					is_owned_by = MCU
-					is_core_of = TIB
-				NOT = {
-					is_claimed_by = JAP
-					}
 				}
 				add_core_of = PRC
 				add_core_of = CHI				
@@ -1826,6 +1818,11 @@ country_event = { #Decolonise Arabia
 		}
 		
     hidden_effect = {
+			3180 = {
+				owner = {
+					transfer_state = 1914
+			   }
+			}
 	    ENG = {
 		release = EGY
 		}		
@@ -1935,7 +1932,6 @@ country_event = { #Decolonise Arabia
 		    transfer_state = 2868
 		    transfer_state = 4210
 		    transfer_state = 9412
-		    release = PAK
 			set_politics = {
 	        ruling_party = democratic
               }
