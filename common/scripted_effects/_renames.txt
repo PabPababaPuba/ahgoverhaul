@@ -1885,6 +1885,16 @@ do_french_renames = {
 			name = "Prusiade"
 		}
 	}
+	
+	if = {
+		limit = {
+			state = 3301
+		}		
+		set_province_name = {
+			id = 11811
+			name = "Nicomédie"
+		}
+	}
 
 	if = {
 		limit = {
@@ -1903,6 +1913,16 @@ do_french_renames = {
 		set_province_name = {
 			id = 4112
 			name = "Smyrne"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 7196
+		}		
+		set_province_name = {
+			id = 9941
+			name = "Bodroum"
 		}
 	}
 		
@@ -17713,6 +17733,16 @@ do_russian_renames = {
 			name = "Smirna"
 		}
 	}
+	
+	if = {
+		limit = {
+			state = 7196
+		}		
+		set_province_name = {
+			id = 9941
+			name = "Petrograd"
+		}
+	}
 
 	if = {
 		limit = {
@@ -17771,6 +17801,16 @@ do_russian_renames = {
 		set_province_name = {
 			id = 904
 			name = "Dyuzdzhe"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 3301
+		}		
+		set_province_name = {
+			id = 11811
+			name = "Izmit"
 		}
 	}
 
@@ -25102,6 +25142,16 @@ do_latin_renames = {
 			name = "Prusias ad Hypium"
 		}
 	}
+	
+	if = {
+		limit = {
+			state = 3301
+		}		
+		set_province_name = {
+			id = 11811
+			name = "Nicomedia"
+		}
+	}
 
 	if = {
 		limit = {
@@ -25130,6 +25180,17 @@ do_latin_renames = {
 		set_province_name = {
 			id = 4112
 			name = "Smyrna"
+		}
+	}
+	
+	
+	if = {
+		limit = {
+			state = 7196
+		}		
+		set_province_name = {
+			id = 9941
+			name = "Petrium"
 		}
 	}
 
@@ -34147,11 +34208,29 @@ do_greek_renames = {
 	}
 	if = {
 		limit = {
+			state = 3301
+		}		
+		set_province_name = {
+			id = 11811
+			name = "Nikomídeia"
+		}
+	}
+	if = {
+		limit = {
 			state = 829
 		}		
 		set_province_name = {
 			id = 4112
 			name = "Smýrni"
+		}
+	}
+	if = {
+		limit = {
+			state = 7196
+		}		
+		set_province_name = {
+			id = 9941
+			name = "Alikarnassós"
 		}
 	}
 	if = {
@@ -37651,6 +37730,16 @@ do_turkish_renames = {
 			name = "Düzce"
 		}
 	}
+	
+	if = {
+		limit = {
+			state = 3301
+		}		
+		set_province_name = {
+			id = 11811
+			name = "İzmit"
+		}
+	}
 
 	if = {
 		limit = {
@@ -37669,6 +37758,16 @@ do_turkish_renames = {
 		set_province_name = {
 			id = 4112
 			name = "İzmir"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 7196
+		}		
+		set_province_name = {
+			id = 9941
+			name = "Bodrum"
 		}
 	}
 
@@ -40978,6 +41077,16 @@ do_italian_renames = {
 			name = "Prusiade"
 		}
 	}
+	
+	if = {
+		limit = {
+			state = 3301
+		}		
+		set_province_name = {
+			id = 11811
+			name = "Nicomedia"
+		}
+	}
 
 	if = {
 		limit = {
@@ -41433,6 +41542,16 @@ do_italian_renames = {
 		set_province_name = {
 			id = 4112
 			name = "Smirne"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 7196
+		}		
+		set_province_name = {
+			id = 9941
+			name = "Alicarnasso"
 		}
 	}
 
