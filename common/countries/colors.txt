@@ -5540,7 +5540,7 @@ MAP = {
 	color = rgb { 226 143 65 }
 	color_ui = rgb { 226 143 65 }
 }
-NGA = {
+NAA = {
 	color = rgb { 226 143 65 }
 	color_ui = rgb { 226 143 65 }
 }
