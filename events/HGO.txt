@@ -31,11 +31,9 @@ country_event = { #Hehe Russia
 							add_state_core = unitedussr
 						}
 					}
-			UZB = {
-				release = WTR
-				}
-			KAZ = {
-				release = WTR
+			SOV = {
+				annex_country = { target = UZB }
+				annex_country = { target = KAZ }
 				}
 			random_country = {
 				limit = {
@@ -1825,7 +1823,7 @@ country_event = { #Decolonize Southeast Asia
 country_event = { #2020 Asia
 	id = hgo.asia2020
 	title = "Set Asia to 2020?"
-	desc = "AAAAA"
+	desc = "This will probably take 5-10 Minutes but if you want to recreate the Modern Day map this will be useful"
 	is_triggered_only = yes
 
 	option = { #Yes
@@ -2795,7 +2793,7 @@ country_event = { #2020 Asia
 }
 		}
 	option = { #Reject
-		name = "Nah"
+		name = "nah"
 		ai_chance = {
 			factor = 100
 		}
@@ -3608,6 +3606,7 @@ country_event = { #Decolonise Arabia
 			}
 		RUS = {
 			annex_country { target = TSC }
+			annex_country { target = TAN }
 			release = NGK
 			release = AZR
 			release = ARM
