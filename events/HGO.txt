@@ -31,6 +31,12 @@ country_event = { #Hehe Russia
 							add_state_core = unitedussr
 						}
 					}
+			UZB = {
+				release = WTR
+				}
+			KAZ = {
+				release = WTR
+				}
 			random_country = {
 				limit = {
 					num_of_controlled_states > 1
@@ -1605,14 +1611,165 @@ country_event = { #Atlantropa!
 	}
 }
 
-country_event = { #Decolonize East Asia.... Formerly
+country_event = { #Decolonize Central Asia
 	id = hgo.8
-	title = uhhh
-	desc = "This used to be for a decolonize east asia event, but I just merge it with hgo.4. Feel free to use this event for something else"
+	title = "Desoviet Central Asia?"
+	desc = "If you want to make the modern day map this will probably help"
 	is_triggered_only = yes
 
-	option = { #AAAAA
-		name = "ok"
+	option = { #Yes
+		name = "Sure" 
+		ai_chance = {
+			factor = 0
+		}
+				hidden_effect = {
+			742 = {
+				owner = {
+					release = TAJ
+			   }
+			}
+			405 = {
+				owner = {
+					release = UZB
+			   }
+			}
+			1365 = {
+				owner = {
+					release = TMS
+			   }
+			}
+			590 = {
+				owner = {
+					release = KAZ
+			   }
+			}
+			3319 = {
+				owner = {
+					release = KYR
+			   }
+			}
+			582 = {
+				owner = {
+					transfer_state = 11172
+			   }
+			}
+		UZB = {
+			annex_country = { target = KPK }
+			transfer_state = 585
+			transfer_state = 3320
+			transfer_state = 11148
+			transfer_state = 5902
+			transfer_state = 5903
+			transfer_state = 8996
+			transfer_state = 8997
+			transfer_state = 8998
+			transfer_state = 8999
+			transfer_state = 9000
+			transfer_state = 9001
+			drop_cosmetic_tag = yes
+			set_politics = {
+	       		ruling_party = democratic
+            		  }	
+			}
+		TAJ = {
+			transfer_state = 3321
+			transfer_state = 5494
+			transfer_state = 5901
+			drop_cosmetic_tag = yes
+			set_politics = {
+	       		ruling_party = democratic
+           			}
+			}
+		TMS = {
+			transfer_state = 1364
+			transfer_state = 10116
+			transfer_state = 10119
+			drop_cosmetic_tag = yes
+			set_politics = {
+	       		ruling_party = neutrality
+           			}
+			}
+		KAZ = {
+			transfer_state = 9244
+			transfer_state = 9245
+			transfer_state = 9246
+			transfer_state = 9247
+			transfer_state = 9248
+			transfer_state = 9249
+			drop_cosmetic_tag = yes
+			set_politics = {
+	       		ruling_party = democratic
+           			}	
+			}
+		KYR = {
+			drop_cosmetic_tag = yes	
+			set_politics = {
+	       		ruling_party = democratic
+           			}
+			}		
+	}		
+		}
+	option = { #Reject
+		name = "Nah"
+		ai_chance = {
+			factor = 100
+		}
+
+	}		
+}
+
+country_event = { #Decolonize Southeast Asia
+	id = hgo.9
+	title = "Decolonize Southeast Asia?"
+	desc = "(WIP)"
+	is_triggered_only = yes
+
+	option = { #Yes
+		name = "Sure" 
+		ai_chance = {
+			factor = 0
+		}
+				hidden_effect = {
+			IDS = {
+				annex_country { target = INS }
+				}
+			335 = {
+				owner = {
+					release = IDS
+			   }
+			}
+		MAL = {
+			annex_country = { target = JOH }
+			annex_country = { target = STR }
+			annex_country = { target = TGA }
+			annex_country = { target = KEL }
+			annex_country = { target = PLS }
+			annex_country = { target = KED }
+			annex_country = { target = SRW }
+			annex_country = { target = NBO }
+			release = SGP
+			drop_cosmetic_tag = yes
+			set_capital = 5566
+			}
+		BEI = {
+			drop_cosmetic_tag = yes
+			}
+		PHI = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+	       		ruling_party = democratic
+           			}
+			}
+		ETM = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+	       		ruling_party = neutrality
+           			}
+			}		
+	}		
+		}
+	option = { #Reject
+		name = "Nah"
 		ai_chance = {
 			factor = 100
 		}
