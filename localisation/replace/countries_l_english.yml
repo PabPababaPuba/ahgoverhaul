@@ -8442,8 +8442,8 @@
  ABK_monarchism_DEF:0 "The Kingdom of Abkhazia"
  ABK_monarchism_ADJ:0 "Abkhazian"
  
- SOS_democratic:0 "Republic of South Ossetia"
- SOS_democratic_DEF:0 "The Republic of South Ossetia"
+ SOS_democratic:0 "Republic of South Ossetia - The State of Alania"
+ SOS_democratic_DEF:0 "The Republic of South Ossetia - The State of Alania"
  SOS_democratic_ADJ:0 "South Ossetian"
  SOS_communism:0 "People's Republic of South Ossetia"
  SOS_communism_DEF:0 "The People's Republic of South Ossetia"

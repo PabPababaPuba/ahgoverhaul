@@ -1721,7 +1721,7 @@ country_event = { #Decolonize Central Asia
 country_event = { #Decolonize Southeast Asia
 	id = hgo.9
 	title = "Decolonize Southeast Asia?"
-	desc = "(WIP)"
+	desc = "If you want to, you can..."
 	is_triggered_only = yes
 
 	option = { #Yes
@@ -1730,9 +1730,9 @@ country_event = { #Decolonize Southeast Asia
 			factor = 0
 		}
 				hidden_effect = {
-			IDS = {
-				annex_country { target = INS }
-				}
+		IDS = {
+			annex_country { target = INS }
+			}
 			335 = {
 				owner = {
 					release = IDS
@@ -1765,7 +1765,50 @@ country_event = { #Decolonize Southeast Asia
 			set_politics = {
 	       		ruling_party = neutrality
            			}
-			}		
+			}
+		FRA = {
+			annex_country = { target = INC }
+			release = NVI
+			release = SVI
+			release = LAO
+			release = CAM
+			}
+		NVI = {
+			annex_country = { target = SVI }
+			}
+		LAO = {
+			set_politics = {
+				ruling_party = communism
+				}
+			}
+		CAM = {
+			set_politics = {
+				ruling_party = monarchism
+				}
+			}
+		DST = {
+			transfer_state = 2645
+			transfer_state = 2644
+			transfer_state = 2643
+			transfer_state = 2642
+			transfer_state = 2641
+			transfer_state = 2640
+			transfer_state = 2639
+			transfer_state = 2638
+			transfer_state = 2637
+			transfer_state = 2636
+			transfer_state = 2635
+			transfer_state = 2634
+			transfer_state = 2633
+			transfer_state = 2632
+			}
+		SIA = {
+			set_politics = {
+				ruling_party = monarchism
+				}
+			}
+		set_province_name = { id = 7381 name = "Jakarta"}
+		335 = { set_state_name = Jakarta }		
 	}		
 		}
 	option = { #Reject

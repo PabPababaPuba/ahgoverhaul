@@ -8,6 +8,9 @@ state={
 		add_core_of = CAM
 		add_core_of = INC
 	    owner = INC
+		victory_points = {
+			7376 1 
+		}
 
 	}
 
