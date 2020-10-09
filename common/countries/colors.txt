@@ -5569,3 +5569,15 @@ LAL = {
 color = rgb { 150 150 150 }
 color_ui = rgb { 150 150 150 }
 }
+SPS = {
+color = rgb { 133 146 100 }
+color_ui = rgb { 133 146 100 }
+}
+NSL = {
+color = rgb { 133 146 100 }
+color_ui = rgb { 133 146 100 }
+}
+NKO = {
+color = rgb { 133 146 100 }
+color_ui = rgb { 133 146 100 }
+}

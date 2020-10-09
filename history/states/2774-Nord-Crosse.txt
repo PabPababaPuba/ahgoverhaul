@@ -10,6 +10,7 @@ state={
 		add_core_of = PWP
 		add_core_of = DDR
 		add_core_of = POS
+		add_core_of = SPS
 		buildings = {
 			infrastructure = 4
 			

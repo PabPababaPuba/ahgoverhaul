@@ -12,7 +12,6 @@ state={
 		owner = MEX
 		add_core_of = MEX
 		add_core_of = CHP
-		add_core_of = LAL
 	}
 	
 	buildings_max_level_factor=1.000
