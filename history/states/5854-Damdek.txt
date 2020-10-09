@@ -12,6 +12,9 @@ state={
 	    owner = INC
 		add_core_of = CAM
 		add_core_of = INC
+		victory_points = {
+			4302 1 
+		}
 	}
 	
 	buildings_max_level_factor=1.000
