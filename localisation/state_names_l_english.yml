@@ -12049,7 +12049,7 @@
  STATE_12050:0 "Skore"
  STATE_12051:0 "Gjirokaster"
  STATE_12052:0 "West Socotropa Level 1"
- STATE_12053:0 "Weast Socotropa Level 1"
+ STATE_12053:0 "East Socotropa Level 1"
  STATE_12054:0 "Socotropa Level 2"
  STATE_12055:0 "Catalca"
  STATE_12056:0 "Aksaray"
@@ -12083,4 +12083,7 @@
  STATE_12084:0 "Mont Thabor"
  STATE_12085:0 "Chaberton"
  STATE_12086:0 "Tinea"
- 
+ STATE_12087:0 "Quetzaltenengo"
+ STATE_12088:0 "San Marcos"
+ STATE_12089:0 "Tecpatan"
+ STATE_12090:0 "Rio Playas"
