@@ -8,6 +8,7 @@ state={
 		owner = KYB
 		add_core_of = KYB
 		add_core_of = PAK
+		add_core_of = RAJ
 
 	}
 	manpower=1000
