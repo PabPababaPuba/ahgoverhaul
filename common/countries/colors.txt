@@ -5564,3 +5564,8 @@ URK = {
 	color = rgb { 226 143 65 }
 	color_ui = rgb { 226 143 65 }
 }
+
+LAL = {
+color = rgb { 150 150 150 }
+color_ui = rgb { 150 150 150 }
+}
