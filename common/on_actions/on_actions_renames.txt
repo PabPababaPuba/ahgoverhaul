@@ -507,6 +507,7 @@ on_actions = {
 						                  has_cosmetic_tag = PAL_ITA
 						                  has_cosmetic_tag = ALB_ITA
 						                  has_cosmetic_tag = CRO_ITA
+						                  has_cosmetic_tag = MNT_ITA
 						                  has_cosmetic_tag = SER_ITA
 						                  has_cosmetic_tag = GRE_ITA
 						                  has_cosmetic_tag = TUR_ITA

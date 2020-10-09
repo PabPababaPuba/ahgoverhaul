@@ -34364,6 +34364,56 @@ do_albanian_renames = {
 
 	if = {
 		limit = {
+			state = 2335
+		}
+		set_province_name = {
+			id = 3896
+			name = "Shkodër"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12042
+		}
+		set_province_name = {
+			id = 20805
+			name = "Kamëz"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12043
+		}
+		set_province_name = {
+			id = 20806
+			name = "Durrës"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12045
+		}
+		set_province_name = {
+			id = 20807
+			name = "Elbasan"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 4040
+		}
+		set_province_name = {
+			id = 14481
+			name = "Vlorë"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 7276
 		}
 		set_province_name = {
@@ -40174,6 +40224,146 @@ do_ethiopian_renames = {
 	}	
 }
 do_italian_renames = {
+
+	if = {
+		limit = {
+			state = 1035
+		}		
+		set_province_name = {
+			id = 1467
+			name = "Hankendi"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 229
+		}		
+		set_province_name = {
+			id = 7661
+			name = "Bacù"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 2358
+		}		
+		set_province_name = {
+			id = 12320
+			name = "Erevan"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 9880
+		}		
+		set_province_name = {
+			id = 1599
+			name = "Tiflis"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1259
+		}		
+		set_province_name = {
+			id = 13317
+			name = "Batho"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 949
+		}		
+		set_province_name = {
+			id = 1530
+			name = "Schinuvalio"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 950
+		}		
+		set_province_name = {
+			id = 11599
+			name = "Dioscurias"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 948
+		}		
+		set_province_name = {
+			id = 6997
+			name = "Nahuana"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 3345
+		}		
+		set_province_name = {
+			id = 11674
+			name = "Thesauropoli"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 2335
+		}
+		set_province_name = {
+			id = 3896
+			name = "Scutari"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12042
+		}
+		set_province_name = {
+			id = 20805
+			name = "Camza"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12043
+		}
+		set_province_name = {
+			id = 20806
+			name = "Durazzo"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12045
+		}
+		set_province_name = {
+			id = 20807
+			name = "Terra Nuova"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 4040
+		}
+		set_province_name = {
+			id = 14481
+			name = "Valona"
+		}
+	}
 
     if = {
 		limit = {
