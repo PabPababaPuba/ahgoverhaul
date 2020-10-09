@@ -1808,8 +1808,7 @@ country_event = { #Decolonize Southeast Asia
 				}
 			}
 		set_province_name = { id = 7381 name = "Jakarta"}
-		335 = { set_state_name = Jakarta }
-	}		
+		335 = { set_state_name = Jakarta }		
 	}		
 		}
 	option = { #Reject
