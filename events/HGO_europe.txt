@@ -298,6 +298,12 @@ country_event = { #2020 Europe
 				ruling_party = democratic
 				}
 			}
+		ICE = {
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			drop_cosmetic_tag = yes
+			}
 		}
 	}	
 	option = { #reject
