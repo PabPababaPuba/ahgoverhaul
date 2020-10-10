@@ -7,7 +7,7 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300	
-		size = { width=550 height=300 }
+		size = { width=550 height=367 }
 		verticalScrollbar = "right_vertical_slider"
 		#horizontalScrollbar = "bottom_horizontal_slider"
                 clipping = no
@@ -17,6 +17,7 @@ guiTypes = {
 		
 		background = {
 			name = "Background"	
+			alwaystransparent = yes
 			position = { x = 0 y = 0}	
 			spriteType ="GFX_tiled_bg"
 		}
@@ -45,53 +46,17 @@ guiTypes = {
 				position = { x = 14 y = -10 }
 				spriteType = "GFX_diplo_flag_frame"
 				alwaystransparent = yes
-			}			
-			
-			iconType ={
-				name = "ideology_icon"
-				spriteType = "GFX_ideology_unknown"
-				position = { x = 158 y = 0 }
-				Orientation = "UPPER_LEFT"
-				frame = 1
 			}
 			
 			instantTextboxType = {
 				name = "country_name"
-				position = { x = 245 y = 3 }
-				font = "hoi_18mbs"
+				position = { x = 160 y = -5 }
+				font = "hoi_24header"
 				text = "Germanian"
-				maxWidth = 280
+				maxWidth = 360
 				fixedsize = yes
-				maxHeight = 20
+				maxHeight = 80
 				format = left
-			}
-
-			containerWindowType = {
-				name = "faction"
-				position = { x = 245 y = 23}	
-				size = { width = 175 height = 20 }
-				clipping = no
-			
-				instantTextboxType = {
-					name = "faction_name"
-					position = { x = 0 y = 0 }
-					font = "hoi_18mbs"
-					text = "faction"
-					maxWidth = 280
-					maxHeight = 20
-					fixedsize = yes		
-					format = left
-				}
-			}
-			
-			instantTextboxType = {
-				name = "leader_name"
-				position = { x = 245 y = 43 }
-				font = "hoi_16mbs"
-				text = "Rudolf Kittler"
-				maxWidth = 280
-				maxHeight = 20
-				format = left				
 			}
 
 			containerWindowType = {
@@ -227,9 +192,9 @@ guiTypes = {
 					
 				iconType = {
 					name = "leader_portrait"
-					position = { x = 23 y = 5 }
+					position = { x = 25 y = 8 }
 					spriteType = "GFX_leader_unknown"
-					scale = 0.74
+					scale = 1
 				}
 				
 				iconType = {
@@ -237,23 +202,24 @@ guiTypes = {
 					position = { x = 13 y = 0 }
 					spriteType = "GFX_diplo_leader_frame"
 					alwaystransparent = yes
+					scale = 1.35
 				}
 				
 				iconType = {
 					name = "top_bg"
 					spriteType = "GFX_diplo_upper_diplo_bg"
-					position = { x = 138 y = 0 }
+					position = { x = 133 y = 5 }
 					alwaystransparent = yes
 				}
 				
 				containerWindowType = {
 					name = "political_pie_chart"
-					position = { x = 141 y = 9 }
+					position = { x = 194 y = 14 }
 					size = { width=330 height=30 }
 					clipping = no
 
-					iconType = {
-						name = "chart"
+					iconType ={
+						name ="chart"
 						spriteType = "GFX_political_chart_big"
 						position = { x = 51 y = 5 }
 					}
@@ -262,19 +228,20 @@ guiTypes = {
 						name ="pol_view_bg"
 						spriteType = "GFX_pol_piechart_overlay"
 						position = { x= 16 y = 0 }
+						scale = 1
 					}				
 				}	
 				
 				containerWindowType = {
 					name = "ruling_party_info"
-					position = { x = 258 y = 25 }
+					position = { x = 218 y = 125 }
 					size = { width = 255 height = 60 }
 					clipping = no
 							
 					instantTextboxType = {
 						name = "party_name"
 						position = { x = 5 y = -5 }
-						font = "hoi_16mbs"
+						font = "hoi_24header"
 						text = "party"
 						maxWidth = 245
 						maxHeight = 20
@@ -284,9 +251,9 @@ guiTypes = {
 					instantTextboxType = {
 						name = "ideology_name"
 						position = { x = 5 y = 10 }
-						font = "hoi_16mbs"
+						font = "hoi_24header"
 						text = "ideology"
-						maxWidth = 245
+						maxWidth = 345
 						maxHeight = 20
 					}
 					
@@ -347,6 +314,42 @@ guiTypes = {
 						alwaystransparent = yes
 					}			
 				}
+			}
+
+			containerWindowType = {
+				name = "faction"
+				position = { x = 223 y = 168}	
+				size = { width = 175 height = 20 }
+				clipping = no
+			
+				instantTextboxType = {
+					name = "faction_name"
+					position = { x = 0 y = 0 }
+					font = "hoi_24header"
+					text = "faction"
+					maxWidth = 330
+					maxHeight = 24
+					fixedsize = yes		
+					format = left
+				}
+			}
+			
+			instantTextboxType = {
+				name = "leader_name"
+				position = { x = 200 y = 230 }
+				font = "hoi_24header"
+				text = "Rudolf Kittler"
+				maxWidth = 330
+				maxHeight = 36
+				format = left				
+			}			
+			
+			iconType ={
+				name = "ideology_icon"
+				spriteType = "GFX_ideology_unknown"
+				position = { x = 378 y = 80 }
+				Orientation = "UPPER_LEFT"
+				frame = 1
 			}
 		
 			

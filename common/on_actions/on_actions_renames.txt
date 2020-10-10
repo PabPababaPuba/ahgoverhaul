@@ -481,7 +481,10 @@ on_actions = {
 							              has_cosmetic_tag = BEL_GER
 							              has_cosmetic_tag = BGN_GER
 							              has_cosmetic_tag = KAZ_GER
-							              has_cosmetic_tag = SBR_GER}}
+							              has_cosmetic_tag = SBR_GER
+							              has_cosmetic_tag = EST_GER
+							              has_cosmetic_tag = LAT_GER
+							              has_cosmetic_tag = LIT_GER}}
 						}
 						do_german_renames = yes
 					}
