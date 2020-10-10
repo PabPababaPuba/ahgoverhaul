@@ -33097,6 +33097,276 @@ do_greek_renames = {
 
 	if = {
 		limit = {
+			state = 2335
+		}
+		set_province_name = {
+			id = 3896
+			name = "Skódra"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12042
+		}
+		set_province_name = {
+			id = 20805
+			name = "Kámza"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12043
+		}
+		set_province_name = {
+			id = 20806
+			name = "Dyrráchio"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12045
+		}
+		set_province_name = {
+			id = 20807
+			name = "Neókastron"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 4040
+		}
+		set_province_name = {
+			id = 14481
+			name = "Avlónas"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 11043
+		}		
+		set_province_name = {
+			id = 20594
+			name = "Kran"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 808
+		}		
+		set_province_name = {
+			id = 13276
+			name = "Aigís"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 163
+		}		
+		set_province_name = {
+			id = 3943
+			name = "Diódrara"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 807
+		}		
+		set_province_name = {
+			id = 13275
+			name = "Fioúme"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1311
+		}		
+		set_province_name = {
+			id = 6889
+			name = "Rhaoúsin"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 102
+		}		
+		set_province_name = {
+			id = 3654
+			name = "Kéleia"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2278
+		}		
+		set_province_name = {
+			id = 596
+			name = "Mármpournkon"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1811
+		}		
+		set_province_name = {
+			id = 3596
+			name = "Mégakorytsá"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 3201
+		}		
+		set_province_name = {
+			id = 6647
+			name = "Ések"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2791
+		}		
+		set_province_name = {
+			id = 9821
+			name = "Ketígni"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 810
+		}		
+		set_province_name = {
+			id = 3922
+			name = "Biélo Pólie"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7341
+		}		
+		set_province_name = {
+			id = 17046
+			name = "Antivárion"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7623
+		}		
+		set_province_name = {
+			id = 17462
+			name = "Pliévlia"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2289
+		}		
+		set_province_name = {
+			id = 3868
+			name = "Neòkastron"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 105
+		}		
+		set_province_name = {
+			id = 13269
+			name = "Kástro Antérba"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2787
+		}		
+		set_province_name = {
+			id = 6619
+			name = "Priédor"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 5150
+		}		
+		set_province_name = {
+			id = 606
+			name = "Biélina"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7354
+		}		
+		set_province_name = {
+			id = 6799
+			name = "Toúzla"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 104
+		}		
+		set_province_name = {
+			id = 9588
+			name = "Kástra"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7335
+		}		
+		set_province_name = {
+			id = 3984
+			name = "Gerakofoliá"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 1234
+		}		
+		set_province_name = {
+			id = 13692
+			name = "Déndra"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 7379
+		}		
+		set_province_name = {
+			id = 17416
+			name = "Neoplánta"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 352
 		}		
 		set_province_name = {
