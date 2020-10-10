@@ -15,7 +15,27 @@ country_event = {
 	
 	option = {
 		name = italy.1.a
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
 		annex_country = { target = ALB }
+		add_state_claim = 129
+		add_named_threat = { threat = 2 name = ITA_albania_war_goal }
+		hidden_effect = {
+			country_event = { days = 1 id = news.22 }
+		}
+	}
+	option = {
+		name = italy.1.b
+		ai_chance = {
+			base = 50
+		}
+		puppet = ALB
+		ALB = { set_cosmetic_tag = ALB_ITA }
 		add_named_threat = { threat = 2 name = ITA_albania_war_goal }
 		hidden_effect = {
 			country_event = { days = 1 id = news.22 }
@@ -37,7 +57,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = ALB
-			generator = { 44 }
+			generator = { 129 }
 		}
 		hidden_effect = {
 			country_event = { days = 1 id = news.23 }
@@ -60,23 +80,13 @@ country_event = {
 			base = 40
 			modifier = {
 				factor = 0				
-				any_other_country = {
-					OR = {
-						is_major = yes
-						tag = YUG
-					}
+				any_country = {
+					is_major = yes
 					NOT = { tag = ITA }
 					OR = {
 						has_guaranteed = ALB
 						is_in_faction_with = ALB
 					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				OR = {
-					has_government = communism
-					has_government = fascism #glorious Albania will never yield!
 				}
 			}
 		}
@@ -100,7 +110,7 @@ country_event = {
 					AND = {
 						is_in_faction = no 
 						NOT = {
-							any_other_country = {
+							any_country = {
 								NOT = { tag = ITA }
 								has_guaranteed = ALB
 							} 
@@ -114,7 +124,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = ALB
-					generator = { 44 }
+					generator = { 129 }
 				}
 			}
 			country_event = { days = 1 id = italy.2 }
@@ -133,43 +143,37 @@ country_event = {
 	
 	option = {
 		name = italy.4.a
-		158 = {
-		    add_building_construction = {
+		407 = {
+			add_building_construction = {
 				type = bunker
-				province = 11891
 				level = 3
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+				instant_build = yes
 			}
 		}
-		843 = {
+		43 = {
 			add_building_construction = {
 				type = bunker
-				province = 11721
 				level = 3
-			}
-		
-			add_building_construction = {
-				type = bunker
-				province = 9738
-				level = 3
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+				instant_build = yes
 			}
 		}
-		809 = {
+		42 = {
 			add_building_construction = {
 				type = bunker
-				province = 3657
 				level = 3
-			}
-			add_building_construction = {
-				type = bunker
-				province = 9613
-				level = 3
-			}
-		}
-		806 = {
-			add_building_construction = {
-				type = bunker
-				province = 13274
-				level = 3
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+				instant_build = yes
 			}
 		}
 	}
@@ -279,20 +283,6 @@ country_event = {
 			}
 		}
 		FRA = {	add_to_faction = ITA }
-		ITA = {
-			add_ai_strategy = {
-				type = alliance
-				id = "FRA"
-				value = 200
-			}
-		}
-		FRA = {
-			add_ai_strategy = {
-				type = alliance
-				id = "ITA"
-				value = 200
-			}
-		}
 		hidden_effect = {
 			news_event = { hours = 6 id = news.181 }
 		}
@@ -322,7 +312,8 @@ country_event = {
 		name = italy.9.a
 		country_event = { id = italy.10 }
 		effect_tooltip = {
-			ITA = { transfer_state = 177 }
+			ITA = { transfer_state = 77
+			add_state_claim = 77 }
 			remove_opinion_modifier = { target = ITA modifier = ita_supported_spain_civil_war }
 		}
 
@@ -335,7 +326,7 @@ country_event = {
 		ai_chance = { factor = 0 }
 		country_event = { id = italy.11 }
 		effect_tooltip = {
-			ITA = { add_state_claim = 177 }
+			ITA = { add_state_claim = 77 }
 		}
 	}
 }
@@ -351,7 +342,8 @@ country_event = {
 	
 	option = {
 		name = italy.10.a
-		ITA = { transfer_state = 177 }
+		ITA = { transfer_state = 77
+		add_state_claim = 77 }
 		remove_opinion_modifier = { target = ITA modifier = ita_supported_spain_civil_war }
 	}
 }
@@ -367,7 +359,7 @@ country_event = {
 	
 	option = {
 		name = italy.11.a
-		ITA = { add_state_claim = 177 }
+		ITA = { add_state_claim = 77 }
 	}
 }
 
@@ -393,13 +385,6 @@ country_event = {
 			add_political_power = -100
 			if = { limit = { is_faction_leader = yes }
 				add_to_faction = YUG
-				YUG = {
-					add_ai_strategy = {
-						type = alliance
-						id = "ITA"
-						value = 200
-					}
-				}
 			}
 			if = {
 				limit = { 
@@ -413,17 +398,9 @@ country_event = {
 				}
 				create_faction = italy_empire_faction
 				add_to_faction = YUG
-				YUG = {
-					add_ai_strategy = {
-						type = alliance
-						id = "ITA"
-						value = 200
-					}
-				}
 			}			
 		}
 		GER = { country_event = { id = germany.96 hours = 6 } }
-		YUG = { country_event = { id = yugoslavia.6 hours = 6 } }
 	}	
 	option = {
 		ai_chance = {
@@ -445,26 +422,29 @@ country_event = {
 		text = italy.13.d_dalmatia_montenegro
 		trigger = {
 			has_completed_focus = ITA_slovenia_dalmatia_claims
-			owns_state = 44
-			owns_state = 821
+			OR = {
+				owns_state = 129
+				ALB = {
+					is_puppet_of = ITA
+				}
+			}
 		}
 	}
 	desc = { 
 		text = italy.13.d_dalmatia
 		trigger = {
 			has_completed_focus = ITA_slovenia_dalmatia_claims
-			NOT = { 
-			    owns_state = 44
-				owns_state = 821
-			}
+			NOT = { owns_state = 129 }
 		}
 	}
 	desc = { 
 		text = italy.13.d_montenegro
 		trigger = {
 			NOT = { has_completed_focus = ITA_slovenia_dalmatia_claims }
-			owns_state = 44
-			owns_state = 821
+			OR = {
+				owns_state = 129
+				ALB = { is_puppet_of = ITA }
+			}
 		}
 	}
  
@@ -476,22 +456,39 @@ country_event = {
 		name = italy.13.a
 		if = {
 			limit = { has_completed_focus = ITA_slovenia_dalmatia_claims }
-			ITA = { 
-			    transfer_state = 103
-				transfer_state = 1031
-				transfer_state = 802
-			}
+			ITA = { transfer_state = 383
+			add_state_claim = 383 }
+			ITA = { transfer_state = 411
+			add_state_claim = 411 }
 		}
 		if = {
-			limit = { 
-			    owns_state = 44
-				owns_state = 821
-			}
-			ITA = { 
-			    transfer_state = 105
-			    transfer_state = 811
-			}
+			limit = { owns_state = 129 }
+			ITA = { transfer_state = 150
+			add_state_claim = 150 }
+			ITA = { transfer_state = 151
+			add_state_claim = 151 }
+			ITA = { transfer_state = 155
+			add_state_claim = 155 }
+			ITA = { transfer_state = 421
+			add_state_claim = 421 }
+			ITA = { transfer_state = 156
+			add_state_claim = 156 }
 		}		
+		if = {
+			limit = { ALB = { is_puppet_of = ITA } }
+			ALB = { transfer_state = 155
+			add_state_claim = 155 }
+			ALB = { transfer_state = 156
+			add_state_claim = 156 }
+			ITA = { transfer_state = 150 }
+			ITA = { transfer_state = 151 }
+			ITA = { transfer_state = 421 }
+			release_puppet = MNT
+			MNT = { transfer_state = 150 }
+			MNT = { transfer_state = 151 }
+			MNT = { transfer_state = 421 }
+			MNT = { set_cosmetic_tag = MNT_ITA }
+		}
 	}
 }
 
@@ -530,15 +527,15 @@ country_event = {
 	desc = { 
 		text = italy.15.d
 		trigger = {
-			has_global_flag = ITA_claims_on_france_735
-			has_global_flag = ITA_claims_on_france_1
+			has_global_flag = ITA_claims_on_france_provence
+			has_global_flag = ITA_claims_on_france_corsica
 		}
 	}
 	desc = { 
 		text = italy.15.d_Corsica
 		trigger = {
-			NOT = { has_global_flag = ITA_claims_on_france_735 }
-			has_global_flag = ITA_claims_on_france_1
+			NOT = { has_global_flag = ITA_claims_on_france_provence }
+			has_global_flag = ITA_claims_on_france_corsica
 		}
 	}
  
@@ -549,12 +546,20 @@ country_event = {
 	option = {
 		name = italy.15.a
 		if = {
-			limit = { has_global_flag = ITA_claims_on_france_735 }
-			ITA = { transfer_state = 735 }
+			limit = { has_global_flag = ITA_claims_on_france_provence }
+			ITA = { transfer_state = 64
+			add_state_claim = 64 }
+			ITA = { transfer_state = 410
+			add_state_claim = 410 }
+			ITA = { transfer_state = 409
+			add_state_claim = 409 }
+			ITA = { set_state_controller = 63 }
+			ITA = { set_state_controller = 66 }
 		}
 		if = {
-			limit = { has_global_flag = ITA_claims_on_france_1 }
-			ITA = { transfer_state = 1 }
+			limit = { has_global_flag = ITA_claims_on_france_corsica }
+			ITA = { transfer_state = 2
+			add_state_claim = 2 }
 		}		
 	}
 }
@@ -571,8 +576,14 @@ country_event = {
 	
 	option = {
 		name = italy.16.a
-
-		transfer_state = 735
+		ITA = { transfer_state = 64
+		add_state_claim = 64 }
+		ITA = { transfer_state = 410
+		add_state_claim = 410 }
+		ITA = { transfer_state = 409
+		add_state_claim = 409 }
+		ITA = { set_state_controller = 63 }
+		ITA = { set_state_controller = 66 }
 	}
 }
 

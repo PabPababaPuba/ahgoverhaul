@@ -1,4 +1,4 @@
-﻿capital = 1385
+﻿capital = 484
 
 oob = "AUS_1936"
 
@@ -14,245 +14,73 @@ set_technology = {
 	early_fighter = 1
 }
 
-
-
-	set_popularities = {
-		republican_fascism
-			 = 50
-		democratic
-			 = 10
-		liberal_republic
-			 = 10
-		national_socialism
-			 = 30
-		}
-	set_politics = { 
- ruling_party = republican_fascism
+set_politics = {
+	ruling_party = neutrality
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+	neutrality = 48
+	fascism = 50
+	democratic = 1
+	communism = 1
+}
+
 set_stability = 0.50
 
-
 create_country_leader = {
-	name = "Wilhelm Miklas"
-	desc = ""
-	picture = "Portrait_Wilhelm_Miklas.dds"
+	name = "Kurt Schuschnigg"
+	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
+	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
 	expire = "1965.1.1"
-	ideology = repfash
+	ideology = centrism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Josef Bürckel"
-	desc = ""
-	picture = "Portrait_Josef_Burckel.dds"
+	name = "Karl Renner"
+	desc = "POLITICS_KARL_RENNER_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = natsoc
+	ideology = socialism
 	traits = {
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Otto I von Habsburg-Lothringen"
-	desc = ""
-	picture = "Portrait_Otto_Habsburg.dds"
+	name = "Arthur Seyss-Inquart"
+	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = absolutism
+	ideology = nazism
 	traits = {
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Carl Vaugoin"
-	desc = ""
-	picture = "Portrait_Carl_Vaugoin.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Tribal Leadership"
-	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = total_anarchist
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Collective Leadership"
-	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = ancom
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Johann Koplenig"
-	desc = ""
-	picture = "Portrait_Johann_Koplenig.dds"
-	expire = "1965.1.1"
-	ideology = totsoc
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Ruth Fischer"
-	desc = ""
-	picture = "Portrait_Ruth_Fischer.dds"
+	name = "Alfred Klahr"
+	desc = "POLITICS_ALFRED_KLAHR_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
+		#
 	}
 }
 
-create_country_leader = {
-	name = "Karl Seitz"
-	desc = ""
-	picture = "Portrait_Karl_Seitz.dds"
-	expire = "1965.1.1"
-	ideology = demsoc
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Otto I von Habsburg-Lothringen"
-	desc = ""
-	picture = "Portrait_Otto_Habsburg.dds"
-	expire = "1965.1.1"
-	ideology = monsoc
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Karl Seitz"
-	desc = ""
-	picture = "Portrait_Karl_Seitz.dds"
-	expire = "1965.1.1"
-	ideology = socdem
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Otto I von Habsburg-Lothringen"
-	desc = ""
-	picture = "Portrait_Otto_Habsburg.dds"
-	expire = "1965.1.1"
-	ideology = liberal_constitutionalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Otto I von Habsburg-Lothringen"
-	desc = ""
-	picture = "Portrait_Otto_Habsburg.dds"
-	expire = "1965.1.1"
-	ideology = conservative_constitutionalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Franz Winkler"
-	desc = ""
-	picture = "Portrait_Franz_Winkler.dds"
-	expire = "1965.1.1"
-	ideology = cenrep
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Otto I von Habsburg-Lothringen"
-	desc = ""
-	picture = "Portrait_Otto_Habsburg.dds"
-	expire = "1965.1.1"
-	ideology = cenmon
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Michael Arthur Josef Jakob Hainisch"
-	desc = ""
-	picture = "Portrait_Michael_Hainisch.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Alfred Johann Janša Edler von Tannenau"
-	desc = ""
-	picture = "Portrait_Alfred_Jansa.dds"
-	expire = "1965.1.1"
-	ideology = militarism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Felix I von Habsburg-Lothringen"
-	desc = ""
-	picture = "Portrait_Felix_Habsburg.dds"
-	expire = "1965.1.1"
-	ideology = stratmon
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Karl I von Habsburg-Lothringen"
-	desc = ""
-	picture = "Portrait_Karl_Habsburg.dds"
-	expire = "1965.1.1"
-	ideology = authmon
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Sigismund Waitz"
-	desc = ""
-	picture = "Portrait_Sigismund_Waitz.dds"
-	expire = "1965.1.1"
-	ideology = christian
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Otto I von Habsburg-Lothringen"
-	desc = ""
-	picture = "Portrait_Otto_Habsburg.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Company Leadership"
-	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = ancap
-	traits = {
-	}
+create_corps_commander = {
+	name = "Karl Eglseer"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { trait_mountaineer trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }

@@ -34,7 +34,7 @@ country_event = {
 		SOV = {
 			country_event = { days = 5 id = soviet.12 }
 			effect_tooltip = {
-				transfer_state = 146
+				transfer_state = 113
 			}
 		}
 	}
@@ -47,7 +47,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state
 					target = FIN
-					generator = { 146 }
+					generator = { 113 }
 				}
 			}
 		}
@@ -168,6 +168,11 @@ country_event = {
 				type = artillery_equipment
 				amount = 250
 			}
+		}
+		add_ai_strategy = {
+			type = support
+			id = FIN
+			value = 100
 		}
 		FIN = {
 			country_event = { id = finland.5 days = 3 }
@@ -322,9 +327,16 @@ country_event = {
 					message = FIN_agree_peace 
 				} 
 			}
-			transfer_state = 146
-			transfer_state = 147
-			transfer_state = 722
+			transfer_state = 113
+			transfer_state = 121
+			if = {
+				limit = {
+					122 = {
+						is_claimed_by = SOV
+					}
+				}
+				SOV = { remove_state_claim = 122 }
+			}
 		}
 	}
 
@@ -357,12 +369,48 @@ country_event = {
 			base = 9
 		}
 		white_peace = FIN
-		transfer_state = 146
-		transfer_state = 147
-		transfer_state = 722
-		146 = { add_core_of = KAR }
-		147 = { add_core_of = KAR }
-		722 = { add_core_of = KAR }
+		transfer_state = 113
+		transfer_state = 121
+		if = {
+			limit = {
+				122 = {
+					is_claimed_by = SOV
+				}
+			}
+			remove_state_claim = 122
+		}
+		FIN = {
+			add_ai_strategy = {
+				type = antagonize
+				id = "SOV"			
+				value = 200
+			}
+		}
+		if = {
+			limit = {
+				GER = {
+					is_subject = no
+					not = { is_in_faction_with = SOV}
+				}
+			}
+			add_ai_strategy = {
+				type = alliance
+				id = "GER"			
+				value = 200
+			}
+			add_ai_strategy = {
+				type = befriend
+				id = "GER"			
+				value = 200
+			}
+			GER = {
+				add_ai_strategy = {
+					type = alliance
+					id = "FIN"			
+					value = 200
+				}
+			}
+		}
 	}
 
 	#Take it all
@@ -390,5 +438,248 @@ country_event = {
 
 	option = {
 		name = finland.9.a
+	}
+}
+
+# Fokker Purchase
+country_event = {
+	id = finland.10
+	title = finland.10.t
+	desc = finland.10.d
+	picture = GFX_report_event_ace_promoted
+	
+	is_triggered_only = yes
+
+	option = { # Accept - Enough Planes
+		name = finland.10.a
+		ai_chance = {
+			base = 70
+		}
+		trigger = {
+			has_equipment = { fighter_equipment > 48 }
+		}
+		add_timed_idea = { 
+			idea = finnish_fokker_purchase
+			days = 180
+		}
+		send_equipment = {
+			target = FIN
+			type = fighter_equipment
+			amount = 48
+		}
+		FIN = {
+			country_event = finland.11
+		}
+		
+	}
+	option = { # Accept - Not Enough Planes
+		name = finland.10.b
+		ai_chance = {
+			factor = 70
+		}	
+		trigger = {
+			NOT = { has_equipment = { fighter_equipment > 48 } }
+		}
+		add_timed_idea = { idea = finnish_fokker_purchase days = 180 }
+		add_timed_idea = { idea = fin_divert_fighter_production days = 120 }
+		FIN = {
+			country_event = finland.12
+		}
+	}
+	option = { # Decline
+		name = finland.10.c
+		ai_chance = {
+			base = 1
+		}
+		FIN = {
+			country_event = finland.13
+		}
+	}
+}
+
+# Business done!
+country_event = {
+	id = finland.11
+	title = finland.11.t
+	desc = finland.11.d   
+	picture = GFX_report_event_fighters
+	
+	is_triggered_only = yes
+	
+	option = { # cool
+		name = finland.11.a
+		ai_chance = {
+			factor = 30
+		}
+	}		
+}
+
+# Business done II !
+country_event = {
+	id = finland.12
+	title = finland.12.t
+	desc = finland.12.d   
+	picture = GFX_report_event_fighters
+	
+	is_triggered_only = yes
+	
+	option = { # cool
+		name = finland.12.a
+		ai_chance = {
+			factor = 30
+		}
+		add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 48 producer = HOL } 
+	}		
+}
+
+# Business declined !
+country_event = {
+	id = finland.13
+	title = finland.13.t
+	desc = finland.13.d   
+	picture = GFX_report_event_fighters
+	
+	is_triggered_only = yes
+	
+	option = { # not cool 
+		name = finland.13.a
+		ai_chance = {
+			factor = 30
+		}
+	}		
+}
+
+# Estonian Unification
+country_event = {
+	id = finland.14
+	title = finland.14.t
+	desc = finland.14.d
+	picture = GFX_report_event_hitler_parade
+	
+	is_triggered_only = yes
+	
+	option = { # Accept
+		name = finland.14.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -25
+				FIN = { has_army_size = { size < 18 } }
+			}
+			modifier = {
+				add = 100
+				FIN = { has_army_size = { size > 17 } }
+			}
+			modifier = {
+				add = 20
+				is_in_faction_with = FIN
+			}
+		}
+		FIN = {
+			country_event = { hours = 2 id = finland.15 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+	option = { # Refuse
+		name = finland.14.b
+		ai_chance = {
+			base = 10			
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				FIN = { has_army_size = { size > 17 } }
+				factor = 0.5
+			}
+			modifier = {
+				add = 20
+				FIN = { has_army_size = { size < 18 } }
+			}
+			modifier = {
+				factor = 2
+				is_in_faction = yes
+				NOT = { is_in_faction_with = FIN }
+			}
+			modifier = {
+				any_other_country = {
+					has_guaranteed = EST
+				}
+				factor = 5 #i've got friends
+			}
+			modifier = {
+				any_other_country = {
+					is_major = yes
+					has_guaranteed = EST
+				}
+				factor = 5 #i've got big friends
+			}
+		}
+		FIN = {
+			country_event = { hours = 2 id = finland.16 }
+			if = { limit = { is_in_faction_with = FIN }
+				remove_from_faction = EST
+			}
+		}
+	}
+}
+
+# Estonian Unification Success
+country_event = {
+	id = finland.15
+	title = finland.15.t
+	desc = finland.15.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+ 	immediate = {
+ 		hidden_effect = {
+ 			add_named_threat = { threat = 2 name = finland.15.t }
+ 		} 		
+ 	}
+
+	option = {
+		name = finland.15.a
+		13 = {
+			if = {
+				limit = { is_owned_by = EST }
+				add_core_of = FIN
+			}
+		}
+		191 = {
+			if = {
+				limit = { is_owned_by = EST }
+				add_core_of = FIN
+			}
+		}
+		EST = {
+			every_unit_leader = {
+				set_nationality = FIN
+			}
+		}
+		annex_country = { target = EST transfer_troops = yes }
+		add_political_power = 50
+		set_country_flag = EST_annexed
+		add_war_support = 0.05
+		add_stability = 0.05
+	}
+}
+
+# Estonia Refuses
+country_event = {
+	id = finland.16
+	title = finland.16.t
+	desc = finland.16.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+
+	option = {
+		name = finland.16.a
+		create_wargoal = {
+			type = annex_everything
+			target = EST
+		}
 	}
 }

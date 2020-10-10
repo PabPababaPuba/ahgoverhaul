@@ -1,30 +1,44 @@
-How install this trainwreck - presented by the HGO team
-1) Download the mod, check your download directory (usually ThisPC/Downloads)
-2) Unzip the modfile. Make sure the folder name is still ahgoverhaul, and if isn't rename it.
-3) Enter the folder, Take out the .MOD file (the file called ahgoverhaul.mod) and put it outside the folder into whatever directory you downloaded the mod into.
-4) Hold control, and click the folder and the .MOD file and press copy
-5) Go to documents/Paradox Interactive/Hearts of Iron 4/mod and paste it into the mod folder.
-6) Boot up HOI4, select Historic Geographical Overhaul - Development Version and activate the mod.
-7) Play the mod and enjoy.
----------------
-Extra notes:
+# edo-europe
+The expanded European map for the grand strategy game "Hearts of Iron 4' by Paradox Interactive.
 
-- the reason why you have to rename the folder to ahgoverhaul is because the game won't read the mod folder if it isn't the same name as the .MOD file.
-- don't expect every version to not be a buggy mess. as OCD-pleasing the mod may be, it's not bug-pleasing.
----------------
-Credits:
-The HGO team: Skylar129, Faaz Noushad, Ainsley, Luminisenc, scrylveon, birdirdirbirb/ReiFly/GardenGnostic, and Kels.
+## Getting Started
+**We recommend using [GitHub Desktop](https://desktop.github.com) to download**;
+it provides an easy way to synchronise with the latest changes. If it is
+inconvenient to download, or you do not want to sign up, you can use another
+Git client (like [Sourcetree](https://www.atlassian.com/software/sourcetree)) or
+just download a ZIP archive.
 
-Former Devs: MihalRacovita, TrueSoviet, Holy Doggo, Generalis, JoshyFlip, crasher925, SamFan2, blue69982, Gindisi, and K0rhan.
+### ...with GitHub Desktop
+1. Download [GitHub Desktop](https://desktop.github.com).
+2. Create a [GitLab account](https://gitlab.com/users/sign_in#register-pane), and sign into GitHub
+   Desktop.
+3. Click File → Clone Repository; in the dialog box, under URL insert
+   `https://gitlab.com/Jeansaisrien/edo-europe`. and clone it into
+   `Paradox Interactive/Hearts of Iron IV/mod`, under your user's Documents
+   folder. Start the cloning process by clicking "Clone".
+4. Open the new folder using a file explorer. Drag `EdoEurope.mod`
+   into the `mods` folder.
+5. Start up HOI4, and select "Magna Europa".
 
-Special Thanks to:
-- gerrade, for letting us build off of his mod, Beautiful States.
-- Cifotis and MrLukeNL for their work on Oceania.
-- ChaosRobie for his work on Antarctica.
-- Chupachu for his Country Generator Tool, which has helped us greatly.
-- the Toolpack team for allowing us to include it directly in our mod!
-- Kai for allowing us to include a modified Country Colour and Skin Changer Tool!
-- Supermob1 for his extensive work on both the map and the (currently non-functional) scripted GUI.
-- Natt and the EYWOR team for their work on Asia.
-- PinkPanzer and the TNO team for their Atlantropa map.
-- The Kaiserreich team for the States and Victory Points Renaming System's code.
+#### ...with another Git client
+*This guide presumes that this client is set up and configured.*
+
+1. Clone `https://gitlab.com/Jeansaisrien/edo-europe` into
+   `Paradox Interactive/Hearts of Iron IV/mod`, under your Documents folder.
+2. Copy the repository's `EdoEurope.mod` into the `mods` folder.
+
+### ...without using Git
+**Warning:** You may fall behind from the latest version of the mod. Make sure
+to check this page often, and redownload.
+
+1. Download the [ZIP file](https://gitlab.com/Jeansaisrien/edo-europe/-/archive/master/edo-europe-master.zip) for the mod.
+2. Extract the ZIP to `Documents/Paradox Interactive/Hearts of Iron IV/mod`.
+3. Rename the folder you just extracted (`edo-europe-master`) to `edo-europe`.
+3. Copy "EdoEurope.mod" to `Documents/Paradox Interactive/Hearts of Iron IV/mod`.
+4. Start up HOI4, and select "Magna Europa".
+
+
+**You can try running it with other mods, but we will not provide any support for bugs that occur.** If you have any
+questions, join our discord at: https://discord.gg/bqnyqF7, and ask for help.
+
+**Enjoy!**

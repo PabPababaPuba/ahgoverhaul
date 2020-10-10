@@ -21,17 +21,11 @@ country_event = {
 			modifier = { # Don't accept if in a faction that can protect them
 				factor = 0
 				OR = {
-					any_other_country = {
-						is_major = yes
-						NOT = { tag = SOV }
-						OR = {
-							is_in_faction_with = ROM
-							has_guaranteed = ROM
-						}
-					}
-					has_idea = anti_soviet_pact
+					is_in_faction_with = ENG
+					is_in_faction_with = FRA
+					is_in_faction_with = GER
+					is_in_faction_with = ITA
 				}
-				is_historical_focus_on = no #Romania will still cede on historical
 			}
 		}
 		SOV = {
@@ -41,25 +35,14 @@ country_event = {
 	}
 	option = { # Refuse
 		name = romania.1.b
-		ai_chance = {
-			base = 0
-			modifier = {
-				add = 10
-				is_in_faction = yes
-				NOT = { is_in_faction_with = SOV }
-			}
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
+		ai_chance = { factor = 10 }
 		SOV = {
 			country_event = { days = 1 id = soviet.5 }
 			effect_tooltip = {
 				create_wargoal = {
 					type = take_state
 					target = ROM
-					generator = { 78 }
+					generator = { 112 381 397 237 }
 				}
 			}
 		}
@@ -85,6 +68,7 @@ country_event = {
 					is_in_faction_with = ENG
 					is_in_faction_with = FRA
 					is_in_faction_with = SOV
+					is_in_faction_with = ITA
 				}
 			}
 		}
@@ -104,7 +88,7 @@ country_event = {
 		}
 		HUN = {
 			country_event = { days = 1 id = hungary.4 }
-			effect_tooltip = { add_state_claim = 76 }
+			effect_tooltip = { add_state_claim = 239 }
 		}
 		GER = {
 			country_event = { days = 1 id = germany.21 }
@@ -112,7 +96,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state
 					target = ROM
-					generator = { 76 }
+					generator = { 239 472 473 478 }
 				}
 			}
 		}
@@ -138,6 +122,7 @@ country_event = {
 					is_in_faction_with = ENG
 					is_in_faction_with = FRA
 					is_in_faction_with = SOV
+					is_in_faction_with = ITA
 				}
 			}
 		}
@@ -152,9 +137,15 @@ country_event = {
 		HUN = {
 			country_event = { days = 1 id = hungary.5 }
 			effect_tooltip = {
-				add_state_claim = 76
-				add_state_claim = 83
-				add_state_claim = 84
+				add_state_claim = 239
+				add_state_claim = 238
+				add_state_claim = 102
+				add_state_claim = 101
+				add_state_claim = 472
+				add_state_claim = 473
+				add_state_claim = 474
+				add_state_claim = 475
+				add_state_claim = 478
 			}
 		}
 		GER = {
@@ -163,7 +154,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state
 					target = ROM
-					generator = { 76 }
+					generator = { 239 238 102 101 472 473 474 475 478 }
 				}
 			}
 		}
@@ -197,7 +188,7 @@ country_event = {
 		name = romania.5.a
 		ai_chance = { factor = 90 }
 		effect_tooltip = {
-			BUL = { transfer_state = 77 }
+			BUL = { transfer_state = 110 }
 		}
 		BUL = {
 			country_event = { days = 1 id = bulgaria.1 }
@@ -231,12 +222,9 @@ country_event = {
 		NOT = { GER = { is_in_faction_with = SOV } }
 		NOT = { has_war_with = GER }
 		NOT = { has_war_with = SOV }
-		NOT = { has_dlc = "Death or Dishonor" }
 	}
 	
 	mean_time_to_happen = { days = 7 }
-
-	fire_only_once = yes
 
 	option = { # Seek german alliance
 		name = romania.6.a
@@ -290,104 +278,5 @@ country_event = {
 			base = 0
 		}
 		
-	}
-}
-
-# Corneliu Zelea Codreanu is assassinated
-country_event = {
-	id = romania.7
-	title = romania.7.t
-	desc = romania.7.d
-	picture = GFX_report_event_europe_funeral
-	
-	trigger = {
-		tag = ROM
-		AND = {
-			date > 1938.11.20
-			date < 1938.12.20
-		}
-		NOT = { has_government = fascism }
-		NOT = { ROM = { is_in_faction_with = GER } }
-	}
-	
-	fire_only_once = yes
-
-	option = { # New Leader Antonescu
-		name = romania.7.a
-		ai_chance = { factor = 100 }
-		create_country_leader = {
-			name = "Ion Antonescu"
-			desc = "POLITICS_ION_ANTONESCU_DESC"
-			picture = "Portrait_Romania_Ion_Antonescu.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-			traits = {
-				#
-			}
-		}
-	}
-}
-
-country_event = {
-	id = romania.8
-	title = romania.8.t
-	desc = romania.8.d
-	picture = GFX_report_event_romanian_soldiers
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = ROM
-		country_exists = TRV
-		TRV = { has_country_flag = transilvania_defiant }
-	}
-
-	option = {
-	name = romania.8.a
-	ai_chance = { factor = 75 }
-		create_wargoal = {
-		type = annex_everything
-		target = TRV
-		}
-	hidden_effect =  {
-		84 = { add_core_of = ROM }
-		76 = { add_core_of = ROM }
-		1219 = { add_core_of = ROM }
-		82 = { add_core_of = ROM }
-		83 = { add_core_of = ROM }
-		1218 = { add_core_of = ROM }
-		1490 = { add_core_of = ROM }
-		1217 = { add_core_of = ROM }
-		}
-	}
-
-	option = {
-	name = romania.8.b
-	ai_chance = { factor = 25 }
-	add_political_power = -200
-	}
-}
-
-country_event = {
-	id = romania.9
-	title = romania.9.t
-	desc = romania.9.d
-	picture = GFX_report_event_romanian_soldiers
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = ROM
-		country_exists = TRV
-	}
-
-	option = {
-	name = romania.9.a
-	ai_chance = { factor = 100 }
-	remove_unit_leader = 116
-	remove_unit_leader = 113
-	remove_unit_leader = 112
-	remove_unit_leader = 107
-	remove_unit_leader = 103
 	}
 }

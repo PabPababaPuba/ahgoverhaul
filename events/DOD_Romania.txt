@@ -30,7 +30,6 @@ country_event = {
 			}
 		}
 		ROM = { country_event = DOD_romania.2 }
-		give_guarantee = ROM
 	}
 
 	option = { #no
@@ -53,10 +52,6 @@ country_event = {
 
 	option = { #cool
 		name = DOD_romania.2.a
-		give_guarantee = POL
-		hidden_effect = {
-			news_event = { id = news.316 days = 1 }
-		}
 	}
 
 }
@@ -245,7 +240,7 @@ country_event = {
 	option = { #no
 		name = DOD_romania.30.b
 		ai_chance = {
-			factor = 30
+			factor = 0
 		}
 		ROM = { country_event = DOD_romania.32 }	
 	}
@@ -262,9 +257,7 @@ country_event = {
 
 	option = { #cool
 		name = DOD_romania.31.a
-		SOV = {
-			give_military_access = ROM
-		}
+		give_military_access = SOV
 	}
 
 }
@@ -339,9 +332,6 @@ country_event = {
 	option = { #cool
 		name = DOD_romania.41.a
 		puppet = BUL
-		hidden_effect = {
-			news_event = { id = news.318 days = 1 }
-		}
 	}
 
 }
@@ -382,7 +372,6 @@ country_event = {
 			type = puppet_wargoal_focus
 			target = BUL
 		}
-		news_event = { id = news.319 days = 1 }
 	}
 
 }
@@ -591,164 +580,42 @@ country_event = {
 	
 	option = { #cool
 		name = DOD_romania.61.a
-		if = {
+		
+		every_owned_state = {
 			limit = {
-				45 = { is_owned_by = YUG }
+				OR = {
+					is_core_of = MNT
+					is_core_of = SER
+					is_core_of = MAC
+				}
+				is_owned_by = YUG
 			}
-			SER = { transfer_state = 45 }
-		}
-		if = {
-			limit = {
-				818 = { is_owned_by = YUG }
+			SER = { 
+				transfer_state  = PREV 
+				add_state_claim = PREV 
 			}
-			SER = { transfer_state = 818 }
-		}
-		if = {
-			limit = {
-				107 = { is_owned_by = YUG }
-			}
-			SER = { transfer_state = 107 }
-		}
-		if = {
-			limit = {
-				817 = { is_owned_by = YUG }
-			}
-			SER = { transfer_state = 817 }
-		}
-		if = {
-			limit = {
-				108 = { is_owned_by = YUG }
-			}
-			SER = { transfer_state = 108 }
-		}
-		if = {
-			limit = {
-				815 = { is_owned_by = YUG }
-			}
-			SER = { transfer_state = 815 }
-		}
-		if = {
-			limit = {
-				816 = { is_owned_by = YUG }
-			}
-			SER = { transfer_state = 816 }
-		}
-		if = {
-			limit = {
-				812 = { is_owned_by = YUG }
-			}
-			SER = { transfer_state = 812 }
 		}
 		puppet = SER
-
-		if = {
+		
+		every_owned_state = {
 			limit = {
-				105 = { is_owned_by = YUG }
+				OR = {
+					is_core_of = CRO
+					is_core_of = BOS
+					is_core_of = SLV
+				}
+				is_owned_by = YUG 
 			}
-			MNT = { transfer_state = 105 }
-		}
-		if = {
-			limit = {
-				810 = { is_owned_by = YUG }
+			CRO = { 
+				transfer_state  = PREV 
+				add_state_claim = PREV 
 			}
-			MNT = { transfer_state = 810 }
 		}
-		if = {
-			limit = {
-				811 = { is_owned_by = YUG }
-			}
-			MNT = { transfer_state = 811 }
-		}
-		puppet = MNT
-
-
-		if = {
-			limit = {
-				103 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 103 }
-		}
-		if = {
-			limit = {
-				1031 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 1031 }
-		}
-		if = {
-			limit = {
-				802 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 802 }
-		}
-		if = {
-			limit = {
-				109 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 109 }
-		}
-		if = {
-			limit = {
-				814 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 814 }
-		}
-		if = {
-			limit = {
-				104 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 104 }
-		}
-		if = {
-			limit = {
-				819 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 819 }
-		}
+		
 		puppet = CRO
-		
-		if = {
-			limit = {
-				102 = { is_owned_by = YUG }
-			}
-			SLV = { transfer_state = 102 }
-		}
-		if = {
-			limit = {
-				803 = { is_owned_by = YUG }
-			}
-			SLV = { transfer_state = 803 }
-		}
-		if = {
-			limit = {
-				804 = { is_owned_by = YUG }
-			}
-			SLV = { transfer_state = 804 }
-		}
-		if = {
-			limit = {
-				805 = { is_owned_by = YUG }
-			}
-			SLV = { transfer_state = 805 }
-		}
-		puppet = SLV
-		
-		if = {
-			limit = {
-				106 = { is_owned_by = YUG }
-			}
-			MAC = { transfer_state = 106 }
-		}
-		if = {
-			limit = {
-				813 = { is_owned_by = YUG }
-			}
-			MAC = { transfer_state = 813 }
-		}
-		puppet = MAC
 		hidden_effect = {
 			annex_country = { target = YUG }
 		}
-		news_event = { id = news.324 days = 1 }
 	}
 
 }
@@ -771,7 +638,6 @@ country_event = {
 			type = annex_everything
 			target = YUG
 		}
-		news_event = { id = news.320 days = 1 }
 	}
 
 	option = { # approach Germans and Italians for joint action
@@ -779,15 +645,10 @@ country_event = {
 		trigger = {
 			OR = {
 				GER = {
-					NOT = { owns_state = 102 }
-					NOT = { owns_state = 803 }
-					NOT = { owns_state = 804 }
-					NOT = { owns_state = 805 }
+					NOT = { owns_state = 99 }
 				}
 				ITA = {
-					NOT = { owns_state = 103 }
-					NOT = { owns_state = 1031 }
-					NOT = { owns_state = 802 }
+					NOT = { owns_state = 383 }
 				}
 			}
 		}
@@ -795,22 +656,15 @@ country_event = {
 			factor = 25
 		}
 		if = {
-			limit = { GER = { NOT = { owns_state = 102 } } }
+			limit = { GER = { NOT = { owns_state = 99 } } }
 			GER = { country_event = DOD_romania.63 }	
 		}
 		if = {
 			limit = { 
 				ITA = { 
-					NOT = { owns_state = 103 }
-					NOT = { owns_state = 1031 }
-					NOT = { owns_state = 802 } 
+					NOT = { owns_state = 383 } 
 				} 
-				GER = { 
-				    owns_state = 102
-					owns_state = 803
-					owns_state = 804
-					owns_state = 805
-				}
+				GER = { owns_state = 99 }
 			}
 			ITA = { country_event = DOD_romania.64 }
 			
@@ -834,10 +688,7 @@ country_event = {
 		ai_chance = {
 			factor = 80
 		}
-		add_state_claim = 102
-		add_state_claim = 803
-		add_state_claim = 804
-		add_state_claim = 805
+		add_state_claim = 99
 		ROM = { 
 			country_event = DOD_romania.65 
 			set_country_flag = ROM_YUG_GER_approves
@@ -876,13 +727,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { 103 = {is_claimed_by = ITA } }
-				NOT = { 1031 = {is_claimed_by = ITA } }
-				NOT = { 802 = {is_claimed_by = ITA } }
+				NOT = { 383 = {is_claimed_by = ITA } }
 			}
-			add_state_claim = 103
-			add_state_claim = 1031
-			add_state_claim = 802
+			add_state_claim = 383
 		}
 		ROM = { 
 			country_event = DOD_romania.65 
@@ -899,19 +746,13 @@ country_event = {
 		ROM = { country_event = DOD_romania.66 }
 		if = {
 			limit = {
-				102 = { is_claimed_by = GER }
-				803 = { is_claimed_by = GER }
-				804 = { is_claimed_by = GER }
-				805 = { is_claimed_by = GER }
+				99 = { is_claimed_by = GER }
 			}
 			ROM = { country_event = { id = DOD_romania.67 hours = 12 } }
 		}
 		if = {
 			limit = {
-				NOT = { 102 = { is_claimed_by = GER } }
-				NOT = { 803 = { is_claimed_by = GER } }
-				NOT = { 804 = { is_claimed_by = GER } }
-				NOT = { 805 = { is_claimed_by = GER } }
+				NOT = { 99 = { is_claimed_by = GER } }
 			}
 			ROM = { country_event = { id = DOD_romania.68 hours = 12 } }
 		}
@@ -982,7 +823,6 @@ country_event = {
 			type = annex_everything
 			target = YUG
 		}
-		news_event = { id = news.320 days = 1 }
 	}
 
 }
@@ -1027,12 +867,11 @@ country_event = {
 		ai_chance = {
 			factor = 60
 			modifier = {
-				102 = { is_claimed_by = GER }
+				99 = { is_claimed_by = GER }
 				factor = 2
 			}
 			modifier = {
-				103 = { is_claimed_by = ITA }
-				1031 = { is_claimed_by = ITA }
+				383 = { is_claimed_by = ITA }
 				factor = 2
 			}
 		}
@@ -1073,195 +912,121 @@ country_event = {
 	
 	option = { #cool
 		name = DOD_romania.70.a
+		
 		if = {
 			limit = {
-				45 = { is_owned_by = YUG }
+				99 = { 
+					is_owned_by = YUG 
+					is_claimed_by = GER
+				}
+
 			}
-			SER = { transfer_state = 45 }
+			GER = { transfer_state = 99 }
 		}
+		
 		if = {
 			limit = {
-				107 = { is_owned_by = YUG }
+				385 = { 
+					is_owned_by = YUG 
+					is_claimed_by = GER
+				}
+
 			}
-			SER = { transfer_state = 107 }
+			GER = { transfer_state = 385 }
 		}
+		
 		if = {
 			limit = {
-			    818 = { is_owned_by = YUG }
+				419 = { 
+					is_owned_by = YUG 
+					is_claimed_by = GER
+				}
+
 			}
-			SER = { transfer_state = 818 }
+			GER = { transfer_state = 419 }
 		}
+		
 		if = {
 			limit = {
-				817 = { is_owned_by = YUG }
+				383 = { 
+					is_owned_by = YUG 
+					is_claimed_by = ITA
+				}
+
 			}
-			SER = { transfer_state = 817 }
+			ITA = { transfer_state = 383 }
 		}
+		
 		if = {
 			limit = {
-				108 = { is_owned_by = YUG }
+				384 = { 
+					is_owned_by = YUG 
+					is_claimed_by = ITA
+				}
+
 			}
-			SER = { transfer_state = 108 }
+			ITA = { transfer_state = 384 }
 		}
+		
 		if = {
 			limit = {
-				815 = { is_owned_by = YUG }
+				411 = { 
+					is_owned_by = YUG 
+					is_claimed_by = ITA
+				}
+
 			}
-			SER = { transfer_state = 815 }
+			ITA = { transfer_state = 411 }
 		}
+		
 		if = {
 			limit = {
-				816 = { is_owned_by = YUG }
+				has_country_flag = ROM_YUG_ITA_approves
 			}
-			SER = { transfer_state = 816 }
+			every_owned_state = {
+				limit = {
+					is_core_of = MNT
+					is_owned_by = YUG 
+				}
+				ITA = { 
+					transfer_state  = PREV 
+					add_state_claim = PREV 
+				}
+			}
+		}
+		
+		
+		every_owned_state = {
+			limit = {
+				OR = {
+					is_core_of = MNT
+					is_core_of = SER
+					is_core_of = MAC
+				}
+				is_owned_by = YUG 
+			}
+			SER = { 
+				transfer_state  = PREV 
+				add_state_claim = PREV 
+			}
 		}
 		puppet = SER
-
-		if = {
+		
+		every_owned_state = {
 			limit = {
-				105 = { is_owned_by = YUG }
-			}
-			MNT = { transfer_state = 105 }
-		}
-		if = {
-			limit = {
-				810 = { is_owned_by = YUG }
-			}
-			MNT = { transfer_state = 810 }
-		}
-		if = {
-			limit = {
-				811 = { is_owned_by = YUG }
-			}
-			MNT = { transfer_state = 811 }
-		}
-		if = {
-			limit = { has_country_flag = ROM_YUG_ITA_approves }
-			ITA = { puppet = MNT }
-		}
-		if = {
-			limit = { NOT = { has_country_flag = ROM_YUG_ITA_approves } }
-			puppet = MNT 
-		}
-		if = {
-			limit = {
-				103 = { 
-					is_owned_by = YUG 
-					NOT = { is_claimed_by = ITA }
+				OR = {
+					is_core_of = CRO
+					is_core_of = BOS
+					is_core_of = SLV
 				}
-				1031 = { 
-					is_owned_by = YUG 
-					NOT = { is_claimed_by = ITA }
-				}
-				802 = { 
-					is_owned_by = YUG 
-					NOT = { is_claimed_by = ITA }
-				}
-
+				is_owned_by = YUG 
 			}
 			CRO = { 
-			    transfer_state = 103
-				transfer_state = 1031
-				transfer_state = 802
+				transfer_state  = PREV 
+				add_state_claim = PREV 
 			}
 		}
-		if = {
-			limit = {
-				103 = { 
-					is_owned_by = YUG 
-					is_claimed_by = ITA
-				}
-
-			}
-			ITA = { 
-			    transfer_state = 103
-			}
-		}
-		if = {
-			limit = {
-				1031 = { 
-					is_owned_by = YUG 
-					is_claimed_by = ITA
-				}
-
-			}
-			ITA = { 
-			    transfer_state = 1031
-			}
-		}
-		if = {
-			limit = {
-				802 = { 
-					is_owned_by = YUG 
-					is_claimed_by = ITA
-				}
-
-			}
-			ITA = { 
-				transfer_state = 802
-			}
-		}
-		if = {
-			limit = {
-				814 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 814 }
-		}
-		if = {
-			limit = {
-				104 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 104 }
-		}
-		if = {
-			limit = {
-				819 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 819 }
-		}
-		if = {
-			limit = {
-				109 = { is_owned_by = YUG }
-			}
-			CRO = { transfer_state = 109 }
-		}
-		if = {
-			limit = {
-				102 = { 
-					is_owned_by = YUG 
-					NOT = { is_claimed_by = GER }
-				}
-
-			}
-			CRO = { transfer_state = 102 }
-		}
-		if = {
-			limit = {
-				102 = { 
-					is_owned_by = YUG 
-					is_claimed_by = GER
-				}
-				803 = { 
-					is_owned_by = YUG 
-					is_claimed_by = GER
-				}
-				804 = { 
-					is_owned_by = YUG 
-					is_claimed_by = GER
-				}
-				805 = { 
-					is_owned_by = YUG 
-					is_claimed_by = GER
-				}
-
-			}
-			GER = { 
-			    transfer_state = 102
-				transfer_state = 803
-				transfer_state = 804
-				transfer_state = 805
-			}
-		}
+		
 		if = {
 			limit = { has_country_flag = ROM_YUG_GER_approves }
 			GER = { puppet = CRO }
@@ -1272,7 +1037,6 @@ country_event = {
 		}
 		hidden_effect = {
 			annex_country = { target = YUG }
-			news_event = { id = news.321 days = 1 }
 		}
 		
 	}
@@ -1295,7 +1059,7 @@ country_event = {
 			declare_war_on = {
 				target = YUG
 				type = take_state_focus
-				generator = { 45 107 108 815 816 817 818 812 } 
+				generator = { 152 153 } 
 			}
 		}
 		if = {
@@ -1304,7 +1068,7 @@ country_event = {
 				create_wargoal = {
 					target = YUG
 					type = take_state_focus
-					generator = { 104 102 803 804 805 109 } 
+					generator = { 99 158 } 
 				}
 			}
 		}
@@ -1314,11 +1078,10 @@ country_event = {
 				create_wargoal = {
 					target = YUG
 					type = take_state_focus
-					generator = { 106 813 103 1031 802 10 810 811 } 
+					generator = { 383 411 } 
 				}	
 			}
 		}
-		news_event = { id = news.320 days = 1 }
 	}
 }
 
@@ -1333,16 +1096,16 @@ country_event = {
 
 	immediate = {
 		random_list = {
-			20 = { country_event = { id = DOD_romania.81 days = 160 random = 30 } } #villa
-			20 = { country_event = { id = DOD_romania.82 days = 160 random = 30 } } #book
-			20 = { country_event = { id = DOD_romania.83 days = 160 random = 30 } } #party
-			20 = { country_event = { id = DOD_romania.86 days = 160 random = 30 } } #êmbezzlement
+			20 = { country_event = { id = DOD_romania.81 days = 160 random_days = 30 } } #villa
+			20 = { country_event = { id = DOD_romania.82 days = 160 random_days = 30 } } #book
+			20 = { country_event = { id = DOD_romania.83 days = 160 random_days = 30 } } #party
+			20 = { country_event = { id = DOD_romania.86 days = 160 random_days = 30 } } #êmbezzlement
 			20 = {
 				if = {
 					limit = {
 						FRA = { has_war = no }
 					}
-					country_event = { id = DOD_romania.84 days = 160 random = 30 }
+					country_event = { id = DOD_romania.84 days = 160 random_days = 30 }
 					else = {
 						country_event = { id = DOD_romania.80 }
 					}
@@ -1353,7 +1116,7 @@ country_event = {
 					limit = {
 						FRA = { NOT = { has_war_with = ITA } }
 					}
-					country_event = { id = DOD_romania.85 days = 160 random = 30 }
+					country_event = { id = DOD_romania.85 days = 160 random_days = 30 }
 					else = {
 						country_event = { id = DOD_romania.80 }
 					}
@@ -1975,10 +1738,12 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		add_state_claim = 70
-		add_state_claim = 71
-		add_state_claim = 72
-		add_state_claim = 73
+		add_state_claim = 245
+		add_state_claim = 244
+		add_state_claim = 243
+		add_state_claim = 242
+		add_state_claim = 391
+		add_state_claim = 465
 	}
 }
 
@@ -2009,32 +1774,26 @@ country_event = {
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 		GER = {
-			transfer_state = 9
-			transfer_state = 69
-			transfer_state = 75
-			transfer_state = 74
+			transfer_state = 85
+			transfer_state = 247
+			transfer_state = 98
+			transfer_state = 246
+			transfer_state = 277
 		}
 		if = {
 			limit = {
 				country_exists = HUN
 			}
 			HUN = {
-				transfer_state = 664 #might as well throw them a bone
-			}
-			else = { #Need to get rid of everything
-				SLO = { transfer_state = 664 }
+				transfer_state = 243 #might as well throw them a bone
 			}
 		}
-		SLO = {
-			transfer_state = 70
-			transfer_state = 71
-			transfer_state = 72
-			transfer_state = 73
-			add_state_core = 70
-			add_state_core = 71
-			add_state_core = 72
-			add_state_core = 73
-
+		every_owned_state = {
+			limit = {
+				is_owned_by = CZE
+				is_core_of = SLO
+			}
+			SLO = { transfer_state  = PREV }
 		}
 		ROM = {
 			puppet = SLO
@@ -2062,7 +1821,7 @@ country_event = {
 			create_wargoal = {
 				type = take_state_focus
 				target = CZE
-				generator = { 9 69 75 74 }
+				generator = { 85 247 98 246 }
 			}
 			country_event = DOD_romania.115
 		}
@@ -2070,7 +1829,7 @@ country_event = {
 			create_wargoal = {
 				type = take_state_focus
 				target = CZE
-				generator = { 664 }
+				generator = { 243 }
 			}
 			country_event = DOD_romania.115
 		}
@@ -2078,7 +1837,7 @@ country_event = {
 			create_wargoal = {
 				type = take_state_focus
 				target = CZE
-				generator = { 70 71 72 73 }
+				generator = { 245 243 242 244 391 465 }
 			}
 			country_event = DOD_romania.115
 		}
@@ -3087,42 +2846,4 @@ country_event = {
 		name = DOD_hungary.155.a
 		
 	}
-}
-
-#rename city
-country_event = {
-	id = DOD_romania.999
-	title = DOD_romania.999.t
-	desc = DOD_romania.999.desc
-	picture = GFX_report_event_german_reichstag_gathering
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = ROM
-		ROM = {
-			has_country_leader = { id = 550 } #Carol II
-			owns_state = 217
-			owns_state = 195
-		}
-	}
-
-	option = { #a great idea!
-		name = DOD_romania.a
-		ai_chance = {
-			base = 100
-		}
-		set_province_name = { id = 3529 name = "Magdagrad" }
-		set_province_name = { id = 3151 name = "Zizigrad" }
-		set_global_flag = ROM_king_is_silly
-	}
-
-	option = { #rather not
-		name = DOD_romania.b
-		ai_chance = {
-			base = 0
-		}
-		add_timed_idea = { idea = ROM_king_carol_ii_consumer_penalty days = 90 }
-	}
-
 }

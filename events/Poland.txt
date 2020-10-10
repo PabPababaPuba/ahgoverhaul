@@ -17,9 +17,9 @@ country_event = {
 		name = poland.1.a
 		ai_chance = { factor = 10 }
 		add_ideas = fascist_influence
-		add_state_claim = 198
-		add_state_claim = 199
-		add_state_claim = 201
+		add_state_claim = 177
+		add_state_claim = 176
+		add_state_claim = 191
 	}
 
 	option = {
@@ -40,63 +40,63 @@ country_event = {
 	
 	option = {
 		name = poland.2.a
-		ai_chance = { 
-			factor = 30 
-			modifier = {
-				factor = 0
-				OR = {
-					any_other_country = {
-						is_major = yes
-						OR = {
-							is_in_faction_with = POL
-							has_guaranteed = POL
-						}
-					}
-					has_idea = anti_soviet_pact
-				}
-			}
-		}
+		ai_chance = { factor = 30 }
 		effect_tooltip = {
 			SOV = {
 				if = {
-					limit = { POL = { owns_state = 96 controls_state = 96 } }
-					transfer_state = 96
+					limit = { POL = { owns_state = 291 controls_state = 291 } }
+					transfer_state = 291
+					add_state_claim = 291
 				}
 				if = {
-					limit = { POL = { owns_state = 1087 controls_state = 1087 } }
-					transfer_state = 1087
+					limit = { POL = { owns_state = 380 controls_state = 380 } }
+					transfer_state = 380
+					add_state_claim = 380
 				}
 				if = {
-					limit = { POL = { owns_state = 1086 controls_state = 1086 } }
-					transfer_state = 1086
+					limit = { POL = { owns_state = 388 controls_state = 388 } }
+					transfer_state = 388
+					add_state_claim = 388
 				}
 				if = {
-					limit = { POL = { owns_state = 788 controls_state = 788 } }
-					transfer_state = 788
+					limit = { POL = { owns_state = 278 controls_state = 278 } }
+					transfer_state = 278
+					add_state_claim = 278
 				}
 				if = {
-					limit = { POL = { owns_state = 95 controls_state = 95 } }
-					transfer_state = 95
+					limit = { POL = { owns_state = 389 controls_state = 389 } }
+					transfer_state = 389
+					add_state_claim = 389
 				}
 				if = {
-					limit = { POL = { owns_state = 94 controls_state = 94 } }
-					transfer_state = 94
+					limit = { POL = { owns_state = 290 controls_state = 290 } }
+					transfer_state = 290
+					add_state_claim = 290
 				}
 				if = {
-					limit = { POL = { owns_state = 93 controls_state = 93 } }
-					transfer_state = 93
+					limit = { POL = { owns_state = 289 controls_state = 289 } }
+					transfer_state = 289
+					add_state_claim = 289
 				}
 				if = {
-					limit = { POL = { owns_state = 91 controls_state = 91 } }
-					transfer_state = 91
+					limit = { POL = { owns_state = 288 controls_state = 288 } }
+					transfer_state = 288
+					add_state_claim = 288
 				}
 				if = {
-					limit = { POL = { owns_state = 787 controls_state = 787 } }
-					transfer_state = 787
+					limit = { POL = { owns_state = 284 controls_state = 284 } }
+					transfer_state = 284
+					add_state_claim = 284
 				}
 				if = {
-					limit = { POL = { owns_state = 89 controls_state = 89 } }
-					transfer_state = 89
+					limit = { POL = { owns_state = 283 controls_state = 283 } }
+					transfer_state = 283
+					add_state_claim = 283
+				}
+				if = {
+					limit = { POL = { owns_state = 387 controls_state = 387 } }
+					transfer_state = 387
+					add_state_claim = 387
 				}
 			}
 		}
@@ -111,7 +111,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = POL
-					generator = { 96 1087 1086 788 95 94 93 91 787 89 }
+					generator = { 380 291 290 388 389 278 289 288 284 2833 387 }
 				}
 			}
 		}
@@ -130,95 +130,62 @@ country_event = {
 	
 	option = {
 		name = poland.3.a
-		if = {
-			limit = { 
-				POL = { 
-					owns_state = 96
-					controls_state = 96 
-				}
+		SOV = {
+			if = {
+				limit = { POL = { owns_state = 291 controls_state = 291 } }
+				transfer_state = 291
+				add_state_claim = 291
 			}
-			transfer_state = 96
-		}
-		if = {
-			limit = { 
-				POL = { 
-					owns_state = 1086
-					controls_state = 1086
-				}
+			if = {
+				limit = { POL = { owns_state = 380 controls_state = 380 } }
+				transfer_state = 380
+				add_state_claim = 380
 			}
-			transfer_state = 1086
-		}
-		if = {
-			limit = { 
-				POL = { 
-					owns_state = 1087
-					controls_state = 1087 
-				}
+			if = {
+				limit = { POL = { owns_state = 388 controls_state = 388 } }
+				transfer_state = 388
+				add_state_claim = 388
 			}
-			transfer_state = 1087
-		}
-		if = {
-			limit = { 
-				POL = { 
-					owns_state = 788
-					controls_state = 788
-				}
+			if = {
+				limit = { POL = { owns_state = 278 controls_state = 278 } }
+				transfer_state = 278
+				add_state_claim = 278
 			}
-			transfer_state = 788
-		}
-		if = {
-			limit = { 
-				POL = { 
-					owns_state = 95
-					controls_state = 95 
-				}
+			if = {
+				limit = { POL = { owns_state = 389 controls_state = 389 } }
+				transfer_state = 389
+				add_state_claim = 389
 			}
-			transfer_state = 95
-		}
-		if = {
-			limit = { 
-				POL = { 
-					owns_state = 94
-					controls_state = 94 
-				}
+			if = {
+				limit = { POL = { owns_state = 290 controls_state = 290 } }
+				transfer_state = 290
+				add_state_claim = 290
 			}
-			transfer_state = 94
-		}
-		if = {
-			limit = { 
-				POL = { 
-					owns_state = 93
-					controls_state = 93 
-				}
+			if = {
+				limit = { POL = { owns_state = 289 controls_state = 289 } }
+				transfer_state = 289
+				add_state_claim = 289
 			}
-			transfer_state = 93
-		}
-		if = {
-			limit = { 
-				POL = { 
-					owns_state = 91
-					controls_state = 91 
-				}
+			if = {
+				limit = { POL = { owns_state = 288 controls_state = 288 } }
+				transfer_state = 288
+				add_state_claim = 288
 			}
-			transfer_state = 91
-		}
-		if = {
-			limit = { 
-				POL = { 
-					owns_state = 787
-					controls_state = 787
-				}
+			if = {
+				limit = { POL = { owns_state = 284 controls_state = 284 } }
+				transfer_state = 284
+				add_state_claim = 284
 			}
-			transfer_state = 787
-		}
-		if = {
-			limit = { 
-				POL = { 
-					owns_state = 89
-					controls_state = 89 
-				}
+			if = {
+				limit = { POL = { owns_state = 283 controls_state = 283 } }
+				transfer_state = 283
+				add_state_claim = 283
 			}
-			transfer_state = 89
+			if = {
+				limit = { POL = { owns_state = 387 controls_state = 387 } }
+				transfer_state = 387
+				add_state_claim = 387
+			}
 		}
 		hidden_effect = {
 			news_event = { id = news.194 }
@@ -240,7 +207,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = POL
-			generator = { 96 1086 1087 788 95 94 93 91 787 89 }
+			generator = { 380 291 290 388 389 278 289 288 284 2833 387 }
 		}
 	}
 }
@@ -259,53 +226,67 @@ country_event = {
 		name = poland.5.a
 		ai_chance = { factor = 40 }
 		effect_tooltip = {
-			add_state_claim = 5
-			add_state_claim = 778
-			add_state_claim = 63
-			add_state_claim = 68
-			add_state_claim = 66
-			add_state_claim = 67
+			add_state_core = 82
+			add_state_core = 74
+			add_state_core = 280
+			add_state_core = 282
+			add_state_core = 281
 			custom_effect_tooltip = SOV_offer_poland_protection_tt
 			SOV = {
 				if = {
-					limit = { POL = { owns_state = 96 controls_state = 96 } }
-					transfer_state = 96
+					limit = { POL = { owns_state = 291 controls_state = 291 } }
+					transfer_state = 291
+					add_state_claim = 291
 				}
 				if = {
-					limit = { POL = { owns_state = 1087 controls_state = 1087 } }
-					transfer_state = 1087
+					limit = { POL = { owns_state = 380 controls_state = 380 } }
+					transfer_state = 380
+					add_state_claim = 380
 				}
 				if = {
-					limit = { POL = { owns_state = 1086 controls_state = 1086 } }
-					transfer_state = 1086
+					limit = { POL = { owns_state = 388 controls_state = 388 } }
+					transfer_state = 388
+					add_state_claim = 388
 				}
 				if = {
-					limit = { POL = { owns_state = 788 controls_state = 788 } }
-					transfer_state = 788
+					limit = { POL = { owns_state = 278 controls_state = 278 } }
+					transfer_state = 278
+					add_state_claim = 278
 				}
 				if = {
-					limit = { POL = { owns_state = 95 controls_state = 95 } }
-					transfer_state = 95
+					limit = { POL = { owns_state = 389 controls_state = 389 } }
+					transfer_state = 389
+					add_state_claim = 389
 				}
 				if = {
-					limit = { POL = { owns_state = 94 controls_state = 94 } }
-					transfer_state = 94
+					limit = { POL = { owns_state = 290 controls_state = 290 } }
+					transfer_state = 290
+					add_state_claim = 290
 				}
 				if = {
-					limit = { POL = { owns_state = 93 controls_state = 93 } }
-					transfer_state = 93
+					limit = { POL = { owns_state = 289 controls_state = 289 } }
+					transfer_state = 289
+					add_state_claim = 289
 				}
 				if = {
-					limit = { POL = { owns_state = 91 controls_state = 91 } }
-					transfer_state = 91
+					limit = { POL = { owns_state = 288 controls_state = 288 } }
+					transfer_state = 288
+					add_state_claim = 288
 				}
 				if = {
-					limit = { POL = { owns_state = 91 controls_state = 787 } }
-					transfer_state = 787
+					limit = { POL = { owns_state = 284 controls_state = 284 } }
+					transfer_state = 284
+					add_state_claim = 284
 				}
 				if = {
-					limit = { POL = { owns_state = 89 controls_state = 89 } }
-					transfer_state = 89
+					limit = { POL = { owns_state = 283 controls_state = 283 } }
+					transfer_state = 283
+					add_state_claim = 283
+				}
+				if = {
+					limit = { POL = { owns_state = 387 controls_state = 387 } }
+					transfer_state = 387
+					add_state_claim = 387
 				}
 			}
 		}
@@ -320,7 +301,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = POL
-					generator = { 96 1087 1086 788 95 94 93 91 787 89 }
+					generator = { 380 291 290 388 389 278 289 288 284 283 387 }
 				}
 			}
 		}
@@ -340,54 +321,75 @@ country_event = {
 	option = {
 		name = poland.6.a
 		POL = {
-			add_state_claim = 5
-			add_state_claim = 778
-			add_state_claim = 63
-			add_state_claim = 68
-			add_state_claim = 66
-			add_state_claim = 67
+			add_state_core = 82
+			add_state_core = 74
+			add_state_core = 280
+			add_state_core = 282
+			add_state_core = 281
+			add_state_core = 424
+			add_state_core = 425
+			add_state_core = 426
+			add_state_core = 428
+			add_state_core = 429
 			set_country_flag = POL_accepted_soviet_protection
 		}
 		custom_effect_tooltip = SOV_offer_poland_protection_tt
-		if = {
-			limit = { POL = { owns_state = 96 } }
-			transfer_state = 96
-		}
-		if = {
-			limit = { POL = { owns_state = 1086 } }
-			transfer_state = 1086
-		}
-		if = {
-			limit = { POL = { owns_state = 1087 } }
-			transfer_state = 1087
-		}
-		if = {
-			limit = { POL = { owns_state = 788 } }
-			transfer_state = 788
-		}
-		if = {
-			limit = { POL = { owns_state = 95 } }
-			transfer_state = 95
-		}
-		if = {
-			limit = { POL = { owns_state = 94 } }
-			transfer_state = 94
-		}
-		if = {
-			limit = { POL = { owns_state = 93 } }
-			transfer_state = 93
-		}
-		if = {
-			limit = { POL = { owns_state = 91 } }
-			transfer_state = 91
-		}
-		if = {
-			limit = { POL = { owns_state = 787 } }
-			transfer_state = 787
-		}
-		if = {
-			limit = { POL = { owns_state = 89 } }
-			transfer_state = 89
+		SOV = {
+			if = {
+				limit = { POL = { owns_state = 291 controls_state = 291 } }
+				transfer_state = 291
+				add_state_claim = 291
+			}
+			if = {
+				limit = { POL = { owns_state = 380 controls_state = 380 } }
+				transfer_state = 380
+				add_state_claim = 380
+			}
+			if = {
+				limit = { POL = { owns_state = 388 controls_state = 388 } }
+				transfer_state = 388
+				add_state_claim = 388
+			}
+			if = {
+				limit = { POL = { owns_state = 278 controls_state = 278 } }
+				transfer_state = 278
+				add_state_claim = 278
+			}
+			if = {
+				limit = { POL = { owns_state = 389 controls_state = 389 } }
+				transfer_state = 389
+				add_state_claim = 389
+			}
+			if = {
+				limit = { POL = { owns_state = 290 controls_state = 290 } }
+				transfer_state = 290
+				add_state_claim = 290
+			}
+			if = {
+				limit = { POL = { owns_state = 289 controls_state = 289 } }
+				transfer_state = 289
+				add_state_claim = 289
+			}
+			if = {
+				limit = { POL = { owns_state = 288 controls_state = 288 } }
+				transfer_state = 288
+				add_state_claim = 288
+			}
+			if = {
+				limit = { POL = { owns_state = 284 controls_state = 284 } }
+				transfer_state = 284
+				add_state_claim = 284
+			}
+			if = {
+				limit = { POL = { owns_state = 283 controls_state = 283 } }
+				transfer_state = 283
+				add_state_claim = 283
+			}
+			if = {
+				limit = { POL = { owns_state = 387 controls_state = 387 } }
+				transfer_state = 387
+				add_state_claim = 387
+			}
 		}
 		hidden_effect = {
 			news_event = { id = news.194 }
@@ -409,7 +411,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = POL
-			generator = { 96 1087 1086 788 95 94 93 91 787 89 }
+			generator = { 380 291 290 388 389 278 289 288 284 2833 387 }
 		}
 	}
 }
@@ -426,12 +428,16 @@ country_event = {
 		tag = POL
 		SOV = {
 			OR = {
-				owns_state = 5
-				owns_state = 778
-				owns_state = 63
-				owns_state = 68
-				owns_state = 66
-				owns_state = 67
+				owns_state = 74
+				owns_state = 82
+				owns_state = 280
+				owns_state = 282
+				owns_state = 281
+				owns_state = 424
+				owns_state = 425
+				owns_state = 426
+				owns_state = 428
+				owns_state = 429
 			}
 		}
 	}
@@ -449,28 +455,54 @@ country_event = {
 	option = {
 		name = poland.8.a
 		if = {
-			limit = { SOV = { owns_state = 5 } }
-			transfer_state = 5
+			limit = { SOV = { owns_state = 74 } }
+			transfer_state = 74
+			add_state_claim = 74
 		}
 		if = {
-			limit = { SOV = { owns_state = 778 } }
-			transfer_state = 778
+			limit = { SOV = { owns_state = 82 } }
+			transfer_state = 82
+			add_state_claim = 82
 		}
 		if = {
-			limit = { SOV = { owns_state = 63 } }
-			transfer_state = 63
+			limit = { SOV = { owns_state = 280 } }
+			transfer_state = 280
+			add_state_claim = 280
 		}
 		if = {
-			limit = { SOV = { owns_state = 68 } }
-			transfer_state = 68
+			limit = { SOV = { owns_state = 282 } }
+			transfer_state = 282
+			add_state_claim = 282
 		}
 		if = {
-			limit = { SOV = { owns_state = 66 } }
-			transfer_state = 66
+			limit = { SOV = { owns_state = 281 } }
+			transfer_state = 281
+			add_state_claim = 281
 		}
 		if = {
-			limit = { SOV = { owns_state = 67 } }
-			transfer_state = 67
+			limit = { SOV = { owns_state = 424 } }
+			transfer_state = 424
+			add_state_claim = 424
+		}
+		if = {
+			limit = { SOV = { owns_state = 425 } }
+			transfer_state = 425
+			add_state_claim = 425
+		}
+		if = {
+			limit = { SOV = { owns_state = 426 } }
+			transfer_state = 426
+			add_state_claim = 426
+		}
+		if = {
+			limit = { SOV = { owns_state = 428 } }
+			transfer_state = 428
+			add_state_claim = 428
+		}
+		if = {
+			limit = { SOV = { owns_state = 429 } }
+			transfer_state = 429
+			add_state_claim = 429
 		}
 		SOV = { country_event = { id = poland.9 } }
 	}
@@ -486,62 +518,6 @@ country_event = {
 	
 	option = {
 		name = poland.9.a
-		effect_tooltip = {
-			if = {
-				limit = {
-					OR = {
-						SOV = { owns_state = 5 }
-						POL = { owns_state = 5 }
-					}
-				}
-				POL = { transfer_state = 5 }
-			}
-			if = {
-				limit = {
-					OR = {
-						SOV = { owns_state = 778 }
-						POL = { owns_state = 778 }
-					}
-				}
-				POL = { transfer_state = 778 }
-			}
-			if = {
-				limit = {
-					OR = {
-						SOV = { owns_state = 63 }
-						POL = { owns_state = 63 }
-					}
-				}
-				POL = { transfer_state = 63 }
-			}
-			if = {
-				limit = {
-					OR = {
-						SOV = { owns_state = 68 }
-						POL = { owns_state = 68 }
-					}
-				}
-				POL = { transfer_state = 68 }
-			}
-			if = {
-				limit = {
-					OR = {
-						SOV = { owns_state = 66 }
-						POL = { owns_state = 66 }
-					}
-				}
-				POL = { transfer_state = 66 }
-			}
-			if = {
-				limit = {
-					OR = {
-						SOV = { owns_state = 67 }
-						POL = { owns_state = 67 }
-					}
-				}
-				POL = { transfer_state = 67 }
-			}
-		}
 		hidden_effect = {
 			news_event = { id = news.195 }
 		}
@@ -591,34 +567,33 @@ country_event = {
 		has_completed_focus = POL_artillery_modernisation
 		has_government = neutrality
 		has_war_with = ITA
-		NOT = { is_in_faction_with = SOV }
-		417 = {
-			controller = {
-				OR = {
-					tag = POL
-					is_in_faction_with = POL			
-				}
-				has_war_with = ITA
+		any_country = {
+			NOT = { tag = SOV }
+			OR = {
+				tag = POL
+				is_in_faction_with = POL			
 			}
+			has_war_with = ITA
+			controls_state = 350
 		}
 		OR = {
 			divisions_in_state = {
-				state = 162
+				state = 34
 				size > 0
 			}
 			divisions_in_state = {
-				state = 157
+				state = 32
 				size > 0
 			}
 			divisions_in_state = {
-				state = 2
+				state = 33
 				size > 0
 			}
 		}
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		days = 30
 	}
 
 	fire_only_once = yes

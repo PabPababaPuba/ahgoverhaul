@@ -94,7 +94,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = ROM
-			generator = { 78 79 80 46 81  }
+			generator = { 397 236 381 122  }
 		}
 		
 		hidden_effect = {
@@ -130,7 +130,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = ROM
-			generator = { 76 83 82 84  }
+			generator = { 237 398 238 238 102 101  }
 		}
 		hidden_effect = {
 			
@@ -210,7 +210,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = POL
-			generator = { 88 89 90 91 }
+			generator = { 422 285 387 284 283 }
 		}
 		hidden_effect = {
 			
@@ -294,7 +294,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = POL
-			generator = { 88 89 90 91 }
+			generator = { 422 285 387 284 283 }
 		}
 		
 		hidden_effect = {
@@ -338,33 +338,20 @@ country_event = {
 		#		states = { 70 71 664 73 }
 		#	}
 
-		SLO = {
-			transfer_state = 70
-			transfer_state = 71
-			transfer_state = 73
-			if = {
-				limit = {
-					CZE = {
-						owns_state = 664
-					}
+		every_owned_state = {
+			limit = {
+				is_core_of = SLO
+				NOT = {
+					is_core_of = ROOT
+					is_claimed_by = ROOT
 				}
-				transfer_state = 664
+				is_owned_by = CZE
 			}
-			
+			SLO = { transfer_state  = PREV }
 		}
 		declare_war_on = {
 			target = SLO
 			type = annex_everything
-		}
-		every_state = {
-			limit = { is_owned_by = SLO }
-			add_core_of = SLO
-		}
-		if = {
-			limit = {
-				664 = { NOT = { is_owned_by = SLO } }
-			}
-			SLO = { add_state_claim = 664 }
 		}
 		
 		hidden_effect = {
@@ -561,9 +548,11 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		GER = { 
-		    transfer_state = 69
-			transfer_state = 899
+		GER = {
+			add_state_core = 85
+			transfer_state = 85
+			add_state_core = 247
+			transfer_state = 247
 		}
 		CZE = {
 			country_event = { id = czech.23 hours = 6 }
@@ -853,10 +842,13 @@ country_event = {
 				target = FROM
 				modifier = border_conflict_reconciled
 		}
-		if = {
-			limit = { 664 = { is_claimed_by = HUN } }
+		every_owned_state = {
+			limit = {
+				is_core_of = CZE
+				is_claimed_by = HUN
+			}
 			HUN = {
-				remove_state_claim = 664
+				remove_state_claim = PREV
 			}
 		}
 		

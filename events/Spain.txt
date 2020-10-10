@@ -35,7 +35,7 @@ country_event = {
 				ideology = communism
 				size = 0.5
 				capital = 41
-				states = { 41 165 167 168 172 173 175 1089 }
+				states = { 168 169 366 370 234 371 464 228 229 107 }
 			}
 			random_other_country = {
 				limit = {
@@ -43,10 +43,10 @@ country_event = {
 					has_government = communism
 				}
 				load_oob = "SPR_Civil_War"
-				set_equipment_fraction = 0.5
+				set_equipment_fraction = 0.7
 				set_stability = 0.9
 				set_war_support = 0.8
-				#country_event = { id = spain.3 days = 1 }
+				# country_event = { id = spain.3 days = 1 }
 				add_popularity = {
 					ideology = democratic
 					popularity = 0.35
@@ -56,7 +56,7 @@ country_event = {
 			set_global_flag = spanish_civil_war
 			
 			load_oob = "SPA_Civil_War"
-			set_equipment_fraction = 0.5
+			set_equipment_fraction = 0.7
 			set_stability = 0.9
 			set_war_support = 0.8
 			
@@ -72,7 +72,7 @@ country_event = {
 				set_cosmetic_tag = SPR_civil_war
 			}
 
-			#country_event = { id = spain.2 days = 7 }
+			# country_event = { id = spain.2 days = 7 }
 		}
 		custom_effect_tooltip = nationalists_chosen
 	}
@@ -82,18 +82,18 @@ country_event = {
 			start_civil_war = {
 				ideology = fascism
 				size = 0.5
-				capital = 176
-				states = { 166 1090 699 178 290 169 170 176 174 171 177 297 850 849 853 854 }
+				capital = 233
+				states = { 231 170 232 369 368 233 230 235 307 77 }
 			}
 			random_other_country = {
 				limit = {
 					original_tag = SPR
 					has_government = fascism
 				}
-				set_equipment_fraction = 0.5
+				set_equipment_fraction = 0.7
 				set_stability = 0.9
 				set_war_support = 0.8
-				#country_event = { id = spain.2 days = 1 }
+				# country_event = { id = spain.2 days = 1 }
 				load_oob = "SPA_Civil_War"
 			}
 			news_event = { hours = 6 id = news.63 }
@@ -119,11 +119,11 @@ country_event = {
 				set_cosmetic_tag = SPR_civil_war
 			}
 			load_oob = "SPR_Civil_War"
-			set_equipment_fraction = 0.5
+			set_equipment_fraction = 0.7
 			set_stability = 0.9
 			set_war_support = 0.8
 			
-			#country_event = { id = spain.3 days = 7 }
+			# country_event = { id = spain.3 days = 7 }
 		}
 		custom_effect_tooltip = republicans_chosen
 	}
@@ -188,12 +188,6 @@ country_event = {
 				NOT = { tag = SPR }
 			}
 			country_event = { id = spain.5 days = 1 }
-		}
-		if = {
-			limit = {
-				MEX = { NOT = { has_government = fascism } }
-			}
-			MEX = { country_event = { id = spain.5 days = 1 } }
 		}
 	}
 
@@ -323,7 +317,7 @@ country_event = {
 		original_tag = SPR
 		has_government = fascism
 		has_global_flag = nationalist_victory
-		owns_state = 41
+		owns_state = 234
 	}
 
 	fire_only_once = yes
@@ -335,7 +329,7 @@ country_event = {
 	option = {
 		ai_chance = { factor = 1 }
 		name = spain.8.a
-		set_capital = 41
+		set_capital = 234
 	}
 	option = {
 		ai_chance = { factor = 0 }
@@ -405,13 +399,13 @@ country_event = {
 		name = spain.1.a
 		trigger = { is_ai = no }
 		hidden_effect = {
-			set_capital = 176
+			set_capital = 122
 			start_civil_war = {
 				ruling_party = fascism
 				ideology = communism
 				size = 0.5
 				capital = 41
-				states = { 41 165 167 168 172 173 175 1089 }
+				states = { 168 169 366 370 234 371 464 228 229 107 }
 			}
 			random_other_country = {
 				limit = {
@@ -449,7 +443,7 @@ country_event = {
 				ideology = fascism
 				size = 0.5
 				capital = 176
-				states = { 166 1090 699 178 290 169 170 176 174 171 177 297 850 849 853 854 }
+				states = { 231 170 232 369 368 233 235 230 307 77 }
 			}
 			random_other_country = {
 				limit = {

@@ -15,16 +15,13 @@ country_event = {
 	
 	trigger = {
 		tag = ENG
-		NOT = {
-			has_dlc = "Death or Dishonor"
-		}
 		YUG = {
 			OR = {
 				is_in_faction_with = GER
 				gives_military_access_to = GER
 			}
 		}
-		HUN = { owns_state = 76 }
+		HUN = { owns_state = 239 }
 		GER = {
 			OR = {
 				AND = { is_in_faction_with = ITA is_in_faction_with = HUN }
@@ -32,12 +29,13 @@ country_event = {
 				AND = { is_in_faction_with = HUN is_in_faction_with = BUL }
 			}
 		}
-		ENG = { has_completed_focus = uk_balkan_strategy }
 		ENG = { NOT = { is_in_faction_with = GER } }
 	}
 
 	immediate = {
-		hidden_effect = { remove_ideas = anti_german_military }
+		hidden_effect = { 
+			YUG = { remove_ideas = anti_german_military }
+		}
 	}
 
 	mean_time_to_happen = {
@@ -69,7 +67,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		hidden_effect = { remove_ideas = anti_german_military }
+		hidden_effect = { 
+			YUG = { remove_ideas = anti_german_military }
+		}
 	}
 
 	option = {
@@ -148,7 +148,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = YUG
-					generator = { 102 803 804 805 }
+					generator = { 102 }
 				}
 			}
 		}
@@ -171,7 +171,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = YUG
-					generator = { 102 803 804 805 }
+					generator = { 102 }
 				}
 			}
 		}
@@ -225,7 +225,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = YUG
-					generator = { 102 803 804 805 }
+					generator = { 102 }
 				}
 			}
 		}
@@ -249,7 +249,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = YUG
-					generator = { 102 803 804 805 }
+					generator = { 102 }
 				}
 			}
 		}
@@ -295,7 +295,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				any_other_country = {
+				any_country = {
 					is_major = yes
 					OR = {
 						has_guaranteed = YUG
@@ -308,7 +308,7 @@ country_event = {
 		GER = {
 
 			add_political_power = -75		
-			add_named_threat = { threat = 5 name = GER_fate_of_yugoslavia }
+			add_named_threat = { threat = 7 name = GER_fate_of_yugoslavia }
 			annex_country = { target = YUG transfer_troops = no }
 
 			hidden_effect = {
@@ -355,7 +355,7 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				any_other_country = {
+				any_country = {
 					is_major = yes
 					OR = {
 						has_guaranteed = YUG
@@ -372,50 +372,168 @@ country_event = {
 		trigger = { 
 			YUG = { 
 				OR = { 
-					owns_state = 103
-					owns_state = 1031
-					owns_state = 802
-					owns_state = 104
-					owns_state = 819
-					owns_state = 814
-					owns_state = 109
-				} 
-			} 
+					owns_state = 158
+					owns_state = 157
+					owns_state = 100
+					owns_state = 416
+					owns_state = 417
+					owns_state = 418
+					owns_state = 423
+					owns_state = 364
+					owns_state = 383
+				}
+			}
 		}
 
 		GER = {		
 			add_political_power = -25
-			add_named_threat = { threat = 3 name = GER_fate_of_yugoslavia }
-			
+			add_named_threat = { threat = 5 name = GER_fate_of_yugoslavia }
+			BUL = {
+				if = {
+					limit = { 
+						exists = yes
+						YUG = { owns_state = 415 } 
+					}
+					transfer_state = 415
+					add_state_claim = 415
+				}
+				if = {
+					limit = { 
+						exists = yes
+						YUG = { owns_state = 154 } 
+					}
+					transfer_state = 154
+					add_state_claim = 154
+				}
+			}
+			ALB = {
+				if = {
+					limit = { 
+						exists = yes
+						YUG = { owns_state = 156 } 
+					}
+					transfer_state = 156
+					add_state_claim = 156
+				}
+				if = {
+					limit = { 
+						exists = yes
+						YUG = { owns_state = 155 } 
+					}
+					transfer_state = 155
+					add_state_claim = 155
+				}
+			}
+			ITA = {
+				if = {
+					limit = { 
+						owns_state = 129
+						YUG = { owns_state = 156 } 
+					}
+					transfer_state = 156
+					add_state_claim = 156
+				}
+				if = {
+					limit = { 
+						owns_state = 129
+						YUG = { owns_state = 155 } 
+					}
+					transfer_state = 155
+					add_state_claim = 155
+				}
+			}			
 			CRO = {
 				if = {
-					limit = { YUG = { owns_state = 103 } }
-					transfer_state = 103
+					limit = { YUG = { owns_state = 158 } }
+					transfer_state = 158
 				}
 				if = {
-					limit = { YUG = { owns_state = 1031 } }
-					transfer_state = 1031
+					limit = { YUG = { owns_state = 411 } }
+					transfer_state = 411
 				}
 				if = {
-					limit = { YUG = { owns_state = 814 } }
-					transfer_state = 814
+					limit = { YUG = { owns_state = 384 } }
+					transfer_state = 384
 				}
 				if = {
-					limit = { YUG = { owns_state = 819 } }
-					transfer_state = 819
+					limit = { YUG = { owns_state = 385 } }
+					transfer_state = 385
 				}
 				if = {
-					limit = { YUG = { owns_state = 104 } }
-					transfer_state = 104
+					limit = { YUG = { owns_state = 99 } }
+					transfer_state = 99
 				}
 				if = {
-					limit = { YUG = { owns_state = 109 } }
-					transfer_state = 109
+					limit = { YUG = { owns_state = 419 } }
+					transfer_state = 419
 				}
 				if = {
-					limit = { YUG = { owns_state = 802 } }
-					transfer_state = 802
+					limit = { YUG = { owns_state = 420 } }
+					transfer_state = 420
+					add_state_claim = 420
 				}
+				if = {
+					limit = { YUG = { owns_state = 383 } }
+					transfer_state = 383
+					add_state_claim = 383
+				}
+				if = {
+					limit = { YUG = { owns_state = 150 } }
+					transfer_state = 150
+					add_state_claim = 150
+				}
+				if = {
+					limit = { YUG = { owns_state = 151 } }
+					transfer_state = 151
+					add_state_claim = 151
+				}
+				if = {
+					limit = { YUG = { owns_state = 421 } }
+					transfer_state = 421
+					add_state_claim = 421
+				}
+				if = {
+					limit = { YUG = { owns_state = 159 } }
+					transfer_state = 159
+					add_state_claim = 159
+				}
+				if = {
+					limit = { YUG = { owns_state = 477 } }
+					transfer_state = 477
+					add_state_claim = 477
+				}
+				if = {
+					limit = { YUG = { owns_state = 157 } }
+					transfer_state = 157
+				}
+				if = {
+					limit = { YUG = { owns_state = 100 } }
+					transfer_state = 100
+				}	
+				if = {
+					limit = { YUG = { owns_state = 416 } }
+					transfer_state = 416
+				}
+				if = {
+					limit = { YUG = { owns_state = 417 } }
+					transfer_state = 417
+				}
+				if = {
+					limit = { YUG = { owns_state = 418 } }
+					transfer_state = 418
+				}
+				if = {
+					limit = { YUG = { owns_state = 423 } }
+					transfer_state = 423
+				}
+				if = {
+					limit = { YUG = { owns_state = 364 } }
+					transfer_state = 364
+				}
+				if = {
+					limit = { YUG = { owns_state = 383 } }
+					transfer_state = 383
+				}					
 			}
 			puppet = CRO
 			annex_country = { target = YUG transfer_troops = no }
@@ -456,12 +574,12 @@ country_event = {
 
 	#Seems fair
 	option = {
-		name = yugoslavia.9.b
+		name = yugoslavia.9.c
 		ai_chance = { 
 			factor = 10
 			modifier = {
 				factor = 0
-				any_other_country = {
+				any_country = {
 					is_major = yes
 					OR = {
 						has_guaranteed = YUG
@@ -476,41 +594,159 @@ country_event = {
 		}
 
 		GER = {
-
-			add_named_threat = { threat = 2 name = GER_fate_of_yugoslavia }
-			
+			add_named_threat = { threat = 3 name = GER_fate_of_yugoslavia }
+			BUL = {
+				if = {
+					limit = { 
+						exists = yes
+						YUG = { owns_state = 415 } 
+					}
+					transfer_state = 415
+					add_state_claim = 415
+				}
+				if = {
+					limit = { 
+						exists = yes
+						YUG = { owns_state = 154 } 
+					}
+					transfer_state = 154
+					add_state_claim = 154
+				}
+			}
+			ALB = {
+				if = {
+					limit = { 
+						exists = yes
+						YUG = { owns_state = 156 } 
+					}
+					transfer_state = 156
+					add_state_claim = 156
+				}
+				if = {
+					limit = { 
+						exists = yes
+						YUG = { owns_state = 155 } 
+					}
+					transfer_state = 155
+					add_state_claim = 155
+				}
+			}
+			ITA = {
+				if = {
+					limit = { 
+						owns_state = 129
+						YUG = { owns_state = 156 } 
+					}
+					transfer_state = 156
+					add_state_claim = 156
+				}
+				if = {
+					limit = { 
+						owns_state = 129
+						YUG = { owns_state = 155 } 
+					}
+					transfer_state = 155
+					add_state_claim = 155
+				}
+			}
 			CRO = {
 				if = {
-					limit = { YUG = { owns_state = 103 } }
-					transfer_state = 103
+					limit = { YUG = { owns_state = 158 } }
+					transfer_state = 158
 				}
 				if = {
-					limit = { YUG = { owns_state = 1031 } }
-					transfer_state = 1031
+					limit = { YUG = { owns_state = 411 } }
+					transfer_state = 411
 				}
 				if = {
-					limit = { YUG = { owns_state = 814 } }
-					transfer_state = 814
+					limit = { YUG = { owns_state = 384 } }
+					transfer_state = 384
 				}
 				if = {
-					limit = { YUG = { owns_state = 819 } }
-					transfer_state = 819
+					limit = { YUG = { owns_state = 385 } }
+					transfer_state = 385
 				}
 				if = {
-					limit = { YUG = { owns_state = 104 } }
-					transfer_state = 104
+					limit = { YUG = { owns_state = 99 } }
+					transfer_state = 99
 				}
 				if = {
-					limit = { YUG = { owns_state = 109 } }
-					transfer_state = 109
+					limit = { YUG = { owns_state = 419 } }
+					transfer_state = 419
 				}
 				if = {
-					limit = { YUG = { owns_state = 802 } }
-					transfer_state = 802
-				}						
+					limit = { YUG = { owns_state = 420 } }
+					transfer_state = 420
+					add_state_claim = 420
+				}
+				if = {
+					limit = { YUG = { owns_state = 383 } }
+					transfer_state = 383
+					add_state_claim = 383
+				}
+				if = {
+					limit = { YUG = { owns_state = 150 } }
+					transfer_state = 150
+					add_state_claim = 150
+				}
+				if = {
+					limit = { YUG = { owns_state = 151 } }
+					transfer_state = 151
+					add_state_claim = 151
+				}
+				if = {
+					limit = { YUG = { owns_state = 421 } }
+					transfer_state = 421
+					add_state_claim = 421
+				}
+				if = {
+					limit = { YUG = { owns_state = 159 } }
+					transfer_state = 159
+					add_state_claim = 159
+				}
+				if = {
+					limit = { YUG = { owns_state = 477 } }
+					transfer_state = 477
+					add_state_claim = 477
+				}
+				if = {
+					limit = { YUG = { owns_state = 157 } }
+					transfer_state = 157
+				}
+				if = {
+					limit = { YUG = { owns_state = 100 } }
+					transfer_state = 100
+				}	
+				if = {
+					limit = { YUG = { owns_state = 416 } }
+					transfer_state = 416
+				}
+				if = {
+					limit = { YUG = { owns_state = 417 } }
+					transfer_state = 417
+				}
+				if = {
+					limit = { YUG = { owns_state = 418 } }
+					transfer_state = 418
+				}
+				if = {
+					limit = { YUG = { owns_state = 423 } }
+					transfer_state = 423
+				}
+				if = {
+					limit = { YUG = { owns_state = 364 } }
+					transfer_state = 364
+				}
+				if = {
+					limit = { YUG = { owns_state = 383 } }
+					transfer_state = 383
+				}					
+			}
+			SER = {
+				annex_country = { target = YUG transfer_troops = yes }
 			}
 			puppet = CRO
-			puppet = YUG
+			puppet = SER
 
 
 			hidden_effect = {

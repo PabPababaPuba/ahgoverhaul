@@ -30,9 +30,14 @@ country_event = {
 	option = {
 		name = hungary.2.a
 		HUN = { 
-			transfer_state = 76
-			transfer_state = 1219
-			transfer_state = 1218
+			transfer_state = 239
+			add_state_core = 239
+			transfer_state = 472
+			add_state_core = 472
+			transfer_state = 473
+			add_state_core = 473
+			transfer_state = 478
+			add_state_core = 478
 		}
 		hidden_effect = {
 			country_event = { days = 1 id = news.15 }
@@ -52,14 +57,24 @@ country_event = {
 	option = {
 		name = hungary.2.a
 		HUN = { 
-			transfer_state = 76
-			transfer_state = 1219
-			transfer_state = 1217
-			transfer_state = 83
-			transfer_state = 1218
-			transfer_state = 82
-			transfer_state = 1216
-			transfer_state = 84
+			transfer_state = 472
+			add_state_core = 472
+			transfer_state = 478
+			add_state_core = 478
+			transfer_state = 239
+			add_state_core = 239
+			transfer_state = 473
+			add_state_core = 473
+			transfer_state = 474
+			add_state_core = 474
+			transfer_state = 238
+			add_state_claim = 238
+			transfer_state = 102
+			add_state_claim = 102
+			transfer_state = 475
+			add_state_core = 475
+			transfer_state = 101
+			add_state_claim = 101
 		}
 		hidden_effect = {
 			country_event = { days = 1 id = news.16 }
@@ -78,9 +93,7 @@ country_event = {
 	
 	option = {
 		name = hungary.4.a
-		add_state_claim = 76
-		add_state_claim = 1219
-		add_state_claim = 1218
+		add_state_claim = 239
 		hidden_effect = {
 			country_event = { days = 1 id = news.17 }
 		}
@@ -98,14 +111,15 @@ country_event = {
 	
 	option = {
 		name = hungary.4.a
-		add_state_claim = 76
-		add_state_claim = 83
-		add_state_claim = 84
-		add_state_claim = 1219
-		add_state_claim = 1217
-		add_state_claim = 1218
-		add_state_claim = 1216
-		add_state_claim = 82
+		add_state_claim = 472
+		add_state_claim = 478
+		add_state_claim = 239
+		add_state_claim = 473
+		add_state_claim = 238
+		add_state_claim = 474
+		add_state_claim = 102
+		add_state_claim = 475
+		add_state_claim = 101
 		hidden_effect = {
 			country_event = { days = 1 id = news.18 }
 		}
@@ -124,116 +138,12 @@ country_event = {
 	option = {
 		name = hungary.6.a
 		HUN = { 
-		    transfer_state = 45
-			transfer_state = 818
+			transfer_state = 159
+			add_state_claim = 159
+			transfer_state = 420 
+			add_state_claim = 420
+			transfer_state = 477
+			add_state_claim = 477
 		}
 	}
-}
-
-country_event = {
-    id = hungary.7
-    title = hungary.7.t
-    desc = hungary.7.d
-    picture = GFX_report_event_vienna_award_negotiations
-    
-    is_triggered_only = yes
-    
-    option = { #give it to them but only if they join the axis
-        name = hungary.7.a
-		ai_chance = {
-			base = 40
-		}
-        HUN = {
-            country_event = { days = 1 id = hungary.8 }
-        }
-    }
-    option = { #give it to them lol
-        name = hungary.7.b
-		ai_chance = {
-			base = 10
-		}
-        HUN = {
-            country_event = { days = 2 id = hungary.9 }
-        }
-    }
-    option = { #nah we'll keep it
-        name = hungary.7.c
-		ai_chance = {
-			base = 50
-		}
-    }
-}
-    
-country_event = {
-    id = hungary.8
-    title = hungary.8.t
-    desc = hungary.8.d
-    picture = GFX_report_event_vienna_award_negotiations
-    
-    is_triggered_only = yes
-    
-    option = { #Sure, I'll join
-        name = hungary.8.a
-		ai_chance = {
-			base = 90
-		}
-        GER = {
-            country_event = { days = 1 id = hungary.10 }
-            add_to_faction = HUN
-        }
-        transfer_state = 793
-		transfer_state = 1211
-    }
-    option = { #no, we're good
-        name = hungary.8.b
-		ai_chance = {
-			base = 10
-		}
-        GER = {
-            country_event = { days = 1 id = hungary.11 }
-        }
-    }
-}
-    
-country_event = {
-    id = hungary.9
-    title = hungary.9.t
-    desc = hungary.9.d
-    picture = GFX_report_event_vienna_award_negotiations
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = hungary.9.a
-        transfer_state = 793
-		transfer_state = 1211
-        add_opinion_modifier = { target = GER modifier = took_stand_for_us }
-    }
-}
-    
-country_event = {
-    id = hungary.10
-    title = hungary.10.t
-    desc = hungary.10.d
-    picture = GFX_report_event_vienna_award_negotiations
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = hungary.10.a
-    }
-}
-    
-country_event = { 
-    id = hungary.11
-    title = hungary.11.t
-    desc = hungary.11.d
-    picture = GFX_report_event_vienna_award_negotiations
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = hungary.11.a
-        add_opinion_modifier = { target = HUN modifier = refused_help }
-    }
 }

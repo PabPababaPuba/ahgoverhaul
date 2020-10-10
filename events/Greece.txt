@@ -19,11 +19,11 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					any_other_country = {
+					any_country = {
 
 						has_guaranteed = GRE
 					}
-					any_other_country = {
+					any_country = {
 
 						is_in_faction_with = GRE
 					}
@@ -32,8 +32,7 @@ country_event = {
 			factor = 100	
 		}
 
-		SOV = { transfer_state = 187 }
-		SOV = { transfer_state = 822 }
+		SOV = { transfer_state = 132 }
 		if = {
 			limit = {
 				BUL = { 
@@ -44,8 +43,8 @@ country_event = {
 				}
 			}
 			BUL = { 
-				transfer_state = 184
-				transfer_state = 823
+				transfer_state = 133
+				transfer_state = 361
 				add_opinion_modifier = { target = SOV modifier = SOV_ultimatum_to_greece_thrace }
 			}
 		}
@@ -60,11 +59,11 @@ country_event = {
 				factor = 0
 				NOT = {
 					OR = {
-						any_other_country = {
+						any_country = {
 
 							has_guaranteed = GRE
 						}
-						any_other_country = {
+						any_country = {
 
 							is_in_faction_with = GRE
 						}
@@ -88,9 +87,9 @@ country_event = {
 		text = greece.2.d_GER_demand
 		trigger = {
 			OR = {
-				713 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
-				185 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
-				47 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
+				134 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
+				135 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
+				130 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
 			}
 		}
 	}
@@ -99,21 +98,25 @@ country_event = {
 		text = greece.2.d_ITA
 		trigger = {
 			OR = {
-				has_global_flag = GER_second_ljubljana_award_ITA_185
-				has_global_flag = GER_second_ljubljana_award_ITA_186
-				has_global_flag = GER_second_ljubljana_award_ITA_47
+				has_global_flag = GER_second_ljubljana_award_ITA_135
+				has_global_flag = GER_second_ljubljana_award_ITA_76
+				has_global_flag = GER_second_ljubljana_award_ITA_130
 			}
-			NOT = { has_global_flag = GER_second_ljubljana_award_BUL_184 }
+			NOT = { has_global_flag = GER_second_ljubljana_award_BUL_134 }
+			NOT = { has_global_flag = GER_second_ljubljana_award_BUL_133 }
 		}
 	}
 	
 	desc = {
 		text = greece.2.d_BUL
 		trigger = {
-			NOT = { has_global_flag = GER_second_ljubljana_award_ITA_185 }
-			NOT = { has_global_flag = GER_second_ljubljana_award_ITA_186 }
-			NOT = { has_global_flag = GER_second_ljubljana_award_ITA_47 }
-			has_global_flag = GER_second_ljubljana_award_BUL_184
+			NOT = { has_global_flag = GER_second_ljubljana_award_ITA_135 }
+			NOT = { has_global_flag = GER_second_ljubljana_award_ITA_76 }
+			NOT = { has_global_flag = GER_second_ljubljana_award_ITA_130 }
+			OR = {
+				has_global_flag = GER_second_ljubljana_award_BUL_134
+				has_global_flag = GER_second_ljubljana_award_BUL_133
+			}
 		}
 	}
 
@@ -121,11 +124,14 @@ country_event = {
 		text = greece.2.d_ITA_BUL
 		trigger = {
 			OR = {
-				has_global_flag = GER_second_ljubljana_award_ITA_185
-				has_global_flag = GER_second_ljubljana_award_ITA_186
-				has_global_flag = GER_second_ljubljana_award_ITA_47
+				has_global_flag = GER_second_ljubljana_award_ITA_135
+				has_global_flag = GER_second_ljubljana_award_ITA_76
+				has_global_flag = GER_second_ljubljana_award_ITA_130
 			}
-			has_global_flag = GER_second_ljubljana_award_BUL_184
+			OR = {
+				has_global_flag = GER_second_ljubljana_award_BUL_134
+				has_global_flag = GER_second_ljubljana_award_BUL_133
+			}
 		}
 	}
 
@@ -139,11 +145,11 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					any_other_country = {
+					any_country = {
 
 						has_guaranteed = GRE
 					}
-					any_other_country = {
+					any_country = {
 
 						is_in_faction_with = GRE
 					}
@@ -156,62 +162,66 @@ country_event = {
 			factor = 100	
 		}
 
-		hidden_effect = {
-			news_event = { id = news.170 hours = 2}
+		news_event = { id = news.170 hours = 2}
+		if = {
+			limit = {
+				has_global_flag = GER_second_ljubljana_award_BUL_133
+			}
+			BUL = { transfer_state = 133 }
+			BUL = { transfer_state = 361 }
 		}
 		if = {
 			limit = {
-				has_global_flag = GER_second_ljubljana_award_BUL_184
+				has_global_flag = GER_second_ljubljana_award_BUL_134
 			}
-			BUL = { transfer_state = 184 }
-			BUL = { transfer_state = 823 }
+			BUL = { transfer_state = 134 }
 		}
 
 		if = {
 			limit = {
-				has_global_flag = GER_second_ljubljana_award_ITA_185
+				has_global_flag = GER_second_ljubljana_award_ITA_135
 			}
-			ITA = { transfer_state = 185 }
-			ITA = { transfer_state = 820 }
-			ITA = { transfer_state = 1020 }
-			ITA = { transfer_state = 1021 }
+			ITA = { transfer_state = 135 }
 		}
 		if = {
 			limit = {
-				has_global_flag = GER_second_ljubljana_award_ITA_186
+				has_global_flag = GER_second_ljubljana_award_ITA_76
 			}
-			ITA = { transfer_state = 186 }
+			ITA = { transfer_state = 76 }
 		}
 		if = {
 			limit = {
-				has_global_flag = GER_second_ljubljana_award_ITA_47
+				has_global_flag = GER_second_ljubljana_award_ITA_130
 			}
-			ITA = { transfer_state = 47 }
+			ITA = { transfer_state = 130 }
+		}
+		if = {
+			limit = {
+				has_global_flag = GER_second_ljubljana_award_ITA_131
+			}
+			ITA = { transfer_state = 131 }
 		}
 
 		if = {
 			limit = { 
-				has_global_flag = GER_second_ljubljana_award_GER_731
+				has_global_flag = GER_second_ljubljana_award_GER_134
 			}
-			GER = { transfer_state = 731 }
+			GER = { transfer_state = 134 }
 		}
 		if = {
 			limit = { 
-				has_global_flag = GER_second_ljubljana_award_GER_185
-				NOT = { has_global_flag = GER_second_ljubljana_award_GER_731 }
+				has_global_flag = GER_second_ljubljana_award_GER_135
+				NOT = { has_global_flag = GER_second_ljubljana_award_GER_134 }
 			}
-			GER = { transfer_state = 185 }
-			GER = { transfer_state = 1020 }
-			GER = { transfer_state = 1021 }
-			GER = { transfer_state = 820 }
+			GER = { transfer_state = 135 }
 		}
 		if = {
 			limit = { 
-				has_global_flag = GER_second_ljubljana_award_GER_47
-				NOT = { has_global_flag = GER_second_ljubljana_award_GER_731 }
-				NOT = { has_global_flag = GER_second_ljubljana_award_GER_185 }
+				has_global_flag = GER_second_ljubljana_award_GER_130
+				NOT = { has_global_flag = GER_second_ljubljana_award_GER_134 }
+				NOT = { has_global_flag = GER_second_ljubljana_award_GER_135 }
 			}
-			GER = { transfer_state = 47 }
+			GER = { transfer_state = 130 }
 		}
 	}
 	
@@ -222,11 +232,11 @@ country_event = {
 				factor = 0
 				NOT = {
 					OR = {
-						any_other_country = {
+						any_country = {
 
 							has_guaranteed = GRE
 						}
-						any_other_country = {
+						any_country = {
 
 							is_in_faction_with = GRE
 						}
@@ -253,7 +263,7 @@ country_event = {
 	id = greece.3
 	title = greece.3.t
 	desc = greece.3.d
-	picture = GFX_report_event_generic_sign_treaty2
+	picture = GFX_report_event_stalin_02
 	
 	is_triggered_only = yes
 	
@@ -263,11 +273,11 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					any_other_country = {
+					any_country = {
 	
 						has_guaranteed = GRE
 					}
-					any_other_country = {
+					any_country = {
 
 						is_in_faction_with = GRE
 					}
@@ -288,11 +298,11 @@ country_event = {
 				factor = 0
 				NOT = {
 					OR = {
-						any_other_country = {
+						any_country = {
 
 							has_guaranteed = GRE
 						}
-						any_other_country = {
+						any_country = {
 
 							is_in_faction_with = GRE
 						}
@@ -328,39 +338,8 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = TUR
-			generator = { 339 }
+			generator = { 250 }
 		}
 		
 	}
-}
-
-country_event = {
-    id = greece.5
-    title = greece.5.t
-    desc = greece.5.d
-
-    fire_only_once = yes
-
-    trigger = {
-        tag = GRE
-        GRE = {
-            owns_state = 341
-        }
-    }
-
-    option = { #do it fam
-        name = greece.5.a
-        ai_chance = {
-            base = 100
-        }
-        set_province_name = { id = 9833 name = "Constantinopolis"}
-    }
-
-    option = { #nah I'm a smelly t*rk
-        name = greece.5.b
-        ai_chance = {
-            base = 0
-        }
-    }
-
 }

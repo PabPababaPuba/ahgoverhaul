@@ -3,6 +3,8 @@ autonomy_state = {
 	
 	is_puppet = yes
 	
+	use_overlord_color = yes
+	
 	min_freedom_level = 0.2
 	
 	manpower_influence = 1.0
@@ -45,12 +47,6 @@ autonomy_state = {
 		if = {
 			limit = { has_dlc = "Death or Dishonor" }
 			NOT = { has_government = fascism }
-		}
-		if = {
-			limit = {
-				has_dlc = "Waking the Tiger"
-			}
-			OVERLORD = { not = { tag = JAP } }
 		}
 	}
 	

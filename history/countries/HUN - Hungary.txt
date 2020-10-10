@@ -1,4 +1,4 @@
-﻿capital = 5610
+﻿capital = 105
 
 oob = "HUN_1936"
 
@@ -15,6 +15,20 @@ set_technology = {
 	gwtank = 1
 	early_fighter = 1
 	CAS1 = 1
+	fuel_silos = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.3.31"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 25
+	fascism = 31
+	neutrality = 44
 }
 
 if = {
@@ -27,28 +41,6 @@ if = {
 	}
 }
 
-
-
-	set_popularities = {
-		democratic 
-			 = 25
-		
-		fascism
-			 = 31
-		authoritarian_monarchism
-			 = 44
-		
-		communism
-			 = 0
-		}
-	set_politics = { 
- ruling_party = authoritarian_monarchism
-	last_election = "1935.3.31"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-#Start Horty as neutral if DOD
 if = {
 	limit = {
 		has_dlc = "Death or Dishonor"
@@ -58,7 +50,7 @@ if = {
 		desc = "POLITICS_MIKLOS_HORTHY_DESC"
 		picture = "Portrait_Hungary_Miklos_Horthy.dds"
 		expire = "1965.1.1"
-		ideology = authmon
+		ideology = oligarchism
 		traits = {
 			fascist_sympathies
 			anti_communist
@@ -71,7 +63,7 @@ if = {
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
-			ideology = authmon
+			ideology = despotism
 		}
 		create_country_leader = {
 			name = "Miklós Horthy"
@@ -105,3 +97,58 @@ create_country_leader = {
 	}
 }
 
+
+create_corps_commander = {
+	name = "Géza Lakatos"
+	gfx = GFX_Portrait_hungary_geza_lakatos
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Iván Hindy"
+	gfx = GFX_Portrait_hungary_ivan_hindy
+	traits = {  trickster }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Károly Beregfy"
+	gfx = GFX_Portrait_hungary_karoly_beregfy
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lajos Veress"
+	gfx = GFX_Portrait_hungary_lajos_veress
+	traits = { armor_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Ferenc Feketehalmy-Czeydner"
+	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
