@@ -309,6 +309,10 @@ country_event = { #2020 Europe
 				}
 			drop_cosmetic_tag = yes
 			}
+		HOL = {
+			transfer_state = 9816
+			transfer_state = 9817
+			}
 		}
 	}	
 	option = { #reject
