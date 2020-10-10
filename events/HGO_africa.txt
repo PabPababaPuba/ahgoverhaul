@@ -1,0 +1,73 @@
+
+add_namespace = hgoafrica
+
+country_event = { 2020 Africa
+	id = hgoafrica.2020
+	title = "Set (North) Africa to 2020?"
+	desc = "E"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Agree
+		name = "sure"
+		ai_chance = {
+			factor = 0
+		}
+				hidden_effect = {
+	    ENG = {
+		release = EGY
+		}		
+		EGY = {
+		drop_cosmetic_tag = yes
+			set_politics = {
+	        ruling_party = democratic
+              }
+		transfer_state = 891
+}	
+		LBA = {
+			release = CHA
+			release = NGR
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		TUN = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		FRA = {
+			annex_country = { target = KGG }
+			annex_country = { target = SGR }
+			release = ALG
+			}
+		MOR = {
+			annex_country = { target = RIF }
+			annex_country = { target = IFN }
+			annex_country = { target = RDO }
+			annex_country = { target = SEH }
+			drop_cosmetic_tag = yes
+			}
+		WES = {
+			transfer_state = 1844
+			transfer_state = 6786
+			transfer_state = 1633
+			transfer_state = 6759
+			transfer_state = 5489
+			transfer_state = 5488
+			transfer_state = 6782
+			}
+		}
+	}
+	
+	option = { #reject
+		name = "nah"
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+}
+
