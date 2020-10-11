@@ -347,8 +347,8 @@ LBA = {
 	color_ui = rgb { 200 180 90 }
 }
 EGY = {
-	color = rgb { 198 168 103 }
-	color_ui = rgb { 198 168 103 }
+	color = rgb { 255 204 0 }
+	color_ui = rgb { 255 204 0 }
 }
 ORA = {
 	color = rgb { 198 138 73 }

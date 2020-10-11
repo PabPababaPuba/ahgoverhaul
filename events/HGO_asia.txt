@@ -329,8 +329,8 @@ country_event = { #2020 Asia
 				}
 			10775 = {
 				owner = {
-					transfer_state = 10774
-					transfer_state = 10772
+					transfer_state = 10744
+					transfer_state = 10742
 			  	 }
 				}
 			10777 = {

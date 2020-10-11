@@ -1,0 +1,325 @@
+
+add_namespace = hgoeurope
+
+country_event = { #2020 Europe
+	id = hgoeurope.2020
+	title = "Set Europe to 2020?"
+	desc = "Do it"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Agree
+		name = "sure"
+		ai_chance = {
+			factor = 0
+		}
+				hidden_effect = {
+		RUS = {
+			annex_country = { target = SOV }
+			annex_country = { target = UKR }
+			annex_country = { target = BLR }
+			release = UKR
+			release = BLR
+			transfer_state = 2414
+			transfer_state = 1081
+			transfer_state = 1080
+			transfer_state = 1878
+			transfer_state = 12028
+			transfer_state = 146
+			transfer_state = 4870
+			transfer_state = 4880
+			transfer_state = 147
+			transfer_state = 9270
+			transfer_state = 10589
+			transfer_state = 2118
+			transfer_state = 722
+			transfer_state = 2777
+			transfer_state = 2086
+			transfer_state = 7411
+			transfer_state = 7412
+			transfer_state = 7413
+			transfer_state = 7414
+			transfer_state = 3552
+			transfer_state = 4092
+			transfer_state = 5979
+			transfer_state = 4072
+			transfer_state = 4094
+			transfer_state = 5
+			transfer_state = 4071
+			set_politics = {
+				ruling_party = centrist_republic
+				}
+			drop_cosmetic_tag = yes
+			}
+					every_state = {
+						limit = {
+								OR = {
+									is_core_of = RUS
+								}
+						}
+						set_temp_variable = { unitedussr = THIS.id }
+						RUS = {
+							transfer_state = unitedussr
+							add_state_core = unitedussr
+						}
+					}
+					every_state = {
+						limit = {
+							is_owned_by = GER
+							is_owned_by = NOR
+							is_owned_by = SWE
+							}
+						set_demilitarized_zone = no
+						}
+		WGR = {
+			annex_country = { target = GER }
+			release = KON
+			release = SIL
+			release = PWP
+			release = POM
+			transfer_state = 5079
+			transfer_state = 8412
+			transfer_state = 2300
+			transfer_state = 62
+			transfer_state = 5078
+			transfer_state = 3210
+			transfer_state = 7463
+			transfer_state = 4829
+			transfer_state = 7462
+			transfer_state = 7461
+			transfer_state = 7460
+			transfer_state = 1384
+			set_capital = 64 
+			}
+		POL = {
+			annex_country = { target = KON }
+			annex_country = { target = DAN }
+			annex_country = { target = SIL }
+			annex_country = { target = PWP }
+			annex_country = { target = POM }
+			release = UKR
+			release = BLR
+			transfer_state = 7444
+			transfer_state = 8046
+			transfer_state = 5372
+			transfer_state = 2752
+			transfer_state = 3541
+			transfer_state = 8047
+			transfer_state = 1332
+			transfer_state = 1782
+			transfer_state = 4028
+			transfer_state = 3189
+			transfer_state = 7458
+			transfer_state = 3527
+			transfer_state = 7457
+			transfer_state = 5077
+			transfer_state = 7456
+			transfer_state = 5076
+			transfer_state = 2773
+			transfer_state = 68
+			transfer_state = 8222
+			transfer_state = 10954
+			}
+		CZE = {
+			release = CRP
+			}
+		UKR = {
+			annex_country = { target = CRP }
+			transfer_state = 2506
+			transfer_state = 7484
+			transfer_state = 791
+			transfer_state = 3458
+			transfer_state = 5913
+			transfer_state = 5915
+			transfer_state = 7486
+			transfer_state = 3188
+			transfer_state = 799
+			transfer_state = 8032
+			transfer_state = 3325
+			transfer_state = 11004
+			transfer_state = 80
+			transfer_state = 5376
+			set_politics = {
+				ruling_party = democratic
+				}
+			drop_cosmetic_tag = yes
+			}
+		NOV = {
+			transfer_state = 5379
+			transfer_state = 3227
+			transfer_state = 3777
+			transfer_state = 3226
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}
+		BLR = {
+			release = LIT
+			release = NKO
+			transfer_state = 4766
+			transfer_state = 4767
+			transfer_state = 8036
+			set_politics = {
+				ruling_party = neutrality
+				}
+			drop_cosmetic_tag = yes
+			}
+		LIT = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		POL = {
+			annex_country = { target = NKO }
+			}
+		SLO = {
+			annex_country = { target = CZE }
+			release = CZC
+			release = GER
+			transfer_state = 2472
+			transfer_state = 3773
+			}
+		WGR = {
+			annex_country = { target = GER }
+			}
+		ROM = {
+			release = MOL
+			release = BUL
+			release = ALB
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		MOL = {
+			drop_cosmetic_tag = yes
+			set_capital = 78
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		TRN = {
+			transfer_state = 790
+			transfer_state = 7325
+			}
+		AUS = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		HUN = {
+			set_politics = {
+				ruling_party = democratic
+					}
+			}
+		LIE = {
+			release = CZC
+			}
+		ITA = {
+			annex_country = { target = YUG }
+			release = MAC
+			release = KOS
+			release = BOS
+			release = SLV
+			release = CRO
+			release = SER
+			release = MNT
+			release = ALB
+			release = GRE
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		SER = {
+			transfer_state = 5924
+			transfer_state = 9091
+			transfer_state = 7351
+			transfer_state = 3645
+			transfer_state = 3646
+			transfer_state = 814
+			transfer_state = 7620
+			transfer_state = 7378
+			transfer_state = 7377
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		CRO = {
+			transfer_state = 818
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		SLV = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		BOS = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		MNT = {
+			transfer_state = 2289
+			transfer_state = 7343
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		MAC = {
+			set_politics = {
+				ruling_party = socialism_ideology
+				}
+			}
+		ALB = {
+			set_politics = {
+				ruling_party = socialism_ideology
+				}
+			}
+		GRE = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		SPR = {
+			annex_country = { target = CAT }
+			set_politics = {
+				ruling_party = democratic_monarchism
+				}
+			}
+		SMR = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		POR = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		MLT = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		ICE = {
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			drop_cosmetic_tag = yes
+			}
+		HOL = {
+			transfer_state = 9816
+			transfer_state = 9817
+			}
+		}
+	}	
+	option = { #reject
+		name = "nah"
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+}
