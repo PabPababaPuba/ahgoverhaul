@@ -3,7 +3,7 @@ add_namespace = hgoafrica
 
 country_event = { 2020 Africa
 	id = hgoafrica.2020
-	title = "Set (North) Africa to 2020?"
+	title = "Set (North+East) Africa to 2020?"
 	desc = "E"
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -13,17 +13,33 @@ country_event = { 2020 Africa
 		ai_chance = {
 			factor = 0
 		}
-				hidden_effect = {
-	    ENG = {
-		release = EGY
-		}		
+			hidden_effect = {
+	    	ENG = {
+			release = EGY
+			}
+		UNC = {
+			transfer_state = 890
+			}		
 		EGY = {
-		drop_cosmetic_tag = yes
+			drop_cosmetic_tag = yes
 			set_politics = {
-	        ruling_party = democratic
-              }
-		transfer_state = 891
-}	
+	        		ruling_party = democratic
+					}
+			transfer_state = 891
+			}
+		SUD = {
+			release = SSU
+			release = ETH
+			transfer_state = 10307
+			transfer_state = 10308
+			transfer_state = 1628
+			transfer_state = 1629
+			transfer_state = 10162
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}	
 		LBA = {
 			release = CHA
 			release = NGR
@@ -58,6 +74,77 @@ country_event = { 2020 Africa
 			transfer_state = 5489
 			transfer_state = 5488
 			transfer_state = 6782
+			}
+		SSU = {
+			annex_country = { target = TNA }
+			release = KEN
+			}
+		ERI = {
+			release = ETH
+			release = DJI
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}
+		ETH = {
+			annex_country = { target = ASS }
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		SOM = {
+			release = ETH
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		SML = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}
+		DJI = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		KEN = {
+			annex_country = { target = MMB }
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}
+		UGA = {
+			annex_country = { target = BSG }
+			annex_country = { target = BUG }
+			annex_country = { target = BNY }
+			annex_country = { target = TOR }
+			annex_country = { target = ANK }
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}
+		TZN = {
+			annex_country = { target = ZAN }
+			annex_country = { target = RUU}
+			release = BRD
+			release = RWA
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}
+		FEA = {
+			release = CHA
+			}
+		FWA = {
+			release = NGR
 			}
 		}
 	}
