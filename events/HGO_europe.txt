@@ -66,7 +66,17 @@ country_event = { #2020 Europe
 					every_state = {
 						limit = {
 							is_owned_by = GER
+							}
+						set_demilitarized_zone = no
+						}
+					every_state = {
+						limit = {
 							is_owned_by = NOR
+							}
+						set_demilitarized_zone = no
+						}
+					every_state = {
+						limit = {
 							is_owned_by = SWE
 							}
 						set_demilitarized_zone = no
