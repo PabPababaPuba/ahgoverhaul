@@ -200,6 +200,11 @@ country_event = { #2020 Europe
 				ruling_party = liberal_republic
 				}
 			}
+		BUL = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
 		MOL = {
 			drop_cosmetic_tag = yes
 			set_capital = 78
@@ -322,6 +327,9 @@ country_event = { #2020 Europe
 		HOL = {
 			transfer_state = 9816
 			transfer_state = 9817
+			}
+		WTR = {
+			release = SLD
 			}
 		}
 	}	
