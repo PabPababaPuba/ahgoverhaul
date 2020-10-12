@@ -3,7 +3,7 @@ add_namespace = hgoafrica
 
 country_event = { 2020 Africa
 	id = hgoafrica.2020
-	title = "Set (North+East) Africa to 2020?"
+	title = "Set Africa (Except South+Central) to 2020?"
 	desc = "E"
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -57,7 +57,22 @@ country_event = { 2020 Africa
 		FRA = {
 			annex_country = { target = KGG }
 			annex_country = { target = SGR }
+			annex_country = { target = FWA }
+			annex_country = { target = SNW }
+			annex_country = { target = FEA }
 			release = ALG
+			release = VOL
+			release = NGR
+			release = DAH
+			release = IVO
+			release = MLI
+			release = GNA
+			release = SEN
+			release = MRT
+			release = CHA
+			release = CAR
+			release = RCG
+			release = GAB
 			}
 		MOR = {
 			annex_country = { target = RIF }
@@ -140,11 +155,74 @@ country_event = { 2020 Africa
 				ruling_party = neutrality
 				}
 			}
-		FEA = {
-			release = CHA
+		SEN = {
+			drop_cosmetic_tag = yes
 			}
-		FWA = {
-			release = NGR
+		RCG = {
+			drop_cosmetic_tag = yes
+			}
+		NGR = {
+			set_politics = {
+				ruling_party = socialism_ideology
+				}
+			}
+		DAH = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		IVO = {
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		CAR = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		VOL = {
+			set_politics = {
+				ruling_party = socialism_ideology
+				}
+			}
+		RCG = {
+			set_politics = {
+				ruling_party = socialism_ideology
+				}
+			}
+		GNA = {
+			transfer_state = 7926
+			set_politics = {
+				ruling_party = socialism_ideology
+				}
+			}
+		GAB = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		CMR = {
+			annex_country { target = SCM }
+			drop_cosmetic_tag = yes
+			}
+		MLI = {
+			set_politics = {
+				ruling_party = socialism_ideology
+				}
+			}
+		TOG = {
+			drop_cosmetic_tag = yes
+			}
+		SEN = {
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		MRT = {
+			set_politics = {
+				ruling_party = republican_fascism
+				}
 			}
 		}
 	}
