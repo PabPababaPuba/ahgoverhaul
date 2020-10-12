@@ -1153,6 +1153,7 @@ country_event = { #Atlantropa!
 			449 = {
 				owner = {
 					transfer_state = 8565
+					transfer_state = 8561
 			   }
 			}
 			2683 = {
@@ -1329,7 +1330,6 @@ country_event = { #Atlantropa!
 			3457 = {
 				owner = {
 					transfer_state = 8559
-					transfer_state = 8561
 			   }
 			}
 			3454 = {
