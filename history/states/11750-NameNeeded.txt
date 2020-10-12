@@ -5,6 +5,7 @@ state={
 		owner = TVC
 		add_core_of = RAJ
 		add_core_of = IND
+		add_core_of = KER
 		add_core_of = TVC
 
 	}

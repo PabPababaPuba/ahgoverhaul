@@ -7,6 +7,7 @@ state={
 		add_core_of = GOA
 		add_core_of = RAJ 
 		add_core_of = IND
+		add_core_of = DAD
 		victory_points = {
 			13345 1 
 		}

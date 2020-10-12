@@ -9,6 +9,7 @@ state={
 		owner = LNV
 		add_core_of = RAJ 
 		add_core_of = IND
+		add_core_of = GUJ
 		add_core_of = LNV
 	}
  

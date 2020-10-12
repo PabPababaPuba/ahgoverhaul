@@ -16,6 +16,7 @@ state={
 		add_core_of = KPT
 		add_core_of = RAJ 
 		add_core_of = IND
+		add_core_of = EPU
 	}
 	buildings_max_level_factor=1.000
 }
