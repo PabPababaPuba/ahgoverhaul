@@ -10,7 +10,6 @@ state={
 		add_core_of = HOA
 		add_core_of = PSC
 		add_core_of = RGC
-		add_core_of = CIL
 		add_core_of = PSC
 		buildings = {
 			infrastructure = 3
