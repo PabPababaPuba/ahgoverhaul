@@ -8553,7 +8553,10 @@
  DAG_monarchism:0 "Kingdom of Dagestan"
  DAG_monarchism_DEF:0 "The Kingdom of Dagestan"
  DAG_monarchism_ADJ:0 "Dagestani"
- 
+ DAG_democratic_monarchism:0 "Mountain Republic"
+ DAG_democratic_monarchism_DEF:0 "The Montainous Republic of the Northern Caucasus"
+ DAG_democratic_monarchism_ADJ:0 "North Caucasian"
+
  KMK_democratic:0 "Republic of Kalmykia"
  KMK_democratic_DEF:0 "The Republic of Kalmykia"
  KMK_democratic_ADJ:0 "Kalmyk"
