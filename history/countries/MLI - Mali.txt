@@ -1,4 +1,4 @@
-﻿capital = 556
+﻿capital = 865
 oob = "MLI_1936"
 
 # Starting tech

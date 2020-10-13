@@ -3,7 +3,7 @@ add_namespace = hgoafrica
 
 country_event = { 2020 Africa
 	id = hgoafrica.2020
-	title = "Set Africa (Except South+Central) to 2020?"
+	title = "Set Africa (Except South) to 2020?"
 	desc = "E"
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -131,7 +131,7 @@ country_event = { 2020 Africa
 			annex_country = { target = MMB }
 			drop_cosmetic_tag = yes
 			set_politics = {
-				ruling_party = neutrality
+				ruling_party = democratic
 				}
 			}
 		UGA = {
@@ -142,7 +142,7 @@ country_event = { 2020 Africa
 			annex_country = { target = ANK }
 			drop_cosmetic_tag = yes
 			set_politics = {
-				ruling_party = neutrality
+				ruling_party = liberal_republic
 				}
 			}
 		TZN = {
@@ -151,8 +151,9 @@ country_event = { 2020 Africa
 			release = BRD
 			release = RWA
 			drop_cosmetic_tag = yes
+			set_capital = 1523
 			set_politics = {
-				ruling_party = neutrality
+				ruling_party = socialism_ideology
 				}
 			}
 		SEN = {
@@ -167,6 +168,7 @@ country_event = { 2020 Africa
 				}
 			}
 		DAH = {
+			transfer_state = 2618
 			set_politics = {
 				ruling_party = democratic
 				}
@@ -222,6 +224,63 @@ country_event = { 2020 Africa
 		MRT = {
 			set_politics = {
 				ruling_party = republican_fascism
+				}
+			}
+		CVD = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		GAM = {
+			annex_country = { target = GB2 }
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		GNB = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = socialism_ideology
+				}
+			}
+		SIE = {
+			annex_country = { target = HSL }
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		GHA = {
+			annex_country = { target = GCO }
+			annex_country = { target = AHI }
+			annex_country = { target = GNH }
+			annex_country = { target = WTO }
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		NGA = {
+			annex_country = { target = NCM }
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		EQC = {
+			drop_cosmetic_tag = yes
+			}
+		SAO = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		COG = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
 				}
 			}
 		}
