@@ -846,6 +846,7 @@ country_event = { #2020 Asia
 		RUS = {
 			annex_country { target = TSC }
 			annex_country { target = TAN }
+			annex_country { target = SOV }
 			release = NGK
 			release = AZR
 			release = ARM
@@ -906,6 +907,11 @@ country_event = { #2020 Asia
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
+				}
+			}
+		PER = {
+			set_politics = {
+				ruling_party = neutrality
 				}
 			}
        	 KUW = {

@@ -185,7 +185,7 @@ country_event = { 2020 Africa
 			}
 		VOL = {
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = liberal_republic
 				}
 			}
 		RCG = {

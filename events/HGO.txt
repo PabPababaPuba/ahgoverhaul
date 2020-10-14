@@ -2620,6 +2620,7 @@ country_event = { #Decolonise Arabia
 			}
 		RUS = {
 			annex_country { target = TSC }
+			annex_country { target = SOV }
 			release = NGK
 			release = AZR
 			release = ARM
@@ -2680,6 +2681,11 @@ country_event = { #Decolonise Arabia
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
+				}
+			}
+		PER = {
+			set_politics = {
+				ruling_party = neutrality
 				}
 			}
        	 KUW = {
