@@ -66,6 +66,7 @@ country_event = { #2020 Asia
 			transfer_state = 1785
 			transfer_state = 1787
 			transfer_state = 1789
+			transfer_state = 1783
 			}
 		PAC = {
 			drop_cosmetic_tag = yes
