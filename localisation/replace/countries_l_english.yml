@@ -1781,6 +1781,9 @@
  PER_democratic_ADJ:0 "Iranian"
  PER_neutrality_ADJ:0 "Iranian"
  PER_communism_ADJ:0 "Iranian"
+ PER_authoritarian_republic:0 "Islamic Republic of Iran"
+ PER_authoritarian_republic_DEF:0 "The Islamic Republic of Iran"
+ PER_authoritarian_republic_ADJ:0 "Iranian"
  
  PHI_fascism:0 "Ganap Regime of the Philippines"
  PHI_fascism_DEF:0 "The Ganap Regime of the Philippines"
@@ -7566,6 +7569,9 @@
  VOL_monarchism:0 "Kingdom of the Upper Volta"
  VOL_monarchism_DEF:0 "The Kingdom of the Upper Volta"
  VOL_monarchism_ADJ:0 "Upper Voltan"
+ VOL_liberal_republic:0 "Burkina Faso"
+ VOL_liberal_republic_DEF:0 "The Republic of Burkina Faso"
+ VOL_liberal_republic_ADJ:0 "Burkinese"
  
  IVO_fascism:1 "National Socialist State of the Ivory Coast"
  IVO_fascism_DEF:1 "The National Socialist State of the Ivory Coast"
