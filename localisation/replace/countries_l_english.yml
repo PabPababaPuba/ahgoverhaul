@@ -3189,6 +3189,12 @@
  TMS_monarchism:0 "Khanate of Turkmenistan"
  TMS_monarchism_DEF:0 "The Khanate of Turkmenistan"
  TMS_monarchism_ADJ:0 "Turkmen"
+ TMS_stratocratic:0 "Turkestan Khanate"
+ TMS_stratocratic_DEF:0 "The Khanate of Turkestan"
+ TMS_stratocratic_ADJ:0 "Turkestani"
+ TMS_authoritarian_monarchism:0 "Turkestan Autonomy"
+ TMS_authoritarian_monarchism_DEF:0 "The Turkestan Autonomy"
+ TMS_authoritarian_monarchism_ADJ:0 "Turkestani"
  
  TAJ_fascism:0 "Greater Tajikistan"
  TAJ_fascism_DEF:0 "The Greater Tajikistan"
