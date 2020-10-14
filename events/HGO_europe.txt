@@ -283,12 +283,12 @@ country_event = { #2020 Europe
 			}
 		MAC = {
 			set_politics = {
-				ruling_party = socialism_ideology
+				ruling_party = democratic
 				}
 			}
 		ALB = {
 			set_politics = {
-				ruling_party = socialism_ideology
+				ruling_party = democratic
 				}
 			}
 		GRE = {
@@ -327,6 +327,11 @@ country_event = { #2020 Europe
 		HOL = {
 			transfer_state = 9816
 			transfer_state = 9817
+			}
+		KOS = {
+			set_politics = {
+				ruling_party = democratic
+				}
 			}
 		WTR = {
 			release = SLD

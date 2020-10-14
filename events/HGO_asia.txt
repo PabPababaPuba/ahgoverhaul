@@ -176,6 +176,9 @@ country_event = { #2020 Asia
 			release = SGP
 			drop_cosmetic_tag = yes
 			set_capital = 5566
+			set_politics = {
+	       		ruling_party = democratic_monarchism
+           			}
 			}
 		BEI = {
 			drop_cosmetic_tag = yes
