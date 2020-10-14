@@ -343,7 +343,7 @@ country_event = { #2020 Asia
 				}
 			10774 = {
 				owner = {
-					transfer_state = 10773
+					transfer_state = 10743
 			  	 }
 				}
 		AFG = {
