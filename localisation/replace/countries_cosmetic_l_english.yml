@@ -10,6 +10,8 @@
 
  MAL_UK_democratic:0 "Federated Malay States"
  MAL_UK_democratic_DEF:0 "The Federated Malay States"
+ MAL_UK_authoritarian_monarchism:0 "Federated Malay States"
+ MAL_UK_authoritarian_monarchism_DEF:0 "The Federated Malay States"
  MAL_subject:0 "Federated Malay States"
 
  LBA_subject:0 "Colony of $OVERLORDADJ$ North Africa"
