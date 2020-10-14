@@ -12666,6 +12666,9 @@
  WFL_monarchism:0 "Kingdom of West Florida"
  WFL_monarchism_DEF:0 "The Kingdom of West Florida"
  WFL_monarchism_ADJ:0 "West Floridan"
+ WFL_theocratic:0 "Muskogee"
+ WFL_theocratic_DEF:0 "The State of Muskogee"
+ WFL_theocratic_ADJ:0 "Muskogean"
  
  MML_democratic:0 "Republic of the Memelland"
  MML_democratic_DEF:0 "The Republic of the Memelland"
@@ -13701,6 +13704,9 @@
  INT_monarchism:0 "Iriquois Confederation"
  INT_monarchism_DEF:0 "The Iriquois Confederation"
  INT_monarchism_ADJ:0 "Iriquois"
+ INT_theocratic:0 "Sequoyah"
+ INT_theocratic_DEF:0 "The State of Sequoyah"
+ INT_theocratic_ADJ:0 "Sequoyan"
  
  NAT_democratic:0 "Republic of Northern Australia"
  NAT_democratic_DEF:0 "The Republic of Northern Australia"
@@ -19199,7 +19205,10 @@
  JFR_fascism:0 "State of Jefferson"
  JFR_fascism_DEF:0 "The State of Jefferson"
  JFR_fascism_ADJ:0 "Jeffersonian"
-
+ JFR_liberal_republic:0 "North California"
+ JFR_liberal_republic_DEF:0 "The Republic of North California"
+ JFR_liberal_republic_ADJ:0 "Northern Californian"
+ 
  GOA_monarchism:0 "Goa State"
  GOA_monarchism_DEF:0 "The Goa State"
  GOA_monarchism_ADJ:0 "Goan"
