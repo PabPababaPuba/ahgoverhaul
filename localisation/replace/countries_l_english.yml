@@ -3091,6 +3091,9 @@
  ALG_monarchism:0 "Kingdom of Algeria"
  ALG_monarchism_DEF:0 "The Kingdom of Algeria"
  ALG_monarchism_ADJ:0 "Algerian"
+ ALG_anarchism_ideology:0 "Vandal Kingdom"
+ ALG_anarchism_ideology_DEF:0 "Vandal Kingdom"
+ ALG_anarchism_ideology_ADJ:0 "Vandal"
  
  SLV_fascism:0 "Slovenian Nationalist Republic"
  SLV_fascism_DEF:0 "The Slovenian Nationalist Republic"
