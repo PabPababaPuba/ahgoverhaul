@@ -66,6 +66,7 @@ country_event = { #2020 Asia
 			transfer_state = 1785
 			transfer_state = 1787
 			transfer_state = 1789
+			transfer_state = 1783
 			}
 		PAC = {
 			drop_cosmetic_tag = yes
@@ -176,6 +177,9 @@ country_event = { #2020 Asia
 			release = SGP
 			drop_cosmetic_tag = yes
 			set_capital = 5566
+			set_politics = {
+	       		ruling_party = democratic_monarchism
+           			}
 			}
 		BEI = {
 			drop_cosmetic_tag = yes
@@ -340,7 +344,7 @@ country_event = { #2020 Asia
 				}
 			10774 = {
 				owner = {
-					transfer_state = 10773
+					transfer_state = 10743
 			  	 }
 				}
 		AFG = {
@@ -842,6 +846,7 @@ country_event = { #2020 Asia
 		RUS = {
 			annex_country { target = TSC }
 			annex_country { target = TAN }
+			annex_country { target = SOV }
 			release = NGK
 			release = AZR
 			release = ARM
@@ -902,6 +907,11 @@ country_event = { #2020 Asia
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
+				}
+			}
+		PER = {
+			set_politics = {
+				ruling_party = neutrality
 				}
 			}
        	 KUW = {

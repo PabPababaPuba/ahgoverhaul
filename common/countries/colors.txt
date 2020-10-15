@@ -5581,3 +5581,7 @@ NKO = {
 color = rgb { 133 146 100 }
 color_ui = rgb { 133 146 100 }
 }
+TKS = {
+color = rgb { 50 190 99 }
+color_ui = rgb { 50 190 99 }
+}

@@ -295,6 +295,7 @@ country_event = { #Unite China
 			transfer_state = 1785
 			transfer_state = 1787
 			transfer_state = 1789
+			transfer_state = 1783
 			}
 		PAC = {
 			drop_cosmetic_tag = yes
@@ -2093,7 +2094,7 @@ country_event = { #Yeet the princely states
 				}
 			10774 = {
 				owner = {
-					transfer_state = 10773
+					transfer_state = 10743
 			  	 }
 				}
 		AFG = {
@@ -2619,6 +2620,7 @@ country_event = { #Decolonise Arabia
 			}
 		RUS = {
 			annex_country { target = TSC }
+			annex_country { target = SOV }
 			release = NGK
 			release = AZR
 			release = ARM
@@ -2679,6 +2681,11 @@ country_event = { #Decolonise Arabia
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
+				}
+			}
+		PER = {
+			set_politics = {
+				ruling_party = neutrality
 				}
 			}
        	 KUW = {

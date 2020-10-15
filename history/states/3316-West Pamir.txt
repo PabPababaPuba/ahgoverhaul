@@ -8,6 +8,7 @@ state={
 		add_core_of = SOV
 		add_core_of = KYR
 		add_core_of = KOK
+		add_claim_by = TKS
 		buildings = {
 			infrastructure = 1
 

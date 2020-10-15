@@ -3,8 +3,8 @@ add_namespace = hgoafrica
 
 country_event = { 2020 Africa
 	id = hgoafrica.2020
-	title = "Set Africa (Except South) to 2020?"
-	desc = "E"
+	title = "Set Africa to 2020?"
+	desc = "Do it"
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -99,13 +99,13 @@ country_event = { 2020 Africa
 			release = DJI
 			drop_cosmetic_tag = yes
 			set_politics = {
-				ruling_party = neutrality
+				ruling_party = socialism_ideology
 				}
 			}
 		ETH = {
 			annex_country = { target = ASS }
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = socialism_ideology
 				}
 			}
 		SOM = {
@@ -142,7 +142,7 @@ country_event = { 2020 Africa
 			annex_country = { target = ANK }
 			drop_cosmetic_tag = yes
 			set_politics = {
-				ruling_party = liberal_republic
+				ruling_party = democratic
 				}
 			}
 		TZN = {
@@ -153,7 +153,7 @@ country_event = { 2020 Africa
 			drop_cosmetic_tag = yes
 			set_capital = 1523
 			set_politics = {
-				ruling_party = socialism_ideology
+				ruling_party = democratic
 				}
 			}
 		SEN = {
@@ -164,13 +164,13 @@ country_event = { 2020 Africa
 			}
 		NGR = {
 			set_politics = {
-				ruling_party = socialism_ideology
+				ruling_party = democratic
 				}
 			}
 		DAH = {
 			transfer_state = 2618
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = liberal_republic
 				}
 			}
 		IVO = {
@@ -185,7 +185,7 @@ country_event = { 2020 Africa
 			}
 		VOL = {
 			set_politics = {
-				ruling_party = socialism_ideology
+				ruling_party = liberal_republic
 				}
 			}
 		RCG = {
@@ -210,7 +210,7 @@ country_event = { 2020 Africa
 			}
 		MLI = {
 			set_politics = {
-				ruling_party = socialism_ideology
+				ruling_party = democratic
 				}
 			}
 		TOG = {
@@ -265,7 +265,7 @@ country_event = { 2020 Africa
 			annex_country = { target = NCM }
 			drop_cosmetic_tag = yes
 			set_politics = {
-				ruling_party = liberal_republic
+				ruling_party = democratic
 				}
 			}
 		EQC = {
@@ -283,6 +283,79 @@ country_event = { 2020 Africa
 				ruling_party = neutrality
 				}
 			}
+		ANG = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = socialism_ideology
+				}
+			}
+		ZAM = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		MLW = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		MZB = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		ZIM = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = socialism_ideology
+				}
+			}
+		BOT = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		NMB = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		SAF = {
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		LES = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		SWZ = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}
+		SEY = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		MAD = {
+			release = COM
+			release = MYT
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = democratic
+				}
+			}			
 		}
 	}
 	
