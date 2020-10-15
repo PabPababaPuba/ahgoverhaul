@@ -585,9 +585,9 @@
  NZL_right_anarchism_DEF:0 "The British New Zealand Company" 
  NZL_right_anarchism_ADJ:0 "New Zealander" 
 
- DEN_anarchism_ideology:0 "Danmǫrk"
- DEN__DEF:0 "Danmǫrk"
- DEN_anarchism_ideology_ADJ:0 "Dansk" 
+ DEN_anarchism_ideology:0 "Danes"
+ DEN_anarchism_ideology_DEF:0 "Danes"
+ DEN_anarchism_ideology_ADJ:0 "Danes" 
  DEN_left_anarchism:0 "Free Territory of Denmark"
  DEN_left_anarchism_DEF:0 "The Free Territory of Denmark"
  DEN_left_anarchism_ADJ:0 "Danish"
