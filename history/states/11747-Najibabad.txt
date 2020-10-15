@@ -9,6 +9,7 @@ state={
 		add_core_of = UTT
 		add_core_of = RAJ 
 		add_core_of = IND
+		add_core_of = UTP
 	}
 	provinces={
 		20723
