@@ -3165,6 +3165,9 @@
  TUN_conservative_monarchism:0 "Beylik of Tunis"
  TUN_conservative_monarchism_DEF:0 "The Beylik of Tunis"
  TUN_conservative_monarchism_ADJ:0 "Tunisian"
+ TUN_anarchism_ideology:0 "Carthage"
+ TUN_anarchism_ideology_DEF:0 "The State of Carthage"
+ TUN_anarchism_ideology_ADJ:0 "Carthaginian"
  
  TUN_FRA_fascism:0 "French Protectorate of Tunisia"
  TUN_FRA_fascism_DEF:0 "The French Protectorate of Tunisia"
