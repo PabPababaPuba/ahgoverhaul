@@ -9,6 +9,7 @@ state={
 		owner = CUD
 		add_core_of = RAJ 
 		add_core_of = IND
+		add_core_of = MDY
 		add_core_of = CUD
 	}
  
