@@ -2361,6 +2361,15 @@
  EGY_communism_ADJ:0 "Arab"
  EGY_neutrality_ADJ:0 "Egyptian"
  EGY_democratic_ADJ:0 "Egyptian"
+ EGY_centrist_monarchism:0 "Eyalet of Egypt"
+ EGY_centrist_monarchism_DEF:0 "The Eyalet of Egypt"
+ EGY_centrist_monarchism_ADJ:0 "Egyptian"
+ EGY_conservative_monarchism:0 "Khedivate of Egypt
+ EGY_conservative_monarchism_DEF:0 "The Khedivate of Egypt"
+ EGY_conservative_monarchism_ADJ:0 "Egyptian"
+ EGY_stratocratic_monarchism:0 "Sultanate of Egypt"
+ EGY_stratocratic_monarchism_DEF:0 "The Sultanate of Egypt"
+ EGY_stratocratic_monarchism_ADJ:0 "Egyptian"
  
  LBA_neutrality:0 "Kingdom of Libya"
  LBA_neutrality_DEF:0 "The Libya"
