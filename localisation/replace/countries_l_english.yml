@@ -3091,6 +3091,9 @@
  ALG_anarchism_ideology:0 "Vandal Kingdom"
  ALG_anarchism_ideology_DEF:0 "Vandal Kingdom"
  ALG_anarchism_ideology_ADJ:0 "Vandal"
+ ALG_authoritarian_monarchism:0 "Regency of Algiers"
+ ALG_authoritarian_monarchism_DEF:0 "The Regency of Algiers"
+ ALG_authoritarian_monarchism_ADJ:0 "Algerian"
  
  SLV_fascism:0 "Slovenian Nationalist Republic"
  SLV_fascism_DEF:0 "The Slovenian Nationalist Republic"
@@ -3156,6 +3159,12 @@
  TUN_monarchism:0 "Kingdom of Tunisia"
  TUN_monarchism_DEF:0 "The Kingdom of Tunisia"
  TUN_monarchism_ADJ:0 "Tunisian"
+ TUN_authoritarian_monarchism:0 "Eyalet of Tunis"
+ TUN_authoritarian_monarchism_DEF:0 "The Eyalet of Tunis"
+ TUN_authoritarian_monarchism_ADJ:0 "Tunisian"
+ TUN_conservative_monarchism:0 "Beylik of Tunis"
+ TUN_conservative_monarchism_DEF:0 "The Beylik of Tunis"
+ TUN_conservative_monarchism_ADJ:0 "Tunisian"
  
  TUN_FRA_fascism:0 "French Protectorate of Tunisia"
  TUN_FRA_fascism_DEF:0 "The French Protectorate of Tunisia"
