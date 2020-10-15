@@ -8,6 +8,7 @@ state={
 	    owner = NKH
         add_core_of = NKH
         add_core_of = KSS
+		add_core_of = MEG
         add_core_of = RAJ 
 		add_core_of = IND
     }	
