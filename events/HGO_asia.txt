@@ -690,6 +690,8 @@ country_event = { #2020 Asia
 		}
 		JOR = {
 		    transfer_state = 1175
+		    transfer_state = 1177
+		    transfer_state = 3352
 			drop_cosmetic_tag = yes
 		   } 
         BHR = {
@@ -791,7 +793,9 @@ country_event = { #2020 Asia
 		    transfer_state = 3353
 		    transfer_state = 5884
 		    transfer_state = 4795
-		    transfer_state = 4794		
+		    transfer_state = 4794
+		    transfer_state = 3358
+		    transfer_state = 12035		
 		}
 		TUR = {
 		    transfer_state = 5699

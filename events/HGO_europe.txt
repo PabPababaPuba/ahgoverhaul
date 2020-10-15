@@ -160,7 +160,7 @@ country_event = { #2020 Europe
 			transfer_state = 3777
 			transfer_state = 3226
 			set_politics = {
-				ruling_party = neutrality
+				ruling_party = centrist_republic
 				}
 			}
 		BLR = {
