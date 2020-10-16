@@ -72,6 +72,7 @@ FRU = "countries/Friuli.txt"
 TRT = "countries/Trentino.txt"
 SDJ = "countries/Sandjak.txt"
 LEO = "countries/Leon.txt"
+TRA = "countries/Transylvania.txt"
 
 ##Europe Imported from CU##
 BSQ = "countries/Basque.txt"

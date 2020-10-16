@@ -1777,9 +1777,9 @@
  ILY_DEF:0 "Illyria"
  ILY_ADJ:0 "Illyria"
  
- TRA:0 "Transamur"
- TRA_DEF:0 "Transamur"
- TRA_ADJ:0 "Transamur"
+ TSR:0 "Transamur"
+ TSR_DEF:0 "Transamur"
+ TSR_ADJ:0 "Transamur"
  
  ERU:0 "Eastern Rumelia"
  ERU_DEF:0 "Eastern Rumelia"
@@ -8190,7 +8190,7 @@
  SOG:0 "Sohiong"
  MWR:0 "Mawsynram"
  ILY:0 "Illyria"
- TRA:0 "Transamur"
+ TSR:0 "Transamur"
  ERU:0 "Eastern Rumelia"
  RUM:0 "Rumelia"
  KUK:0 "Kapitaï und Koba"
