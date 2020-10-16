@@ -38,6 +38,30 @@ country_event = { #2020 Asia
 							add_state_core = unitechinad
 						}
 					}
+					every_state = {
+						limit = {
+								OR = {
+									is_core_of = PRC
+									is_core_of = TIB
+									is_core_of = CHI
+								}
+						}
+						PRC = {
+							add_state_core = PREV
+						}
+					}
+					every_state = {
+						limit = {
+								OR = {
+									is_core_of = PRC
+									is_core_of = TIB
+									is_core_of = CHI
+								}
+						}
+						CHI = {
+							add_state_core = PREV
+						}
+					}
 			655 = {
 				owner = {
 					transfer_state = 537

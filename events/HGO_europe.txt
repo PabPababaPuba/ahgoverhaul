@@ -32,7 +32,7 @@ country_event = { #1914 Europe
 					}
 				GER = {
 					transfer_state = PREV
-					add_core_of = PREV
+					add_state_core = PREV
 						}
 					}
 			every_state = {
@@ -50,10 +50,13 @@ country_event = { #1914 Europe
 					is_core_of = IST
 					is_core_of = VJD
 						}
+					NOT = {
+					is_owned_by = LIE
+						}
 					}
 				AUS = {
 					transfer_state = PREV
-					add_core_of = PREV
+					add_state_core = PREV
 						}
 					}
 			every_state = {
@@ -73,7 +76,7 @@ country_event = { #1914 Europe
 					}
 				RUS = {
 					transfer_state = PREV
-					add_core_of = PREV
+					add_state_core = PREV
 						}
 					}
 			every_state = {
