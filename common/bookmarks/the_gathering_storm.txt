@@ -170,13 +170,13 @@ bookmarks = {
 		"BUL"={
 			minor = yes
 			history = "BUL_GATHERING_STORM_DESC"
-			ideology = neutrality\
+			ideology = neutrality
 		}
 
 		"GRE"={
 			minor = yes
 			history = "GRE_GATHERING_STORM_DESC"
-			ideology = neutrality\
+			ideology = neutrality
 		}
 
 		"TUR"={
