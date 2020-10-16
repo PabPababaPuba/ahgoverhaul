@@ -123,10 +123,13 @@ country_event = { #1914 Asia
 					is_owned_by = RUS
 					is_owned_by = FRA
 					is_owned_by = SHH
-					is_owned_by = HKO
+					is_owned_by = HKG
 					is_owned_by = MCU
 					is_owned_by = INC
 					is_owned_by = MON
+					is_owned_by = YSH
+					is_owned_by = GKS
+					is_owned_by = SMD
 						}
 					}
 				CHI = {
