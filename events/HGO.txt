@@ -1815,6 +1815,128 @@ country_event = { #Decolonize Southeast Asia
 	}		
 }
 
+country_event = { #Release African Lakes
+	id = hgo.10
+	title = "Release all african lakes?"
+	desc = "Do it"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Agree
+		name = "why not?"
+		ai_chance = {
+			factor = 0
+		}
+				hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = LCN
+						}
+					LCN = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = LKM
+						}
+					LKM = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = LKF
+						}
+					LKF = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = LCH
+						}
+					LCH = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = LDF
+						}
+					LDF = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = LKB
+						}
+					LKB = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = LSA
+						}
+					LSA = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = CED
+						}
+					CED = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = QTT
+						}
+					QTT = {
+						transfer_state = PREV
+						}
+					}
+		}
+	}
+	option = { #Agree but Water
+		name = "just give them to the water"
+		ai_chance = {
+			factor = 0
+		}
+				hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+						is_core_of = LCN
+						is_core_of = LKM
+						is_core_of = LKF
+						is_core_of = LCH
+						is_core_of = LDF
+						is_core_of = LKB
+						is_core_of = LSA
+						is_core_of = CED
+						is_core_Of = QTT
+							}
+						}
+					WTR = {
+						transfer_state = PREV
+						}
+					}
+		}
+	}		
+	option = { #reject
+		name = "nah"
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+}
+
 country_event = { #Yeet the princely states
 	id = hgo.1
 	title = hgo.1.t
