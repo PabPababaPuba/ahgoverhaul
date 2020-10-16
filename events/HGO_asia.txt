@@ -126,6 +126,7 @@ country_event = { #1914 Asia
 					is_owned_by = HKO
 					is_owned_by = MCU
 					is_owned_by = INC
+					is_owned_by = MON
 						}
 					}
 				CHI = {
@@ -134,16 +135,22 @@ country_event = { #1914 Asia
 						}
 					}
 		CHI = {
-			transfer_state = 11140
-			transfer_state = 11178
 			set_capital = 608
 			set_politics = {
 				ruling_party = democratic
 				}
 			}
 		MON = {
-			transfer_state = 11813
-			transfer_state = 11814
+			transfer_state = 11823
+			transfer_state = 11824
+			transfer_state = 11825
+			transfer_state = 11306
+			transfer_state = 7905
+			transfer_state = 11300
+			transfer_state = 11301
+			transfer_state = 11307
+			transfer_state = 11308
+			transfer_state = 11309
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = neutrality
