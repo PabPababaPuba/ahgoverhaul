@@ -256,7 +256,6 @@ country_event = { 2020 Africa
 			annex_country = { target = GCO }
 			annex_country = { target = AHI }
 			annex_country = { target = GNH }
-			annex_country = { target = WTO }
 			set_politics = {
 				ruling_party = democratic
 				}
@@ -354,6 +353,12 @@ country_event = { 2020 Africa
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
+				}
+			}
+		WTO = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
 				}
 			}			
 		}

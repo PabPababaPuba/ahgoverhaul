@@ -194,9 +194,9 @@ country_event = { #2020 Europe
 			factor = 0
 		}
 				hidden_effect = {
-		set_province_name = { id = 3151 name = "Petrograd"}
-		195 = { set_state_name = Petrograd }
-		1082 = { set_state_name = "Yuzhny Petrograd" }
+		set_province_name = { id = 3151 name = "Saint Petersburg"}
+		195 = { set_state_name = "Saint Petersburg" }
+		1082 = { set_state_name = "South Saint Petersburg" }
 		set_province_name = { id = 3529 name = "Volgograd"}
 		217 = { set_state_name = Volgograd }
 		RUS = {
