@@ -29,6 +29,9 @@ country_event = { #1914 Europe
 					is_core_of = LOR
 					is_claimed_by = CZC
 						}
+					NOT = {
+					is_core_of = CHI
+						}
 					}
 				GER = {
 					transfer_state = PREV
@@ -43,7 +46,7 @@ country_event = { #1914 Europe
 					is_core_of = SLO
 					is_core_of = HUN
 					is_core_of = GAL
-					is_core_of = TRV
+					is_core_of = TRA
 					is_core_of = SLV
 					is_core_of = CRO
 					is_core_of = BOS
@@ -52,6 +55,7 @@ country_event = { #1914 Europe
 						}
 					NOT = {
 					is_owned_by = LIE
+					is_core_of = CHI
 						}
 					}
 				AUS = {
@@ -73,9 +77,25 @@ country_event = { #1914 Europe
 					is_owned_by = LAT
 					is_owned_by = EST
 						}
+					NOT = {
+					is_core_of = CHI
+						}
 					}
 				RUS = {
 					transfer_state = PREV
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					OR = {
+					is_core_of = IRE
+						}
+					NOT = {
+					is_core_of = CHI
+						}
+					}
+				ENG = {
 					add_state_core = PREV
 						}
 					}

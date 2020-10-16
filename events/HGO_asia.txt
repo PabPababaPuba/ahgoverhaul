@@ -1,6 +1,196 @@
 
 add_namespace = hgoasia
 
+country_event = { #1914 Asia
+	id = hgoasia.1914
+	title = "Set Asia to 1914?"
+	desc = "yea"
+	is_triggered_only = yes
+
+	option = { #Yes
+		name = "sure" 
+		ai_chance = {
+			factor = 0
+		}
+				hidden_effect = {
+		JBL = {
+			transfer_state = 1176
+			transfer_state = 6802
+			transfer_state = 2213
+			transfer_state = 5671
+			transfer_state = 9096
+			transfer_state = 5672
+			transfer_state = 9030
+			transfer_state = 9031
+			transfer_state = 5676
+			transfer_state = 1846
+			transfer_state = 7795
+			transfer_state = 5169
+			transfer_state = 5681
+			transfer_state = 3340
+			transfer_state = 3349
+			transfer_state = 3350
+			transfer_state = 9032
+			transfer_state = 9033
+			transfer_state = 6963
+			transfer_state = 6964
+			transfer_state = 6966
+			transfer_state = 6967
+			transfer_state = 6968
+			transfer_state = 2031
+			transfer_state = 5684
+			transfer_state = 1383
+			transfer_state = 675
+			transfer_state = 1104
+			transfer_state = 3354
+			transfer_state = 5654
+			transfer_state = 8081
+			transfer_state = 3372
+			}
+			every_state = {
+				limit = {
+					OR = {
+					is_core_of = JBL
+					is_owned_by = JBL
+						}
+					}
+				JBL = {
+					transfer_state = PREV
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					OR = {
+					is_core_of = KAZ
+					is_core_of = TSC
+					is_core_of = UZB
+					is_core_of = TAJ
+					is_core_of = KYR
+					is_core_of = TMS
+						}
+					}
+				RUS = {
+					transfer_state = PREV
+					add_state_core = PREV
+						}
+					}
+		TUR = {
+			transfer_state = 9395
+			transfer_state = 9389
+			transfer_state = 5612
+			transfer_state = 5648
+			transfer_state = 5327
+			}
+			every_state = {
+				limit = {
+					OR = {
+					is_owned_by = TUR
+					is_core_of = SYR
+					is_core_of = LEB
+					is_core_of = PAL
+					is_core_of = HJZ
+					is_core_of = IRQ
+					is_core_of = JOR
+					is_owned_by = YEM
+						}
+					NOT = {
+					is_owned_by = JBL
+						}
+					}
+				TUR = {
+					transfer_state = PREV
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+						}
+					NOT = {
+					is_core_of = SOV
+					is_core_of = TIB
+					is_core_of = IND
+					is_core_of = BRM
+					is_owned_by = JAP
+					is_owned_by = TWN
+					is_owned_by = ENG
+					is_owned_by = ITA
+					is_owned_by = AUS
+					is_owned_by = GER
+					is_owned_by = RUS
+					is_owned_by = FRA
+					is_owned_by = SHH
+					is_owned_by = HKO
+					is_owned_by = MCU
+					is_owned_by = INC
+						}
+					}
+				CHI = {
+					transfer_state = PREV
+					add_state_core = PREV
+						}
+					}
+		CHI = {
+			transfer_state = 11140
+			transfer_state = 11178
+			set_capital = 608
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		MON = {
+			transfer_state = 11813
+			transfer_state = 11814
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}
+		TAN = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}
+		RUS = {
+			transfer_state = 1479
+			transfer_state = 11061
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = monarchism
+				}
+			}
+		SAU = {
+			transfer_state = 5654
+			transfer_state = 2214
+			transfer_state = 3537
+			transfer_state = 3302
+			set_cosmetic_tag = NJD_neutrality
+			}
+		GER = {
+			transfer_state = 1481
+			transfer_state = 11058
+			}
+		ENG = {
+			transfer_state = 11062
+			}
+		AUS = {
+			transfer_state = 1192
+			}
+	}
+}
+	option = { #reject
+		name = "nah"
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+}
+
 country_event = { #2020 Asia
 	id = hgoasia.2020
 	title = "Set Asia to 2020?"
