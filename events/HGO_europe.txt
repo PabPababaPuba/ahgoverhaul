@@ -1,7 +1,7 @@
 
 add_namespace = hgoeurope
 
-country_event = { #2020 Europe
+country_event = { #1914 Europe
 	id = hgoeurope.1914
 	title = "Set Europe to 1914?"
 	desc = "Do it"
