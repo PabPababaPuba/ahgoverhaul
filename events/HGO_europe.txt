@@ -170,6 +170,7 @@ country_event = { #1914 Europe
 			transfer_state = 4495
 			transfer_state = 4496
 			transfer_state = 4497
+			}
 		}
 	}	
 	option = { #reject
