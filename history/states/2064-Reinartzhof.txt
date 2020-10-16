@@ -9,7 +9,7 @@ state={
 
 		}
 		add_core_of = BEL
-		add_core_if = RHI
+		add_core_of = RHI
 		add_core of = RNL
 		add_core_of = WLL
 		add_core_of = LEG
