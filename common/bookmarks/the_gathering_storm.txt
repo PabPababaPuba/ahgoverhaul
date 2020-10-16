@@ -166,6 +166,24 @@ bookmarks = {
 			history = "PORTUGAL_GATHERING_STORM_DESC"
 			ideology = democratic
 		}
+		
+		"BUL"={
+			minor = yes
+			history = "BUL_GATHERING_STORM_DESC"
+			ideology = neutrality\
+		}
+
+		"GRE"={
+			minor = yes
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = neutrality\
+		}
+
+		"TUR"={
+			minor = yes
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
