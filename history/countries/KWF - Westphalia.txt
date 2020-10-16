@@ -1,4 +1,4 @@
-﻿capital = 
+﻿capital = 8291
 
 oob = "KWF_1936"
 

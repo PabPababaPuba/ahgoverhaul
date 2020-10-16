@@ -1,6 +1,6 @@
 ﻿capital = 431
 
-oob = "WDG_1936"
+oob = "WBG_1936"
 
 set_convoys = 10
 

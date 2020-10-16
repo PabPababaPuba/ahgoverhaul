@@ -5,8 +5,6 @@ state={
 
 	history={
 		owner = ALB
-		victory_points = {
-		}
 		add_core_of = ALB
 		add_claim_by = ITA
 		add_core_of = EPR

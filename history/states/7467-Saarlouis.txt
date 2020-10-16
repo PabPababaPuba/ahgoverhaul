@@ -10,7 +10,7 @@ state={
         add_core_of = GER
 		add_core_of = PRE
 		add_core_of = SAR
-		add_core_of = RHI 
+		add_core_if = RHI
 		add_core of = RNL
 		set_demilitarized_zone = yes
     }	
