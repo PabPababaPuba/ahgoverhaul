@@ -81,18 +81,23 @@ country_event = { #1914 Asia
 			transfer_state = 5612
 			transfer_state = 5648
 			transfer_state = 5327
+			set_politics = {
+				ruling_party = monarchism
+				}
 			}
 			every_state = {
 				limit = {
 					OR = {
 					is_owned_by = TUR
+					is_owned_by = YEM
+					is_owned_by = QAT
+					is_owned_by = BHR
 					is_core_of = SYR
 					is_core_of = LEB
 					is_core_of = PAL
 					is_core_of = HJZ
 					is_core_of = IRQ
 					is_core_of = JOR
-					is_owned_by = YEM
 						}
 					NOT = {
 					is_owned_by = JBL
@@ -168,11 +173,40 @@ country_event = { #1914 Asia
 		RUS = {
 			transfer_state = 1479
 			transfer_state = 11061
+			transfer_state = 4018
+			transfer_state = 4019
+			transfer_state = 7095
+			transfer_state = 7096
+			transfer_state = 7097
+			transfer_state = 7098
+			transfer_state = 7099
+			transfer_state = 7100
+			transfer_state = 7101
+			transfer_state = 7111
+			transfer_state = 7112
+			transfer_state = 7113
+			transfer_state = 7114
+			transfer_state = 7115
+			transfer_state = 7593
+			transfer_state = 1139
+			transfer_state = 2486
+			annex_country = { target = YKT }
+			annex_country = { target = BML }
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = monarchism
 				}
 			}
+			every_state = {
+				limit = {
+					OR = {
+					is_owned_by = RUS
+						}
+					}
+				RUS = {
+					add_state_core = PREV
+						}
+					}
 		SAU = {
 			transfer_state = 2214
 			transfer_state = 3537
@@ -189,10 +223,21 @@ country_event = { #1914 Asia
 		AUS = {
 			transfer_state = 1192
 			}
+		PER = {
+			set_politics = {
+				ruling_party = monarchism
+				}
+			}
+		AFG = {
+			set_cosmetic_tag = AFG_RAJ
+			}
 			every_state = {
 				limit = {
+					OR = {
 					is_core_of = SAU
+					is_owned_by = TUR
 						}
+					}
 				set_demilitarized_zone = no
 					}
 	}
