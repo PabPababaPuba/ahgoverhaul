@@ -45283,6 +45283,7 @@ do_azerbaijani_renames = {
 		}
 
 	}	
+	
 	if = {
 		limit = {
 			state = 6361
@@ -45293,6 +45294,7 @@ do_azerbaijani_renames = {
 		}
 
 	}	
+	
 	if = {
 		limit = {
 			state = 419
@@ -45303,6 +45305,7 @@ do_azerbaijani_renames = {
 		}
 
 	}	
+	
 	if = {
 		limit = {
 			state = 354
@@ -45333,7 +45336,7 @@ do_azerbaijani_renames = {
 		}
 	}
 	
-		if = {
+	if = {
 		limit = {
 			state = 349
 		}		
@@ -45342,4 +45345,206 @@ do_azerbaijani_renames = {
 			name = "Sivas"
 		}
 	}	
+}
+do_kurdish_renames = {
+
+	if = {
+		limit = {
+			state = 656
+		}		
+		set_province_name = {
+			id = 8085
+			name = "Kuweyt"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 413
+		}		
+		set_province_name = {
+			id = 7953
+			name = "Ehvaz"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 419
+		}		
+		set_province_name = {
+			id = 1896
+			name = "Tewrêz"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1373
+		}		
+		set_province_name = {
+			id = 2089
+			name = "Besre"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 291
+		}		
+		set_province_name = {
+			id = 2097
+			name = "Bexda"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3362
+		}		
+		set_province_name = {
+			id = 792
+			name = "Bêrût"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 898
+		}		
+		set_province_name = {
+			id = 12029
+			name = "Antakya"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 354
+		}		
+		set_province_name = {
+			id = 9932
+			name = "Trapezon"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 5698
+		}		
+		set_province_name = {
+			id = 12473
+			name = "Heleb"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 554
+		}		
+		set_province_name = {
+			id = 4111
+			name = "Şam"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 344
+		}		
+		set_province_name = {
+			id = 11746
+			name = "Edene"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7112
+		}		
+		set_province_name = {
+			id = 17387
+			name = "Qers"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 5716
+		}		
+		set_province_name = {
+			id = 11881
+			name = "Samsun"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1446
+		}		
+		set_province_name = {
+			id = 9893
+			name = "Dîlok"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3398
+		}		
+		set_province_name = {
+			id = 11853
+			name = "Erzîrom"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 349
+		}		
+		set_province_name = {
+			id = 9777
+			name = "Sêwas"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7167
+		}		
+		set_province_name = {
+			id = 921
+			name = "Kayseri"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 676
+		}		
+		set_province_name = {
+			id = 10106
+			name = "Mûsil"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 352
+		}		
+		set_province_name = {
+			id = 6935
+			name = "Wan"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 5714
+		}		
+		set_province_name = {
+			id = 4512
+			name = "Amed"
+		}
+	}
 }

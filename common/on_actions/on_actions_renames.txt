@@ -15,6 +15,14 @@ on_actions = {
 						do_azerbaijani_renames = yes
 					}
 
+					### KUR ###
+					if = {
+						limit = {
+							ROOT = {tag = KUR}
+						}
+						do_kurdish_renames = yes
+					}
+
 					### ARM ###
 					if = {
 						limit = {
