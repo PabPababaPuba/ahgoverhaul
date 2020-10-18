@@ -538,8 +538,8 @@
  OTTO_democratic_DEF:0 "The Ottoman Federation"
  OTTO_communism_DEF:0 "The Ottoman Socialist Republic"
  OTTO_monarchism:0 "Ottoman Empire"
- OTTO_neutrality_DEF:0 "The Ottoman Empire"
- OTTO_:0 "Ottoman State"
+ OTTO_monarchism_DEF:0 "The Ottoman Empire"
+ OTTO:0 "Ottoman State"
  OTTO_DEF:0 "The Ottoman State"
  
  EURO_neutrality:0 "Unified Kingdom of Europe"
@@ -563,7 +563,7 @@
  MUTA_fascism_DEF:0 "Great Zimbabwe"
  MUTA_democratic_DEF:0 "Mutapa"
  MUTA_communism_DEF:0 "The Mutapa Socialist State"
- MUTA_:0 "Mutapa"
+ MUTA:0 "Mutapa"
  MUTA_DEF:0 "Mutapa"
  
  SPQR_neutrality:0 "Regnum Romanum"
