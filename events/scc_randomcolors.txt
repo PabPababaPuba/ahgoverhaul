@@ -612,6 +612,14 @@ country_event = {
 		drop_cosmetic_tag = yes
 		set_cosmetic_tag = CATALONIA_YELLOW
 	}
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = sccrandom.0002.74
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = RUS_RED
+	}
 }
 
 country_event = { #Drop

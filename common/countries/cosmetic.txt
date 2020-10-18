@@ -2420,6 +2420,11 @@ ALB_PURPLE = {
 	color_ui = rgb { 194 59 133 }
 }
 
+RUS_RED = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+
 #Update 10
 
 NZL_PURPLE = {
