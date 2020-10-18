@@ -81,6 +81,7 @@ country_event = { #1914 Asia
 			transfer_state = 5612
 			transfer_state = 5648
 			transfer_state = 5327
+			set_cosmetic_tag = OTTO
 			set_politics = {
 				ruling_party = monarchism
 				}

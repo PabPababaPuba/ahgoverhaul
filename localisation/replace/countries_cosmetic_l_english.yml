@@ -653,6 +653,8 @@
  HLRE_communism_DEF:0 "The Socialist Roman Republic"
  HLRE_monarchism:0 "Holy Roman Empire"
  HLRE_monarchism_DEF:0 "The Holy Roman Empire"
+ HLRE_national_socialism:0 "Holy Roman Reich"
+ HLRE_national_socialism_DEF:0 "The Holy Roman Reich"
  HLRE:0 "Holy Rome"
  HLRE_DEF:0 "The Holy Rome"
  
