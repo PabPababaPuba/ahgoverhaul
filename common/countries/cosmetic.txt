@@ -2707,6 +2707,11 @@ CAPITOL_COPPER = {
 	color_ui = rgb { 184 97 37 }
 }
 
+CATALONIA_YELLOW = {
+	color = rgb { 252 221 9 }
+	color_ui = rgb { 252 221 9 }	
+}
+
 #/
 #### Better Colors implemented (not 100% accurate, because he changed the defines) #_SCC
 #\
