@@ -2200,6 +2200,10 @@ INC_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
 }
+RAJ_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
 SWE_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }

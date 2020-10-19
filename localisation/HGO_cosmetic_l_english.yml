@@ -3780,6 +3780,9 @@
  INC_GER_autonomy_colony_DEF:0 "Das Reichsland Ostasien"
  INC_GER_autonomy_dominion_DEF:0 "Ostasien"
 
+ INC_GER_monarchism:0 "Colony of German East Asia"
+ INC_GER_monarchism_DEF:0 "The Colony of German East Asia"
+
  MAD_GER_autonomy_reichskolonie:0 "Reichskolonie Madagaskar"
  MAD_GER_autonomy_reichsprotectorate:0 "Reichsprotektorat Madagaskar"
  MAD_GER_autonomy_satellite:0 "Madagaskar"
