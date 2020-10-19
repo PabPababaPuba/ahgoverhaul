@@ -194,6 +194,9 @@ country_event = { #1914 Europe
 			transfer_state = 4496
 			transfer_state = 4497
 			}
+		MRN = {
+			transfer_state = 3212
+			}
 		}
 	}	
 	option = { #reject
