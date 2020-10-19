@@ -3702,6 +3702,9 @@
  KEN_GER_autonomy_colony_DEF:0 "Das Reichsland Ostafrika"
  KEN_GER_autonomy_dominion_DEF:0 "Ostafrika"
 
+ KEN_GER_right_anarchism:0 "Deutsch-Ostafrikanische Gesellschaft"
+ KEN_GER_right_anarchism_DEF:0 "The Deutsch-Ostafrikanische Gesellschaft"
+
  GER_reichskolonie_kongo:0 "Reichskolonie des Kongo"
  GER_reichskolonie_kongo_DEF:0 "Das Reichskolonie des Kongo"
 
@@ -3762,6 +3765,9 @@
  TOG_GER_autonomy_colony_DEF:0 "Das Reichsland Togoland"
  TOG_GER_autonomy_dominion_DEF:0 "Togoland"
 
+ TOG_GER_right_anarchism:0 "Deutsch-Westafrikanische Gesellschaft"
+ TOG_GER_right_anarchism_DEF:0 "The Deutsch-Westafrikanische Gesellschaft"
+
  INC_GER_autonomy_reichskolonie:0 "Reichskolonie Ostasien"
  INC_GER_autonomy_reichsprotectorate:0 "Reichsprotektorat Ostasien"
  INC_GER_autonomy_satellite:0 "Ostasien"
@@ -3779,6 +3785,9 @@
  INC_GER_autonomy_puppet_DEF:0 "Das Reichsprotektorat Ostasien"
  INC_GER_autonomy_colony_DEF:0 "Das Reichsland Ostasien"
  INC_GER_autonomy_dominion_DEF:0 "Ostasien"
+
+ INC_GER_monarchism:0 "Colony of German East Asia"
+ INC_GER_monarchism_DEF:0 "The Colony of German East Asia"
 
  MAD_GER_autonomy_reichskolonie:0 "Reichskolonie Madagaskar"
  MAD_GER_autonomy_reichsprotectorate:0 "Reichsprotektorat Madagaskar"
