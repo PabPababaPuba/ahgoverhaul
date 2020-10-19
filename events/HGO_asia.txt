@@ -1078,6 +1078,7 @@ country_event = { #2020 Asia
 		    transfer_state = 5688
 		    transfer_state = 898
 		    transfer_state = 9848
+		    release = LCT
 		}
 		every_state = { 
             limit = { is_core_of = ISR
@@ -2364,7 +2365,10 @@ country_event = { #Yeet the princely states
             	set_capital = 4732
 			set_politics = {
 	       		ruling_party = liberal_republic
-              }				
+              }
+		WTR = {
+			annex_country = { target = LCT }
+			}				
 }		
 }
 		}
