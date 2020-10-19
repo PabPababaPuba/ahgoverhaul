@@ -203,6 +203,9 @@ country_event = { #1914 Asia
 					OR = {
 					is_owned_by = RUS
 						}
+					NOT = {
+					is_core_of = CHI
+						}
 					}
 				RUS = {
 					add_state_core = PREV
