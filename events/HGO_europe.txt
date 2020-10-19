@@ -228,8 +228,6 @@ country_event = { #2020 Europe
 		217 = { set_state_name = Volgograd }
 		RUS = {
 			annex_country = { target = SOV }
-			annex_country = { target = UKR }
-			annex_country = { target = BLR }
 			release = UKR
 			release = BLR
 			transfer_state = 2414
@@ -265,31 +263,23 @@ country_event = { #2020 Europe
 			}
 					every_state = {
 						limit = {
-								OR = {
-									is_core_of = RUS
+							OR = {
+							is_core_of = RUS
+							is_owned_by = RUS
 								}
-						}
-						set_temp_variable = { unitedussr = THIS.id }
+							}
 						RUS = {
-							transfer_state = unitedussr
-							add_state_core = unitedussr
-						}
-					}
+							transfer_state = PREV
+							add_state_core = PREV
+								}
+							}
 					every_state = {
 						limit = {
+							OR = {
 							is_owned_by = GER
-							}
-						set_demilitarized_zone = no
-						}
-					every_state = {
-						limit = {
 							is_owned_by = NOR
-							}
-						set_demilitarized_zone = no
-						}
-					every_state = {
-						limit = {
 							is_owned_by = SWE
+								}
 							}
 						set_demilitarized_zone = no
 						}
@@ -400,6 +390,7 @@ country_event = { #2020 Europe
 			release = GER
 			transfer_state = 2472
 			transfer_state = 3773
+			transfer_state = 10534
 			}
 		WGR = {
 			annex_country = { target = GER }
@@ -548,6 +539,45 @@ country_event = { #2020 Europe
 		WTR = {
 			release = SLD
 			}
+			every_state = {
+				limit = {
+					is_claimed_by = FRA
+					OR = {
+						is_owned_by = ITA
+						}
+					}
+				FRA = {
+					transfer_state = PREV
+					add_state_core = PREV
+					}
+					}
+			every_state = {
+				limit = {
+					is_owned_by = POL
+					}
+				POL = {
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					OR = {
+					is_owned_by = UKR
+					is_core_of CRM
+						}
+					}
+				POL = {
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_owned_by = SER
+					}
+				SER = {
+					add_state_core = PREV
+						}
+					}
 		}
 	}	
 	option = { #reject

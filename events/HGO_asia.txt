@@ -2368,8 +2368,16 @@ country_event = { #Yeet the princely states
               }
 		WTR = {
 			annex_country = { target = LCT }
-			}				
-}		
+			}
+			every_state = {
+				limit = {
+					is_owned_by = RUS
+					}
+				RUS = {
+					add_state_core = PREV
+						}
+					}				
+	}		
 }
 		}
 	option = { #reject

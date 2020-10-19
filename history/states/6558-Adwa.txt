@@ -6,7 +6,6 @@ state={
 	}
 	history={
 	    owner = ERI
-	add_core_of = ERI
         add_core_of = ETH
 	add_core_of = AFA
     }	
