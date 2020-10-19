@@ -19080,7 +19080,7 @@ do_russian_renames = {
 		}		
 		set_province_name = {
 			id = 6282
-			name = "Shchets'in"
+			name = "Shchetsin"
 		}
 	}
 	
