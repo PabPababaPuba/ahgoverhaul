@@ -1593,6 +1593,7 @@ country_event = { #Atlantropa!
 				transfer_state = 8474
 				transfer_state = 8475
 				transfer_state = 8472
+				transfer_state = 9827
 			}
 		}
 	}
