@@ -890,11 +890,6 @@ country_event = { #Atlantropa!
 					transfer_state = 8926
 			   }
 			}
-			11843 = {
-				owner = {
-					transfer_state = 8537
-			   }
-			}
 			829 = {
 				owner = {
 					transfer_state = 9831
