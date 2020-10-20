@@ -56,6 +56,7 @@ country_event = { #1914 Europe
 					NOT = {
 					is_owned_by = LIE
 					is_core_of = CHI
+					is_owned_by = TEU
 						}
 					}
 				AUS = {
