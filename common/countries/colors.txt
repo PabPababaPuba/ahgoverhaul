@@ -5548,3 +5548,7 @@ TKS = {
 	color = rgb { 50 190 99 }
 	color_ui = rgb { 50 190 99 }
 }
+NKM = {
+color = rgb { 255 128 64 }
+color_ui = rgb { 255 128 64 }
+}
