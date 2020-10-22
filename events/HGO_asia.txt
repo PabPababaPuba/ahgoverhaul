@@ -46,6 +46,21 @@ country_event = { #1914 Asia
 			transfer_state = 5654
 			transfer_state = 8081
 			transfer_state = 3372
+			transfer_state = 6959
+			transfer_state = 8078
+			transfer_state = 1105
+			transfer_state = 3359
+			transfer_state = 5887
+			transfer_state = 5620
+			transfer_state = 5621
+			transfer_state = 7941
+			transfer_state = 3355
+			transfer_state = 2212
+			transfer_state = 2211
+			transfer_state = 5623
+			transfer_state = 7942
+			transfer_state = 3357
+			transfer_state = 2425
 			}
 			every_state = {
 				limit = {
@@ -81,6 +96,7 @@ country_event = { #1914 Asia
 			transfer_state = 5612
 			transfer_state = 5648
 			transfer_state = 5327
+			transfer_state = 3875
 			set_cosmetic_tag = OTTO
 			set_politics = {
 				ruling_party = monarchism
@@ -145,6 +161,7 @@ country_event = { #1914 Asia
 					}
 		CHI = {
 			set_capital = 608
+			set_cosmetic_tag = CHI_YELLOW
 			set_politics = {
 				ruling_party = democratic
 				}
@@ -215,6 +232,24 @@ country_event = { #1914 Asia
 			transfer_state = 2214
 			transfer_state = 3537
 			transfer_state = 3302
+			transfer_state = 6632
+			transfer_state = 6633
+			transfer_state = 6635
+			transfer_state = 6640
+			transfer_state = 6642
+			transfer_state = 5635
+			transfer_state = 5636
+			transfer_state = 5637
+			transfer_state = 5639
+			transfer_state = 9412
+			transfer_state = 5613
+			transfer_state = 5615
+			transfer_state = 5795
+			transfer_state = 3391
+			transfer_state = 2134
+			transfer_state = 6652
+			transfer_state = 2874
+			transfer_state = 6376
 			set_cosmetic_tag = NJD_neutrality
 			}
 		GER = {
@@ -234,6 +269,10 @@ country_event = { #1914 Asia
 			}
 		AFG = {
 			set_cosmetic_tag = AFG_RAJ
+			}
+		ASR = {
+			transfer_state = 5651
+			transfer_state = 5652
 			}
 			every_state = {
 				limit = {

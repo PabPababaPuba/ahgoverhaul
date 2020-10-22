@@ -1,6 +1,198 @@
 
 add_namespace = hgoafrica
 
+country_event = { 1914 Africa
+	id = hgoafrica.1914
+	title = "Set Africa to 1914?"
+	desc = "Do it"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Agree
+		name = "sure"
+		ai_chance = {
+			factor = 0
+		}
+			hidden_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = CMR
+						is_core_of = NKM
+						is_core_of = NCM
+						is_core_of = SCM
+						}
+					}
+				CMR = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit= { 
+					is_core_of = CHA
+					OR = {
+						is_core_of = LBA
+						}
+					}
+					FEA = { 
+						transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit= { 
+					is_core_of = ETH
+					OR = {
+						is_owned_by = SOM
+						is_owned_by = ERI
+						}
+					}
+					ETH = { 
+						transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit= { 
+					is_core_of = DRV
+					}
+					DRV = { 
+						transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit= { 
+					is_core_of = JUB
+					}
+					KEN = { 
+						transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit= { 
+					is_core_of = CYR
+					}
+					CYR = { 
+						transfer_state = PREV
+						}
+					}
+		CMR = {
+			set_cosmetic_tag = CMR_GER
+			set_politics = {
+				ruling_party = authoritarian_monarchism
+					}
+			}
+		TOG = {
+			annex_country = { target = WTO }
+			set_cosmetic_tag = TOG_GER
+			set_politics = {
+				ruling_party = authoritarian_monarchism
+					}
+			}
+		TZN = {
+			transfer_state = 1491
+			annex_country = { target = RUU }
+			set_cosmetic_tag = KEN_GER
+			set_politics = {
+				ruling_party = authoritarian_monarchism
+					}
+			}
+		NMB = {
+			set_cosmetic_tag = NMB_GER
+			set_politics = {
+				ruling_party = authoritarian_monarchism
+					}
+			}
+		SAF = {
+			transfer_state = 889
+			}
+		UGA = {
+			transfer_state = 6855
+			transfer_state = 4737
+			}
+		TNA = {
+			transfer_state = 6854
+			transfer_state = 9800
+			transfer_state = 9796
+			}
+		ETH = {
+			transfer_state = 7846
+			transfer_state = 7847
+			transfer_state = 7848
+			transfer_state = 7851
+			transfer_state = 9699
+			transfer_state = 1825
+			}
+		SML = {
+			transfer_state = 8107
+			}
+		LBA = {
+			transfer_state = 451
+			transfer_state = 7271
+			transfer_state = 450
+			}
+		CYR = {
+			transfer_state = 6953
+			transfer_state = 6933
+			transfer_state = 2153
+			transfer_state = 6056
+			transfer_state = 6057
+			transfer_state = 6058
+			transfer_state = 2745
+			transfer_state = 10183
+			transfer_state = 10184
+			transfer_state = 10185
+			transfer_state = 10186
+			transfer_state = 10187
+			transfer_state = 862
+			transfer_state = 6388
+			transfer_state = 858
+			transfer_state = 6046
+			transfer_state = 6384
+			transfer_state = 6045
+			transfer_state = 6387
+			transfer_state = 6386
+			transfer_state = 8125
+			transfer_state = 6385
+			transfer_state = 10191
+			transfer_state = 7657
+			transfer_state = 10190
+			transfer_state = 859
+			transfer_state = 10189
+			transfer_state = 8126
+			transfer_state = 10192
+			transfer_state = 6383
+			transfer_state = 10193
+			transfer_state = 2369
+			transfer_state = 10188
+			transfer_state = 273
+			transfer_state = 3562
+			transfer_state = 8131
+			transfer_state = 6381
+			transfer_state = 6382
+			set_capital = 856
+			set_politics = {
+				ruling_party = authoritarian_monarchism
+					}
+			}
+		SUD = {
+			transfer_state = 6049
+			transfer_state = 7255
+			transfer_state = 6391
+			transfer_state = 861
+			transfer_state = 9940
+			}	
+		}
+	}
+	
+	option = { #reject
+		name = "nah"
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+}
+
+
 country_event = { 2020 Africa
 	id = hgoafrica.2020
 	title = "Set Africa to 2020?"
