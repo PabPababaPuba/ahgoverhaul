@@ -2522,6 +2522,10 @@ TEAL_BLUE = {
 	color = rgb { 0 109 117 }
 	color_ui = rgb { 0 109 117 }
 }
+CHI_BLUE = {
+	color = rgb { 0 11 112 } 
+	color_ui = rgb { 0 11 112 }
+}
 
 #Update 10
 
