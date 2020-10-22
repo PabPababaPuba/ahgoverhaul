@@ -68,6 +68,14 @@ country_event = { 1914 Africa
 					}
 			every_state = {
 				limit= { 
+					is_core_of = DRF
+					}
+					DRF = { 
+						transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit= { 
 					is_core_of = CYR
 					}
 					CYR = { 
@@ -103,6 +111,10 @@ country_event = { 1914 Africa
 			}
 		SAF = {
 			transfer_state = 889
+			}
+		FEA = {
+			transfer_state = 7830
+			transfer_state = 7831
 			}
 		UGA = {
 			transfer_state = 6855
