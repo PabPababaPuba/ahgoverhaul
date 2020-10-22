@@ -15,6 +15,7 @@ country_event = { #1914 Oceania
 				hidden_effect = {
 		NGU = {
 			annex_country = { target = PAC }
+			annex_country = { target = NAU }
 			set_cosmetic_tag = NGU_GER
 			}
 		SAM = {
