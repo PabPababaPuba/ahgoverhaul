@@ -3897,6 +3897,24 @@
  NGU_GER_autonomy_colony_DEF:0 "Das Reichsland Neuguinea"
  NGU_GER_autonomy_dominion_DEF:0 "Neuguinea"
 
+ SAM_GER_autonomy_reichskolonie:0 "Reichskolonie Samoa"
+ SAM_GER_autonomy_reichsprotectorate:0 "Reichsprotektorat Samoa"
+ SAM_GER_autonomy_satellite:0 "Neuguinea"
+ SAM_GER_autonomy_reichskolonie_DEF:0 "Das Reichskolonie Samoa"
+ SAM_GER_autonomy_reichsprotectorate_DEF:0 "Das Reichsprotektorat Samoa"
+ SAM_GER_autonomy_satellite_DEF:0 "Samoa"
+ SAM_GER_DEF:0 "Reichskolonie Samoa"
+ SAM_GER:0 "Reichskolonie Samoa"
+
+ SAM_GER_autonomy_integrated_puppet:0 "Reichskolonie Samoa"
+ SAM_GER_autonomy_puppet:0 "Reichsprotektorat Samoa"
+ SAM_GER_autonomy_colony:0 "Reichsland Samoa"
+ SAM_GER_autonomy_dominion:0 "Samoa"
+ SAM_GER_autonomy_integrated_puppet_DEF:0 "Das Reichskolonie Samoa
+ SAM_GER_autonomy_puppet_DEF:0 "Das Reichsprotektorat Samoa"
+ SAM_GER_autonomy_colony_DEF:0 "Das Reichsland Samoa"
+ SAM_GER_autonomy_dominion_DEF:0 "Samoa"
+
  GER_reichskolonie_aquatorialafrika:0 "Reichskolonie Äquatorialafrika"
  GER_reichskolonie_aquatorialafrika_DEF:0 "Das Reichskolonie Äquatorialafrika"
 

@@ -1587,6 +1587,10 @@ NGU_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
 }
+SAM_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
 UKR_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
