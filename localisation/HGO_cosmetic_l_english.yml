@@ -6518,14 +6518,6 @@ C_LEN_ADJ:0 "Lenticular"
 
 FENNOSCANDIA:0 "Fennoscandia"
 
- OCUPY:0 "$OVERLORDADJ$ Occupation Zone"
- OCUPY_DEF:0 "the $OVERLORDADJ$ Occupation Zone"
- OCUPY_ADJ:0 "$OVERLORDADJ$"
-
- OCUPY_HOL:0 "Dutch Occupation Zone"
- OCUPY_HOL_DEF:0 "the Dutch Occupation Zone"
- OCUPY_HOL_ADJ:0 "Dutch"
-
  HKG_PRC_autonomy_integrated_puppet:0 "Hong Kong Special Administrative Region"
  HKG_PRC_autonomy_dominion:0 "Hong Kong Special Administrative Region"
  HKG_PRC_autonomy_colony:0 "Hong Kong Special Administrative Region"
@@ -6590,18 +6582,50 @@ FENNOSCANDIA:0 "Fennoscandia"
  MCU_CHI_DEF:0 "the Macau Autonomous Republic"
  MCU_CHI_ADJ:0 "Macanese"
 
- OVR_SPR:0 "$OVERLORDADJ$ Seperatists"
- OVR_SPR_ADJ:0 "$OVERLORDADJ$ Seperatists"
- OVR_SPR_DEF:0 "$OVERLORDADJ$"
+ OCUPY:0 "$OVERLORDADJ$ Occupation Zone"
+ OCUPY_DEF:0 "the $OVERLORDADJ$ Occupation Zone"
+ OCUPY_ADJ:0 "$OVERLORDADJ$"
 
- OVR_REB:0 "$OVERLORDADJ$ Rebels"
- OVR_REB_ADJ:0 "$OVERLORDADJ$ Rebels"
- OVR_REB_DEF:0 "$OVERLORDADJ$"
+ OCUPY_HOL:0 "Dutch Occupation Zone"
+ OCUPY_HOL_DEF:0 "the Dutch Occupation Zone"
+ OCUPY_HOL_ADJ:0 "Dutch"
 
- OVR_RAD:0 "$OVERLORDADJ$ Radicals"
- OVR_RAD_ADJ:0 "$OVERLORDADJ$ Radicals"
- OVR_RAD_DEF:0 "$OVERLORDADJ$"
+ SEPRT:0 "$OVERLORDADJ$ Seperatists"
+ SEPRT_ADJ:0 "$OVERLORDADJ$ Seperatists"
+ SEPRT_DEF:0 "$OVERLORDADJ$"
 
- OVR_MIL:0 "$OVERLORDADJ$ Militias"
- OVR_MIL_ADJ:0 "$OVERLORDADJ$ Militias"
- OVR_MIL_DEF:0 "$OVERLORDADJ$"
+ SEPRT_HOL:0 "Dutch Seperatists"
+ SEPRT_HOL:0 "Dutch Seperatists"
+ SEPRT_HOL:0 "Dutch"
+
+ REBEL:0 "$OVERLORDADJ$ Rebels"
+ REBEL_ADJ:0 "$OVERLORDADJ$ Rebels"
+ REBEL_DEF:0 "$OVERLORDADJ$"
+
+ REBEL_HOL:0 "Dutch Rebels"
+ REBEL_HOL_ADJ:0 "Dutch Rebels"
+ REBEL_HOL_DEF:0 "Dutch"
+
+ RDICL_HOL:0 "$OVERLORDADJ$ Radicals"
+ RDICL_HOL_ADJ:0 "$OVERLORDADJ$ Radicals"
+ RDICL_HOL_DEF:0 "$OVERLORDADJ$"
+
+ RDICL_HOL:0 "Dutch Radicals"
+ RDICL_HOL_ADJ:0 "Dutch Radicals"
+ RDICL_HOL_DEF:0 "Dutch"
+
+ MLTIA:0 "$OVERLORDADJ$ Militias"
+ MLTIA_ADJ:0 "$OVERLORDADJ$ Militias"
+ MLTIA_DEF:0 "$OVERLORDADJ$"
+
+ MLTIA_HOL:0 "Dutch Militias"
+ MLTIA_HOL_ADJ:0 "Dutch Militias"
+ MLTIA_HOL_DEF:0 "Dutch"
+
+ OCUOF:0 "$OVERLORDADJ$ Occupation of $NONIDEOLOGY$"
+ OCUOF_ADJ:0 "the $OVERLORDADJ$ Occupation of $NONIDEOLOGY$"
+ OCUOF_DEF:0 "$OVERLORDADJ$"
+
+ OCUOF_HOL:0 "Dutch Occupation of $NONIDEOLOGY$"
+ OCUOF_HOL_ADJ:0 "the Dutch Occupation of $NONIDEOLOGY$"
+ OCUOF_HOL_DEF:0 "Dutch"
