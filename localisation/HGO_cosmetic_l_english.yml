@@ -6518,6 +6518,13 @@ C_LEN_ADJ:0 "Lenticular"
 
 FENNOSCANDIA:0 "Fennoscandia"
 
+ OCUPY:0 "$OVERLORDADJ$ Occupation Zone"
+ OCUPY_DEF:0 "the $OVERLORDADJ$ Occupation Zone"
+ OCUPY_ADJ:0 "$OVERLORDADJ$"
+
+ OCUPY_HOL:0 "Dutch Occupation Zone"
+ OCUPY_HOL_DEF:0 "the Dutch Occupation Zone"
+ OCUPY_HOL_ADJ:0 "Dutch"
 
  HKG_PRC_autonomy_integrated_puppet:0 "Hong Kong Special Administrative Region"
  HKG_PRC_autonomy_dominion:0 "Hong Kong Special Administrative Region"
@@ -6534,8 +6541,6 @@ FENNOSCANDIA:0 "Fennoscandia"
  HKG_PRC:0 "Hong Kong Special Administrative Region"
  HKG_PRC_DEF:0 "the Hong Kong Special Administrative Region"
  HKG_PRC_ADJ:0 "Hong Konger"
- 
- 
 
  HKG_CHI_autonomy_integrated_puppet:0 "Hong Kong Autonomous Republic"
  HKG_CHI_autonomy_dominion:0 "Hong Kong Autonomous Republic"
@@ -6553,7 +6558,6 @@ FENNOSCANDIA:0 "Fennoscandia"
  HKG_CHI_DEF:0 "the Hong Kong Autonomous Republic"
  HKG_CHI_ADJ:0 "Hong Konger"
  
- 
  MCU_PRC_autonomy_integrated_puppet:0 "Macao Special Administrative Region"
  MCU_PRC_autonomy_dominion:0 "Macao Special Administrative Region"
  MCU_PRC_autonomy_colony:0 "Macao Special Administrative Region"
@@ -6569,8 +6573,6 @@ FENNOSCANDIA:0 "Fennoscandia"
  MCU_PRC:0 "Macao Special Administrative Region"
  MCU_PRC_DEF:0 "the Macao Special Administrative Region"
  MCU_PRC_ADJ:0 "Macanese"
- 
- 
 
  MCU_CHI_autonomy_integrated_puppet:0 "Macau Autonomous Republic"
  MCU_CHI_autonomy_dominion:0 "Macau Autonomous Republic"
