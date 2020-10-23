@@ -6589,3 +6589,19 @@ FENNOSCANDIA:0 "Fennoscandia"
  MCU_CHI:0 "Macau Autonomous Republic"
  MCU_CHI_DEF:0 "the Macau Autonomous Republic"
  MCU_CHI_ADJ:0 "Macanese"
+
+ OVR_SPR:0 "$OVERLORDADJ$ Seperatists"
+ OVR_SPR_ADJ:0 "$OVERLORDADJ$ Seperatists"
+ OVR_SPR_DEF:0 "$OVERLORDADJ$"
+
+ OVR_REB:0 "$OVERLORDADJ$ Rebels"
+ OVR_REB_ADJ:0 "$OVERLORDADJ$ Rebels"
+ OVR_REB_DEF:0 "$OVERLORDADJ$"
+
+ OVR_RAD:0 "$OVERLORDADJ$ Radicals"
+ OVR_RAD_ADJ:0 "$OVERLORDADJ$ Radicals"
+ OVR_RAD_DEF:0 "$OVERLORDADJ$"
+
+ OVR_MIL:0 "$OVERLORDADJ$ Militias"
+ OVR_MIL_ADJ:0 "$OVERLORDADJ$ Militias"
+ OVR_MIL_DEF:0 "$OVERLORDADJ$"
