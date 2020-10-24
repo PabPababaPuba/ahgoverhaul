@@ -16,32 +16,22 @@ country_event = { #Hehe Russia
 				hidden_effect = {
 					every_state = {
 						limit = {
-								OR = {
-									is_core_of = SOV
+							OR = {
+								is_core_of = SOV
+								is_owned_by = KAZ
+								is_owned_by = UZB
 								}
-								NOT = {
-									is_core_of = TAN
-									is_core_of = FIN
-									is_core_of = LAT
+							NOT = {
+								is_core_of = TAN
+								is_core_of = FIN
+								is_core_of = LAT
 								}
-						}
-						set_temp_variable = { unitedussr = THIS.id }
+							}
 						SOV = {
-							transfer_state = unitedussr
-							add_state_core = unitedussr
+							transfer_state = PREV
+							add_state_core = PREV
+							}
 						}
-					}
-			SOV = {
-				annex_country = { target = UZB }
-				annex_country = { target = KAZ }
-				}
-			random_country = {
-				limit = {
-					num_of_controlled_states > 1
-					is_ai = no
-				}
-
-			}
 		}
 	}
 	
@@ -1879,6 +1869,578 @@ country_event = { #Release African Lakes
 	}
 }
 
+country_event = { #Divide India
+	id = hgo.12
+	title = "Release every Indian States?"
+	desc = "(Modern Day States in India, not Princely States)"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Agree
+		name = "why not?"
+		ai_chance = {
+			factor = 0
+		}
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = JAK
+						}
+					JAK = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = LAD
+						}
+					LAD = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = HIA
+						}
+					HIA = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = EPU
+						}
+					EPU = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = HRY
+						}
+					HRY = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = RJS
+						}
+					RJS = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = GUJ
+						}
+					GUJ = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = DAD
+						}
+					DAD = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = MHS
+						}
+					MHS = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = GAS
+						}
+					GAS = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = KRN
+						}
+					KRN = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = KER
+						}
+					KER = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = TLN
+						}
+					TLN = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = PDU
+						}
+					PDU = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = AND
+						}
+					AND = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = TEL
+						}
+					TEL = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = CTS
+						}
+					CTS = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = ODI
+						}
+					ODI = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = WBG
+						}
+					WBG = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = JHR
+						}
+					JHR = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = BHI
+						}
+					BHI = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = ASA
+						}
+					ASA = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = MEG
+						}
+					MEG = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = TRU
+						}
+					TRU = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = MIZ
+						}
+					MIZ = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = MAP
+						}
+					MAP = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = NAA
+						}
+					NAA = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = ARN
+						}
+					ARN = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = UTP
+						}
+					UTP = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = MDY
+						}
+					MDY = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = DHL
+						}
+					DHL = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = URK
+						}
+					URK = {
+						transfer_state = PREV
+						}
+					}
+		SKM = {
+			transfer_state = 996
+			set_cosmetic_tag = RAJ_ORANGE
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		}
+	}
+	option = { #Only Indian Controlled Land
+		name = "Yes, but only in lands India controlled."
+		ai_chance = {
+			factor = 0
+		}
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = JAK
+						NOT = {
+							is_core_of = PAK
+							}
+						}
+					JAK = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = LAD
+						NOT = {
+							is_core_of = PAK
+							is_core_of = CHI
+							is_core_of = TIB
+							is_claimed_by = UYG
+							}
+						}
+					LAD = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = HIA
+						}
+					HIA = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = EPU
+						}
+					EPU = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = HRY
+						}
+					HRY = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = RJS
+						}
+					RJS = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = GUJ
+						}
+					GUJ = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = DAD
+						}
+					DAD = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = MHS
+						}
+					MHS = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = GAS
+						}
+					GAS = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = KRN
+						}
+					KRN = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = KER
+						}
+					KER = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = TLN
+						}
+					TLN = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = PDU
+						}
+					PDU = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = AND
+						}
+					AND = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = TEL
+						}
+					TEL = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = CTS
+						}
+					CTS = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = ODI
+						}
+					ODI = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = WBG
+						}
+					WBG = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = JHR
+						}
+					JHR = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = BHI
+						}
+					BHI = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = ASA
+						}
+					ASA = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = MEG
+						}
+					MEG = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = TRU
+						}
+					TRU = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = MIZ
+						}
+					MIZ = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = MAP
+						}
+					MAP = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = NAA
+						}
+					NAA = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = ARN
+						}
+					ARN = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = UTP
+						}
+					UTP = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = MDY
+						}
+					MDY = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = DHL
+						}
+					DHL = {
+						transfer_state = PREV
+						}
+					}
+				every_state = {
+					limit = {
+						is_core_of = URK
+						NOT = {
+							is_core_of = NEP
+							}
+						}
+					URK = {
+						transfer_state = PREV
+						}
+					}
+		SKM = {
+			transfer_state = 996
+			set_cosmetic_tag = RAJ_ORANGE
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
+		LAD = {
+			transfer_state = 1318
+			}
+		}
+	}		
+	option = { #reject
+		name = "nah"
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
 country_event = { #Yeet the princely states
 	id = hgo.1
 	title = hgo.1.t
@@ -1893,228 +2455,57 @@ country_event = { #Yeet the princely states
 		}
 
 		hidden_effect = {
-		RAJ = {
-			annex_country = { target = SWT }
-			annex_country = { target = HZR }
-			annex_country = { target = KPU }
-			annex_country = { target = SHA }
-			annex_country = { target = KLA }
-			annex_country = { target = KAS }
-			annex_country = { target = JJA }
-			annex_country = { target = JAF }
-			annex_country = { target = CHB }
-			annex_country = { target = DGH }
-			annex_country = { target = JRA }
-			annex_country = { target = JHL }
-			annex_country = { target = PLP }
-			annex_country = { target = PBD }
-			annex_country = { target = RPL }
-			annex_country = { target = TPA }
-			annex_country = { target = MNP }
-			annex_country = { target = CTL }
-			annex_country = { target = HYD }
-			annex_country = { target = MYS }
-			annex_country = { target = TVC }
-			annex_country = { target = COC }
-			annex_country = { target = PUD }
-			annex_country = { target = BDA }
-			annex_country = { target = JGH }
-			annex_country = { target = NVN }
-			annex_country = { target = KUT }
-			annex_country = { target = BHV }
-			annex_country = { target = IDR }
-			annex_country = { target = ORC }
-			annex_country = { target = REW }
-			annex_country = { target = BNR }
-			annex_country = { target = RMP }
-			annex_country = { target = RLM }
-			annex_country = { target = BHO }
-			annex_country = { target = INR }
-			annex_country = { target = GWA }
-			annex_country = { target = DWS }
-			annex_country = { target = DWJ }
-			annex_country = { target = DHA }
-			annex_country = { target = PRG }
-			annex_country = { target = BNS }
-			annex_country = { target = DGP }
-			annex_country = { target = JIP }
-			annex_country = { target = AWR }
-			annex_country = { target = KUL }
-			annex_country = { target = BHP }
-			annex_country = { target = DLP }
-			annex_country = { target = BDI }
-			annex_country = { target = KOT }
-			annex_country = { target = KHG }
-			annex_country = { target = UDP }
-			annex_country = { target = TNK }
-			annex_country = { target = SRH }
-			annex_country = { target = JDP }
-			annex_country = { target = BKN }
-			annex_country = { target = JSM }
-			annex_country = { target = BHW }
-			annex_country = { target = JND }
-			annex_country = { target = KPT }
-			annex_country = { target = PTI }
-			annex_country = { target = NBH }
-			annex_country = { target = NSE }
-			annex_country = { target = DTA }
-			annex_country = { target = KHP }
-			annex_country = { target = KHR }
-			annex_country = { target = LBE }
-			annex_country = { target = RJK }
-			annex_country = { target = VIJ }
-			annex_country = { target = DNT }
-			annex_country = { target = BNP }
-			annex_country = { target = SDR }
-			annex_country = { target = SVN }
-			annex_country = { target = SVV }
-			annex_country = { target = SGT }
-			annex_country = { target = MDH }
-			annex_country = { target = JMK }
-			annex_country = { target = JTH }
-			annex_country = { target = AUN }
-			annex_country = { target = KUN }
-			annex_country = { target = AKT }
-			annex_country = { target = BRR }
-			annex_country = { target = PHT }
-			annex_country = { target = GNL }
-			annex_country = { target = JWH }
-			annex_country = { target = DRP }
-			annex_country = { target = BND }
-			annex_country = { target = SRG }
-			annex_country = { target = MOV }
-			annex_country = { target = WKR }
-			annex_country = { target = DRL }
-			annex_country = { target = CBY }
-			annex_country = { target = THD }
-			annex_country = { target = RHP }
-			annex_country = { target = KSS }
-			annex_country = { target = KTW }
-			annex_country = { target = BWL }
-			annex_country = { target = KYY }
-			annex_country = { target = NMM }
-			annex_country = { target = BLS }
-			annex_country = { target = LNV }
-			annex_country = { target = SNT }
-			annex_country = { target = BRY }
-			annex_country = { target = KHH }
-			annex_country = { target = JHB }
-			annex_country = { target = SJM }
-			annex_country = { target = CUD }
-			annex_country = { target = ALR }
-			annex_country = { target = BWR }
-			annex_country = { target = MKR }
-			annex_country = { target = NRG }
-			annex_country = { target = KLC }
-			annex_country = { target = AMB }
-			annex_country = { target = DIR }
-			annex_country = { target = MKN }
-			annex_country = { target = NAG }
-			annex_country = { target = HZA }
-			annex_country = { target = CHM }
-			annex_country = { target = BSP }
-			annex_country = { target = MHD }
-			annex_country = { target = SUT }
-			annex_country = { target = SRM }
-			annex_country = { target = TGW }
-			annex_country = { target = MKO }
-			annex_country = { target = FRK }
-			annex_country = { target = DJN }
-			annex_country = { target = GNW }
-			annex_country = { target = PTD }
-			annex_country = { target = KHD }
-			annex_country = { target = SMT }
-			annex_country = { target = CKH }
-			annex_country = { target = BRX }
-			annex_country = { target = BAO }
-			annex_country = { target = PNA }
-			annex_country = { target = CHH }
-			annex_country = { target = MHR }
-			annex_country = { target = BIJ }
-			annex_country = { target = AJG }
-			annex_country = { target = JSO }
-			annex_country = { target = UHH }
-			annex_country = { target = KOI }
-			annex_country = { target = BUN }
-			annex_country = { target = PLD }
-			annex_country = { target = BTR }
-			annex_country = { target = KNK }
-			annex_country = { target = KAH }
-			annex_country = { target = PAA }
-			annex_country = { target = CGG }
-			annex_country = { target = KRA }
-			annex_country = { target = SGJ }
-			annex_country = { target = JSP }
-			annex_country = { target = SKI }
-			annex_country = { target = RGH }
-			annex_country = { target = SGH }
-			annex_country = { target = GGP }
-			annex_country = { target = NGN }
-			annex_country = { target = KGH }
-			annex_country = { target = CKD }
-			annex_country = { target = KDH }
-			annex_country = { target = SNP }
-			annex_country = { target = BDH }
-			annex_country = { target = KHM }
-			annex_country = { target = DLL }
-			annex_country = { target = NYG }
-			annex_country = { target = RAP }
-			annex_country = { target = ATK }
-			annex_country = { target = RKL }
-			annex_country = { target = BMM }
-			annex_country = { target = BNJ }
-			annex_country = { target = DHK }
-			annex_country = { target = TLC }
-			annex_country = { target = PLH }
-			annex_country = { target = KJH }
-			annex_country = { target = NLG }
-			annex_country = { target = MBJ }
-			annex_country = { target = SKL }
-			annex_country = { target = KSW }
-			annex_country = { target = UP2 }
-			annex_country = { target = JGN }
-			annex_country = { target = LHR }
-			annex_country = { target = RJG }
-			annex_country = { target = NGL }
-			annex_country = { target = NFT }
-			annex_country = { target = WAA }
-			annex_country = { target = TCH }
-			annex_country = { target = KRR }
-			annex_country = { target = KYB }
-			annex_country = { target = KHS }
-			annex_country = { target = MYL }
-			annex_country = { target = JRN }
-			annex_country = { target = NST }
-			annex_country = { target = NKH }
-			annex_country = { target = RBR }
-			annex_country = { target = MWR }
-			annex_country = { target = LAG }
-			annex_country = { target = KYM }
-			annex_country = { target = SOG }
-			annex_country = { target = NNS }
-			annex_country = { target = MWN }
-			annex_country = { target = NBP }
-			annex_country = { target = MHM }
-			annex_country = { target = BWH }
-			annex_country = { target = MWR }
-			annex_country = { target = MSO }
-			annex_country = { target = DWR }
-			annex_country = { target = MWD }
-			annex_country = { target = SLL }
-			annex_country = { target = MWL }
-			annex_country = { target = CH2 }
-			annex_country = { target = MPL }
-			annex_country = { target = LNG }
-			annex_country = { target = PAG }
-			annex_country = { target = NLW }
-			annex_country = { target = MRW }
-			annex_country = { target = IND }
-			annex_country = { target = PAK }
-			annex_country = { target = BAN }
-			annex_country = { target = BRM }
-			release = FND
-			release = GOA
-		    }
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = RAJ
+						is_core_of = BRM
+						}
+					NOT = {
+						is_core_of = GOA
+						is_core_of = FND
+						is_core_of = NEP
+						}
+					}
+				RAJ = {
+				 	transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = TIB
+					OR = {
+						is_core_of = ARN
+						}
+					}
+				TIB = {
+				 	transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = FND
+					}
+				FND = {
+				 	transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = GOA
+					}
+				GOA = {
+				 	transfer_state = PREV
+						}
+					}
+			10453 = {
+				owner = {
+					transfer_state = 10390
+			  	 	}
+				}
+		SKM = {
+			transfer_state = 996
+			}
 		SRL = {
 			set_cosmetic_tag = SRL_ENG
                         set_politics = {
@@ -2139,6 +2530,29 @@ country_event = { #Yeet the princely states
 			factor = 0
 		}
 				hidden_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = IND
+						is_core_of = SKM
+						}
+					NOT = {
+						is_core_of = PAK
+						is_core_of = NEP
+						}
+					}
+				IND = {
+				 	transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = PAK
+					}
+				PAK = {
+				 	transfer_state = PREV
+						}
+					}
 			10390 = {
 				owner = {
 					transfer_state = 1317
@@ -2186,56 +2600,6 @@ country_event = { #Yeet the princely states
 				}
 			} 
 		PAK = {
-			annex_country = { target = MKN }
-			annex_country = { target = LBE }
-			annex_country = { target = KLA }
-			annex_country = { target = KHR }
-			annex_country = { target = KPU }
-			annex_country = { target = BHW }
-			annex_country = { target = WAA }
-			annex_country = { target = TCH }
-			annex_country = { target = KRR }
-			annex_country = { target = KYB }
-			annex_country = { target = SWT }
-			annex_country = { target = HZR }
-			annex_country = { target = AMB }
-			annex_country = { target = DIR }
-			annex_country = { target = KHS }
-			annex_country = { target = CTL }
-			annex_country = { target = HZA }
-			annex_country = { target = NAG }
-			annex_country = { target = CHB }
-			annex_country = { target = LAG }
-			annex_country = { target = BWH }
-			annex_country = { target = MSO }
-			annex_country = { target = DWR }
-			annex_country = { target = MWD }
-			annex_country = { target = SLL }
-			annex_country = { target = MWL }
-			annex_country = { target = KYM }
-			annex_country = { target = MWR }
-			annex_country = { target = CH2 }
-			annex_country = { target = CHB }
-			annex_country = { target = NLW }
-			annex_country = { target = MHM }
-			annex_country = { target = MPL }
-			annex_country = { target = LNG }
-			annex_country = { target = PAG }
-			annex_country = { target = MWN }
-			annex_country = { target = NNS }
-			annex_country = { target = MRW }
-			annex_country = { target = NBP }
-			annex_country = { target = SOG }
-			transfer_state = 6305
-			transfer_state = 10567
-			transfer_state = 10576
-			transfer_state = 10561
-			transfer_state = 1320
-			transfer_state = 3056
-			transfer_state = 7601
-			transfer_state = 1322
-			transfer_state = 1188
-			transfer_state = 1914
 			set_capital = 11038
 			release = BAN
 			}
@@ -2252,221 +2616,105 @@ country_event = { #Yeet the princely states
 		BHU = {
 			drop_cosmetic_tag = yes
 			}
-		IND = {
-			annex_country = { target = SKM }
-			annex_country = { target = FND }
-			annex_country = { target = GOA }
-			annex_country = { target = KAS }
-			annex_country = { target = JJA }
-			annex_country = { target = JAF }
-			annex_country = { target = DGH }
-			annex_country = { target = JRA }
-			annex_country = { target = JHL }
-			annex_country = { target = PLP }
-			annex_country = { target = PBD }
-			annex_country = { target = RPL }
-			annex_country = { target = TPA }
-			annex_country = { target = MNP }
-			annex_country = { target = HYD }
-			annex_country = { target = MYS }
-			annex_country = { target = TVC }
-			annex_country = { target = COC }
-			annex_country = { target = PUD }
-			annex_country = { target = BDA }
-			annex_country = { target = JGH }
-			annex_country = { target = NVN }
-			annex_country = { target = KUT }
-			annex_country = { target = BHV }
-			annex_country = { target = IDR }
-			annex_country = { target = ORC }
-			annex_country = { target = REW }
-			annex_country = { target = BNR }
-			annex_country = { target = RMP }
-			annex_country = { target = RLM }
-			annex_country = { target = BHO }
-			annex_country = { target = INR }
-			annex_country = { target = GWA }
-			annex_country = { target = DWS }
-			annex_country = { target = DWJ }
-			annex_country = { target = DHA }
-			annex_country = { target = PRG }
-			annex_country = { target = BNS }
-			annex_country = { target = DGP }
-			annex_country = { target = JIP }
-			annex_country = { target = AWR }
-			annex_country = { target = KUL }
-			annex_country = { target = BHP }
-			annex_country = { target = DLP }
-			annex_country = { target = BDI }
-			annex_country = { target = KOT }
-			annex_country = { target = KHG }
-			annex_country = { target = UDP }
-			annex_country = { target = TNK }
-			annex_country = { target = SRH }
-			annex_country = { target = JDP }
-			annex_country = { target = BKN }
-			annex_country = { target = JSM }
-			annex_country = { target = JND }
-			annex_country = { target = KPT }
-			annex_country = { target = PTI }
-			annex_country = { target = NBH }
-			annex_country = { target = NSE }
-			annex_country = { target = DTA }
-			annex_country = { target = KHP }
-			annex_country = { target = RJK }
-			annex_country = { target = VIJ }
-			annex_country = { target = DNT }
-			annex_country = { target = BNP }
-			annex_country = { target = SDR }
-			annex_country = { target = SVN }
-			annex_country = { target = SVV }
-			annex_country = { target = SGT }
-			annex_country = { target = MDH }
-			annex_country = { target = JMK }
-			annex_country = { target = JTH }
-			annex_country = { target = AUN }
-			annex_country = { target = KUN }
-			annex_country = { target = AKT }
-			annex_country = { target = BRR }
-			annex_country = { target = PHT }
-			annex_country = { target = GNL }
-			annex_country = { target = JWH }
-			annex_country = { target = DRP }
-			annex_country = { target = BND }
-			annex_country = { target = SRG }
-			annex_country = { target = MOV }
-			annex_country = { target = WKR }
-			annex_country = { target = DRL }
-			annex_country = { target = CBY }
-			annex_country = { target = THD }
-			annex_country = { target = RHP }
-			annex_country = { target = KSS }
-			annex_country = { target = KTW }
-			annex_country = { target = BWL }
-			annex_country = { target = KYY }
-			annex_country = { target = NMM }
-			annex_country = { target = BLS }
-			annex_country = { target = LNV }
-			annex_country = { target = SNT }
-			annex_country = { target = BRY }
-			annex_country = { target = KHH }
-			annex_country = { target = JHB }
-			annex_country = { target = SJM }
-			annex_country = { target = CUD }
-			annex_country = { target = ALR }
-			annex_country = { target = BWR }
-			annex_country = { target = MKR }
-			annex_country = { target = NRG }
-			annex_country = { target = KLC }
-			annex_country = { target = CHM }
-			annex_country = { target = BSP }
-			annex_country = { target = MHD }
-			annex_country = { target = SUT }
-			annex_country = { target = SRM }
-			annex_country = { target = TGW }
-			annex_country = { target = MKO }
-			annex_country = { target = FRK }
-			annex_country = { target = DJN }
-			annex_country = { target = GNW }
-			annex_country = { target = PTD }
-			annex_country = { target = KHD }
-			annex_country = { target = SMT }
-			annex_country = { target = CKH }
-			annex_country = { target = BRX }
-			annex_country = { target = BAO }
-			annex_country = { target = PNA }
-			annex_country = { target = CHH }
-			annex_country = { target = MHR }
-			annex_country = { target = BIJ }
-			annex_country = { target = AJG }
-			annex_country = { target = JSO }
-			annex_country = { target = UHH }
-			annex_country = { target = KOI }
-			annex_country = { target = BUN }
-			annex_country = { target = PLD }
-			annex_country = { target = BTR }
-			annex_country = { target = KNK }
-			annex_country = { target = KAH }
-			annex_country = { target = PAA }
-			annex_country = { target = CGG }
-			annex_country = { target = KRA }
-			annex_country = { target = SGJ }
-			annex_country = { target = JSP }
-			annex_country = { target = SKI }
-			annex_country = { target = RGH }
-			annex_country = { target = SGH }
-			annex_country = { target = GGP }
-			annex_country = { target = NGN }
-			annex_country = { target = KGH }
-			annex_country = { target = CKD }
-			annex_country = { target = KDH }
-			annex_country = { target = SNP }
-			annex_country = { target = BDH }
-			annex_country = { target = KHM }
-			annex_country = { target = DLL }
-			annex_country = { target = NYG }
-			annex_country = { target = RAP }
-			annex_country = { target = ATK }
-			annex_country = { target = RKL }
-			annex_country = { target = BMM }
-			annex_country = { target = BNJ }
-			annex_country = { target = DHK }
-			annex_country = { target = TLC }
-			annex_country = { target = PLH }
-			annex_country = { target = KJH }
-			annex_country = { target = NLG }
-			annex_country = { target = MBJ }
-			annex_country = { target = SKL }
-			annex_country = { target = KSW }
-			annex_country = { target = UP2 }
-			annex_country = { target = JGN }
-			annex_country = { target = LHR }
-			annex_country = { target = RJG }
-			annex_country = { target = NGL }
-			annex_country = { target = NFT }
-			annex_country = { target = HZR }
-			annex_country = { target = MYL }
-			annex_country = { target = JRN }
-			annex_country = { target = NST }
-			annex_country = { target = NKH }
-			annex_country = { target = RBR }
-			annex_country = { target = MWR }
-			annex_country = { target = LAG }
-			annex_country = { target = KYM }
-			annex_country = { target = SOG }
-			annex_country = { target = NNS }
-			annex_country = { target = MWN }
-			annex_country = { target = NBP }
-			annex_country = { target = MHM }
-			annex_country = { target = BWH }
-			annex_country = { target = MWR }
-			annex_country = { target = MSO }
-			annex_country = { target = DWR }
-			annex_country = { target = MWD }
-			annex_country = { target = SLL }
-			annex_country = { target = MWL }
-			annex_country = { target = CH2 }
-			annex_country = { target = MPL }
-			annex_country = { target = LNG }
-			annex_country = { target = PAG }
-			annex_country = { target = NLW }
-			annex_country = { target = MRW }
-				transfer_state = 434
-				transfer_state = 3098
-				transfer_state = 7065
-				transfer_state = 7066
-				transfer_state = 7067
-				transfer_state = 7068
-				transfer_state = 7086
-				transfer_state = 11162
-				transfer_state = 11740				
-            	set_capital = 4732
+		IND = {			
+            		set_capital = 4732
 			set_politics = {
 	       		ruling_party = liberal_republic
-              }				
-}		
-}
+              			}				
+			}		
 		}
+	}
+	option = { #1947 India
+		name = "Set India to 1947 Borders" 
+		ai_chance = {
+			factor = 0
+			}
+				hidden_effect = {
+			every_state = {
+				limit = {
+					is_core_of = IND
+					NOT = {
+						is_core_of = GOA
+						is_core_of = FND
+						is_owned_by = HYD
+						is_core_of = JGH
+						is_core_of = JAK
+						is_core_of = LAD
+						is_core_of = NEP
+						}
+					}
+				IND = {
+				 	transfer_state = PREV
+					add_core_of = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = PAK
+					NOT = {
+						is_core_of = OMN
+						is_core_of = KLA
+						is_core_of = JAK
+						is_core_of = LAD
+						}
+					}
+				PAK = {
+				 	transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = BRM
+					}
+				BRM = {
+				 	transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = JAK
+						is_core_of = LAD
+						}
+					}
+				KAS = {
+				 	transfer_state = PREV
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = HYD
+					NOT = {
+						is_core_of = MDP
+						}
+					}
+				HYD = {
+				 	transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = KLA
+					}
+				KLA = {
+				 	transfer_state = PREV
+						}
+					}
+		KLA = {
+			drop_cosmetic_tag = yes
+			}
+		KAS = {
+			drop_cosmetic_tag = yes
+			}
+		JGH = {
+			transfer_state = 4284
+			}
+		IND = {
+			transfer_state = 320
+			}			
+		}		
+	}
 	option = { #reject
 		name = hgo.1.b
 		ai_chance = {
@@ -2869,7 +3117,7 @@ country_event = { #Decolonise Arabia
 	}
 }
 
-country_event = { #A
+country_event = { #Blank World Excluding Water
     id = hgo.11
     title = "Make everything Blank/Unclaimed?"
     desc = "USE THE CORRECT STEPS OR BE WATER BEFORE USING STEP 2 OR YOU'RE GONNA SPEND 1 HOUR AND 30 MINUTES ON WAITING"
