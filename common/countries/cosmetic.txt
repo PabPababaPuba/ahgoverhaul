@@ -3075,3 +3075,8 @@ PNG_AST = {
 color = rgb { 57 143 97 }
 color_ui = rgb { 74 186 126 }
 }
+
+ALG_FRA = {
+color = rgb { 37 72 155 }
+color_ui = rgb { 37 72 155 }
+}

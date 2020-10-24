@@ -6608,6 +6608,10 @@ MONKE_ADJ:0 "Monke"
  MCU_CHI:0 "Macau Autonomous Republic"
  MCU_CHI_DEF:0 "the Macau Autonomous Republic"
  MCU_CHI_ADJ:0 "Macanese"
+ 
+ ALG_FRA:0 "Colony of French Algeria"
+ ALG_FRA_DEF:0 "the Colony of French Algeria"
+ ALG_FRA_ADJ:0 "Algerian"
 
  OCUPY:0 "$OVERLORDADJ$ Occupation Zone"
  OCUPY_DEF:0 "the $OVERLORDADJ$ Occupation Zone"
