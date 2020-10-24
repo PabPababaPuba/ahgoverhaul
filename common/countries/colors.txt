@@ -9,8 +9,8 @@ ENG = {
 	color_ui = rgb { 150 26 10 }
 }
 SOV = {
-	color = rgb { 124 0 0 }
-	color_ui = rgb { 124 0 0 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
 }
 SWE = {
 	color = rgb { 29 108 198 }
