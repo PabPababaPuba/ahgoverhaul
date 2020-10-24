@@ -549,43 +549,58 @@ country_event = { #2020 Asia
 		set_province_name = { id = 4608 name = "Surabaya"}
 		set_province_name = { id = 7381 name = "Jakarta"}
 		335 = { set_state_name = Jakarta }
-			742 = {
-				owner = {
-					release = TAJ
-			   }
-			}
-			405 = {
-				owner = {
-					release = UZB
-			   }
-			}
-			1365 = {
-				owner = {
-					release = TMS
-			   }
-			}
-			590 = {
-				owner = {
-					release = KAZ
-			   }
-			}
-			3319 = {
-				owner = {
-					release = KYR
-			   }
-			}
-			582 = {
-				owner = {
-					transfer_state = 11172
-			   }
-			}
+			every_state = {
+				limit = {
+					is_core_of = KAZ
+					NOT = {
+						is_core_of = RUS
+						}
+					}
+				KAZ = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = UZB
+					NOT = {
+						is_core_of = TAJ
+						}
+					}
+				UZB = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = TAJ
+					}
+				TAJ = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = TMS
+					}
+				TMS = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = KYR
+					NOT = {
+						is_core_of = UZB
+						is_core_of = TAJ
+						}
+					}
+				KYR = {
+					transfer_state = PREV
+						}
+					}
 		UZB = {
 			annex_country = { target = KPK }
-			transfer_state = 585
-			transfer_state = 3320
-			transfer_state = 11148
-			transfer_state = 5902
-			transfer_state = 5903
 			transfer_state = 8996
 			transfer_state = 8997
 			transfer_state = 8998
@@ -595,21 +610,15 @@ country_event = { #2020 Asia
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
-            		  }	
+            			}	
 			}
 		TAJ = {
-			transfer_state = 3321
-			transfer_state = 5494
-			transfer_state = 5901
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
            			}
 			}
 		TMS = {
-			transfer_state = 1364
-			transfer_state = 10116
-			transfer_state = 10119
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = neutrality
@@ -1155,23 +1164,58 @@ country_event = { #2020 Asia
 				ruling_party = democratic
 				}
 			}
-		RUS = {
-			annex_country { target = TSC }
-			annex_country { target = TAN }
-			annex_country { target = SOV }
-			release = NGK
-			release = AZR
-			release = ARM
-			release = SOS
-			release = GEO
-			}
-		SOV = {
-			release = NGK
-			release = AZR
-			release = ARM
-			release = SOS
-			release = GEO
-			}
+			every_state = {
+				limit = {
+					is_core_of = NGK
+					}
+				NGK = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = SOS
+					}
+				SOS = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = GEO
+					NOT = {
+						is_core_of = ARM
+						is_core_of = AZR
+						is_core_of = ABK
+						is_core_of = SOS
+						}
+					}
+				GEO = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = ARM
+					NOT = {
+						is_core_of = AZR
+						}
+					}
+				ARM = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = AZR
+					NOT = {
+						is_core_of = NGK
+						}
+					}
+				AZR = {
+					transfer_state = PREV
+						}
+					}
 		AZR = {
 			transfer_state = 3578
 			transfer_state = 3579

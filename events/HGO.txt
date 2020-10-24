@@ -283,6 +283,9 @@ country_event = { #Unite China
 					transfer_state = 555
 			   }
 			}
+		RUS = {
+			annex_country = { target = TAN }
+			}
 		JAP = {
 			annex_country = { target = KOR }
 			release = ROK
@@ -306,10 +309,7 @@ country_event = { #Unite China
 			transfer_state = 9701
 			}
 		PRC = {
-			annex_country = {
-				target = TUG
-				transfer_troops = yes
-			}
+			annex_country = { target = TUG }
 			transfer_state = 1007
 			transfer_state = 1319
 			transfer_state = 1317
@@ -437,182 +437,118 @@ country_event = { #Desovietization
 			factor = 0
 		}
 				hidden_effect = {
-				if = {
+			every_state = {
 				limit = {
-				exists = SOV 
-				}
-				SOV = {
-				release = RUS 
-				release = UKR 
-				release = BLR 
-				release = KAZ 
-				release = UZB 
-				release = TMS 
-				release = TAJ 
-				release = KYR 
-				release = MLV 
-				release = GEO
-				release = AZR
-				release = ARM
-				release = ABK
-                release = NAK 
-                release = NGK
-                release = FIN
-                release = LIT
-                release = LAT
-                release = EST
-                release = POL
-}
-}
-                if = {
-                limit = {
-                SOV = {
-                is_ai = no
-                }
-                }
-                RUS = { change_tag_from = SOV }
-}
-                if = {
-                limit = {
-                AND = {
-                RUS = {
-                exists = yes 
-                }
-                SOV = {
-                exists = yes 
-                }
-                }
-                }
-                RUS = {
-                annex_country = {
-                target = SOV  				
-				}
-				}
-				}
-					every_country = {
-						limit = {
-                            has_government = vanguardism
-							NOT = {
-							tag = PRC
-							}
+					OR = {
+						is_core_of = RUS
+						is_core_of = KAZ
+						is_core_of = KPK
+						is_core_of = KYR
 						}
-                        drop_cosmetic_tag = yes
-                        set_politics = {
-                        	ruling_party = socialism_ideology
-                        	last_election = "1935.1.1"
-                        	election_frequency = 48
-                        	elections_allowed = yes
-                        }
-			GEO = {
-				drop_cosmetic_tag = yes
-			set_politics = {
-                        	ruling_party = socialism_ideology
-                        	last_election = "1935.1.1"
-                        	election_frequency = 48
-                        	elections_allowed = yes
-                        set_popularities = {
-                        	socialism_ideology = 35
-                        	liberal_republic = 20
-                        	democratic = 25
-                        	centrist_republic = 20
-                        }
-				}
-			}
-			ARM = {
-				drop_cosmetic_tag = yes
-			set_politics = {
-                        	ruling_party = socialism_ideology
-                        	last_election = "1935.1.1"
-                        	election_frequency = 48
-                        	elections_allowed = yes
-                        set_popularities = {
-                        	socialism_ideology = 35
-                        	liberal_republic = 20
-                        	democratic = 25
-                        	centrist_republic = 20
-                        }
-				}
-			}
-
-			AZR = {
-				drop_cosmetic_tag = yes
-				set_politics = {
-                        		ruling_party = socialism_ideology
-                        		last_election = "1935.1.1"
-                        		election_frequency = 48
-                        		elections_allowed = yes
-                     	  	set_popularities = {
-                        		socialism_ideology = 35
-                        		liberal_republic = 20
-                        		democratic = 25
-                        		centrist_republic = 20
-                        }
-				}
-			}
-
-                        set_popularities = {
-                        	socialism_ideology = 35
-                        	liberal_republic = 20
-                        	democratic = 25
-                        	centrist_republic = 20
-                        }				
-						}
-					every_state = {
-						limit = {
-								OR = {
-									is_core_of = RUS
-								}
-								NOT = {
-									is_core_of = FIN
-									is_core_of = TAN
-									is_core_of = LAT
-								}
-						}
-						set_temp_variable = { uniterus = THIS.id }
-						RUS = {
-							transfer_state = uniterus
-							add_state_core = uniterus
+					NOT = {
+						is_core_of = FIN
+						is_core_of = LAT
 						}
 					}
-                    RUS = {
-                    every_owned_state = {
-                    add_core_of = RUS 
-                    }
-                    }
-                    if = { 
-                    limit = { 
-                    TSC = {
-                    exists = yes 
-                    }
-                    }
- 				TSC = { 
-				release = AZR
-				release = ARM
-				release = GEO
-				release = ABK
-                release = NAK 
-                release = NGK
-}    
-} 
-                    if = { 
-                    limit = { 
-                    ADJ = {
-                    exists = yes 
-                    }
-                    }
-                GEO = {
-                annex_country = {
-                target = ADJ  				
-				}
-                    }
+				RUS = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = UKR
+					NOT = {
+						is_core_of = POL
+						}
+					}
+				UKR = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = BLR
+					NOT = {
+						is_core_of = POL
+						}
+					}
+				 BLR = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = UZB
+					NOT = {
+						is_core_of = KAZ
+						is_core_of = KPK
+						}
+					}
+				UZB = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = TMS
+					NOT = {
+						is_core_of = KAZ
+						}
+					}
+				TMS = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = TAJ
+					NOT = {
+						is_core_of = UZB
+						}
+					}
+				TAJ = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = TSC
+					}
+				TSC = {
+					transfer_state = PREV
+						}
+					}
+			every_country = {
+				limit = {
+					OR = {
+						tag = RUS
+						tag = UKR
+						tag = BLR
+						tag = GEO
+						tag = AZR
+						tag = ARM
+						tag = UZB
+						tag = TMS
+						tag = TAJ
+						tag = TSC
+						tag = MON
+						tag = SIK
+						tag = TAN
+						}
+					}
+					drop_cosmetic_tag = yes
+					set_politics = {
+                        			ruling_party = socialism_ideology
+                        			last_election = "1935.1.1"
+                        			election_frequency = 48
+                        			elections_allowed = yes
+							}
+					}		
                 SIK = {
-                annex_country = {
-                target = XJK  				
-				}
-				}
-			}			
-}              					
-					}			
+                annex_country = { target = XJK }
+			}
+		}			
+}              								
 	option = { #Reject
 		name = "I've changed my mind!"
 		ai_chance = {
@@ -1613,43 +1549,58 @@ country_event = { #Decolonize Central Asia
 			factor = 0
 		}
 				hidden_effect = {
-			742 = {
-				owner = {
-					release = TAJ
-			   }
-			}
-			405 = {
-				owner = {
-					release = UZB
-			   }
-			}
-			1365 = {
-				owner = {
-					release = TMS
-			   }
-			}
-			590 = {
-				owner = {
-					release = KAZ
-			   }
-			}
-			3319 = {
-				owner = {
-					release = KYR
-			   }
-			}
-			582 = {
-				owner = {
-					transfer_state = 11172
-			   }
-			}
+			every_state = {
+				limit = {
+					is_core_of = KAZ
+					NOT = {
+						is_core_of = RUS
+						}
+					}
+				KAZ = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = UZB
+					NOT = {
+						is_core_of = TAJ
+						}
+					}
+				UZB = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = TAJ
+					}
+				TAJ = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = TMS
+					}
+				TMS = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = KYR
+					NOT = {
+						is_core_of = UZB
+						is_core_of = TAJ
+						}
+					}
+				KYR = {
+					transfer_state = PREV
+						}
+					}
 		UZB = {
 			annex_country = { target = KPK }
-			transfer_state = 585
-			transfer_state = 3320
-			transfer_state = 11148
-			transfer_state = 5902
-			transfer_state = 5903
 			transfer_state = 8996
 			transfer_state = 8997
 			transfer_state = 8998
@@ -1659,21 +1610,15 @@ country_event = { #Decolonize Central Asia
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
-            		  }	
+            			}	
 			}
 		TAJ = {
-			transfer_state = 3321
-			transfer_state = 5494
-			transfer_state = 5901
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
            			}
 			}
 		TMS = {
-			transfer_state = 1364
-			transfer_state = 10116
-			transfer_state = 10119
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = neutrality
@@ -2741,22 +2686,58 @@ country_event = { #Decolonise Arabia
 				ruling_party = democratic
 				}
 			}
-		RUS = {
-			annex_country { target = TSC }
-			annex_country { target = SOV }
-			release = NGK
-			release = AZR
-			release = ARM
-			release = SOS
-			release = GEO
-			}
-		SOV = {
-			release = NGK
-			release = AZR
-			release = ARM
-			release = SOS
-			release = GEO
-			}
+			every_state = {
+				limit = {
+					is_core_of = NGK
+					}
+				NGK = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = SOS
+					}
+				SOS = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = GEO
+					NOT = {
+						is_core_of = ARM
+						is_core_of = AZR
+						is_core_of = ABK
+						is_core_of = SOS
+						}
+					}
+				GEO = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = ARM
+					NOT = {
+						is_core_of = AZR
+						}
+					}
+				ARM = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = AZR
+					NOT = {
+						is_core_of = NGK
+						}
+					}
+				AZR = {
+					transfer_state = PREV
+						}
+					}
 		AZR = {
 			transfer_state = 3578
 			transfer_state = 3579
@@ -2764,7 +2745,6 @@ country_event = { #Decolonise Arabia
 			transfer_state = 8084
 			transfer_state = 8085
 			transfer_state = 8086
-			annex_country = { target = NAK }
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
@@ -2789,7 +2769,6 @@ country_event = { #Decolonise Arabia
 			}
 		GEO = {
 			drop_cosmetic_tag = yes
-			annex_country = { target = ADJ }
 			set_politics = {
 				ruling_party = democratic
 				}
