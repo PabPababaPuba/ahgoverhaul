@@ -2434,7 +2434,7 @@ country_event = { #Divide India
 		}
 	}		
 	option = { #reject
-		name = "nah"
+		name = "bruh"
 		ai_chance = {
 			factor = 100
 		}
