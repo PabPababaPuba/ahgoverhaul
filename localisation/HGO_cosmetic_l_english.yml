@@ -6541,6 +6541,10 @@ C_LEN_ADJ:0 "Lenticular"
 
 FENNOSCANDIA:0 "Fennoscandia"
 
+MONKE:0 "Monke"
+MONKE_DEF:0 "Monke"
+MONKE_ADJ:0 "Monke"
+
  HKG_PRC_autonomy_integrated_puppet:0 "Hong Kong Special Administrative Region"
  HKG_PRC_autonomy_dominion:0 "Hong Kong Special Administrative Region"
  HKG_PRC_autonomy_colony:0 "Hong Kong Special Administrative Region"
