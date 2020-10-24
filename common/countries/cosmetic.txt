@@ -1307,18 +1307,6 @@ CHI_power_struggle_defeated = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
-MON_SOV = {
-	color = rgb { 132 0 0 }
-	color_ui = rgb { 132 0 0 }
-}
-TAN_SOV = {
-	color = rgb { 129 0 0 }
-	color_ui = { 129 0 0 }
-}
-SIK_SOV = {
-	color = rgb { 134 0 0 }
-	color_ui = { 134 0 0 }
-}
 IBRA = {
 	color = rgb { 67 210 17 }
 	color_ui = rgb { 67 210 17 }
@@ -1567,6 +1555,11 @@ BAN_PAK = {
 	color = rgb { 44 81 48 }
 	color_ui = rgb { 44 81 48 }
 }
+
+##################
+##GERMAN PUPPETS##
+##################
+
 ANG_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
@@ -1605,13 +1598,33 @@ ARH_GER = {
 }
 LIV_GER = {
 	color = rgb { 63 63 63 }
-	color_ui = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+MAC_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
 }
 BLR_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
 }
 RUS_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+CZC_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+MRV_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+MSC_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+BOH_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
 }
@@ -1639,6 +1652,10 @@ BALT_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
 }
+UNDL_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
 UNL_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
@@ -1648,6 +1665,10 @@ ZIM_GER = {
 	color_ui = rgb { 115 115 115 }
 }
 ZAM_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+SAF_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
 }
@@ -1699,7 +1720,19 @@ KEN_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
 }
+TZN_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
 KAZ_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+SER_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+HUN_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
 }
@@ -1731,6 +1764,119 @@ FRA_GER = {
 	color = rgb { 63 63 63 }
 	color_ui = rgb { 115 115 115 }
 }
+LKT_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+BRIT_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+FIN_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+INC_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+RAJ_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+SWE_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+DEN_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+GRN_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+ICE_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+ENG_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+SCO_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+WLS_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+CRN_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+IRE_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+ENG_ALL_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+SLO_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+FRA_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+ITA_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+VNC_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+CRM_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+TSC_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+BNT_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+GER_NFRA = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+GER_SFRA = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+ALB_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+GRE_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+MNT_GER = {
+	color = rgb { 63 63 63 }
+	color_ui = rgb { 115 115 115 }
+}
+
+##################
+##SOVIET PUPPETS##
+##################
+
 TSC_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
@@ -1815,208 +1961,507 @@ RUS_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
+MON_SOV = {
+	color = rgb { 132 0 0 }
+	color_ui = rgb { 132 0 0 }
+}
+TAN_SOV = {
+	color = rgb { 129 0 0 }
+	color_ui = { 129 0 0 }
+}
+SIK_SOV = {
+	color = rgb { 134 0 0 }
+	color_ui = { 134 0 0 }
+}
 BML_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 KPK_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 VGR_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 SBR_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 UDM_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 CVS_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 TTR_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 MRD_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 YKT_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 KPY_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 TMY_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 KTM_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 EVK_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 CCI_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 KYK_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 VMO_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 UBM_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 ABM_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 MRE_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 KKS_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 KMK_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 DAG_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 ABK_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 BSH_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 ADJ_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 CRM_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 NAK_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 NOS_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 SOS_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 NGK_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 ADY_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 KRC_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 CHR_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 KBK_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 CHE_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 KMI_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 JAO_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 ALI_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 PMR_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 PCR_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-
 YML_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+BALT_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+WLC_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+TRV_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+ROM_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+HUN_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+BUL_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+VJD_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CRO_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+BOS_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SER_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+KOS_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+MNT_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+MAC_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+YUG_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+ALB_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+GRE_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+TUR_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CYP_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SLV_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+IST_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SLO_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CZC_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CZE_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+VISE_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+AUS_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+BAV_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+PRS_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+NOGC_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SOGC_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+GER_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+DEN_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+NOR_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SWE_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+ICE_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SCAN_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+HOL_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+BEL_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+LUX_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SWI_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+ALPI_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CSC_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+BRT_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+OCC_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+FRA_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+TYR_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+VNC_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+LOM_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+PIE_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+TUS_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SIC_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SRD_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+ITA_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CAT_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+BSQ_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+GAL_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SPR_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+POR_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+IBER_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+ENG_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+EGL_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SCO_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+WLS_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CRN_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+IRE_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+NIR_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+ALN_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CAN_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+NEG_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+NWY_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+VIR_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+NCR_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+FLO_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CSA_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+TEX_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+MCH_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+NDA_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CAL_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+CAS_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+ALA_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+HAW_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+MEX_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+NORA_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
@@ -2025,6 +2470,10 @@ SOVIET = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
+
+####################
+##JAPANESE PUPPETS##
+####################
 
 AST_JAP = {
 	color = rgb { 142 59 80 }
@@ -2195,66 +2644,6 @@ PIE_SRD = {
 NAP_SIC = {
 	color = rgb { 98 120 119 }
 	color_ui = rgb { 98 120 119 }
-}
-FIN_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-INC_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-RAJ_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-SWE_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-DEN_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-GRN_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-ICE_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-ENG_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-SCO_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-WLS_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-CRN_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-IRE_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-ENG_ALL_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-SLO_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
-}
-FRA_GER = {
-	color = rgb { 63 63 63 }
-	color_ui = rgb { 115 115 115 }
 }
 SOV_USS = {
 	color = rgb { 125  13  24 }
@@ -3074,4 +3463,9 @@ color_ui = rgb { 74 186 126 }
 PNG_AST = {
 color = rgb { 57 143 97 }
 color_ui = rgb { 74 186 126 }
+}
+
+ALG_FRA = {
+color = rgb { 37 72 155 }
+color_ui = rgb { 37 72 155 }
 }
