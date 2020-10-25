@@ -2,7 +2,7 @@ state={
 	id=12112
 	name="STATE_12112"
 	provinces={
-		20923
+		20879
 	}
 	manpower = 1000
 	
@@ -10,8 +10,8 @@ state={
 	impassable = yes
 
 	history={
-		owner = EGY
-		add_core_of = EGY
+		owner = SUD
+		add_core_of = SUD
 		buildings = {
 			infrastructure = 1
 		}
