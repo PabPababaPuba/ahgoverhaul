@@ -1,13 +1,13 @@
 state={
-	id=10490
-	name="STATE_10490"
+	id=12135
+	name="STATE_12135"
 	provinces={
-		19979 
+		20857 
 	}
 	history={
-	    	owner = SUD
-		add_core_of = SUD
-    }	
+	    	owner = EGY
+		add_core_of = EGY
+    	}	
 	manpower=1000
 	state_category = pastoral
 	buildings_max_level_factor=1.000

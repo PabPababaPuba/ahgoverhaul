@@ -1,14 +1,14 @@
 state={
-	id=10490
-	name="STATE_10490"
+	id=12146
+	name="STATE_12146"
 	provinces={
-		19979 
+		20918 
 	}
 	history={
-	    	owner = SUD
+		owner = SUD
 		add_core_of = SUD
-    }	
+	}
 	manpower=1000
-	state_category = pastoral
 	buildings_max_level_factor=1.000
+	state_category = pastoral
 }
