@@ -1,0 +1,17 @@
+state={
+	id=12207
+	name="STATE_12207"
+	
+		impassable = yes
+	
+	history = {
+		owner = EGY
+		add_core_of = EGY
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		16981
+	}
+	buildings_max_level_factor=1.000
+}

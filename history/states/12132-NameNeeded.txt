@@ -1,12 +1,8 @@
+
 state={
 	id=12132
 	name="STATE_12132"
-	provinces={
-		16981 16993 9957
-	}
-	manpower = 1000
-	
-	state_category = pastoral
+
 	impassable = yes
 
 	history={
@@ -14,7 +10,15 @@ state={
 		add_core_of = EGY
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		9957 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
