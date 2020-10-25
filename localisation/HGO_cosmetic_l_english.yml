@@ -6613,6 +6613,14 @@ MONKE_ADJ:0 "Monke"
  ALG_FRA_DEF:0 "the Colony of French Algeria"
  ALG_FRA_ADJ:0 "Algerian"
 
+ CUB_USA:0 "Protectorate of American Cuba"
+ CUB_USA_DEF:0 "the Protectorate of American Cuba"
+ CUB_USA_ADJ:0 "Cuban"
+ 
+ HJZ_ARAB:0 "Kingdom of Hashemite Arabia"
+ HJZ_ARAB_DEF:0 "the Kingdom of Hashemite Arabia"
+ HJZ_ARAB_ADJ:0 "Hashemite Arabian"
+ 
  OCUPY:0 "$OVERLORDADJ$ Occupation Zone"
  OCUPY_DEF:0 "the $OVERLORDADJ$ Occupation Zone"
  OCUPY_ADJ:0 "$OVERLORDADJ$"

@@ -3469,3 +3469,13 @@ ALG_FRA = {
 color = rgb { 37 72 155 }
 color_ui = rgb { 37 72 155 }
 }
+
+CUB_USA = {
+color = rgb { 53 105 165 }
+color_ui = rgb { 53 105 165 }
+}
+
+HJZ_ARAB = {
+color = rgb { 241 196 0 }
+color_ui = rgb { 241 196 0 }
+}
