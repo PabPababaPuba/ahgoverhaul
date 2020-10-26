@@ -321,16 +321,13 @@ country_event = { #2020 Asia
 									is_core_of = BHU
 									is_core_of = BRM
 									is_core_of = HKG
-									}
-								NOT = {
 									is_core_of = MCU
 									is_core_of = RUS
 									}
 								}
-						set_temp_variable = { unitechinad = THIS.id }
 						PRC = {
-							transfer_state = unitechinad
-							add_state_core = unitechinad
+							transfer_state = PREV
+							add_state_core = PREV
 								}
 							}
 					every_state = {
@@ -576,6 +573,9 @@ country_event = { #2020 Asia
 			every_state = {
 				limit = {
 					is_core_of = TAJ
+					NOT = {
+						is_core_of = PRC
+						}
 					}
 				TAJ = {
 					transfer_state = PREV
