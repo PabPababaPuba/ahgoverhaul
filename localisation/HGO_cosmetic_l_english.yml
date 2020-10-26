@@ -6488,62 +6488,62 @@
  NHTL:0 "Nahuatl"
  CNFU:0 "Confucian"
  SNTO:0 "Shintoism" 
-
+ 
  SAG:0 "Sagallo"
-###clouds
-C_CS:0 "Clear Sky"
-C_CS_DEF:0 "Clear Sky"
-C_CS_ADJ:0 "Clear Sky"
-
-C_CUM:0 "Cumulus"
-C_CUM_DEF:0 "Cumulus"
-C_CUM_ADJ:0 "Cumulus"
-
-C_STR:0 "Stratus"
-C_STR_DEF:0 "Stratus"
-C_STR_ADJ:0 "Stratus"
-
-C_CIR:0 "Cirrus"
-C_CIR_DEF:0 "Cirrus"
-C_CIR_ADJ:0 "Cirrus"
-
-C_ALTCUM:0 "Altocumulus"
-C_ALT_DEF:0 "Altocumulus"
-C_ALT_ADJ:0 "Altocumulus"
-
-C_ALTSTR:0 "Altostratus"
-C_ALTSTR_DEF:0 "Altostratus"
-C_ALTSTR_ADJ:0 "Altostratus"
-
-C_CIRCUM:0 "Cirrocumulus"
-C_CIRCUM_DEF:0 "Cirrocumulus"
-C_CIRCUM_ADJ:0 "Cirrocumulus"
-
-C_CIRSTA:0 "Cirrostatus"
-C_CIRSTA_DEF:0 "Cirrostatus"
-C_CIRSTA_ADJ:0 "Cirrostatus"
-
-C_CUMONI:0 "Cumulonimbus"
-C_CUMONI_DEF:0 "Cumulonimbus"
-C_CUMONI_ADJ:0 "Cumulonimbus"
-
-C_NIMSTR:0 "Nimbostratus"
-C_NIMSTR_DEF:0 "Nimbostratus"
-C_NIMSTR_ADJ:0 "Nimbostratus"
-
-C_STRCUM:0 "Stratocumulus"
-C_STRCUM_DEF:0 "Stratocumulus"
-C_STRCUM_ADJ:0 "Stratocumulus"
-
-C_LEN:0 "Lenticular"
-C_LEN_DEF:0 "Lenticular"
-C_LEN_ADJ:0 "Lenticular"
-
-FENNOSCANDIA:0 "Fennoscandia"
-
-MONKE:0 "Monke"
-MONKE_DEF:0 "Monke"
-MONKE_ADJ:0 "Monke"
+ ###clouds
+ C_CS:0 "Clear Sky"
+ C_CS_DEF:0 "Clear Sky"
+ C_CS_ADJ:0 "Clear Sky"
+ 
+ C_CUM:0 "Cumulus"
+ C_CUM_DEF:0 "Cumulus"
+ C_CUM_ADJ:0 "Cumulus"
+ 
+ C_STR:0 "Stratus"
+ C_STR_DEF:0 "Stratus"
+ C_STR_ADJ:0 "Stratus"
+ 
+ C_CIR:0 "Cirrus"
+ C_CIR_DEF:0 "Cirrus"
+ C_CIR_ADJ:0 "Cirrus"
+ 
+ C_ALTCUM:0 "Altocumulus"
+ C_ALT_DEF:0 "Altocumulus"
+ C_ALT_ADJ:0 "Altocumulus"
+ 
+ C_ALTSTR:0 "Altostratus"
+ C_ALTSTR_DEF:0 "Altostratus"
+ C_ALTSTR_ADJ:0 "Altostratus"
+ 
+ C_CIRCUM:0 "Cirrocumulus"
+ C_CIRCUM_DEF:0 "Cirrocumulus"
+ C_CIRCUM_ADJ:0 "Cirrocumulus"
+ 
+ C_CIRSTA:0 "Cirrostatus"
+ C_CIRSTA_DEF:0 "Cirrostatus"
+ C_CIRSTA_ADJ:0 "Cirrostatus"
+ 
+ C_CUMONI:0 "Cumulonimbus"
+ C_CUMONI_DEF:0 "Cumulonimbus"
+ C_CUMONI_ADJ:0 "Cumulonimbus"
+ 
+ C_NIMSTR:0 "Nimbostratus"
+ C_NIMSTR_DEF:0 "Nimbostratus"
+ C_NIMSTR_ADJ:0 "Nimbostratus"
+ 
+ C_STRCUM:0 "Stratocumulus"
+ C_STRCUM_DEF:0 "Stratocumulus"
+ C_STRCUM_ADJ:0 "Stratocumulus"
+ 
+ C_LEN:0 "Lenticular"
+ C_LEN_DEF:0 "Lenticular"
+ C_LEN_ADJ:0 "Lenticular"
+ 
+ FENNOSCANDIA:0 "Fennoscandia"
+ 
+ MONKE:0 "Monke"
+ MONKE_DEF:0 "Monke"
+ MONKE_ADJ:0 "Monke"
 
  HKG_PRC_autonomy_integrated_puppet:0 "Hong Kong Special Administrative Region"
  HKG_PRC_autonomy_dominion:0 "Hong Kong Special Administrative Region"
