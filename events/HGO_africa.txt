@@ -224,6 +224,9 @@ country_event = { 2020 Africa
 			factor = 0
 		}
 			hidden_effect = {
+		1775 = {
+			set_demilitarized_zone = no
+			}
 	    	ENG = {
 			release = EGY
 			}
@@ -290,6 +293,7 @@ country_event = { 2020 Africa
 			annex_country = { target = IFN }
 			annex_country = { target = RDO }
 			annex_country = { target = SEH }
+			annex_country = { target = TGR }
 			drop_cosmetic_tag = yes
 			}
 		WES = {

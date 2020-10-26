@@ -564,7 +564,7 @@ country_event = { #2020 Europe
 				limit = {
 					OR = {
 					is_owned_by = UKR
-					is_core_of CRM
+					is_core_of = CRM
 						}
 					}
 				UKR = {
@@ -576,6 +576,22 @@ country_event = { #2020 Europe
 					is_owned_by = SER
 					}
 				SER = {
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_owned_by = WGR
+					}
+				WGR = {
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_owned_by = HOL
+					}
+				HOL = {
 					add_state_core = PREV
 						}
 					}
