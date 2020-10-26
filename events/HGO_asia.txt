@@ -313,7 +313,7 @@ country_event = { #2020 Asia
 								OR = {
 									is_core_of = PRC
 									is_core_of = TIB
-								}
+									}
 								NOT = {
 									is_core_of = IND
 									is_core_of = TWN
@@ -321,30 +321,31 @@ country_event = { #2020 Asia
 									is_core_of = BHU
 									is_core_of = BRM
 									is_core_of = HKG
-								}
+									}
 								NOT = {
 									is_core_of = MCU
-									is_core_of = SOV
+									is_core_of = RUS
+									}
 								}
-						}
 						set_temp_variable = { unitechinad = THIS.id }
 						PRC = {
 							transfer_state = unitechinad
 							add_state_core = unitechinad
-						}
-					}
+								}
+							}
 					every_state = {
 						limit = {
-								OR = {
-									is_core_of = PRC
-									is_core_of = TIB
-									is_core_of = CHI
+							OR = {
+								is_core_of = PRC
+								is_core_of = TIB
+								is_core_of = CHI
+								is_claimed_by = TIB
 								}
-						}
+							}
 						PRC = {
 							add_state_core = PREV
-						}
-					}
+								}
+							}
 					every_state = {
 						limit = {
 								OR = {
@@ -414,7 +415,8 @@ country_event = { #2020 Asia
 			transfer_state = 10743
 			transfer_state = 10744
 			transfer_state = 12031
-			transfer_state = 12034	
+			transfer_state = 12034
+			transfer_state = 1270	
 			set_politics = {
                        		ruling_party = socialism_ideology	
 					}		
@@ -700,6 +702,14 @@ country_event = { #2020 Asia
 					transfer_state = PREV
 						}
 					}
+			every_state = {
+				limit = {
+					is_core_of = BRM
+					}
+				BRM = {
+					transfer_state = PREV
+						}
+					}
 			10390 = {
 				owner = {
 					transfer_state = 1317
@@ -739,7 +749,6 @@ country_event = { #2020 Asia
 			release = BAN
 			}
 		BRM = {
-			annex_country = { target = SHA }
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
@@ -763,17 +772,9 @@ country_event = { #2020 Asia
 			   		}
 				}
 	    ENG = {
-		release = EGY
 		transfer_state = 1170
 		transfer_state = 1169
-		}		
-		EGY = {
-		drop_cosmetic_tag = yes
-			set_politics = {
-	        ruling_party = democratic
-              }
-		transfer_state = 891
-}	
+		}			
 		UAE = {
 			annex_country = { target = FUJ }
 			annex_country = { target = SHJ }
