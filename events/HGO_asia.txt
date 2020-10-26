@@ -692,6 +692,14 @@ country_event = { #2020 Asia
 				 	transfer_state = PREV
 						}
 					}
+			every_state = {
+				limit = {
+					is_core_of = NEP
+					}
+				NEP = {
+					transfer_state = PREV
+						}
+					}
 			10390 = {
 				owner = {
 					transfer_state = 1317
