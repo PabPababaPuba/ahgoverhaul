@@ -6621,6 +6621,22 @@
  HJZ_ARAB_DEF:0 "the Kingdom of Hashemite Arabia"
  HJZ_ARAB_ADJ:0 "Hashemite Arabian"
  
+ ALG_OTTO:0 "Vilayet of Algiers"
+ ALG_OTTO_DEF:0 "the Vilayet of Algiers"
+ ALG_OTTO_ADJ:0 "Algerian"
+ 
+ EGY_OTTO:0 "Vilayet of Egypt"
+ EGY_OTTO_DEF:0 "the Vilayet of Egypt"
+ EGY_OTTO_ADJ:0 "Egyptian"
+ 
+ LBA_OTTO:0 "Vilayet of Tripolitania"
+ LBA_OTTO_DEF:0 "the Vilayet of Tripolitania"
+ LBA_OTTO_ADJ:0 "Tripolitanian"
+ 
+ TUN_OTTO:0 "Vilayet of Tunis"
+ TUN_OTTO_DEF:0 "the Vilayet of Tunis"
+ TUB_OTTO_ADJ:0 "Tunisian"
+ 
  OCUPY:0 "$OVERLORDADJ$ Occupation Zone"
  OCUPY_DEF:0 "the $OVERLORDADJ$ Occupation Zone"
  OCUPY_ADJ:0 "$OVERLORDADJ$"
