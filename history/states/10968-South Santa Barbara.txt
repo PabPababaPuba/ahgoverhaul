@@ -13,6 +13,7 @@ state={
 		add_core_of = USA
 		add_core_of = CAL
 		add_core_of = CLC
+		add_core_of = LAN
 	}
 	
 	buildings_max_level_factor=1.000

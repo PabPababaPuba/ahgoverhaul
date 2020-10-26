@@ -2272,10 +2272,10 @@ do_french_renames = {
 		
 	if = {
 		limit = {
-			state = 2057
+			state = 3184
 		}		
 		set_province_name = {
-			id = 6745
+			id = 677
 			name = "Sainte-Rose"
 		}
 	}
@@ -2332,10 +2332,10 @@ do_french_renames = {
 		
 	if = {
 		limit = {
-			state = 378
+			state = 2054
 		}		
 		set_province_name = {
-			id = 6861
+			id = 3677
 			name = "Saint-José"
 		}
 	}
@@ -14427,10 +14427,10 @@ do_japanese_renames = {
 		
 	if = {
 		limit = {
-			state = 2057
+			state = 3184
 		}		
 		set_province_name = {
-			id = 6745
+			id = 677
 			name = "Santarōza"
 		}
 	}
@@ -14487,10 +14487,10 @@ do_japanese_renames = {
 		
 	if = {
 		limit = {
-			state = 378
+			state = 2054
 		}		
 		set_province_name = {
-			id = 6861
+			id = 3677
 			name = "San'noze"
 		}
 	}
@@ -21952,6 +21952,16 @@ do_english_renames = {
 		set_province_name = {
 			id = 7011
 			name = "Cairo"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 3184
+		}		
+		set_province_name = {
+			id = 677
+			name = "Santa Rosa"
 		}
 	}
 }

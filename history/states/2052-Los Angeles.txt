@@ -20,6 +20,7 @@ state={
 		add_core_of = USA
 		add_core_of = CAL
 		add_core_of = CLC
+		add_core_of = LAN
 		victory_points = {
 			9814 30 
 		}

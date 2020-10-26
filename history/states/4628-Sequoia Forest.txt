@@ -1,21 +1,24 @@
+
 state={
 	id=4628
 	name="STATE_4628"
-	provinces={
-		15451 15454 
-	}
+
 	history={
-		
-		owner = USA 
+		owner = USA
 		add_core_of = USA
 		add_core_of = CAL
 		add_core_of = CLC
 		buildings = {
 			infrastructure = 4
-			
+
 		}
+
 	}
-	manpower = 1000
-	state_category = pastoral
+
+	provinces={
+		941 11763 15451 15454 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

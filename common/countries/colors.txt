@@ -5552,3 +5552,15 @@ NKM = {
 color = rgb { 255 128 64 }
 color_ui = rgb { 255 128 64 }
 }
+NCA = {
+color = rgb { 222 241 112 }
+color_ui = rgb { 222 241 112 }
+}
+SLC = {
+color = rgb { 139 210 214 }
+color_ui = rgb { 139 210 214 }
+}
+LAN = {
+color = rgb { 208 100 53 }
+color_ui = rgb { 208 100 53 }
+}
