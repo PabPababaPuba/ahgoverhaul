@@ -1,16 +1,13 @@
-
 state={
-	id=10464
-	name="STATE_10464"
-
+	id=12211
+	name="STATE_12211"
+	provinces={
+		12723 
+	}
 	history={
 		owner = ERI
 		add_core_of = ERI
 
-	}
-
-	provinces={
-		5091 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000
