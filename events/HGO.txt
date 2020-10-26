@@ -2785,6 +2785,7 @@ country_event = { #Decolonise Arabia
 			drop_cosmetic_tag = yes
 		}
 		JOR = {
+		    transfer_state = 3350
 		    transfer_state = 1175
 		    transfer_state = 1177
 		    transfer_state = 3352
@@ -2870,6 +2871,8 @@ country_event = { #Decolonise Arabia
               }
 	    } 
 		IRQ = {
+			transfer_state = 3349
+			transfer_state = 9032
 			set_politics = {
 	        ruling_party = democratic
               }
