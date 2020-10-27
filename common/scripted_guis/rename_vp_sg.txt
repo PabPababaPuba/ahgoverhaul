@@ -79,7 +79,6 @@ scripted_gui = {
 		
 		visible = {
 			is_ai = no
-			is_faction_leader = yes
 			has_variable = rename_vp_get_provid_open
 		}
 		
@@ -214,7 +213,7 @@ scripted_gui = {
 		
 		visible = {
 			is_ai = no
-			is_faction_leader = yes
+			
 			check_variable = { rename_vp_open = 1 }
 		}
 		
@@ -434,7 +433,7 @@ scripted_gui = {
 		
 		visible = {
 			is_ai = no
-			is_faction_leader = yes
+			
 			check_variable = { rename_vp_open = 3 }
 		}
 		
