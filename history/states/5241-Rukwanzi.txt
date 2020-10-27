@@ -5,7 +5,7 @@ state={
 		15768 
 	}
 	history = {
-		owner = UGA
+		owner = TOR
 		add_core_of = UGA
 		add_core_of = COG
 	}
