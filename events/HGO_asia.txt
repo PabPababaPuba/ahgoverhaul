@@ -957,6 +957,9 @@ country_event = { #2020 Asia
 				ruling_party = democratic
 				}
 			}
+		RUS = {
+			annex_country = { target = TAN }
+			}
 			every_state = {
 				limit = {
 					is_core_of = NGK
