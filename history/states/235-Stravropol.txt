@@ -17,6 +17,11 @@ state={
 		add_core_of = RUS
 		add_core_of = CSS
 
+
+	victory_points = {
+		11696 5
+	}
+
 	}
 
 	provinces={
