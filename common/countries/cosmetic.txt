@@ -1256,8 +1256,8 @@ RATT = {
 	color_ui = rgb { 255 255 51 }
 }
 HLRE = {
-	color = rgb { 128 128 128 }
-	color_ui = rgb { 128 128 128 }
+	color = rgb { 255 208 56 }
+	color_ui = rgb { 255 208 56 }
 }
 SPR_civil_war = {
 	color = rgb { 200 100 31 }

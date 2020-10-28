@@ -1680,7 +1680,7 @@
  PCZ_USA_monarchism_ADJ:0 "Panama Canal Zoner"
  
  MEX_USA_stratocratic:0 "Territory of Mexico"
- MEX_USA_stratocratic_DEF:0 "The Territory Mexico"
+ MEX_USA_stratocratic_DEF:0 "The Territory of Mexico"
  MEX_USA_stratocratic_ADJ:0 "Mexican"
  MEX_USA_stratocratic_monarchism:0 "Imperial Territory of Mexico"
  MEX_USA_stratocratic_monarchism_DEF:0 "The Imperial Territory Mexico"
@@ -2062,7 +2062,7 @@
  UTH_TER_neutrality:0 "Utah Territory"
  UTH_TER_neutrality_DEF:0 "the Utah Territory"
  UTH_TER_neutrality_ADJ:0 "Utait"
- UTH_TER_fascism:0 "Holy Order of the Mormon republic of Deseret"
+ UTH_TER_fascism:0 "Holy Order of the Mormon Republic of Deseret"
  UTH_TER_fascism_DEF:0 "the Holy Order of the Mormon Republic of Deseret"
  UTH_TER_fascism_ADJ:0 "Mormon"
 
@@ -6716,6 +6716,8 @@
  KINGDM_DEF:0 "Kingdom of $NONIDEOLOGY$"
  DUCHIE:0 "Duchy of $NONIDEOLOGY$"
  DUCHIE_DEF:0 "Duchy of $NONIDEOLOGY$"
+ ARCDCH:0 "Archduchy of $NONIDEOLOGY$"
+ ARCDCH_DEF:0 "Archduchy of $NONIDEOLOGY$"
  GRNDCH:0 "Grand Duchy of $NONIDEOLOGY$"
  GRNDCH_DEF:0 "Grand Duchy of $NONIDEOLOGY$"
  PRINCE:0 "Principality of $NONIDEOLOGY$"
@@ -6769,6 +6771,8 @@
  UNITED_DEF:0 "United States of $NONIDEOLOGY$"
  REVLUT:0 "Revolutionary $NONIDEOLOGY$"
  REVLUT_DEF:0 "Revolutionary $NONIDEOLOGY$"
+ UNION:0 "Union of $NONIDEOLOGY$"
+ UNION_DEF:0 "Union of $NONIDEOLOGY$"
 
  ATLWAL:0 "Atlantikwall"
  ATLWAL_DEF:0 "das Atlantikwall"
@@ -6781,7 +6785,7 @@
 
  FUCK_YOU_AZRAEELIAN:0 "First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_DEF:0 "the First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
- FUCK_YOU_AZRAEELIAN_ADJ:0: "Chinese but worse"
+ FUCK_YOU_AZRAEELIAN_ADJ:0 "Chinese but worse"
 
  TEST:0 "$GETRULINGPARTY$"
  TEST_DEF:0 "$GETRULINGPARTY$"
