@@ -1,4 +1,4 @@
-﻿capital = 2046
+﻿capital = 5727
 
 oob = "THR_1936"
 
