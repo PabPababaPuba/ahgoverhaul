@@ -1,20 +1,17 @@
 state={
-	id=7126
-	name="STATE_7126"
+	id=12223
+	name="STATE_12223"
 	provinces={
-		6671 
+		20947 
 	}
 	history={
 	    owner = TSC
         add_core_of = SOV 
-		add_core_of = TSC 
+		add_core_of = TSC
         add_core_of = GEO
 
-		victory_points = {
-			6671 3
-		}
     }	
-	manpower=1000
+	manpower = 1000
 	state_category = pastoral
 	buildings_max_level_factor=1.000
 }
