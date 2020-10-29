@@ -2761,9 +2761,10 @@ country_event = { #Decolonise Arabia
 		drop_cosmetic_tag = yes
 			set_politics = {
 	        ruling_party = democratic
-              }
+              		}
 		transfer_state = 891
-}	
+		transfer_state = 12109
+		}	
 		UAE = {
 			annex_country = { target = FUJ }
 			annex_country = { target = SHJ }
@@ -2948,7 +2949,10 @@ country_event = { #Decolonise Arabia
 			}
 			every_state = {
 				limit = {
-					is_core_of = NGK
+					OR = {
+						is_core_of = NGK
+						is_claimed_by = NGK
+						}
 					}
 				NGK = {
 					transfer_state = PREV
@@ -2992,6 +2996,7 @@ country_event = { #Decolonise Arabia
 					is_core_of = AZR
 					NOT = {
 						is_core_of = NGK
+						is_claimed_by = NGK
 						}
 					}
 				AZR = {
@@ -2999,24 +3004,16 @@ country_event = { #Decolonise Arabia
 						}
 					}
 		AZR = {
-			transfer_state = 3578
-			transfer_state = 3579
-			transfer_state = 7043
-			transfer_state = 8084
-			transfer_state = 8085
+			transfer_state = 4143
 			transfer_state = 8086
+			transfer_state = 3579
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
 				}
 			}
 		NGK = {
-			transfer_state = 1035
-			transfer_state = 7040
-			transfer_state = 7042
-			transfer_state = 7048
 			drop_cosmetic_tag = yes
-			set_capital = 1035
 			set_politics = {
 				ruling_party = neutrality
 				}
