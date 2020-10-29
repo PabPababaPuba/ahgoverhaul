@@ -1018,6 +1018,7 @@ country_event = { #2020 Asia
 					}
 		AZR = {
 			transfer_state = 4143
+			transfer_state = 8085
 			transfer_state = 8086
 			transfer_state = 3579
 			drop_cosmetic_tag = yes
