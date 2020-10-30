@@ -1,5 +1,5 @@
 Q: What version of the game is this for?
-A: HGO currently works for 1.9(.3).
+A: HGO currently works for 1.10(.1).
 
 Q: How do I play this?
 A: You don't. HGO is designed as a mapping tool, and is not unpausable.
@@ -32,6 +32,9 @@ A: See this list:
 	Republican Fascism - Fascism where there is no monarch, like the Italian Social Republic or Francoist Spain in the 1940s.
 	National Socialist - Run by the NSDAP, or a party with very similar ideals.
 	Theocracy - Countries ruled by a religious leader.
+
+Q: Why did events take so long?
+A: Some events usually take 5 Minutes to complete, and that's normal, but if you are using 1.10.1, it will take longer. It is recommended to use 1.9.3 when it comes to big events.
 
 Q: Where can I find more information?
 A: https://docs.google.com/document/d/19TmUZtvzSo-7uW5PhKFhZU4G43xmo2RHMR6kduog-dI/edit
