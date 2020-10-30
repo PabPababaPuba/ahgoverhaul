@@ -22,6 +22,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_vp_button"
 			pdx_tooltip = "RENAME_VP_TOPBAR_NOID"
 			pdx_tooltip_delayed = "RENAME_VP_MOVE_ME"
+			shortcut = "ctrl+r"
 		}
 	}
 
@@ -44,6 +45,7 @@ guiTypes = {
 			position = { x = 6 y = 6 }
 			quadTextureSprite = "GFX_rename_vp_button"
 			pdx_tooltip = "RENAME_VP_OPEN_TT"
+			shortcut = "ctrl+q"
 		}
 
 		buttonType = {
@@ -51,6 +53,7 @@ guiTypes = {
 			position = { x = 40 y = 6 }
 			quadTextureSprite = "GFX_cancel_transfer_button"
 			pdx_tooltip = "RESET_VP_OPEN_TT"
+			shortcut = "ctrl+w"
 		}
 
 		buttonType = {
@@ -58,6 +61,7 @@ guiTypes = {
 			position = { x = 74 y = 6 }
 			quadTextureSprite = "GFX_vp_button"
 			pdx_tooltip = "SET_VP_OPEN_TT"
+			shortcut = "ctrl+e"
 		}
 	}
 
