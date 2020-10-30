@@ -943,9 +943,6 @@ country_event = { #2020 Asia
                 remove_core_of = PAL				
 			}			
 		}
-		UNC = {
-			transfer_state = 890
-			}
 		NOC = {
 			transfer_state = 1168
 			transfer_state = 2657

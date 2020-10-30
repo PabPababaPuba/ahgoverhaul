@@ -540,6 +540,7 @@ country_event = { 2020 Africa
 				}
 			}
 		SAF = {
+			transfer_state = 10870
 			set_politics = {
 				ruling_party = liberal_republic
 				}
@@ -565,17 +566,30 @@ country_event = { 2020 Africa
 		MAD = {
 			release = COM
 			release = MYT
+			release = FAT
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
 				}
+			}
+		MYT = {
+			set_cosmetic_tag = FRA_BLUE
 			}
 		WTO = {
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = neutrality
 				}
-			}			
+			}
+		SCM = {
+			drop_cosmetic_tag = yes
+			transfer_state = 5220
+			transfer_state = 5277
+			transfer_state = 5276
+			set_politics = {
+				ruling_party = neutrality
+				}	
+			}		
 		}
 	}
 	

@@ -128,7 +128,7 @@ country_event = { #Unite China
 }
 		}
 	option = { #Blue China + TAG
-		name = "Kuomintang shall unite China and get a blue colour!" 
+		name = "Kuomintang shall unite China and get another blue colour!" 
 		ai_chance = {
 			factor = 0
 		}

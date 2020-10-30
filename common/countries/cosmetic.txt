@@ -754,6 +754,26 @@ JAM_ENG = {
 	color = rgb { 150 26 10 }
 	color_ui = rgb { 150 26 10 }
 }
+TAC_ENG = {
+	color = rgb { 150 26 10 }
+	color_ui = rgb { 150 26 10 }
+}
+CYM_ENG = {
+	color = rgb { 150 26 10 }
+	color_ui = rgb { 150 26 10 }
+}
+EVI_ENG = {
+	color = rgb { 150 26 10 }
+	color_ui = rgb { 150 26 10 }
+}
+AGL_ENG = {
+	color = rgb { 150 26 10 }
+	color_ui = rgb { 150 26 10 }
+}
+MSR_ENG = {
+	color = rgb { 150 26 10 }
+	color_ui = rgb { 150 26 10 }
+}
 BAR_ENG = {
 	color = rgb { 150 26 10 }
 	color_ui = rgb { 150 26 10 }
