@@ -6165,65 +6165,65 @@
 
  #Roman Provinces
 
- ITA_ROME:0 "italia"
+ ITA_ROME:0 "Italia"
  ITA_ROME_DEF:0 "Italia"
- ITA_ROME_ADJ:0 "italiano"
+ ITA_ROME_ADJ:0 "Italiano"
 
- OCC_ROME:0 "narbonensis"
- OCC_ROME_DEF:0 "narbonensis"
- OCC_ROME_ADJ:0 "narbonensean"
+ OCC_ROME:0 "Narbonensis"
+ OCC_ROME_DEF:0 "Narbonensis"
+ OCC_ROME_ADJ:0 "Narbonensean"
 
- BEL_ROME:0 "belgica"
- BEL_ROME_DEF:0 "belgica"
- BEL_ROME_ADJ:0 "belga"
+ BEL_ROME:0 "Belgica"
+ BEL_ROME_DEF:0 "Belgica"
+ BEL_ROME_ADJ:0 "Belga"
 
  GSC_ROME:0 "Aquitania"
  GSC_ROME_DEF:0 "Aquitania"
  GSC_ROME_ADJ:0 "Aquitaniano"
 
- FRA_ROME:0 "lugdunensis"
+ FRA_ROME:0 "Lugdunensis"
  FRA_ROME_DEF:0 "Lugdunensis"
  FRA_ROME_ADJ:0 "Lugdunensem"
 
- HOL_ROME:0 "germania inferiore"
+ HOL_ROME:0 "Germania Inferiore"
  HOL_ROME_DEF:0 "Germania inferiore"
- HOL_ROME_ADJ:0 "germanico inferiore"
+ HOL_ROME_ADJ:0 "Germanico Inferiore"
 
- GER_ROME:0 "Germania superiore"
- GER_ROME_DEF:0 "ermania superiore"
- GER_ROME_ADJ:0 "germanico superiore"
+ GER_ROME:0 "Germania Superiore"
+ GER_ROME_DEF:0 "Germania Superiore"
+ GER_ROME_ADJ:0 "Germanico Superiore"
 
- SPR_ROME:0 "tarraconensis"
- SPR_ROME_DEF:0 "tarraconensis"
+ SPR_ROME:0 "Tarraconensis"
+ SPR_ROME_DEF:0 "Tarraconensis"
  SPR_ROME_ADJ:0 "Tarraconense"
 
- POR_ROME:0 "lusitania"
- POR_ROME_DEF:0 "lusitania"
- POR_ROME_ADJ:0 "lusitano"
+ POR_ROME:0 "Lusitania"
+ POR_ROME_DEF:0 "Lusitania"
+ POR_ROME_ADJ:0 "Lusitano"
 
- ADU_ROME:0 "baetica"
- ADU_ROME_DEF:0 "baetica"
- ADU_ROME_ADJ:0 "baetican"
+ ADU_ROME:0 "Baetica"
+ ADU_ROME_DEF:0 "Baetica"
+ ADU_ROME_ADJ:0 "Baetican"
 
- SWI_ROME:0 "raetia"
- SWI_ROME_DEF:0 "raetia"
- SWI_ROME_ADJ:0 "retico"
+ SWI_ROME:0 "Raetia"
+ SWI_ROME_DEF:0 "Raetia"
+ SWI_ROME_ADJ:0 "Retico"
 
- AUS_ROME:0 "noricum"
- AUS_ROME_DEF:0 "noricum"
- AUS_ROME_ADJ:0 "noricumesse"
+ AUS_ROME:0 "Noricum"
+ AUS_ROME_DEF:0 "Noricum"
+ AUS_ROME_ADJ:0 "Noricumesse"
 
- EGL_ROME:0 "britannia"
- EGL_ROME_DEF:0 "britannia"
+ EGL_ROME:0 "Britannia"
+ EGL_ROME_DEF:0 "Britannia"
  EGL_ROME_ADJ:0 "Brittonic"
 
- MOR_ROME:0 "mauretania tingitana"
- MOR_ROME_DEF:0 "mauretania tingitana"
- MOR_ROME_ADJ:0 "mauretania"
+ MOR_ROME:0 "Mauretania Tingitana"
+ MOR_ROME_DEF:0 "Mauretania Tingitana"
+ MOR_ROME_ADJ:0 "Mauretania"
 
- ALG_ROME:0 "mauretania caesariensis"
- ALG_ROME_DEF:0 "mauretania caesariensis"
- ALG_ROME_ADJ:0 "mauretania"
+ ALG_ROME:0 "Mauretania Caesariensis"
+ ALG_ROME_DEF:0 "Mauretania Caesariensis"
+ ALG_ROME_ADJ:0 "Mauretania"
 
 #
 
@@ -6835,6 +6835,22 @@
  FUCK_YOU_AZRAEELIAN:0 "First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_DEF:0 "the First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_ADJ:0 "Chinese but worse"
+ 
+ OSS_UNITED_democratic:0 "Republic of Ossetia"
+ OSS_UNITED_democratic_DEF:0 "The Republic of Ossetia"
+ OSS_UNITED_communism:0 "People's Union of Ossetia"
+ OSS_UNITED_communism_DEF:0 "The People's Union of Ossetia"
+ OSS_UNITED_fascism:0 "Ossetian Empire"
+ OSS_UNITED_fascism_DEF:0 "The Ossetian Empire"
+ OSS_UNITED_neutrality:0 "Ossetia"
+ OSS_UNITED_neutrality_DEF:0 "Ossetia"
+ OSS_UNITED_vanguardism:0 "Ossetian Union"
+ OSS_UNITED_vanguardism_DEF:0 "The Ossetian Union"
+ OSS_UNITED_ADJ:0 "Ossetian"
+ 
+ OSS_SOV:0 "Ossetian Autonomous Oblast"
+ OSS_SOV_DEF:0 "The Ossetian Autonomous Oblast"
+ OSS_SOV_ADJ:0 "Ossetian"
 
  TEST:0 "$GETRULINGPARTY$"
  TEST_DEF:0 "$GETRULINGPARTY$"
