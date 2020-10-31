@@ -4932,6 +4932,19 @@
  KAR_SOV_autonomy_puppet_DEF:1 "the Karelian Autonomous Soviet Socialist Republic"
  KAR_SOV_autonomy_integrated_puppet_DEF:0 "the Karelian Autonomous Soviet Socialist Republic"
  KAR_SOV_DEF:0 "the Karelian Autonomous Soviet Socialist Republic"
+ KAR_SOV_ADJ:0 "Karelian"
+ 
+ KAR_FIN_SOV:0 "Karelo-Finnish Soviet Socialist Republic"
+ KAR_FIN_SOV_autonomy_dominion:0 "Karelo-Finnish Soviet Socialist Republic"
+ KAR_FIN_SOV_autonomy_colony:0 "Karelo-Finnish Soviet Socialist Republic"
+ KAR_FIN_SOV_autonomy_puppet:1 "Karelo-Finnish Soviet Socialist Republic"
+ KAR_FIN_SOV_autonomy_integrated_puppet:0 "Karelo-Finnish Soviet Socialist Republic"
+ KAR_FIN_SOV_autonomy_dominion_DEF:0 "The Karelo-Finnish Soviet Socialist Republic"
+ KAR_FIN_SOV_autonomy_colony_DEF:0 "The Karelo-Finnish Soviet Socialist Republic"
+ KAR_FIN_SOV_autonomy_puppet_DEF:1 "The Karelo-Finnish Soviet Socialist Republic"
+ KAR_FIN_SOV_autonomy_integrated_puppet_DEF:0 "The Karelo-Finnish Soviet Socialist Republic"
+ KAR_FIN_SOV_DEF:0 "The Karelo-Finnish Soviet Socialist Republic"
+ KAR_FIN_SOV_ADJ:0 "Karelo-Finnish"
 
  EST_SOV_communism_autonomy_dominion:0 "Estonian Soviet Socialist Republic"
  EST_SOV_communism_autonomy_colony:0 "Estonian Soviet Socialist Republic"
@@ -6788,6 +6801,8 @@
  CRSDER:0 "Holy Order of $NONIDEOLOGY$"
  CRSDER_DEF:0 "Holy Order of $NONIDEOLOGY$"
 
+ COLNY:0 "Colony of $NONIDEOLOGY$"
+ COLNY_DEF:0 "Colony of $NONIDEOLOGY$"
  PROVNC:0 "Province of $NONIDEOLOGY$"
  PROVNC_DEF:0 "Province of $NONIDEOLOGY$"
  STATES:0 "State of $NONIDEOLOGY$"
