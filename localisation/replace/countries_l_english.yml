@@ -5898,6 +5898,9 @@
  LIV_monarchism:0 "Duchy of Livonia"
  LIV_monarchism_DEF:0 "The Duchy of Livonia"
  LIV_monarchism_ADJ:0 "Livonian"
+ LIV_authoritarian_monarchism:0 "United Baltic Duchy"
+ LIV_authoritarian_monarchism_DEF:0 "The United Baltic Duchy"
+ LIV_authoritarian_monarchism_ADJ:0 "Baltic"
  
  COU_fascism:0 "Kurzeme"
  COU_fascism_DEF:0 "The Kurzeme"
