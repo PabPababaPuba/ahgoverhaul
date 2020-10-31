@@ -3,7 +3,8 @@ state={
 	name="STATE_3126"
 	history={
 		
-		owner = MAL 
+		owner = FMS
+		add_core_of = FMS
 		add_core_of = MAL
 		add_core_of = PHG
 		buildings = {

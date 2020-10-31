@@ -112,6 +112,10 @@ country_event = { #2020 Oceania
 				ruling_party = democratic
 				}
 			}
+		AST = {
+			transfer_state = 711
+			transfer_state = 712
+			}
 			every_state = {
 				limit = {
 					is_core_of = FSM

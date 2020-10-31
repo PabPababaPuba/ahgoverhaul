@@ -1665,6 +1665,7 @@ country_event = { #Decolonize Southeast Asia
 			   }
 			}
 		MAL = {
+			annex_country = { target = FMS }
 			annex_country = { target = JOH }
 			annex_country = { target = STR }
 			annex_country = { target = TGA }

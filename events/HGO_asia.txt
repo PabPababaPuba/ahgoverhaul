@@ -473,6 +473,7 @@ country_event = { #2020 Asia
 			annex_country { target = INS }
 			}
 		MAL = {
+			annex_country = { target = FMS }
 			annex_country = { target = JOH }
 			annex_country = { target = STR }
 			annex_country = { target = TGA }
@@ -485,7 +486,7 @@ country_event = { #2020 Asia
 			drop_cosmetic_tag = yes
 			set_capital = 5566
 			set_politics = {
-	       		ruling_party = democratic_monarchism
+	       		ruling_party = conservative_monarchism
            			}
 			}
 		BEI = {

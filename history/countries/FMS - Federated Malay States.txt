@@ -1,9 +1,9 @@
-﻿capital = 5566 #Kuala Lumpur
+﻿capital = 5566
 
-oob = "MAL_1936"
+oob = "FMS_1936"
 
 	set_popularities = {
-		conservative_monarchism 
+		authoritarian_monarchism 
 			 = 40
 		communism
 			 = 30
@@ -13,7 +13,7 @@ oob = "MAL_1936"
 	}
 
 	set_politics = { 
- ruling_party = conservative_monarchism
+ ruling_party = authoritarian_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

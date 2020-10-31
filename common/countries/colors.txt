@@ -5564,3 +5564,7 @@ LAN = {
 color = rgb { 208 100 53 }
 color_ui = rgb { 208 100 53 }
 }
+FMS = {
+color = rgb { 150 26 10 }
+color_ui = rgb { 150 26 10 }
+}

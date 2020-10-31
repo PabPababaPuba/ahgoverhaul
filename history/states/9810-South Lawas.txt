@@ -9,6 +9,7 @@ state={
         add_core_of = SRW
         add_core_of = BEI
 	add_core_of = BEO
+	add_core_of = MAL
     }	
 	manpower=1000
 	state_category = pastoral
