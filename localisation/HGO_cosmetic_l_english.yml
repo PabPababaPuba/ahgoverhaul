@@ -6930,3 +6930,54 @@
  TEST:0 "$GETRULINGPARTY$"
  TEST_DEF:0 "$GETRULINGPARTY$"
  TEST_ADJ:0 "$GETRULINGPARTY$"
+
+###le
+
+ KUR_ENG:0 "British Protectorate of Kurdistan"
+ KUR_ENG_DEF:0 "The British Protectorate of Kurdistan"
+ KUR_ENG_ADJ:0 "Anglo-Kurdish"
+
+ KUR_FRA:0 "French Protectorate of Kurdistan"
+ KUR_FRA_DEF:0 "The French Protectorate of Kurdistan"
+ KUR_FRA_ADJ:0 "Franco-Kurdish"
+
+ TUR_ENG_INFSPH:0 "British Influence on Turkey"
+ TUR_ENG_INFSPH_DEF:0 "British Influence on Turkey"
+ TUR_ENG_INFSPH_ADJ:0 "British Influenced Turks"
+
+ TUR_FRA_INFSPH:0 "French Influence on Turkey"
+ TUR_FRA_INFSPH_DEF:0 "French Influence on Turkey"
+ TUR_FRA_INFSPH_ADJ:0 "French Influenced Turks"
+
+ TUR_ITA_INFSPH:0 "Italian Influence on Turkey"
+ TUR_ITA_INFSPH_DEF:0 "Italian Influence on Turkey"
+ TUR_ITA_INFSPH_ADJ:0 "Italian Influenced Turks"
+
+ HTY_FRA:0 "French Zone of Hatay"
+ HTY_FRA_DEF:0 "French Zone of Hatay"
+ HTY_FRA_ADJ:0 "French-Hataian"
+
+ PISS_TUR_ITA:0 "Italian Zone of Antalyia"
+ PISS_TUR_ITA_DEF:0 "Italian Zone of Antalyia"
+ PISS_TUR_ITA_ADJ:0 "Italian-Turk"
+
+ TUR_GRE:0 "Greek Zone of Izmir"
+ TUR_GRE_DEF:0 "Greek Zone of Izmir"
+ TUR_GRE_ADJ:0 "Greco-Turk"
+
+ DARINT:0 "Dardanelle International Zone"
+ DARINT_DEF:0 "The Dardanelle International Zone"
+ DARINT_ADJ:0 "Istanbulian"
+
+ SYR_FRA_INFSPH:0 "French Influence over Syria"
+ SYR_FRA_INFSPH_DEF:0 "French Influence over Syria"
+ SYR_FRA_INFSPH_ADJ:0 "Franco-Syrian"
+
+ HEJ_ENG:0 "Protectorate of the Hejaz"
+ HEJ_ENG_DEF:0 "The Protectorate of the Hejaz"
+ HEJ_ENG_ADJ:0 "Hejaz"
+
+ ASR:0 "Asir"
+ ASR_DEF:0 "Asir"
+ ASR_ADJ:0 "Asirian"
+
