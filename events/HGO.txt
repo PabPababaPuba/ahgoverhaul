@@ -549,6 +549,9 @@ country_event = { #Desovietization
 			transfer_state = 3373
 			transfer_state = 10117
 			}
+		UZB = {
+			transfer_state = 3083
+			}		
 			every_state = {
 				limit = {
 					is_core_of = WTR
