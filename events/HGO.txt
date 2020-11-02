@@ -1585,7 +1585,8 @@ country_event = { #Decolonize Central Asia
 				limit = {
 					is_core_of = KAZ
 					NOT = {
-						is_core_of = RUS
+						is_core_of = TMS
+						is_core_of = UZB
 						}
 					}
 				KAZ = {

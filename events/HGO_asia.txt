@@ -591,7 +591,8 @@ country_event = { #2020 Asia
 				limit = {
 					is_core_of = KAZ
 					NOT = {
-						is_core_of = RUS
+						is_core_of = TMS
+						is_core_of = UZB
 						}
 					}
 				KAZ = {
