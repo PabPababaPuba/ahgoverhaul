@@ -473,6 +473,7 @@ country_event = { #Desovietization
 					NOT = {
 						is_core_of = KAZ
 						is_core_of = KPK
+						is_core_of = KYR
 						}
 					}
 				UZB = {
@@ -495,6 +496,7 @@ country_event = { #Desovietization
 					is_core_of = TAJ
 					NOT = {
 						is_core_of = UZB
+						is_core_of = KYR
 						}
 					}
 				TAJ = {
@@ -525,6 +527,8 @@ country_event = { #Desovietization
 						tag = MON
 						tag = SIK
 						tag = TAN
+						tag = KYR
+						tag = KAZ
 						}
 					}
 					drop_cosmetic_tag = yes
@@ -536,10 +540,44 @@ country_event = { #Desovietization
 							}
 					}		
                 SIK = {
-                annex_country = { target = XJK }
+                	annex_country = { target = XJK }
 			}
+		RUS = {
+			transfer_state = 11148
+			}
+		TMS = {
+			transfer_state = 3373
+			transfer_state = 10117
+			}
+			every_state = {
+				limit = {
+					is_core_of = WTR
+					OR = {
+						is_owned_by = UZB
+						is_owned_by = KAZ
+						}
+					}
+				RUS = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					OR = {
+						is_owned_by = RUS
+						is_core_of = KAZ
+						is_core_of = KYR
+						}
+					NOT = {
+						is_core_of = CHI
+						}
+					}
+				RUS = {
+					add_state_core = PREV
+						}
+					}
 		}			
-}              								
+	}              								
 	option = { #Reject
 		name = "I've changed my mind!"
 		ai_chance = {
