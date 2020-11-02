@@ -159,6 +159,35 @@ country_event = { #1914 Asia
 					add_state_core = PREV
 						}
 					}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = BKH
+						is_claimed_by = BKH
+						}
+					NOT = {
+						is_core_of = KYR
+						is_core_of = KAZ
+						}
+					}
+				BKH = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = KHI
+						}
+					NOT = {
+						is_core_of = KYR
+						is_core_of = KAZ
+						}
+					}
+				KHI = {
+					transfer_state = PREV
+						}
+					}
 		CHI = {
 			set_capital = 608
 			set_cosmetic_tag = CHI_YELLOW
@@ -208,6 +237,9 @@ country_event = { #1914 Asia
 			transfer_state = 7593
 			transfer_state = 1139
 			transfer_state = 2486
+			transfer_state = 3636
+			transfer_state = 4125
+			transfer_state = 1372
 			annex_country = { target = YKT }
 			annex_country = { target = BML }
 			drop_cosmetic_tag = yes
@@ -219,6 +251,8 @@ country_event = { #1914 Asia
 				limit = {
 					OR = {
 					is_owned_by = RUS
+					is_owned_by = BKH
+					is_owned_by = KHI
 						}
 					NOT = {
 					is_core_of = CHI
@@ -265,9 +299,7 @@ country_event = { #1914 Asia
 			transfer_state = 1192
 			}
 		PER = {
-			set_politics = {
-				ruling_party = monarchism
-				}
+			set_cosmetic_tag = PERS
 			}
 		AFG = {
 			set_cosmetic_tag = AFG_RAJ
@@ -275,6 +307,12 @@ country_event = { #1914 Asia
 		ASR = {
 			transfer_state = 5651
 			transfer_state = 5652
+			}
+		BKH = {
+			set_cosmetic_tag = RUS_GREEN
+			}
+		KHI = {
+			set_cosmetic_tag = RUS_GREEN
 			}
 			every_state = {
 				limit = {
