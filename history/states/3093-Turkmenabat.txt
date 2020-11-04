@@ -1,21 +1,25 @@
+
 state={
 	id=3093
 	name="STATE_3093"
+
 	history={
-		
 		owner = TMS
 		add_core_of = SOV
 		add_core_of = TMS
 		add_core_of = TKS
+		add_core_of = BKH
 		buildings = {
 			infrastructure = 4
-			
+
 		}
+
 	}
+
 	provinces={
-		4482 4549 5003 10742 14573
+		4549 10742 
 	}
-	manpower=1000 
- state_category=pastoral
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

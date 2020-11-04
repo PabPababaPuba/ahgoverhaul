@@ -15,11 +15,12 @@ state={
 		add_core_of = SOV
 		add_core_of = KAZ
 		add_claim_by = TKS
+		add_core_of = ATB
 
 	}
 
 	provinces={
-		1220 1314 1371 1429 4303 4376 4394 7337 7354 7410 10131 10164 10264 12108 12179 12294 14385 
+		7337 7354 10164 14385 
 	}
 	manpower=142140
 	buildings_max_level_factor=1.000

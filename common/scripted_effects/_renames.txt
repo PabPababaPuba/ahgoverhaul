@@ -8677,6 +8677,12 @@ do_german_renames = {
 			id = 4333
 			name = "Akmola"
 		}	
+	}
+	
+	if = {
+		limit = {
+			state = 3312
+		}		
 		set_province_name = {
 			id = 10308
 			name = "Karagandie"
@@ -8945,10 +8951,10 @@ do_german_renames = {
 
 	if = {
 		limit = {
-			state = 742		
+			state = 1380 		
 		}		
 		set_province_name = {
-			id = 12250
+			id = 1384
 			name = "Duschanbe"
 		}
 	}
@@ -9806,10 +9812,10 @@ do_german_renames = {
 
 	if = {
 		limit = {
-			state = 407
+			state = 3306
 		}		
 		set_province_name = {
-			id = 3538
+			id = 11537
 			name = "Uralskstadt"
 		}
 	}
@@ -12928,10 +12934,10 @@ do_pinyin_renames = {
 
 	if = {
 		limit = {
-			state = 407
+			state = 3306
 		}		
 		set_province_name = {
-			id = 3538
+			id = 11537
 			name = "Wūlā'ěr"
 		}
 	}
@@ -12988,10 +12994,10 @@ do_pinyin_renames = {
 
 	if = {
 		limit = {
-			state = 742		
+			state = 1380 		
 		}		
 		set_province_name = {
-			id = 12250
+			id = 1384
 			name = "Dùshàngbié"
 		}
 	}
@@ -17283,6 +17289,12 @@ do_russian_renames = {
 			id = 4333
 			name = "Akmolinsk"
 		}	
+	}
+	
+	if = {
+		limit = {
+			state = 3312
+		}		
 		set_province_name = {
 			id = 10308
 			name = "Karagandy"
@@ -19959,10 +19971,10 @@ do_russian_renames = {
 
 	if = {
 		limit = {
-			state = 742		
+			state = 1380 		
 		}		
 		set_province_name = {
-			id = 12250
+			id = 1384
 			name = "Stalinabad"
 		}
 	}
@@ -20075,10 +20087,10 @@ do_russian_renames = {
 
 	if = {
 		limit = {
-			state = 407
+			state = 3306
 		}		
 		set_province_name = {
-			id = 3538
+			id = 11537
 			name = "Uralsk"
 		}
 	}
@@ -27148,7 +27160,7 @@ do_polish_renames = {
 			name = "Szymkent"
 		}
 	}
-
+	
 	if = {
 		limit = {
 			state = 590
@@ -27157,6 +27169,12 @@ do_polish_renames = {
 			id = 4333
 			name = "Akmoła"
 		}	
+	}
+	
+	if = {
+		limit = {
+			state = 3312
+		}		
 		set_province_name = {
 			id = 10308
 			name = "Karagandy"
@@ -27325,10 +27343,10 @@ do_polish_renames = {
 
 	if = {
 		limit = {
-			state = 742		
+			state = 1380 		
 		}		
 		set_province_name = {
-			id = 12250
+			id = 1384
 			name = "Duszanbe"
 		}
 	}
@@ -27355,10 +27373,10 @@ do_polish_renames = {
 
 	if = {
 		limit = {
-			state = 407
+			state = 3306
 		}		
 		set_province_name = {
-			id = 3538
+			id = 11537
 			name = "Orał"
 		}
 	}
@@ -36551,7 +36569,7 @@ do_turkish_renames = {
 			name = "Almatı"
 		}
 	}
-
+	
 	if = {
 		limit = {
 			state = 590
@@ -36559,7 +36577,13 @@ do_turkish_renames = {
 		set_province_name = {
 			id = 4333
 			name = "Akmola"
-		}
+		}	
+	}
+	
+	if = {
+		limit = {
+			state = 3312
+		}		
 		set_province_name = {
 			id = 10308
 			name = "Karağandı"
@@ -36588,10 +36612,10 @@ do_turkish_renames = {
 
 	if = {
 		limit = {
-			state = 742		
+			state = 1380 		
 		}		
 		set_province_name = {
-			id = 12250
+			id = 1384
 			name = "Duşanbe"
 		}
 	}
@@ -37842,10 +37866,10 @@ do_turkish_renames = {
 
 	if = {
 		limit = {
-			state = 407
+			state = 3306
 		}		
 		set_province_name = {
-			id = 3538
+			id = 11537
 			name = "Yayık"
 		}
 	}

@@ -14,9 +14,6 @@ state={
 		add_core_of = ORN
 		add_core_of = KAZ
 		add_claim_by = TKS
-		victory_points = {
-			3563 5 
-		}
 
 	}
 

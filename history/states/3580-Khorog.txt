@@ -18,7 +18,7 @@ state={
 		add_core_of = TAJ
 		add_core_of = PMR
 		add_core_of = TKS
-		add_claim_by = BKH
+		add_core_of = BKH
 	}
 	buildings_max_level_factor=1.000
 }

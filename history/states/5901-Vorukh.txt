@@ -9,10 +9,9 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = KYR
+		owner = TAJ
 		add_core_of = SOV
 		add_core_of = TAJ
-                add_core_of = BKH
 		add_core_of = KYR
 				add_core_of = TKS
 	}

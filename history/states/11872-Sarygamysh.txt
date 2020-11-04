@@ -8,6 +8,7 @@ state={
 		add_core_of = UZB
 		add_core_of = KPK
 		add_claim_by = TKS
+	add_core_of = UST
 	}
 	manpower = 1000
 	state_category = pastoral

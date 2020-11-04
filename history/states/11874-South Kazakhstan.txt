@@ -6,7 +6,6 @@ state={
 		owner = KAZ
 		add_core_of = SOV
 		add_core_of = KAZ
-                add_core_of = KHI
 				add_core_of = TKS
 	}
 	manpower = 1000

@@ -8,6 +8,10 @@ state={
 		add_core_of = KAZ
 		add_core_of = KOK
 		add_claim_by = TKS
+
+		victory_points = {
+			12640 3 
+		}
 	}
 	manpower = 1000
 	state_category = pastoral

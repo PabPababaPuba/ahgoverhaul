@@ -5568,3 +5568,31 @@ FMS = {
 color = rgb { 150 26 10 }
 color_ui = rgb { 150 26 10 }
 }
+UST = {
+color = rgb { 171 138 61 }
+color_ui = rgb { 171 138 61 }
+}
+ATY = {
+color = rgb { 194 107 130 }
+color_ui = rgb { 194 107 130 }
+}
+PAV = {
+color = rgb { 145 164 70 }
+color_ui = rgb { 145 164 70 }
+}
+ATB = {
+color = rgb { 65 72 160 }
+color_ui = rgb { 65 72 160 }
+}
+KST = {
+color = rgb { 69 123 68 }
+color_ui = rgb { 69 123 68 }
+}
+KSU = {
+color = rgb { 148 207 193 }
+color_ui = rgb { 148 207 193 }
+}
+KYZ = {
+color = rgb { 191 82 77 }
+color_ui = rgb { 191 82 77 }
+}

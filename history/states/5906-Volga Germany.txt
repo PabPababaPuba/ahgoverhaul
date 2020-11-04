@@ -9,6 +9,10 @@ state={
 		add_core_of = RUS
 		add_core_of = VGR
 
+		victory_points = {
+			11523 3 
+		}
+
 	}
 
 	provinces={
