@@ -435,11 +435,11 @@ country_event = { #Desovietization
 						is_core_of = KAZ
 						is_core_of = KPK
 						is_core_of = KYR
+						is_claimed_by = TKS
 						}
 					NOT = {
 						is_core_of = FIN
 						is_core_of = LAT
-						is_core_of = TMS
 						}
 					}
 				RUS = {
@@ -485,7 +485,8 @@ country_event = { #Desovietization
 				limit = {
 					is_core_of = TMS
 					NOT = {
-						is_core_of = KAZ
+						is_claimed_by = TKS
+						
 						}
 					}
 				TMS = {
@@ -497,7 +498,6 @@ country_event = { #Desovietization
 					is_core_of = TAJ
 					NOT = {
 						is_core_of = UZB
-						is_core_of = KYR
 						}
 					}
 				TAJ = {
@@ -1582,9 +1582,11 @@ country_event = { #Decolonize Central Asia
 				hidden_effect = {
 			every_state = {
 				limit = {
-					is_core_of = KAZ
+					OR = {
+						is_core_of = KAZ
+						is_claimed_by = KAZ
+						}
 					NOT = {
-						is_core_of = TMS
 						is_core_of = UZB
 						is_claimed_by = UZB
 						}
@@ -1627,6 +1629,9 @@ country_event = { #Decolonize Central Asia
 			every_state = {
 				limit = {
 					is_core_of = TMS
+					NOT = {
+						is_claimed_by = TKS
+						}
 					}
 				TMS = {
 					transfer_state = PREV
