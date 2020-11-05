@@ -593,6 +593,7 @@ country_event = { #2020 Asia
 					NOT = {
 						is_core_of = TMS
 						is_core_of = UZB
+						is_claimed_by = UZB
 						}
 					}
 				KAZ = {
@@ -604,6 +605,18 @@ country_event = { #2020 Asia
 					is_core_of = UZB
 					NOT = {
 						is_core_of = TAJ
+						}
+					}
+				UZB = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_claimed_by = UZB
+					NOT = {
+						is_core_of = TAJ
+						is_core_of = KYR
 						}
 					}
 				UZB = {
@@ -673,6 +686,7 @@ country_event = { #2020 Asia
 			transfer_state = 9247
 			transfer_state = 9248
 			transfer_state = 9249
+			transfer_state = 12224
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
@@ -684,6 +698,22 @@ country_event = { #2020 Asia
 	       		ruling_party = democratic
            			}
 			}
+			every_state = {
+				limit = {
+					is_owned_by = KAZ
+					}
+				KAZ = {
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_owned_by = UZB
+					}
+				UZB = {
+					add_state_core = PREV
+						}
+					}
 			10390 = {
 				owner = {
 					transfer_state = 1317

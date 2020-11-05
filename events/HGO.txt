@@ -439,6 +439,7 @@ country_event = { #Desovietization
 					NOT = {
 						is_core_of = FIN
 						is_core_of = LAT
+						is_core_of = TMS
 						}
 					}
 				RUS = {
@@ -545,12 +546,10 @@ country_event = { #Desovietization
 		RUS = {
 			transfer_state = 11148
 			}
-		TMS = {
-			transfer_state = 3373
-			transfer_state = 10117
-			}
 		UZB = {
 			transfer_state = 3083
+			transfer_state = 5903
+			transfer_state = 12265
 			}		
 			every_state = {
 				limit = {
@@ -1587,6 +1586,7 @@ country_event = { #Decolonize Central Asia
 					NOT = {
 						is_core_of = TMS
 						is_core_of = UZB
+						is_claimed_by = UZB
 						}
 					}
 				KAZ = {
@@ -1598,6 +1598,18 @@ country_event = { #Decolonize Central Asia
 					is_core_of = UZB
 					NOT = {
 						is_core_of = TAJ
+						}
+					}
+				UZB = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_claimed_by = UZB
+					NOT = {
+						is_core_of = TAJ
+						is_core_of = KYR
 						}
 					}
 				UZB = {
@@ -1664,6 +1676,7 @@ country_event = { #Decolonize Central Asia
 			transfer_state = 9247
 			transfer_state = 9248
 			transfer_state = 9249
+			transfer_state = 12224
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
@@ -1674,9 +1687,25 @@ country_event = { #Decolonize Central Asia
 			set_politics = {
 	       		ruling_party = democratic
            			}
+			}
+			every_state = {
+				limit = {
+					is_owned_by = KAZ
+					}
+				KAZ = {
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_owned_by = UZB
+					}
+				UZB = {
+					add_state_core = PREV
+						}
+					}		
 			}		
-	}		
-		}
+	}
 	option = { #Reject
 		name = "Nah"
 		ai_chance = {
