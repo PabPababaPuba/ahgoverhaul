@@ -14,10 +14,14 @@ state={
 		add_core_of = BKH
 		add_core_of = TKS
 
+		victory_points = {
+			1384 3 
+		}
+
 	}
 	
 	provinces={
-		1216 1384 
+		1384 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

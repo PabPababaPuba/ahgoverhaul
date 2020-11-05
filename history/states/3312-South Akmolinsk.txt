@@ -2,7 +2,7 @@ state={
 	id=3312
 	name="STATE_3312"
 	provinces={
-		7407 7425 
+		7407 7425 10308 12152 
 	}
 	
 	
@@ -15,6 +15,11 @@ state={
 		add_core_of = SOV
 		add_core_of = KAZ
 		add_claim_by = TKS
+
+		victory_points = {
+			10308 1 
+		}
+
 		buildings = {
 			infrastructure = 1
 		}

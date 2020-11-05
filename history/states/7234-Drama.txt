@@ -9,7 +9,6 @@ state={
 	    owner = GRE
         add_core_of = GRE
 	add_core_of = BUL
-	add_core_of = THR
 		victory_points = {
 			9791 1 
 		}

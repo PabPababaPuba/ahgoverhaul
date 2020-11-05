@@ -15,6 +15,11 @@ state={
 		add_core_of = RUS
 		add_core_of = ORN
 
+		victory_points = {
+			12128 5 
+		}
+
+
 	}
 
 	provinces={

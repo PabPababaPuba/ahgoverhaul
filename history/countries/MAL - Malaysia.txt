@@ -1,13 +1,10 @@
-﻿capital = 1930 #Kuala Lumpur
+﻿capital = 5566 #Kuala Lumpur
 
 oob = "MAL_1936"
 
-set_cosmetic_tag = MAL_UK
-
 	set_popularities = {
-		authoritarian_monarchism 
+		conservative_monarchism 
 			 = 40
-
 		communism
 			 = 30
 		neutrality
@@ -16,7 +13,7 @@ set_cosmetic_tag = MAL_UK
 	}
 
 	set_politics = { 
- ruling_party = authoritarian_monarchism
+ ruling_party = conservative_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

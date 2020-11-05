@@ -1,0 +1,17 @@
+state={
+	id=12242
+	name="STATE_12242"
+	
+	history = {
+		owner = TMS
+		add_core_of = SOV
+		add_core_of = TMS
+		add_core_of = TKS
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		7618 10414 20959 20961  
+	}
+	buildings_max_level_factor=1.000
+}

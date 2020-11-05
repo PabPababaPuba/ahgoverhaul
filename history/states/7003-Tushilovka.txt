@@ -11,6 +11,10 @@ state={
 		add_core_of = CCS
         add_core_of = TRK
         add_core_of = DAG
+
+	victory_points = {
+		17411 5
+	}
     }	
 	manpower = 1000
 	state_category = pastoral

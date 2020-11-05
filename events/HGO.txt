@@ -128,7 +128,7 @@ country_event = { #Unite China
 }
 		}
 	option = { #Blue China + TAG
-		name = "Kuomintang shall unite China and get a blue colour!" 
+		name = "Kuomintang shall unite China and get another blue colour!" 
 		ai_chance = {
 			factor = 0
 		}
@@ -439,6 +439,7 @@ country_event = { #Desovietization
 					NOT = {
 						is_core_of = FIN
 						is_core_of = LAT
+						is_core_of = TMS
 						}
 					}
 				RUS = {
@@ -473,6 +474,7 @@ country_event = { #Desovietization
 					NOT = {
 						is_core_of = KAZ
 						is_core_of = KPK
+						is_core_of = KYR
 						}
 					}
 				UZB = {
@@ -495,6 +497,7 @@ country_event = { #Desovietization
 					is_core_of = TAJ
 					NOT = {
 						is_core_of = UZB
+						is_core_of = KYR
 						}
 					}
 				TAJ = {
@@ -525,6 +528,8 @@ country_event = { #Desovietization
 						tag = MON
 						tag = SIK
 						tag = TAN
+						tag = KYR
+						tag = KAZ
 						}
 					}
 					drop_cosmetic_tag = yes
@@ -536,10 +541,45 @@ country_event = { #Desovietization
 							}
 					}		
                 SIK = {
-                annex_country = { target = XJK }
+                	annex_country = { target = XJK }
 			}
+		RUS = {
+			transfer_state = 11148
+			}
+		UZB = {
+			transfer_state = 3083
+			transfer_state = 5903
+			transfer_state = 12265
+			}		
+			every_state = {
+				limit = {
+					is_core_of = WTR
+					OR = {
+						is_owned_by = UZB
+						is_owned_by = KAZ
+						}
+					}
+				RUS = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					OR = {
+						is_owned_by = RUS
+						is_core_of = KAZ
+						is_core_of = KYR
+						}
+					NOT = {
+						is_core_of = CHI
+						}
+					}
+				RUS = {
+					add_state_core = PREV
+						}
+					}
 		}			
-}              								
+	}              								
 	option = { #Reject
 		name = "I've changed my mind!"
 		ai_chance = {
@@ -1544,7 +1584,9 @@ country_event = { #Decolonize Central Asia
 				limit = {
 					is_core_of = KAZ
 					NOT = {
-						is_core_of = RUS
+						is_core_of = TMS
+						is_core_of = UZB
+						is_claimed_by = UZB
 						}
 					}
 				KAZ = {
@@ -1556,6 +1598,18 @@ country_event = { #Decolonize Central Asia
 					is_core_of = UZB
 					NOT = {
 						is_core_of = TAJ
+						}
+					}
+				UZB = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_claimed_by = UZB
+					NOT = {
+						is_core_of = TAJ
+						is_core_of = KYR
 						}
 					}
 				UZB = {
@@ -1622,6 +1676,7 @@ country_event = { #Decolonize Central Asia
 			transfer_state = 9247
 			transfer_state = 9248
 			transfer_state = 9249
+			transfer_state = 12224
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
@@ -1632,9 +1687,25 @@ country_event = { #Decolonize Central Asia
 			set_politics = {
 	       		ruling_party = democratic
            			}
+			}
+			every_state = {
+				limit = {
+					is_owned_by = KAZ
+					}
+				KAZ = {
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_owned_by = UZB
+					}
+				UZB = {
+					add_state_core = PREV
+						}
+					}		
 			}		
-	}		
-		}
+	}
 	option = { #Reject
 		name = "Nah"
 		ai_chance = {
@@ -1665,6 +1736,7 @@ country_event = { #Decolonize Southeast Asia
 			   }
 			}
 		MAL = {
+			annex_country = { target = FMS }
 			annex_country = { target = JOH }
 			annex_country = { target = STR }
 			annex_country = { target = TGA }
@@ -2761,9 +2833,10 @@ country_event = { #Decolonise Arabia
 		drop_cosmetic_tag = yes
 			set_politics = {
 	        ruling_party = democratic
-              }
+              		}
 		transfer_state = 891
-}	
+		transfer_state = 12109
+		}	
 		UAE = {
 			annex_country = { target = FUJ }
 			annex_country = { target = SHJ }
@@ -2948,7 +3021,10 @@ country_event = { #Decolonise Arabia
 			}
 			every_state = {
 				limit = {
-					is_core_of = NGK
+					OR = {
+						is_core_of = NGK
+						is_claimed_by = NGK
+						}
 					}
 				NGK = {
 					transfer_state = PREV
@@ -2992,6 +3068,7 @@ country_event = { #Decolonise Arabia
 					is_core_of = AZR
 					NOT = {
 						is_core_of = NGK
+						is_claimed_by = NGK
 						}
 					}
 				AZR = {
@@ -2999,24 +3076,17 @@ country_event = { #Decolonise Arabia
 						}
 					}
 		AZR = {
-			transfer_state = 3578
-			transfer_state = 3579
-			transfer_state = 7043
-			transfer_state = 8084
+			transfer_state = 4143
 			transfer_state = 8085
 			transfer_state = 8086
+			transfer_state = 3579
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
 				}
 			}
 		NGK = {
-			transfer_state = 1035
-			transfer_state = 7040
-			transfer_state = 7042
-			transfer_state = 7048
 			drop_cosmetic_tag = yes
-			set_capital = 1035
 			set_politics = {
 				ruling_party = neutrality
 				}

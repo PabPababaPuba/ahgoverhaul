@@ -540,6 +540,23 @@ country_event = { #2020 Europe
 		WTR = {
 			release = SLD
 			}
+		IRE = {
+			transfer_state = 3205
+			set_politics = {
+				ruling_party = neutrality
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = IRE
+					NOT = {
+						is_core_of = NIR
+						}
+					}
+				IRE = {
+					transfer_state = PREV
+						}
+					}
 			every_state = {
 				limit = {
 					is_claimed_by = FRA

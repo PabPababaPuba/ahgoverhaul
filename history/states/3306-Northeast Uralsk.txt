@@ -14,6 +14,12 @@ state={
 		add_core_of = SOV
 		add_core_of = KAZ
 		add_claim_by = TKS
+		add_core_of = ATY
+
+		victory_points = {
+			11537 5 
+		}
+
 		buildings = {
 			infrastructure = 1
 		}

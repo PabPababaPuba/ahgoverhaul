@@ -754,6 +754,26 @@ JAM_ENG = {
 	color = rgb { 150 26 10 }
 	color_ui = rgb { 150 26 10 }
 }
+TAC_ENG = {
+	color = rgb { 150 26 10 }
+	color_ui = rgb { 150 26 10 }
+}
+CYM_ENG = {
+	color = rgb { 150 26 10 }
+	color_ui = rgb { 150 26 10 }
+}
+EVI_ENG = {
+	color = rgb { 150 26 10 }
+	color_ui = rgb { 150 26 10 }
+}
+AGL_ENG = {
+	color = rgb { 150 26 10 }
+	color_ui = rgb { 150 26 10 }
+}
+MSR_ENG = {
+	color = rgb { 150 26 10 }
+	color_ui = rgb { 150 26 10 }
+}
 BAR_ENG = {
 	color = rgb { 150 26 10 }
 	color_ui = rgb { 150 26 10 }
@@ -1256,8 +1276,8 @@ RATT = {
 	color_ui = rgb { 255 255 51 }
 }
 HLRE = {
-	color = rgb { 128 128 128 }
-	color_ui = rgb { 128 128 128 }
+	color = rgb { 255 208 56 }
+	color_ui = rgb { 255 208 56 }
 }
 SPR_civil_war = {
 	color = rgb { 200 100 31 }
@@ -1554,6 +1574,10 @@ BEL_SPR = {
 BAN_PAK = {
 	color = rgb { 44 81 48 }
 	color_ui = rgb { 44 81 48 }
+}
+OSS_UNITED = {
+	color = rgb { 240 213 5 }
+	color_ui = rgb { 240 213 5 }
 }
 
 ##################
@@ -1949,11 +1973,15 @@ POL_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
+KAR_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
 FIN_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-KAR_SOV = {
+KAR_FIN_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
@@ -2462,6 +2490,10 @@ MEX_SOV = {
 	color_ui = rgb { 125 13 24 }
 }
 NORA_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+OSS_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }

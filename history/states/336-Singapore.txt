@@ -10,20 +10,17 @@ state={
 	}
 
 	history={
-		owner = MAL
+		owner = FMS
+		add_core_of = FMS
+		add_core_of = MAL
+		add_core_of = PHG
 		
 		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 6
-			
-			
-
 		}
-		add_core_of = MAL
-		add_core_of = PHG
-
 	}
 
 	provinces={

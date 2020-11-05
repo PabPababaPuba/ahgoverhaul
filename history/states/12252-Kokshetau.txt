@@ -1,0 +1,22 @@
+state={
+	id=12252
+	name="STATE_12252"
+	
+	history = {
+		owner = KAZ
+		add_core_of = SOV
+		add_core_of = KAZ
+		add_claim_by = TKS
+		add_core_of = KSU
+
+		victory_points = {
+			1418 3 
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		1309 1375 1418 1662 1680 7298 10211 10239 10633 12619
+	}
+	buildings_max_level_factor=1.000
+}

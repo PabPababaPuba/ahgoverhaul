@@ -159,6 +159,35 @@ country_event = { #1914 Asia
 					add_state_core = PREV
 						}
 					}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = BKH
+						is_claimed_by = BKH
+						}
+					NOT = {
+						is_core_of = KYR
+						is_core_of = KAZ
+						}
+					}
+				BKH = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = KHI
+						}
+					NOT = {
+						is_core_of = KYR
+						is_core_of = KAZ
+						}
+					}
+				KHI = {
+					transfer_state = PREV
+						}
+					}
 		CHI = {
 			set_capital = 608
 			set_cosmetic_tag = CHI_YELLOW
@@ -177,7 +206,7 @@ country_event = { #1914 Asia
 			transfer_state = 11307
 			transfer_state = 11308
 			transfer_state = 11309
-			drop_cosmetic_tag = yes
+			set_cosmetic_tag = MON_bogd_khanate
 			set_politics = {
 				ruling_party = neutrality
 				}
@@ -208,6 +237,9 @@ country_event = { #1914 Asia
 			transfer_state = 7593
 			transfer_state = 1139
 			transfer_state = 2486
+			transfer_state = 3636
+			transfer_state = 4125
+			transfer_state = 1372
 			annex_country = { target = YKT }
 			annex_country = { target = BML }
 			drop_cosmetic_tag = yes
@@ -219,6 +251,8 @@ country_event = { #1914 Asia
 				limit = {
 					OR = {
 					is_owned_by = RUS
+					is_owned_by = BKH
+					is_owned_by = KHI
 						}
 					NOT = {
 					is_core_of = CHI
@@ -265,9 +299,7 @@ country_event = { #1914 Asia
 			transfer_state = 1192
 			}
 		PER = {
-			set_politics = {
-				ruling_party = monarchism
-				}
+			set_cosmetic_tag = PERS
 			}
 		AFG = {
 			set_cosmetic_tag = AFG_RAJ
@@ -275,6 +307,12 @@ country_event = { #1914 Asia
 		ASR = {
 			transfer_state = 5651
 			transfer_state = 5652
+			}
+		BKH = {
+			set_cosmetic_tag = RUS_GREEN
+			}
+		KHI = {
+			set_cosmetic_tag = RUS_GREEN
 			}
 			every_state = {
 				limit = {
@@ -473,6 +511,7 @@ country_event = { #2020 Asia
 			annex_country { target = INS }
 			}
 		MAL = {
+			annex_country = { target = FMS }
 			annex_country = { target = JOH }
 			annex_country = { target = STR }
 			annex_country = { target = TGA }
@@ -485,7 +524,7 @@ country_event = { #2020 Asia
 			drop_cosmetic_tag = yes
 			set_capital = 5566
 			set_politics = {
-	       		ruling_party = democratic_monarchism
+	       		ruling_party = conservative_monarchism
            			}
 			}
 		BEI = {
@@ -552,7 +591,9 @@ country_event = { #2020 Asia
 				limit = {
 					is_core_of = KAZ
 					NOT = {
-						is_core_of = RUS
+						is_core_of = TMS
+						is_core_of = UZB
+						is_claimed_by = UZB
 						}
 					}
 				KAZ = {
@@ -564,6 +605,18 @@ country_event = { #2020 Asia
 					is_core_of = UZB
 					NOT = {
 						is_core_of = TAJ
+						}
+					}
+				UZB = {
+					transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_claimed_by = UZB
+					NOT = {
+						is_core_of = TAJ
+						is_core_of = KYR
 						}
 					}
 				UZB = {
@@ -633,6 +686,7 @@ country_event = { #2020 Asia
 			transfer_state = 9247
 			transfer_state = 9248
 			transfer_state = 9249
+			transfer_state = 12224
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
@@ -644,6 +698,22 @@ country_event = { #2020 Asia
 	       		ruling_party = democratic
            			}
 			}
+			every_state = {
+				limit = {
+					is_owned_by = KAZ
+					}
+				KAZ = {
+					add_state_core = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_owned_by = UZB
+					}
+				UZB = {
+					add_state_core = PREV
+						}
+					}
 			10390 = {
 				owner = {
 					transfer_state = 1317
@@ -943,9 +1013,6 @@ country_event = { #2020 Asia
                 remove_core_of = PAL				
 			}			
 		}
-		UNC = {
-			transfer_state = 890
-			}
 		NOC = {
 			transfer_state = 1168
 			transfer_state = 2657
@@ -957,9 +1024,15 @@ country_event = { #2020 Asia
 				ruling_party = democratic
 				}
 			}
+		RUS = {
+			annex_country = { target = TAN }
+			}
 			every_state = {
 				limit = {
-					is_core_of = NGK
+					OR = {
+						is_core_of = NGK
+						is_claimed_by = NGK
+						}
 					}
 				NGK = {
 					transfer_state = PREV
@@ -1003,6 +1076,7 @@ country_event = { #2020 Asia
 					is_core_of = AZR
 					NOT = {
 						is_core_of = NGK
+						is_claimed_by = NGK
 						}
 					}
 				AZR = {
@@ -1010,25 +1084,17 @@ country_event = { #2020 Asia
 						}
 					}
 		AZR = {
-			transfer_state = 3578
-			transfer_state = 3579
-			transfer_state = 7043
-			transfer_state = 8084
+			transfer_state = 4143
 			transfer_state = 8085
 			transfer_state = 8086
-			annex_country = { target = NAK }
+			transfer_state = 3579
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
 				}
 			}
 		NGK = {
-			transfer_state = 1035
-			transfer_state = 7040
-			transfer_state = 7042
-			transfer_state = 7048
 			drop_cosmetic_tag = yes
-			set_capital = 1035
 			set_politics = {
 				ruling_party = neutrality
 				}

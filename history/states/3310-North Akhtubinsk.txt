@@ -2,7 +2,7 @@ state={
 	id=3310
 	name="STATE_3310"
 	provinces={
-		1272 1331 1360 10295 12139 12266 
+		1272 1331 10295 12139 12170 12266 
 	}
 	
 	manpower = 1000
@@ -14,6 +14,7 @@ state={
 		add_core_of = SOV
 		add_core_of = KAZ
 		add_claim_by = TKS
+		add_core_of = KST
 		buildings = {
 			infrastructure = 1
 		}

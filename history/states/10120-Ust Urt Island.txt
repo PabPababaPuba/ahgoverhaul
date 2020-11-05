@@ -9,6 +9,7 @@ state={
 		add_core_of = SOV
 		add_core_of = KAZ
 		add_claim_by = TKS
+		add_core_of = UST
 
 	}
 	manpower=1

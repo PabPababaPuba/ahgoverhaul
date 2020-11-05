@@ -8,6 +8,12 @@ state={
 		add_core_of = SOV
 		add_core_of = KAZ
 		add_claim_by = TKS
+		add_core_of = PAV
+
+		victory_points = {
+			7708 3 
+		}
+
 		buildings = {
 			infrastructure = 4
 
@@ -16,7 +22,7 @@ state={
 	}
 
 	provinces={
-		4661 7708 10202 
+		7708 10202 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000
