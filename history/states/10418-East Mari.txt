@@ -14,6 +14,7 @@ state={
 		add_core_of = RUS
 		add_core_of = PRR
 		add_Core_of = UDM
+		add_core_of = IDL
 
 	}
 	manpower = 1000

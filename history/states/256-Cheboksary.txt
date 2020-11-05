@@ -13,6 +13,7 @@ state={
 		add_core_of = RUS
 		add_core_of = ULA
 		add_core_of = CVS
+		add_core_of = IDL
 
 	}
 
