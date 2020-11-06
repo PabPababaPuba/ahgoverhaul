@@ -7,6 +7,7 @@ state={
 		add_core_of = USA
 		add_core_of = PEN
 		add_core_of = GMA
+		add_core_of = WML
 		buildings = {
 			infrastructure = 4
 			

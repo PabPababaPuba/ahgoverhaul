@@ -5600,3 +5600,39 @@ IDL = {
 color = rgb { 77 193 140 }
 color_ui = rgb { 77 193 140 }
 }
+ABR = {
+color = rgb { 217 234 198 }
+color_ui = rgb { 217 234 198 }
+}
+FLW = {
+color = rgb { 109 162 190 }
+color_ui = rgb { 109 162 190 }
+}
+FLN = {
+color = rgb { 112 165 97 }
+color_ui = rgb { 112 165 97 }
+}
+FLE = {
+color = rgb { 220 215 107 }
+color_ui = rgb { 220 215 107 }
+}
+FLS = {
+color = rgb { 206 125 121 }
+color_ui = rgb { 206 125 121 }
+}
+NTX = {
+color = rgb { 213 117 119 }
+color_ui = rgb { 213 117 119 }
+}
+STX = {
+color = rgb { 107 96 176 }
+color_ui = rgb { 107 96 176 }
+}
+WML = {
+color = rgb { 193 183 123 }
+color_ui = rgb { 193 183 123 }
+}
+MKG = {
+color = rgb { 171 140 174 }
+color_ui = rgb { 171 140 174 }
+}
