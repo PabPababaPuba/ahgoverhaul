@@ -5538,6 +5538,9 @@
  KHA_monarchism:0 "Kingdom of Green Ukraine"
  KHA_monarchism_DEF:0 "The Kingdom of Green Ukraine"
  KHA_monarchism_ADJ:0 "Green Ukrainian"
+ KHA_socialism_ideology:0 "Far East Republic"
+ KHA_socialism_ideology_DEF:0 "The Far Eastern Republic"
+ KHA_socialism_ideology_ADJ:0 "Chitan"
  
  AMU_fascism:0 "Empire of Amur"
  AMU_fascism_DEF:0 "The Empire of Amur"
