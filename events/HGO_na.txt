@@ -87,7 +87,7 @@ country_event = { #2020 North America
 			annex_country = { target = ALA }
 			set_cosmetic_tag = USA_50
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = liberal_republic
 				}
 			}
 		CAN = {
