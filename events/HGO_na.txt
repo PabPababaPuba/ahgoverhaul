@@ -91,6 +91,7 @@ country_event = { #2020 North America
 				}
 			}
 		CAN = {
+			set_cosmetic_tag = CAN_2020
 			annex_country = { target = NFL }
 			}
 		CUB = {
