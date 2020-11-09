@@ -1989,15 +1989,27 @@ RUS_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
+TAN_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
 MON_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+SIK_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+MON_1936 = {
 	color = rgb { 132 0 0 }
 	color_ui = rgb { 132 0 0 }
 }
-TAN_SOV = {
+TAN_1936 = {
 	color = rgb { 129 0 0 }
 	color_ui = { 129 0 0 }
 }
-SIK_SOV = {
+SIK_1936 = {
 	color = rgb { 134 0 0 }
 	color_ui = { 134 0 0 }
 }
