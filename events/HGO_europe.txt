@@ -149,6 +149,8 @@ country_event = { #1914 Europe
 			transfer_state = 7308
 			transfer_state = 5537
 			transfer_state = 5538
+			transfer_state = 2250
+			transfer_state = 11004
 			}
 		BUL = {
 			transfer_state = 2338
