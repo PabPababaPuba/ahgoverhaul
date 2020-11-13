@@ -1682,6 +1682,7 @@ country_event = { #Decolonize Central Asia
 			transfer_state = 9248
 			transfer_state = 9249
 			transfer_state = 12224
+			transfer_state = 12250
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
