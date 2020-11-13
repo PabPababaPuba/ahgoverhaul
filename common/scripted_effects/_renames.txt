@@ -2435,7 +2435,7 @@ do_french_renames = {
 			state = 1163
 		}		
 		set_province_name = {
-			id = 10867
+			id = 10642
 			name = "Sainte foi"
 		}
 	}
@@ -2472,10 +2472,10 @@ do_french_renames = {
 		
 	if = {
 		limit = {
-			state = 3695
+			state = 3694
 		}		
 		set_province_name = {
-			id = 1927
+			id = 12341
 			name = "Août"
 		}
 	}

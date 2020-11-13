@@ -12,3 +12,4 @@ hgo.9 - Decolonize Southeast Asia(2020 Southeast Asia)
 hgo.10 - Release African Lakes without breaking cores
 hgo.11 - Making every land Unclaimed
 hgo.12 - Release Indian Provinces without breaking cores
+hgo.13 - Set USSR Borders (And Flags) to 1962

@@ -22,62 +22,87 @@ set_convoys = 25
 
 
 	set_popularities = {
-		conservative_monarchism 
-			 = 75
-		fascism
-			 = 20
-		communism
-			 = 5
+        neutrality = 10
+        vanguardism = 10
+        socialism_ideology = 10
+        democratic_monarchism = 20
+        centrist_republic = 10
+        republican_fascism = 10
+        centrist_monarchism = 30
 		}
 	set_politics = { 
- ruling_party = conservative_monarchism
+ ruling_party = centrist_monarchism
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
+create_country_leader = {
+	name = "Prince Albert of Windsor"
+	desc = ""
+	picture = "Portrait_George_VI.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
 
 create_country_leader = {
 	name = "James Barry Munnik Hertzog"
-	desc = "POLITICS_J_B_M_HERTZOG_DESC"
+	desc = ""
 	picture = "SAF_james_hertzog.dds"
 	expire = "1965.1.1"
 	ideology = conservative_constitutionalism
 	traits = {
-		#
 	}
 }
 
+create_country_leader = {
+	name = "James Barry Munnik Hertzog"
+	desc = ""
+	picture = "SAF_james_hertzog.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
 
 create_country_leader = {
-	name = "D. F. Malan"
-	desc = "POLITICS_DF_MALAN_DESC"
-	picture = "GFX_SAF_daniel_malan"
+	name = "George Villiers"
+	desc = ""
+	picture = "Portrait_George_Villiers.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Edward I van Sakse-Koburg en Gotha"
+	desc = ""
+	picture = "Portrait_Prince_David.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Moses Kotane"
-	desc = "POLITICS_MOSES_KOTANE_DESC"
-	picture = "GFX_SAF_moses_kotane"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pixley Ka Isaka Seme"
-	desc = "POLITICS_PIXLEY_SEME_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
 	}
 }

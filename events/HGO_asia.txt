@@ -589,9 +589,10 @@ country_event = { #2020 Asia
 		335 = { set_state_name = Jakarta }
 			every_state = {
 				limit = {
-					is_core_of = KAZ
+					OR = {
+						is_core_of = KAZ
+						}
 					NOT = {
-						is_core_of = TMS
 						is_core_of = UZB
 						is_claimed_by = UZB
 						}
@@ -637,6 +638,9 @@ country_event = { #2020 Asia
 			every_state = {
 				limit = {
 					is_core_of = TMS
+					NOT = {
+						is_claimed_by = TKS
+						}
 					}
 				TMS = {
 					transfer_state = PREV
@@ -687,6 +691,7 @@ country_event = { #2020 Asia
 			transfer_state = 9248
 			transfer_state = 9249
 			transfer_state = 12224
+			transfer_state = 12250
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic

@@ -157,9 +157,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eugen I av Bernadotte"
+	name = "Frederick II av Bernadotte"
 	desc = ""
-	picture = "Portrait_Eugen_Sweden.tga"
+	picture = "Portrait_Frederick_Sweden.tga"
 	expire = "1965.1.1"
 	ideology = cenmon
 	traits = {

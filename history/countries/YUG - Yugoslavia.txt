@@ -47,11 +47,11 @@ set_convoys = 10
 		communism
 			 = 15
 			
-		conservative_monarchism 
+		authoritarian_monarchism 
 			 = 60
 		}
 	set_politics = { 
- ruling_party = conservative_monarchism
+ ruling_party = authoritarian_monarchism
 	last_election = "1935.5.3"
 	election_frequency = 36
 	elections_allowed = yes
@@ -60,45 +60,221 @@ set_convoys = 10
 set_stability = 0.6
 
 create_country_leader = {
-	name = "Petar II Karađorđevića"
+	name = "Nikola Uzunović"
 	desc = ""
-	picture = "Portrait_Peter_II.dds"
-	expire = "1985.1.1"
-	ideology = conservative_constitutionalism
+	picture = "yug_uzunovic.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Milan Stojadinović"
-	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = total_anarchist
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Milan Grol"
-	desc = "POLITICS_MILAN_GROL_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Grol.dds"
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = ancom
 	traits = {
-		#
+	}
+}
+
+create_country_leader = {
+	name = "Milan Gorkić"
+	desc = ""
+	picture = "yug_gorkic.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Milan Gorkić"
+	desc = ""
+	picture = "yug_gorkic.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
 	}
 }
 
 create_country_leader = {
 	name = "Josip Broz Tito"
-	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
-	picture = "Portrait_Yugoslavia_Josip_Broz_Tito.dds"
+	desc = ""
+	picture = "yug_tito.tga"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = demsoc
 	traits = {
-		#
+	}
+}
+
+create_country_leader = {
+	name = "Josip Broz Tito"
+	desc = ""
+	picture = "yug_tito.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Svetozar Pribićević"
+	desc = ""
+	picture = "yug_pribicevic.tga"
+	expire = "1965.1.1"
+	ideology = socdem
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Petar II Karađorđevića"
+	desc = ""
+	picture = "Portrait_Peter_II.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Petar II Karađorđevića"
+	desc = ""
+	picture = "Portrait_Peter_II.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Anton Korošec"
+	desc = ""
+	picture = "yug_korosec.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pavel Karađorđevića"
+	desc = ""
+	picture = "yug_paulkaradord.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Milan Stojadinović"
+	desc = ""
+	picture = "yug_stojadinovic.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ljubomir Marić"
+	desc = ""
+	picture = "yug_maric.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Dragoljub Mihailović"
+	desc = ""
+	picture = "yug_mihailovic.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Petar II Karađorđevića"
+	desc = ""
+	picture = "Portrait_Peter_II.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Aleksandar I Obrenovića"
+	desc = ""
+	picture = "Portrait_Alexander_Obrenovic.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Varnava Rosić"
+	desc = ""
+	picture = "yug_rosic.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Aleksandar I Karađorđevića"
+	desc = ""
+	picture = "yug_alexkaradord.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Dimitrije Ljotić"
+	desc = ""
+	picture = "yug_ljotic.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ante Pavelić"
+	desc = ""
+	picture = "yug_pavelic.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
 	}
 }

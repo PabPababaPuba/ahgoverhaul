@@ -494,7 +494,7 @@ country_event = { 2020 Africa
 		COG = {
 			drop_cosmetic_tag = yes
 			set_politics = {
-				ruling_party = neutrality
+				ruling_party = socialism_ideology
 				}
 			}
 		ANG = {
@@ -589,7 +589,18 @@ country_event = { 2020 Africa
 			set_politics = {
 				ruling_party = neutrality
 				}	
-			}		
+			}
+		EGQ = {
+			drop_cosmetic_tag = yes
+			}
+			every_state = {
+				limit = {
+					is_owned_by = SUD
+					}
+				SUD = {
+					add_state_core = PREV
+						}
+					}		
 		}
 	}
 	

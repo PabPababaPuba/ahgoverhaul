@@ -115,7 +115,7 @@ country_event = { #2020 Oceania
 		AST = {
 			transfer_state = 711
 			transfer_state = 712
-			transfer_state = 2672
+			transfer_state = 2692
 			}
 			every_state = {
 				limit = {
