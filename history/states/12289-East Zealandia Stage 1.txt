@@ -1,6 +1,6 @@
 state={
-	id=12288
-	name="STATE_12288"
+	id=12289
+	name="STATE_12289"
 	
 	history = {
 		owner = WTR
@@ -9,7 +9,7 @@ state={
 	manpower = 1000
 	state_category = pastoral
 	provinces={
-		20989
+		20991 20992
 	}
 	buildings_max_level_factor=1.000
 }
