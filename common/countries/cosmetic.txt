@@ -1279,6 +1279,10 @@ HLRE = {
 	color = rgb { 255 208 56 }
 	color_ui = rgb { 255 208 56 }
 }
+ZAPA = {
+	color = rgb { 0 0 128 }
+	color_ui = rgb { 0 0 128 }
+}
 SPR_civil_war = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

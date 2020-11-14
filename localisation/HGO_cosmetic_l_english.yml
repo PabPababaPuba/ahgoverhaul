@@ -6904,6 +6904,9 @@
  TEST_DEF:0 "$GETRULINGPARTY$"
  TEST_ADJ:0 "$GETRULINGPARTY$"
 
+ ZAPA:0 "Zapadoslavia"
+ ZAPA_DEF:0 "Zapadoslavia"
+ ZAPA_ADJ:0 "Zapadoslavian"
 ###le
 
  KUR_ENG:0 "British Protectorate of Kurdistan"
