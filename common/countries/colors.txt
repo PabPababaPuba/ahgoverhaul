@@ -5640,3 +5640,7 @@ HYP = {
 	color = rgb { 68 15 138 }
 	color_ui = rgb { 68 15 138 }
 }
+NIN = {
+color = rgb { 235 210 35 }
+color_ui = rgb { 235 210 35 }
+}

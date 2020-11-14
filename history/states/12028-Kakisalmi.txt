@@ -1,15 +1,18 @@
+
 state={
 	id=12028
 	name="STATE_12028"
-	provinces={
-		9105 11162 
-	}
+
 	history={
 		owner = FIN
 		add_core_of = FIN
 
 	}
-	manpower=1000 
-	state_category=pastoral
+
+	provinces={
+		9105 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
