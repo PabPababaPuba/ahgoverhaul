@@ -3547,3 +3547,18 @@ LBA_OTTO = {
 color = rgb { 99 20 17 }
 color_ui = rgb { 99 20 17 }
 }
+
+#TNO Russia Colors
+
+HYP_YAZOV = {
+	color = rgb { 58 94 54 }
+	color_ui = rgb { 58 94 54 }
+}
+HYP_SHOTAKOVICH = {
+	color = rgb { 98 72 124 }
+	color_ui = rgb { 98 72 124 }
+}
+HYP_YELTSIN = {
+	color = rgb { 1 141 233 }
+	color_ui = rgb { 1 141 233 }
+}
