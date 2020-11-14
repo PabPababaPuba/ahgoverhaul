@@ -63,5 +63,13 @@ create_country_leader = {
 	}
 }
 
-
+create_country_leader = {
+	name = "Dmitry Yazov"
+	desc = ""
+	picture = "Portrait_Omsk_Dmitry_Yazov.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
 

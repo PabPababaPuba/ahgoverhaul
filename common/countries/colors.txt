@@ -5636,3 +5636,7 @@ MKG = {
 	color = rgb { 171 140 174 }
 	color_ui = rgb { 171 140 174 }
 }
+HYP = {
+	color = rgb { 58 84 54 }
+	color_ui = rgb { 58 94 54 }
+}
