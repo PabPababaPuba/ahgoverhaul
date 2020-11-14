@@ -33,7 +33,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "John Weir Troy"
-	desc = ""
+	desc = "POLITICS_ALA_LIBREP_DESC"
 	picture = "Portrait_Alaska_John_Weir_Troy.dds"
 	expire = "1950.1.1"
 	ideology = socdem

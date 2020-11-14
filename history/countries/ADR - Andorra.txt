@@ -42,8 +42,8 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Justi Guitart i Vilardebo"
-	desc = ""
+	name = "Justí Guitart i Vilardebó"
+	desc = "POLITICS_ADR_THEOC_DESC"
 	picture = "Portrait_Justi_Guitart_i_Vilardebo.dds"
 	expire = "1960.1.1"
 	ideology = christian
