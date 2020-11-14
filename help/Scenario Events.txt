@@ -1,8 +1,6 @@
 Q: What are Scenario Events?
 A: Scenario Events are events that sets borders to a Specific Year or to a Fictional Scenario
 
-It is recommended to use these using 1.9.3, because 1.10.1 makes Event Times very slow, and it could take 30 minutes just to finish one.
-
 NOTE: MAKE SURE YOU USE THESE FROM A NEW GAME WITHOUT MODIFICATIONS TO THE MAP OR IT MIGHT BREAK
 
 1914 Events

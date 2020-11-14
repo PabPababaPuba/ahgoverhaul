@@ -34,7 +34,7 @@ A: See this list:
 	Theocracy - Countries ruled by a religious leader.
 
 Q: Why did events take so long?
-A: Some events usually take 5 Minutes to complete, and that's normal, but if you are using 1.10.1, it will take longer. It is recommended to use 1.9.3 when it comes to big events.
+A: Some events usually take 5 Minutes to complete, and that's normal. Just wait for it.
 
 Q: Where can I find more information?
 A: https://docs.google.com/document/d/19TmUZtvzSo-7uW5PhKFhZU4G43xmo2RHMR6kduog-dI/edit

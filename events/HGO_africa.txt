@@ -482,7 +482,7 @@ country_event = { 2020 Africa
 				ruling_party = democratic
 				}
 			}
-		EQC = {
+		EQG = {
 			drop_cosmetic_tag = yes
 			}
 		SAO = {
@@ -589,9 +589,6 @@ country_event = { 2020 Africa
 			set_politics = {
 				ruling_party = neutrality
 				}	
-			}
-		EGQ = {
-			drop_cosmetic_tag = yes
 			}
 			every_state = {
 				limit = {

@@ -338,8 +338,8 @@ country_event = {
 
 	trigger = {
 		tag = ROM
-		country_exists = TRV
-		TRV = { has_country_flag = transilvania_defiant }
+		country_exists = TRA
+		TRA = { has_country_flag = transilvania_defiant }
 	}
 
 	option = {
@@ -347,7 +347,7 @@ country_event = {
 	ai_chance = { factor = 75 }
 		create_wargoal = {
 		type = annex_everything
-		target = TRV
+		target = TRA
 		}
 	hidden_effect =  {
 		84 = { add_core_of = ROM }
@@ -378,7 +378,7 @@ country_event = {
 
 	trigger = {
 		tag = ROM
-		country_exists = TRV
+		country_exists = TRA
 	}
 
 	option = {
