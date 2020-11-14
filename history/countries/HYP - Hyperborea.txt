@@ -200,7 +200,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Napoleon VI de Bonaparte"
+	name = "Konstantin Rodzaevsky"
 	desc = ""
 	picture = "Portrait_Amur_Konstantin_Rodzaevsky.dds"
 	expire = "1965.1.1"

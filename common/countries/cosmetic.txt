@@ -3562,3 +3562,15 @@ HYP_YELTSIN = {
 	color = rgb { 1 141 233 }
 	color_ui = rgb { 1 141 233 }
 }
+HYP_ZHUKOV = {
+	color = rgb { 163 66 76 }
+	color_ui = rgb { 163 66 76 }
+}
+HYP_LIKHACHEV = {
+	color = rgb { 84 114 69 }
+	color_ui = rgb { 84 114 69 }
+}
+HYP_RODZAEVSKY = {
+	color = rgb { 186 158 158 }
+	color_ui = rgb { 186 158 158 }
+}
