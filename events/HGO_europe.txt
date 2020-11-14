@@ -429,7 +429,7 @@ country_event = { #2020 Europe
 			}
 		HUN = {
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = liberal_republic
 					}
 			}
 		LIE = {
