@@ -1948,6 +1948,40 @@ country_event = { #Release African Lakes
 	}
 }
 
+country_event = { #Blank World Excluding Water
+    id = hgo.11
+    title = "Make everything Blank/Unclaimed?"
+    desc = "This might take 1-3 Hours so sit down and relax"
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = { #Yes
+        name = "Do it"
+        ai_chance = {
+            factor = 0
+        }
+                hidden_effect = {
+    			every_country = {
+                        	limit = {
+					NOT = {
+						tag = WTR
+						}
+                            		}
+                        	UNC = {
+                            	annex_country = { target = PREV }
+                            		}
+                        	}
+        	}
+    }
+    option = { #reject
+        name = "nah"
+        ai_chance = {
+            factor = 100
+        	}
+
+    	}
+}
+
 country_event = { #Divide India
 	id = hgo.12
 	title = "Release every Indian States?"
@@ -3740,47 +3774,6 @@ country_event = { #Decolonise Arabia
 		}
 
 	}
-}
-
-country_event = { #Blank World Excluding Water
-    id = hgo.11
-    title = "Make everything Blank/Unclaimed?"
-    desc = "USE THE CORRECT STEPS OR BE WATER BEFORE USING STEP 2 OR YOU'RE GONNA SPEND 1 HOUR AND 30 MINUTES ON WAITING"
-    fire_only_once = yes
-    is_triggered_only = yes
-
-    option = { #Agree
-        name = "Step 1 - DO THIS FIRST"
-        ai_chance = {
-            factor = 0
-        }
-                hidden_effect = {
-            WTR = { change_tag_from = ROOT }
-        }
-    }
-
-    option = { #Step 2
-        name = "Step 2 - DO THIS SECOND"
-        ai_chance = {
-            factor = 0
-        }
-                hidden_effect = {
-                    every_other_country = {
-                        limit = {
-                            }
-                        UNC = {
-                            annex_country = { target = PREV }
-                            }
-                        }
-        }
-    }
-    option = { #reject
-        name = "nah"
-        ai_chance = {
-            factor = 100
-        }
-
-    }
 }
 
 #rename city
