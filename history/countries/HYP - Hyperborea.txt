@@ -40,7 +40,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "SAS"
+	name = "Sibirsky Anarkhichesky Sovet"
 	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
 	picture = "Portrait_Khakassia_Khakassia_Soviet.dds"
 	expire = "1965.1.1"
