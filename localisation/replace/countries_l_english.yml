@@ -5596,6 +5596,9 @@
  CAS_monarchism:0 "Kingdom of Cascadia"
  CAS_monarchism_DEF:0 "The Kingdom of Cascadia"
  CAS_monarchism_ADJ:0 "Cascadian"
+ CAS_national_socialism:0 "Northwest Territorial Imperative"
+ CAS_national_socialism_DEF:0 "The Northwest Territorial Imperative"
+ CAS_national_socialism_ADJ:0 "White"
  
  ARZ_fascism:0 "Empire of Arizona"
  ARZ_fascism_DEF:0 "The Empire of Arizona"
