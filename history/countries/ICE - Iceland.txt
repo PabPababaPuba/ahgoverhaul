@@ -89,7 +89,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kristján X of Glücksburg"
+	name = "Kristján X af Glücksburg"
 	desc = ""
 	picture = "Portrait_Christian_X.dds"
 	expire = "1965.1.1"
