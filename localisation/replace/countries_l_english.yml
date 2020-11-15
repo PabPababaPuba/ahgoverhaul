@@ -4595,8 +4595,8 @@
  HTY_monarchism_DEF:0 "The Kingdom of Hatay"
  HTY_monarchism_ADJ:0 "Hataian"
  
- BGN_fascism:0 "SS-Staat Burgund"
- BGN_fascism_DEF:0 "The Das SS-Staat Burgund"
+ BGN_fascism:0 "Burgundian Empire"
+ BGN_fascism_DEF:0 "The Burgundian Empire"
  BGN_democratic:0 "Republic of Burgundy"
  BGN_democratic_DEF:0 "The Republic of Burgundy"
  BGN_neutrality:0 "Burgundy"
@@ -4610,6 +4610,9 @@
  BGN_monarchism:0 "Duchy of Burgundy"
  BGN_monarchism_DEF:0 "The Duchy of Burgundy"
  BGN_monarchism_ADJ:0 "Burgundian"
+ BGN_national_socialism:0 "Ordensstaat Burgund"
+ BGN_national_socialism_DEF:0 "das Ordensstaat Burgund"
+ BGN_national_socialism_ADJ:0 "Burgunder"
  
  BRT_fascism:0 "Independent State of Bretagne"
  BRT_fascism_DEF:0 "The Independent State of Bretagne"

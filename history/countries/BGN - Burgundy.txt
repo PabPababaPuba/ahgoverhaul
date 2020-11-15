@@ -20,3 +20,13 @@ oob = "BGN_1936"
 add_ideas = {
 	limited_conscription
 }
+
+create_country_leader = {
+	name = "Heinrich Luitpold Himmler"
+	desc = ""
+	picture = "Portrait_Heinrich_Himmler.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
