@@ -259,6 +259,13 @@ country_event = { #2020 Europe
 			transfer_state = 4094
 			transfer_state = 5
 			transfer_state = 4071
+			transfer_state = 4758
+			transfer_state = 12303
+			transfer_state = 12304
+			transfer_state = 12305
+			transfer_state = 12306
+			transfer_state = 12307
+			transfer_state = 12308
 			set_politics = {
 				ruling_party = centrist_republic
 				}

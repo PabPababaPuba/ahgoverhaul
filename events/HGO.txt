@@ -3005,6 +3005,10 @@ country_event = { #1962-1990 USSR
 			transfer_state = 4881
 			transfer_state = 4882
 			transfer_state = 555
+			transfer_state = 4758
+			transfer_state = 12303
+			transfer_state = 12304
+			transfer_state = 12308
 			}
 		BLR = {
 			transfer_state = 4766
@@ -3041,6 +3045,8 @@ country_event = { #1962-1990 USSR
 		KAR = {
 			transfer_state = 146
 			transfer_state = 4870
+			transfer_state = 12305
+			transfer_state = 12306
 			}
 		TAN = {
 			set_cosmetic_tag = TAN_SOV
