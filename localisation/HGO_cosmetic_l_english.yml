@@ -4106,6 +4106,15 @@
  GER_reichskommissariat_burgund:0 "Reichskommissariat Burgund"
  GER_reichskommissariat_burgund_DEF:0 "Das Reichskommissariat Burgund"
 
+ BGNSS:0 "SS-Staat Burgund"
+ BGNSS_DEF:0 "Das SS-Staat Burgund"
+
+ BGNOSS:0 "SS-Ordensstaat Burgund"
+ BGNOSS_DEF:0 "Das SS-Ordensstaat Burgund"
+
+ BGNOS:0 "Ordensstaat Burgund"
+ BGNOS_DEF:0 "Das Ordensstaat Burgund"
+
  BGN_GER_autonomy_reichskommissariat:0 "Reichskommissariat Burgund"
  BGN_GER_autonomy_reichsprotectorate:0 "Reichsprotektorat Burgund"
  BGN_GER_autonomy_satellite:0 "SS-Staat Burgund"
