@@ -36,10 +36,10 @@ set_convoys = 20
 
 
 create_country_leader = {
-	name = "Jean-Bédel Bokassa"
+	name = "Bokassa I"
 	desc = ""
-	picture = "gfx/leaders/Africa/Jean-Bedel_Bokassa.dds"
-	ideology = fascism_ideology
+	picture = "Bokassa.tga"
+	ideology = stratmon
 	expire = "1996.11.3"
 	traits = {
 		#

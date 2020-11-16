@@ -7007,6 +7007,9 @@
  CAR_monarchism:0 "Empire of Central Africa"
  CAR_monarchism_DEF:0 "The Empire of Central Africa"
  CAR_monarchism_ADJ:0 "Central African"
+ CAR_stratocratic_monarchism:0 "Central African Empire"
+ CAR_stratocratic_monarchism_DEF:0 "The Central African Empire"
+ CAR_stratocratic_monarchism_ADJ:0 "Central African"
  
  EQG_communism:0 "Equatorial Guinea"
  EQG_communism_ADJ:0 "Equatorial Guinean"
