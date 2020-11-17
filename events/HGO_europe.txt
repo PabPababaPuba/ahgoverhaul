@@ -286,6 +286,27 @@ country_event = { #2020 Europe
 					every_state = {
 						limit = {
 							OR = {
+							is_core_of = KON
+							is_core_of = SIL
+							is_core_of = PWP
+							is_core_of = POM
+							is_core_of = NKO
+							is_core_of = DAN
+								}
+							}
+						POL = {
+							transfer_state = PREV
+							}
+					every_state = {
+						limit = {
+							is_core_of = CRP
+							}
+						UKR = {
+							transfer_state = PREV
+							}
+					every_state = {
+						limit = {
+							OR = {
 							is_owned_by = GER
 							is_owned_by = NOR
 							is_owned_by = SWE
@@ -295,10 +316,6 @@ country_event = { #2020 Europe
 						}
 		WGR = {
 			annex_country = { target = GER }
-			release = KON
-			release = SIL
-			release = PWP
-			release = POM
 			transfer_state = 5079
 			transfer_state = 8412
 			transfer_state = 2300
@@ -314,11 +331,6 @@ country_event = { #2020 Europe
 			set_capital = 64 
 			}
 		POL = {
-			annex_country = { target = KON }
-			annex_country = { target = DAN }
-			annex_country = { target = SIL }
-			annex_country = { target = PWP }
-			annex_country = { target = POM }
 			release = UKR
 			release = BLR
 			transfer_state = 7444
@@ -342,11 +354,7 @@ country_event = { #2020 Europe
 			transfer_state = 8222
 			transfer_state = 10954
 			}
-		CZE = {
-			release = CRP
-			}
 		UKR = {
-			annex_country = { target = CRP }
 			transfer_state = 2506
 			transfer_state = 7484
 			transfer_state = 791
@@ -377,7 +385,6 @@ country_event = { #2020 Europe
 			}
 		BLR = {
 			release = LIT
-			release = NKO
 			transfer_state = 4766
 			transfer_state = 4767
 			transfer_state = 8036
@@ -390,9 +397,6 @@ country_event = { #2020 Europe
 			set_politics = {
 				ruling_party = democratic
 				}
-			}
-		POL = {
-			annex_country = { target = NKO }
 			}
 		SLO = {
 			annex_country = { target = CZE }
