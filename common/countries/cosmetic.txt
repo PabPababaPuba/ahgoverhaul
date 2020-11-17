@@ -3579,3 +3579,19 @@ HYP_RODZAEVSKY = {
 	color = rgb { 186 158 158 }
 	color_ui = rgb { 186 158 158 }
 }
+HYP_TABORITSKY = {
+	color = rgb { 67 38 68 }
+	color_ui = rgb { 67 38 68 }
+}
+HYP_ANARCHY = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 187 123 123 }
+}
+HYP_GUMILYOV = {
+	color = rgb { 112 128 144 }
+	color_ui = rgb { 112 128 144 }
+}
+HYP_ZHDANOV = {
+	color = rgb { 231 132 146 }
+	color_ui = rgb { 231 132 146 }
+}
