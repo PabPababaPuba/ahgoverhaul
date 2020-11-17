@@ -1243,6 +1243,11 @@ OTTO = {
 	color = rgb { 99 20 17 }
 	color_ui = rgb { 99 20 17 }
 }
+VILYET = {
+	#color = rgb { 178 255 102 }
+	color = rgb { 99 20 17 }
+	color_ui = rgb { 99 20 17 }
+}
 EURO = {
 	color = rgb { 0 51 153 }
 	color_ui = rgb { 0 51 153 }
