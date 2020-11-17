@@ -6786,8 +6786,8 @@
  ARMOCU_HOL:0 "Dutch Military in $NONIDEOLOGY$"
  ARMOCU_HOL_DEF:0 "the Dutch Military in $NONIDEOLOGY$"
 
- DEOCFR:0 "Deutsche Besetzung Frankreichs"
- DEOCFR_DEF:0 "das Deutsche Besetzung Frankreichs"
+ DEOCFR:0 "Militärverwaltung in Frankreich"
+ DEOCFR_DEF:0 "das Militärverwaltung in Frankreich"
 
  ADMIN:0 "$OVERLORDADJ$ Administration of $NONIDEOLOGY$"
  ADMIN_DEF:0 "the $OVERLORDADJ$ Administration of $NONIDEOLOGY$"
