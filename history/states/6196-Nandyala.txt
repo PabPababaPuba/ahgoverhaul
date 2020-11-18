@@ -9,7 +9,7 @@ state={
 		owner = BNP
 		add_core_of = RAJ 
 		add_core_of = IND
-		add_core_of = AND
+		add_core_of = AHR
 		add_core_of = BNP
 	}
  
