@@ -4549,52 +4549,52 @@ RGC = {
 	color_ui = rgb { 165 69 117 }
 }
 HOA = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 51 68 107 }
+	color_ui = rgb { 51 68 107 }
 }
 FUK = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 178 163 87 }
+	color_ui = rgb { 178 163 87 }
 }
 NNK = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 65 96 90 }
+	color_ui = rgb { 65 96 90 }
 }
 ZGH = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 165 150 120 }
+	color_ui = rgb { 165 150 120 }
 }
 TNT = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 39 196 86 }
+	color_ui = rgb { 39 196 86 }
 }
 ANW = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 144 29 173 }
+	color_ui = rgb { 144 29 173 }
 }
 KWC = {
 	color = rgb { 0 11 112 }
 	color_ui = rgb { 0 11 112 }
 }
 CIL = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 124 158 225 }
+	color_ui = rgb { 124 158 225 }
 }
 KGS = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 105 127 40 }
+	color_ui = rgb { 105 127 40 }
 }
 HPH = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 66 90 99 }
+	color_ui = rgb { 66 90 99 }
 }
 KNG = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 140 51 24  }
+	color_ui = rgb { 140 51 24 }
 }
 CKG = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 228 188 84 }
+	color_ui = rgb { 228 188 84 }
 }
 HNN = {
 	color = rgb { 0 11 112 }
