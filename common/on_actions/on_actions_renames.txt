@@ -344,7 +344,6 @@ on_actions = {
 									}
 								}
 								do_turkish_renames = yes
-								do_non_ottoman_turkish_renames = yes
 							}
 						}
 

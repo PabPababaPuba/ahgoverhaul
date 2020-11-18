@@ -35510,119 +35510,8 @@ do_albanian_renames = {
 		}
 	}
 }
-do_ottoman_renames = {
 
-	if = {
-		limit = {
-			state = 5714
-		}		
-		set_province_name = {
-			id = 4512
-			name = "Diyâr-ı Bekr"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 7209
-		}		
-		set_province_name = {
-			id = 16356
-			name = "Hüdavendigâr"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 1385
-		}		
-		set_province_name = {
-			id = 13424
-			name = "Beç"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 106
-		}		
-		set_province_name = {
-			id = 3882
-			name = "Üsküb"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 341
-		}		
-		set_province_name = {
-			id = 9833
-			name = "Konstantiyye"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 5714
-		}		
-		set_province_name = {
-			id = 4512
-			name = "Diyâr-ı Bekr"
-		}
-	}
-	
-	if = {
-		limit = {
-			state = 7274
-		}
-		set_province_name = {
-			id = 7211
-			name = "Balyabadra"
-		}
-	}
-	
-	if = {
-		limit = {
-			state = 7249
-		}
-		set_province_name = {
-			id = 3864
-			name = "Yenişehr-i Fener"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 3507
-		}		
-		set_province_name = {
-			id = 11754
-			name = "Kutlofça"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 1215
-		}
-		set_province_name = {
-			id = 9849
-			name = "Pürzerrin"
-		}
-	}
-
-	if = {
-		limit = {
-			state = 5714
-		}		
-		set_province_name = {
-			id = 4512
-			name = "Diyâr-ı Bekr"
-		}
-	}
-}
-do_non_ottoman_turkish_renames = {
+do_turkish_renames = {    
 
 	if = {
 		limit = {
@@ -35703,8 +35592,6 @@ do_non_ottoman_turkish_renames = {
 			name = "Kutlu Viçe"
 		}
 	}
-}
-do_turkish_renames = {    
 
 	if = {
 		limit = {
@@ -38902,6 +38789,118 @@ do_turkish_renames = {
 		set_province_name = {
 			id = 10007
 			name = "Rodos"
+		}
+	}
+}
+do_ottoman_renames = {
+
+	if = {
+		limit = {
+			state = 5714
+		}		
+		set_province_name = {
+			id = 4512
+			name = "Diyâr-ı Bekr"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7209
+		}		
+		set_province_name = {
+			id = 16356
+			name = "Hüdavendigâr"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1385
+		}		
+		set_province_name = {
+			id = 13424
+			name = "Beç"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 106
+		}		
+		set_province_name = {
+			id = 3882
+			name = "Üsküb"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 341
+		}		
+		set_province_name = {
+			id = 9833
+			name = "Konstantiyye"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 5714
+		}		
+		set_province_name = {
+			id = 4512
+			name = "Diyâr-ı Bekr"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 7274
+		}
+		set_province_name = {
+			id = 7211
+			name = "Balyabadra"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 7249
+		}
+		set_province_name = {
+			id = 3864
+			name = "Yenişehr-i Fener"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3507
+		}		
+		set_province_name = {
+			id = 11754
+			name = "Kutlofça"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1215
+		}
+		set_province_name = {
+			id = 9849
+			name = "Pürzerrin"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 5714
+		}		
+		set_province_name = {
+			id = 4512
+			name = "Diyâr-ı Bekr"
 		}
 	}
 }
