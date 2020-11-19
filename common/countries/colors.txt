@@ -5456,7 +5456,7 @@ PDU = {
 	color = rgb { 226 143 65 }
 	color_ui = rgb { 226 143 65 }
 }
-AND = {
+AHR = {
 	color = rgb { 226 143 65 }
 	color_ui = rgb { 226 143 65 }
 }

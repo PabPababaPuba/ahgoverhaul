@@ -2109,9 +2109,9 @@ country_event = { #Divide India
 					}
 				every_state = {
 					limit = {
-						is_core_of = AND
+						is_core_of = AHR
 						}
-					AND = {
+					AHR = {
 						transfer_state = PREV
 						}
 					}
@@ -2389,9 +2389,9 @@ country_event = { #Divide India
 					}
 				every_state = {
 					limit = {
-						is_core_of = AND
+						is_core_of = AHR
 						}
-					AND = {
+					AHR = {
 						transfer_state = PREV
 						}
 					}
