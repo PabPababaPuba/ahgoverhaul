@@ -40,9 +40,9 @@ add_ideas = {
 set_stability = 0.85
 
 create_country_leader = {
-	name = "Rudolf Minger"
+	name = "Albert Meyer"
 	desc = ""
-	picture = "Portrait_Rudolf_Minger.dds"
+	picture = "SWI_albert_meyer.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
