@@ -22,7 +22,7 @@
 # }
 
 HGO_world_state = {
-	name = "World State"
+	name = "The World"
 	group = "RULE_GROUP_HGO_SETTINGS"
 	default = {
 		name = DEFAULT
@@ -31,8 +31,59 @@ HGO_world_state = {
 	}
 	option = {
 		name = BLANK_SLATE
-		text = "Blank Slate"
+		text = "Unclaimed World"
 		desc = "With this option enabled, the entire world will be owned by Unclaimed Land (UNC)."
+		allow_achievements = yes
+	}
+}
+HGO_unite_raj = {
+	name = "Princely States"
+	group = "RULE_GROUP_HGO_SETTINGS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "Princely States will appear as it is by Default."
+	}
+	option = {
+		name = NO_PRINCELY
+		text = "Yeet the Princely States"
+		desc = "The Princely States will be absorbed into the Raj."
+		allow_achievements = yes
+	}
+}
+HGO_unite_ussr = {
+	name = "USSR Settings"
+	group = "RULE_GROUP_HGO_SETTINGS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "USSR will be divided into SSRs and ASSRs as it is by default."
+	}
+	option = {
+		name = UNITED_USSR
+		text = "Unite The USSR"
+		desc = "USSR will be united in a single country."
+		allow_achievements = yes
+	}
+}
+HGO_unite_china = {
+	name = "China Settings"
+	group = "RULE_GROUP_HGO_SETTINGS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "China will be full of Warlord States as it is by default."
+	}
+	option = {
+		name = KMT_CHINA
+		text = "KMT Rule"
+		desc = "The Republic of China will Unite China."
+		allow_achievements = yes
+	}
+		option = {
+		name = CCP_CHINA
+		text = "CCP Rule"
+		desc = "The People's Republic of China will Unite China."
 		allow_achievements = yes
 	}
 }

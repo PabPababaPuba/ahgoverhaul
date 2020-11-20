@@ -26,6 +26,183 @@ on_actions = {
 		}
 	}
 	on_startup = {
+		#Raj Game Rule
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = HGO_unite_raj
+						option = NO_PRINCELY
+					}
+				}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = RAJ
+						is_core_of = BRM
+						}
+					NOT = {
+						is_core_of = GOA
+						is_core_of = FND
+						is_core_of = NEP
+						}
+					}
+				RAJ = {
+				 	transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = TIB
+					OR = {
+						is_core_of = ARN
+						}
+					}
+				TIB = {
+				 	transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = FND
+					}
+				FND = {
+				 	transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = GOA
+					}
+				GOA = {
+				 	transfer_state = PREV
+						}
+					}
+			10453 = {
+				owner = {
+					transfer_state = 10390
+			  	 	}
+				}
+		SKM = {
+			transfer_state = 996
+			}
+			}
+		}
+	}
+	on_startup = {
+		#Unite USSR Game Rule
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = HGO_unite_ussr
+						option = UNITED_USSR
+					}
+				}
+				every_state = {
+					limit = {
+						OR = {
+						is_core_of = SOV
+						is_owned_by = KAZ
+						is_owned_by = UZB
+						}
+						NOT = {
+						is_core_of = TAN
+						is_core_of = FIN
+						is_core_of = LAT
+						}
+					}
+				SOV = {
+					transfer_state = PREV
+					add_state_core = PREV
+					}
+				}
+			}
+		}
+	}	
+	on_startup = {
+		#Unite USSR Game Rule
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = HGO_unite_china
+						option = KMT_CHINA
+					}
+				}
+					every_state = {
+						limit = {
+								OR = {
+									is_core_of = CHI
+									is_core_of = TIB
+									is_claimed_by = TIB
+								}
+						}
+						set_temp_variable = { unitechinaa = THIS.id }
+						CHI = {
+							transfer_state = unitechinaa
+							add_state_core = unitechinaa
+						}
+					}
+		CHI = {
+			annex_country = {target = TIB }
+			annex_country = { target = MON }
+			annex_country = { target = TAN }
+			transfer_state = 1007				
+			}
+			every_state = {
+				limit = {
+					is_owned_by = CHI
+					}
+				add_core_of = PRC
+				add_core_of = CHI				
+				}
+			}
+		}
+	}	
+	on_startup = {
+		#Unite USSR Game Rule
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = HGO_unite_china
+						option = CCP_CHINA
+					}
+				}
+					every_state = {
+						limit = {
+								OR = {
+									is_core_of = PRC
+									is_core_of = TIB
+									is_claimed_by = TIB
+								}
+						}
+						set_temp_variable = { unitechinac = THIS.id }
+						PRC = {
+							transfer_state = unitechinac
+							add_state_core = unitechinac
+						}
+					}
+		PRC = {
+			annex_country = {target = TIB }
+			annex_country = { target = MON }
+			annex_country = { target = TAN }
+			transfer_state = 1007			
+		set_cosmetic_tag = PRC_proclaimed_communism			
+            set_capital = 608				
+			}
+			every_state = {
+				limit = {
+					is_owned_by = PRC
+				}
+				add_core_of = PRC
+				add_core_of = CHI				
+			}		
+			}
+		}
+	}	
+	on_startup = {
 		#The Great War Rule
 		effect = {
 			if = {
@@ -2848,10 +3025,25 @@ on_actions = {
 						limit = {
 							OR = {
 							is_core_of = RUS
-								}
-							NOT = {
-							is_owned_by = RUS
-								}
+							is_core_of = ABM
+							is_core_of = UBM
+							}
+						NOT = {
+							is_core_of = DAG
+							is_core_of = KMK
+							is_core_of = MRD
+							is_core_of = CVS
+							is_core_of = TTR
+							is_core_of = UDM
+							is_core_of = BSH
+							is_core_of = YKT
+							is_core_of = KAR
+							is_core_of = KBK
+							is_core_of = NOS
+							is_core_of = CHE
+							is_core_of = MRE
+							is_core_of = KMI
+							}
 							}
 						RUS = {
 							transfer_state = PREV

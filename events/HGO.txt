@@ -100,24 +100,11 @@ country_event = { #Unite China
 						}
 					}
 		CHI = {
-			annex_country = {
-				target = TIB
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = TUG
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = MON
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = TAN
-				transfer_troops = yes
-			}
+			annex_country = {target = TIB }
+			annex_country = { target = MON }
+			annex_country = { target = TAN }
 			transfer_state = 1007				
-}
+			}
 			every_state = {
 				limit = {
 					is_owned_by = CHI
@@ -149,23 +136,10 @@ country_event = { #Unite China
 					}
 			CHI = {
 		set_cosmetic_tag = CHI_FOXITE
-			annex_country = {
-				target = TIB
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = TUG
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = MON
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = TAN
-				transfer_troops = yes
-			}	
-			transfer_state = 1007			
+			annex_country = {target = TIB }
+			annex_country = { target = MON }
+			annex_country = { target = TAN }
+			transfer_state = 1007				
 		}
 			every_state = {
 				limit = {
@@ -197,26 +171,13 @@ country_event = { #Unite China
 						}
 					}
 		PRC = {
-			annex_country = {
-				target = TIB
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = TUG
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = MON
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = TAN
-				transfer_troops = yes
-			}
-			transfer_state = 1007		
+			annex_country = {target = TIB }
+			annex_country = { target = MON }
+			annex_country = { target = TAN }
+			transfer_state = 1007			
 		set_cosmetic_tag = PRC_proclaimed_communism			
             set_capital = 608				
-}
+			}
 			every_state = {
 				limit = {
 					is_owned_by = PRC
