@@ -293,9 +293,27 @@ country_event = { #2020 Europe
 							is_core_of = NKO
 							is_core_of = DAN
 								}
+							NOT = {
+							is_core_of = LIT
+							is_owned_by = RUS
+								}
 							}
 						POL = {
 							transfer_state = PREV
+								}
+							}
+					every_state = {
+						limit = {
+							OR = {
+							is_core_of = BLR
+								}
+							NOT = {
+							is_core_of = NKO
+								}
+							}
+						BLR = {
+							transfer_state = PREV
+								}
 							}
 					every_state = {
 						limit = {
@@ -303,6 +321,7 @@ country_event = { #2020 Europe
 							}
 						UKR = {
 							transfer_state = PREV
+								}
 							}
 					every_state = {
 						limit = {
@@ -332,7 +351,7 @@ country_event = { #2020 Europe
 			}
 		POL = {
 			release = UKR
-			release = BLR
+			release = CZC
 			transfer_state = 7444
 			transfer_state = 8046
 			transfer_state = 5372
