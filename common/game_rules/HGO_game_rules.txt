@@ -32,6 +32,46 @@ HGO_world_state = {
 	option = {
 		name = BLANK_SLATE
 		text = "Blank Slate"
-		desc = "(DOES NOT CURRENTLY WORK) With this option enabled, the entire world will be owned by Unclaimed Land (UNC)."
+		desc = "With this option enabled, the entire world will be owned by Unclaimed Land (UNC)."
+		allow_achievements = yes
+	}
+}
+HGO_set_scenario = {
+	name = "Set Scenario"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "The world will be as it was in 1936."
+	}
+	option = {
+		name = GREAT_WAR
+		text = "The Great War"
+		desc = "28 July 1914 - (Insert WW1 Desc Here.)"
+		allow_achievements = yes
+	}
+	option = {
+		name = MID_WAR
+		text = "The Winter Counter-Offensive - COMING SOON"
+		desc = "1 January 1942 - COMING SOON"
+		allow_achievements = yes
+	}
+	option = {
+		name = COLD_WAR
+		text = "The Cold War - COMING SOON"
+		desc = "1 January 1950 - COMING SOON"
+		allow_achievements = yes
+	}
+	option = {
+		name = USSR_COLLAPSE
+		text = "The Collapse of Communism - W.I.P"
+		desc = "1 January 1990 - W.I.P - Only Including Europe, Excluding East Europe. (Insert 1990 Desc Here.)"
+		allow_achievements = yes
+	}
+	option = {
+		name = MODERN_DAY
+		text = "Modern Day"
+		desc = "1  January 2021 - (Insert Modern Day Desc Here.)"
+		allow_achievements = yes
 	}
 }
