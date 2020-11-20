@@ -1064,8 +1064,8 @@
  CZE_neutrality_DEF:0 "The Kingdom of Bohemia"
  CZE_communism:0 "Czechoslovak Union"
  CZE_communism_DEF:0 "The Czechoslovak Union"
- CZE_vanguardism:0 "United Soviets of Czechoslovakia"
- CZE_vanguardism_DEF:0 "The United Soviets of Czechoslovakia"
+ CZE_vanguardism:0 "Czechoslovak Socialist Republic"
+ CZE_vanguardism_DEF:0 "The Czechoslovak Socialist Republic"
  CZE_monarchism:0 "Kingdom of Bohemia-Slovakia" 
  CZE_monarchism_DEF:0 "The Kingdom of Bohemia-Slovakia" 
  CZE_ADJ:0 "Czechoslovak"
@@ -1493,8 +1493,8 @@
  ALB_conservative_monarchism_DEF:0 "The Albanian Kingdom"
  ALB_communism:0 "Proletarian Communes of Albania"
  ALB_communism_DEF:0 "The Proletarian Communes of Albania"
- ALB_vanguardism:0 "Socialist Republic of Albania"
- ALB_vanguardism_DEF:0 "The Socialist Republic of Albania"
+ ALB_vanguardism:0 "People's Socialist Republic of Albania"
+ ALB_vanguardism_DEF:0 "The People's Socialist Republic of Albania"
  ALB_neutrality:0 "Principality of Albania" 
  ALB_neutrality_DEF:0 "The Principality of Albania" 
  ALB_authoritarian_monarchism:0 "Albanian Kingdom"
@@ -1583,6 +1583,8 @@
  BUL_authoritarian_monarchism_DEF:0 "The Kingdom of Bulgaria"
  BUL_communism:0 "Socialist Republic of Bulgaria"
  BUL_communism_DEF:0 "The Socialist Republic of Bulgaria"
+ BUL_vanguardism:0 "People's Republic of Bulgaria"
+ BUL_vanguardism_DEF:0 "The People's Republic of Bulgaria"
  BUL_monarchism:0 "Bulgarian Empire" 
  BUL_monarchism_DEF:0 "The Bulgarian Empire" 
  BUL_monarchism_ADJ:0 "Bulgarian"
@@ -1590,6 +1592,7 @@
  BUL_democratic_ADJ:0 "Bulgarian"
  BUL_neutrality_ADJ:0 "Bulgarian"
  BUL_communism_ADJ:0 "Bulgarian"
+ BUL_vanguardism_ADJ:0 "Bulgarian"
  
 
  

@@ -37,12 +37,12 @@ HGO_world_state = {
 	}
 }
 HGO_unite_raj = {
-	name = "Princely States"
+	name = "India Settings"
 	group = "RULE_GROUP_HGO_SETTINGS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
-		desc = "Princely States will appear as it is by Default."
+		desc = "The Indian Subcontinent will be as it was in 1936."
 	}
 	option = {
 		name = NO_PRINCELY
@@ -57,18 +57,18 @@ HGO_unite_ussr = {
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
-		desc = "USSR will be divided into SSRs and ASSRs as it is by default."
+		desc = "The USSR will be divided into SSRs and ASSRs as it is by default."
 	}
 		option = {
 		name = DIVIDED_USSR
 		text = "Divide it Further (Doesn't Currently Work)"
-		desc = "USSR will be divided into SSRs, ASSRs, Oblasts, Okrugs, and Autonomous Oblasts."
+		desc = "The USSR will be divided into SSRs, ASSRs, Oblasts, Okrugs, and Autonomous Oblasts (Doesn't Work Yet)."
 		allow_achievements = yes
 	}
 	option = {
 		name = UNITED_USSR
 		text = "Unite The USSR"
-		desc = "USSR will be united in a single country."
+		desc = "The USSR will be showed as a single country."
 		allow_achievements = yes
 	}
 }
@@ -95,7 +95,7 @@ HGO_unite_china = {
 		option = {
 		name = KMT_TAIWAN
 		text = "KMT Taiwan, CCP Mainland"
-		desc = "The People's Republic of China will Unite Mainlandnd China, and the Republic of China will Unite Taiwan."
+		desc = "The People's Republic of China will Unite Mainlandnd China, and the Republic of China will go into exile in Taiwan."
 		allow_achievements = yes
 	}
 		option = {
@@ -113,7 +113,7 @@ HGO_unite_china = {
 		option = {
 		name = CCP_TAIWAN
 		text = "CCP Taiwan, KMT Mainland"
-		desc = "The Republic of China will Unite Mainlandnd China, and the People's Republic of China will Unite Taiwan."
+		desc = "The Republic of China will Unite Mainlandnd China, and the People's Republic of China will go into exile in Taiwan."
 		allow_achievements = yes
 	}
 }
@@ -146,7 +146,7 @@ HGO_set_scenario = {
 	option = {
 		name = USSR_COLLAPSE
 		text = "The Collapse of Communism - W.I.P"
-		desc = "1 January 1990 - W.I.P - Only Including Europe, Excluding East Europe. (Insert 1990 Desc Here.)"
+		desc = "1 January 1990 - W.I.P - Only Including Europe. (Insert 1990 Desc Here.)"
 		allow_achievements = yes
 	}
 	option = {
