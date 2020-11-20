@@ -3595,3 +3595,7 @@ HYP_ZHDANOV = {
 	color = rgb { 231 132 146 }
 	color_ui = rgb { 231 132 146 }
 }
+NZL_ZEAL = {
+	color = rgb { 2 165 219 }
+	color_ui = rgb { 2 165 219 }
+}
