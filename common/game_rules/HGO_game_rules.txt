@@ -23,7 +23,7 @@
 
 HGO_world_state = {
 	name = "World State"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_HGO_SETTINGS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -38,7 +38,7 @@ HGO_world_state = {
 }
 HGO_set_scenario = {
 	name = "Set Scenario"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_HGO_SETTINGS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
