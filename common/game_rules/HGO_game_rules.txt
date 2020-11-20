@@ -59,6 +59,12 @@ HGO_unite_ussr = {
 		text = "RULE_OPTION_DEFAULT"
 		desc = "USSR will be divided into SSRs and ASSRs as it is by default."
 	}
+		option = {
+		name = DIVIDED_USSR
+		text = "Divide it Further (Doesn't Currently Work)"
+		desc = "USSR will be divided into SSRs, ASSRs, Oblasts, Okrugs, and Autonomous Oblasts."
+		allow_achievements = yes
+	}
 	option = {
 		name = UNITED_USSR
 		text = "Unite The USSR"
@@ -76,14 +82,38 @@ HGO_unite_china = {
 	}
 	option = {
 		name = KMT_CHINA
-		text = "KMT Rule"
+		text = "KMT China"
 		desc = "The Republic of China will Unite China."
 		allow_achievements = yes
 	}
 		option = {
+		name = KMT_CHINA_MAX
+		text = "KMT China - Maximum Claims"
+		desc = "The Republic of China will Unite China Including Tibet, Mongolia, and Tuva."
+		allow_achievements = yes
+	}
+		option = {
+		name = KMT_TAIWAN
+		text = "KMT Taiwan, CCP Mainland"
+		desc = "The People's Republic of China will Unite Mainlandnd China, and the Republic of China will Unite Taiwan."
+		allow_achievements = yes
+	}
+		option = {
 		name = CCP_CHINA
-		text = "CCP Rule"
+		text = "CCP China"
 		desc = "The People's Republic of China will Unite China."
+		allow_achievements = yes
+	}
+		option = {
+		name = CCP_CHINA_MAX
+		text = "CCP China - Maximum Claims"
+		desc = "The People's Republic of China will Unite China Including Tibet, Mongolia, and Tuva."
+		allow_achievements = yes
+	}
+		option = {
+		name = CCP_TAIWAN
+		text = "CCP Taiwan, KMT Mainland"
+		desc = "The Republic of China will Unite Mainlandnd China, and the People's Republic of China will Unite Taiwan."
 		allow_achievements = yes
 	}
 }

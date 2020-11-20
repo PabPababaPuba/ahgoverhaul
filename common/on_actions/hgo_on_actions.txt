@@ -121,7 +121,7 @@ on_actions = {
 		}
 	}	
 	on_startup = {
-		#Unite USSR Game Rule
+		#Unite China Gamerule (KMT)
 		effect = {
 			if = {
 				limit = {
@@ -130,18 +130,65 @@ on_actions = {
 						option = KMT_CHINA
 					}
 				}
+					3172 = {
+					set_demilitarized_zone = no
+					}	
+					every_state = {
+						limit = {
+							OR = {
+								is_core_of = CHI
+								}
+							NOT = {
+								is_core_of = TIB
+								is_core_of = JAP
+								is_core_of = SOV
+								}
+						}
+						CHI = {
+							transfer_state = PREV
+							add_state_core = PREV
+						}
+					}
+		CHI = {
+			transfer_state = 1007				
+			}
+			every_state = {
+				limit = {
+					is_owned_by = CHI
+					}
+				add_core_of = PRC
+				add_core_of = CHI
+				remove_state_claim = CHI
+				remove_state_claim = PRC				
+				}
+			}
+		}
+	}	
+	on_startup = {
+		#Unite China Gamerule (KMT-MAX)
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = HGO_unite_china
+						option = KMT_CHINA_MAX
+					}
+				}
+					3172 = {
+					set_demilitarized_zone = no
+					}	
 					every_state = {
 						limit = {
 								OR = {
 									is_core_of = CHI
 									is_core_of = TIB
+									is_claimed_by = CHI
 									is_claimed_by = TIB
 								}
 						}
-						set_temp_variable = { unitechinaa = THIS.id }
 						CHI = {
-							transfer_state = unitechinaa
-							add_state_core = unitechinaa
+							transfer_state = PREV
+							add_state_core = PREV
 						}
 					}
 		CHI = {
@@ -153,15 +200,67 @@ on_actions = {
 			every_state = {
 				limit = {
 					is_owned_by = CHI
-					}
-				add_core_of = PRC
-				add_core_of = CHI				
 				}
+				add_core_of = PRC
+				add_core_of = CHI	
+				remove_state_claim = CHI
+				remove_state_claim = PRC				
+			}		
+			}
+		}
+	}
+	on_startup = {
+		#Unite China Gamerule (KMT In Taiwan)
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = HGO_unite_china
+						option = KMT_TAIWAN
+					}
+				}
+					3172 = {
+					set_demilitarized_zone = no
+					}	
+					every_state = {
+						limit = {
+							OR = {
+								is_core_of = CHI
+								}
+							NOT = {
+								is_core_of = TIB
+								is_core_of = JAP
+								is_core_of = TWN
+								is_core_of = SOV
+								}
+						}
+						PRC = {
+							transfer_state = PREV
+							add_state_core = PREV
+						}
+					}
+		PRC = {
+			transfer_state = 1007
+			set_cosmetic_tag = PRC_proclaimed_communism			
+			}
+		CHI = {
+			annex_country = { target = TWN }
+			set_capital = 524
+				}
+			every_state = {
+				limit = {
+					is_owned_by = PRC
+				}
+				add_core_of = PRC
+				add_core_of = CHI
+				remove_state_claim = CHI
+				remove_state_claim = PRC				
+				}		
 			}
 		}
 	}	
 	on_startup = {
-		#Unite USSR Game Rule
+		#Unite China Gamerule (CCP)
 		effect = {
 			if = {
 				limit = {
@@ -170,26 +269,28 @@ on_actions = {
 						option = CCP_CHINA
 					}
 				}
+					3172 = {
+					set_demilitarized_zone = no
+					}	
 					every_state = {
 						limit = {
-								OR = {
-									is_core_of = PRC
-									is_core_of = TIB
-									is_claimed_by = TIB
+							OR = {
+								is_core_of = PRC
+								}
+							NOT = {
+								is_core_of = TIB
+								is_core_of = JAP
+								is_core_of = SOV
 								}
 						}
-						set_temp_variable = { unitechinac = THIS.id }
 						PRC = {
-							transfer_state = unitechinac
-							add_state_core = unitechinac
+							transfer_state = PREV
+							add_state_core = PREV
 						}
 					}
 		PRC = {
-			annex_country = {target = TIB }
-			annex_country = { target = MON }
-			annex_country = { target = TAN }
 			transfer_state = 1007			
-		set_cosmetic_tag = PRC_proclaimed_communism			
+			set_cosmetic_tag = PRC_proclaimed_communism			
             set_capital = 608				
 			}
 			every_state = {
@@ -197,8 +298,107 @@ on_actions = {
 					is_owned_by = PRC
 				}
 				add_core_of = PRC
-				add_core_of = CHI				
+				add_core_of = CHI
+				remove_state_claim = CHI
+				remove_state_claim = PRC				
 			}		
+			}
+		}
+	}
+	on_startup = {
+		#Unite China Gamerule (CCP-MAX)
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = HGO_unite_china
+						option = CCP_CHINA_MAX
+					}
+				}
+					3172 = {
+					set_demilitarized_zone = no
+					}	
+					every_state = {
+						limit = {
+								OR = {
+									is_core_of = PRC
+									is_core_of = TIB
+									is_claimed_by = PRC
+									is_claimed_by = TIB
+								}
+						}
+						PRC = {
+							transfer_state = PREV
+							add_state_core = PREV
+						}
+					}
+		PRC = {
+			annex_country = {target = TIB }
+			annex_country = { target = MON }
+			annex_country = { target = TAN }
+			transfer_state = 1007
+			set_cosmetic_tag = PRC_proclaimed_communism			
+            set_capital = 608				
+			}
+			every_state = {
+				limit = {
+					is_owned_by = PRC
+				}
+				add_core_of = PRC
+				add_core_of = CHI
+				remove_state_claim = CHI
+				remove_state_claim = PRC
+				}		
+			}
+		}
+	}
+	on_startup = {
+		#Unite China Gamerule (CCP In Taiwan)
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = HGO_unite_china
+						option = CCP_TAIWAN
+					}
+				}
+					3172 = {
+					set_demilitarized_zone = no
+					}	
+					every_state = {
+						limit = {
+							OR = {
+								is_core_of = CHI
+								}
+							NOT = {
+								is_core_of = TIB
+								is_core_of = JAP
+								is_core_of = TWN
+								is_core_of = SOV
+								}
+						}
+						CHI = {
+							transfer_state = PREV
+							add_state_core = PREV
+						}
+					}
+		CHI = {
+			transfer_state = 1007									
+			}
+		PRC = {
+			annex_country = { target = TWN }
+			set_cosmetic_tag = PRC_proclaimed_communism			
+            set_capital = 524
+				}
+			every_state = {
+				limit = {
+					is_owned_by = PRC
+				}
+				add_core_of = PRC
+				add_core_of = CHI
+				remove_state_claim = CHI
+				remove_state_claim = PRC				
+				}		
 			}
 		}
 	}	
