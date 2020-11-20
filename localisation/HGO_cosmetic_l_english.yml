@@ -6972,7 +6972,11 @@
  ASR:0 "Asir"
  ASR_DEF:0 "Asir"
  ASR_ADJ:0 "Asirian"
- 
+
+ PICT:0 "Pictland"
+ PICT_DEF:0 "Pictland"
+ PICT_ADJ:0 "Pictish" 
+
  ##2020 Loc
 
  BRA_2020_anarchism_ideology:0 "Free Territories of Brazil"
