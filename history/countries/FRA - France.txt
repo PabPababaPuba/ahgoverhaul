@@ -220,7 +220,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Philippe Pétain"
+	name = "Henri Philippe Benoni Pétain"
 	desc = ""
 	picture = "FRA_Petain.tga"
 	expire = "1965.1.1"
