@@ -2,83 +2,6 @@
 
 oob = "FRA_1936"
 
-#if = {
-#	limit = {
-#		has_dlc = "Together for Victory"
-#	}
-#	set_autonomy = {
-#		target = SYR
-#		autonomous_state = autonomy_dominion
-#		freedom_level = 0.2
-#	}
-#	set_autonomy = {
-#		target = VIN
-#		autonomous_state = autonomy_colony
-#		freedom_level = 0.2
-#	}
-#	set_autonomy = {
-#		target = MOR
-#		autonomous_state = autonomy_dominion
-#		freedom_level = 0.2
-#	}
-#	set_autonomy = {
-#		target = TUN
-#		autonomous_state = autonomy_dominion
-#		freedom_level = 0.2
-#	}
-#	set_autonomy = {
-#		target = FEA
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = FWA
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = DJI
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = CMR
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = MAD
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = TOG
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = LEB
-#		autonomous_state = autonomy_dominion
-#	}
-#	set_autonomy = {
-#		target = JEB
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = ALW
-#		autonomous_state = autonomy_colony
-#	}
-#	else = {
-#	puppet = SYR
-#	puppet = VIN
-#	puppet = MOR
-#	puppet = TUN
-#	puppet = FEA
-#	puppet = FWA
-#	puppet = DJI
-#	puppet = CMR
-#	puppet = MAD
-#	puppet = TOG
-#	puppet = LEB
-#	puppet = JEB
-#	puppet = ALW
-#	}
-#}
-
 set_popularities = {
 	vanguardism
 		= 3
@@ -149,7 +72,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Marceau Pivert"
 	desc = ""
-	picture = "Portrait_Marceau_Pivert.dds"
+	picture = "FRA_Pivert.tga"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -159,7 +82,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "André Léon Blum"
 	desc = ""
-	picture = "Portrait_Leon_Blum.dds"
+	picture = "FRA_Blum.tga"
 	expire = "1965.1.1"
 	ideology = demsoc
 	traits = {
@@ -179,7 +102,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Édouard Daladier"
 	desc = ""
-	picture = "Portrait_Edouard_Daladier.dds"
+	picture = "FRA_Daladier.tga"
 	expire = "1965.1.1"
 	ideology = socdem
 	traits = {
@@ -209,7 +132,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "François de La Rocque"
 	desc = ""
-	picture = "Portrait_Francois_de_La_Rocque.dds"
+	picture = "FRA_Rocque.tga"
 	expire = "1965.1.1"
 	ideology = cenrep
 	traits = {
@@ -229,7 +152,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Charles de Gaulle"
 	desc = ""
-	picture = "Portrait_Charles_de_Gaulle.dds"
+	picture = "FRA_DeGaulle.tga"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -279,7 +202,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Jean Verdier"
 	desc = ""
-	picture = "Portrait_Jean_Verdier.dds"
+	picture = "FRA_Verdier.tga"
 	expire = "1965.1.1"
 	ideology = christian
 	traits = {
@@ -297,9 +220,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Henri Philippe Benoni Omer Pétain"
+	name = "Philippe Pétain"
 	desc = ""
-	picture = "Portrait_Philippe_Petain.dds"
+	picture = "FRA_Petain.tga"
 	expire = "1965.1.1"
 	ideology = repfash
 	traits = {
