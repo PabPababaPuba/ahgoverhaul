@@ -421,6 +421,7 @@ country_event = { #2020 Europe
 			annex_country = { target = CZE }
 			release = CZC
 			release = GER
+			transfer_state = 901
 			transfer_state = 2472
 			transfer_state = 3773
 			transfer_state = 10534
@@ -529,7 +530,7 @@ country_event = { #2020 Europe
 			}
 		GRE = {
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = liberal_republic
 				}
 			}
 		SPR = {
