@@ -578,6 +578,20 @@ on_actions = {
 						do_japanese_renames = yes
 					}	
 
+					### TUR ###
+					if = {
+						limit = {
+							ROOT = {OR = {has_cosmetic_tag = EGY_TUR
+							              has_cosmetic_tag = ALG_TUR
+						                  has_cosmetic_tag = LBA_TUR
+						                  has_cosmetic_tag = TUN_TUR
+						                  has_cosmetic_tag = MOR_TUR
+						                  has_cosmetic_tag = VILYET}}
+						}
+						do_turkish_renames = yes
+						do_ottoman_renames = yes
+					}
+
 					### HOL ###
 					if = {
 						limit = {
