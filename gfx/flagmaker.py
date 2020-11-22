@@ -30,7 +30,7 @@ except OSError:
 	print("File is not a valid image file")
 	e = input('Press ENTER to exit: ')
 
-tag_name = input("Enter name of tag: ").upper() #just in case someone forgets PDX has their tags in ALL CAPS
+tag_name = input("Enter name of tag: ") #just in case someone forgets PDX has their tags in ALL CAPS
 tga_img = input_img.convert('RGBA')
 
 #Right so I trust the person to have actually made the 'flag' 'medium' and 'small' directories before running this
