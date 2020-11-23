@@ -65,5 +65,13 @@ create_country_leader = {
     }
 }
 
-
-
+create_country_leader = {
+    name = "Trokhym Ivanovich Lukashenko"
+    desc = ""
+    picture = "BLR_Lukashenko.tga"
+    expire = "1965.1.1"
+    ideology = despotism
+    traits = {
+        #
+    }
+}
