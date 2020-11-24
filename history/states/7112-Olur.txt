@@ -8,6 +8,8 @@ state={
 	    owner = TUR
         add_core_of = TUR
         add_core_of = ERE
+		add_core_of = KSR
+		add_claim_by = ARM
 				victory_points = {
 			17387 5
 		}

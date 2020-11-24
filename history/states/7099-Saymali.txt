@@ -7,6 +7,8 @@ state={
 	history={
 	    owner = TUR
         add_core_of = TUR
+		add_core_of = KSR
+		add_claim_by = ARM
     }	
 	manpower=1000
 	state_category = pastoral

@@ -9,6 +9,9 @@ state={
 		owner = TUR
 		add_core_of = TUR
 	        add_core_of = ERE
+		add_core_of = KSR
+		add_claim_by = GEO
+		add_claim_by = ADJ
 
 	}
 	manpower=12000

@@ -5644,3 +5644,27 @@ NIN = {
 color = rgb { 235 210 35 }
 color_ui = rgb { 235 210 35 }
 }
+LAZ = {
+color = rgb { 187 62 84 }
+color_ui = rgb { 187 62 84 }
+}
+KSR = {
+color = rgb { 64 117 57 }
+color_ui = rgb { 64 117 57 }
+}
+ARS = {
+color = rgb { 156 78 69 }
+color_ui = rgb { 156 78 69 }
+}
+MGH = {
+color = rgb { 183 164 87 }
+color_ui = rgb { 183 164 87 }
+}
+RKU = {
+color = rgb { 184 95 95 }
+color_ui = rgb { 184 95 95 }
+}
+BAK = {
+color = rgb { 52 220 153 }
+color_ui = rgb { 52 220 153 }
+}

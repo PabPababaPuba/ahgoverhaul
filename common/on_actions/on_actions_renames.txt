@@ -30,6 +30,14 @@ on_actions = {
 						}
 						do_armenian_renames = yes
 					}
+					
+					### NGK ###
+					if = {
+						limit = {
+							ROOT = {tag = NGK}
+						}
+						do_modern_armenian_renames = yes
+					}
 
 					### KOR ###
 					if = {

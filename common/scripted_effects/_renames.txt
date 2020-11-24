@@ -46352,3 +46352,125 @@ do_kurdish_renames = {
 		}
 	}
 }
+do_modern_armenian_renames = {
+
+	if = {
+		limit = {
+			state = 3398
+		}		
+		set_province_name = {
+			id = 11853
+			name = "Karin"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 948
+		}		
+		set_province_name = {
+			id = 6997
+			name = "Nakhijevan"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 1035
+		}		
+		set_province_name = {
+			id = 1467
+			name = "Stepakanert"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 3345
+		}		
+		set_province_name = {
+			id = 11674
+			name = "Gandzak"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 229
+		}		
+		set_province_name = {
+			id = 7661
+			name = "Baqu"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 949
+		}		
+		set_province_name = {
+			id = 1530
+			name = "Cxinval"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 9880
+		}		
+		set_province_name = {
+			id = 1599
+			name = "Tp'xis"
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 354
+		}		
+		set_province_name = {
+			id = 9932
+			name = "Trapizon"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1259
+		}		
+		set_province_name = {
+			id = 13317
+			name = "Bat'owm"
+		}
+	}	
+
+		if = {
+		limit = {
+			state = 349
+		}		
+		set_province_name = {
+			id = 9777
+			name = "Sebastia"
+		}
+	}	
+
+		if = {
+		limit = {
+			state = 950
+		}		
+		set_province_name = {
+			id = 11599
+			name = "Sowxowm"
+		}
+	}	
+
+		if = {
+		limit = {
+			state = 2358
+		}		
+		set_province_name = {
+			id = 12320
+			name = "Erewan"
+		}
+	}	
+}
