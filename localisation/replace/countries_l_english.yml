@@ -179,8 +179,8 @@
  CRO_right_anarchism_DEF:0 "The Croatian Free Economic Zone"
  CRO_right_anarchism_ADJ:0 "Croatian"
 
- BLR_anarchism_ideology:0 "Belorussian Tribal Territory"
- BLR_anarchism_ideology_DEF:0 "The Belorussian Tribal Territory"
+ BLR_anarchism_ideology:0 "Belorussian Tribes"
+ BLR_anarchism_ideology_DEF:0 "Belorussian Tribes"
  BLR_anarchism_ideology_ADJ:0 "Belorussian"
  BLR_left_anarchism:0 "Free Territory of Belarus"
  BLR_left_anarchism_DEF:0 "The Free Territory of Belarus"
@@ -447,8 +447,8 @@
  FIN_right_anarchism_DEF:0 "The Finnish Free Economic Zone"
  FIN_right_anarchism_ADJ:0 "Finnish"
 
- BRA_anarchism_ideology:0 "Brazilian Tribal Territories"
- BRA_anarchism_ideology_DEF:0 "The Brazilian Tribal Territories"
+ BRA_anarchism_ideology:0 "Brazilian Tribes"
+ BRA_anarchism_ideology_DEF:0 "Brazilian Tribes"
  BRA_anarchism_ideology_ADJ:0 "Brazilian"
  BRA_left_anarchism:0 "Free Territories of Brazil"
  BRA_left_anarchism_DEF:0 "The Free Territories of Brazil"
