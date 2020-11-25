@@ -6,8 +6,8 @@ state={
 		add_core_of = SOV
 		add_core_of = TSC
 		add_core_of = AZR
+		add_core_of = LZG
 		add_core_of = BAK
-
 		buildings = {
 			infrastructure = 4
 			
