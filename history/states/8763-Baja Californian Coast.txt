@@ -1,15 +1,18 @@
+
 state={
 	id=8763
 	name="STATE_8763"
-	provinces={
-		2553 5554 5578 5604 
-	}
+
 	history={
 		owner = WTR
 		add_core_of = WTR
 
 	}
-	manpower = 1
-	state_category = wasteland
+
+	provinces={
+		2553 2575 2772 2898 2945 2969 4671 5261 5554 5578 5604 6853 8738 8860 8909 
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
