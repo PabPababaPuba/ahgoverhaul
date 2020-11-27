@@ -5,8 +5,9 @@ state={
 		11987 
 	}
 	history={
-	    owner = MOR
-        add_core_of = MOR
+	    owner = SGR
+        add_core_of = ALG
+	add_core_of = SGR
     }	
 	manpower=1000
 	state_category=pastoral

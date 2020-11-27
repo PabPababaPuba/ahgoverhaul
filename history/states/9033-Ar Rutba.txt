@@ -5,8 +5,9 @@ state={
 		18316 
 	}
 	history={
-		add_core_of = IRQ
-		owner = IRQ
+		add_core_of = JBL
+		add_core_of = SAU
+		owner = SAU
 	}
 	state_category=town
 	manpower=1000
