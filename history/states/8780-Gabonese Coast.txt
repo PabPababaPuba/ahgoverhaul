@@ -2,7 +2,7 @@ state={
 	id=8780
 	name="STATE_8780"
 	provinces={
-		2108 3433 3625 
+		3625 
 	}
 	history={
 		owner = WTR
