@@ -288,12 +288,17 @@ country_event = { 2020 Africa
 			release = RCG
 			release = GAB
 			}
+		ALG = {
+			transfer_state = 8138
+			transfer_state = 12367
+			}
 		MOR = {
 			annex_country = { target = RIF }
 			annex_country = { target = IFN }
 			annex_country = { target = RDO }
 			annex_country = { target = SEH }
 			annex_country = { target = TGR }
+			transfer_state = 6739
 			drop_cosmetic_tag = yes
 			}
 		WES = {
