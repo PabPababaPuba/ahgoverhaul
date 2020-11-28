@@ -2826,6 +2826,15 @@ on_actions = {
 					add_state_core = PREV
 						}
 					}
+				every_country = {
+				limit = {
+					}
+					release = CKI
+					release = NIU
+					}
+		NIU = {
+			set_cosmetic_tag = NZL_PURPLE
+			}
 		ENG = {
 			release = PTC
 			}

@@ -44,6 +44,15 @@ country_event = { #2020 Oceania
 			factor = 0
 		}
 				hidden_effect = {
+				every_country = {
+				limit = {
+					}
+					release = CKI
+					release = NIU
+						}
+		NIU = {
+			set_cosmetic_tag = NZL_PURPLE
+			}
 		ENG = {
 			release = PTC
 			}
