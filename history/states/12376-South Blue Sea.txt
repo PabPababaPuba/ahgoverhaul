@@ -10,5 +10,6 @@ state={
 	state_category = pastoral
 	provinces={
 		19462
+		}
 	buildings_max_level_factor=1.000
 }
