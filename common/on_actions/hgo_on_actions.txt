@@ -684,6 +684,7 @@ on_actions = {
 			transfer_state = 5648
 			transfer_state = 5327
 			transfer_state = 3875
+			transfer_state = 9871
 			set_cosmetic_tag = OTTO
 			set_politics = {
 				ruling_party = monarchism
@@ -961,6 +962,34 @@ on_actions = {
 						transfer_state = PREV
 						}
 					}
+			every_state = {
+				limit = {
+					is_core_of = MAJ
+					NOT = {
+						is_core_of = DRV
+						}
+					}
+					MAJ = {
+						transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = HOB
+					NOT = {
+						is_core_of = DRV
+						}
+					}
+					HOB = {
+						transfer_state = PREV
+						}
+					}
+		MAJ = {
+			set_cosmetic_tag = ITA_GREEN
+			}
+		HOB = {
+			set_cosmetic_tag = ITA_GREEN
+			}
 		CMR = {
 			set_cosmetic_tag = CMR_GER
 			set_politics = {

@@ -85,6 +85,34 @@ country_event = { 1914 Africa
 						transfer_state = PREV
 						}
 					}
+			every_state = {
+				limit = {
+					is_core_of = MAJ
+					NOT = {
+						is_core_of = DRV
+						}
+					}
+					MAJ = {
+						transfer_state = PREV
+						}
+					}
+			every_state = {
+				limit = {
+					is_core_of = HOB
+					NOT = {
+						is_core_of = DRV
+						}
+					}
+					HOB = {
+						transfer_state = PREV
+						}
+					}
+		MAJ = {
+			set_cosmetic_tag = ITA_GREEN
+			}
+		HOB = {
+			set_cosmetic_tag = ITA_GREEN
+			}
 		CMR = {
 			set_cosmetic_tag = CMR_GER
 			set_politics = {
