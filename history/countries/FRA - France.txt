@@ -180,9 +180,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Charles XII & V de Bourbon"
+	name = "Sir Eric Clare Edmund Phipps"
 	desc = ""
-	picture = "FRA_CharlesXII.tga"
+	picture = "FRA_Eric_Phipps.tga"
 	expire = "1965.1.1"
 	ideology = authmon
 	traits = {
