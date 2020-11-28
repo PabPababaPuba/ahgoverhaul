@@ -14555,6 +14555,9 @@
  SHO_monarchism:0 "Kingdom of South Holland"
  SHO_monarchism_DEF:0 "The Kingdom of South Holland"
  SHO_monarchism_ADJ:0 "South Hollander"
+ SHO_centrist_republic:0 "Holland"
+ SHO_centrist_republic_DEF:0 "Holland"
+ SHO_centrist_republic_ADJ:0 "Hollander"
  
  OVJ_democratic:0 "Republic of Overjissel"
  OVJ_democratic_DEF:0 "The Republic of Overjissel"
