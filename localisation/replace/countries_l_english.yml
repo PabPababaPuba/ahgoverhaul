@@ -3235,6 +3235,9 @@
  KAZ_communism_ADJ:0 "Kazakh"
  KAZ_fascism_ADJ:0 "Kazakh"
  KAZ_democratic_ADJ:0 "Kazakh"
+ KAZ_centrist_republic:0 "Alash Orda"
+ KAZ_centrist_republic_DEF:0 "Alash Horde"
+ KAZ_centrist_republic_ADJ:0 "Alash"
 
  AZR_fascism:0 "Empire of the Azeris"
  AZR_fascism_DEF:0 "The Empire of the Azeris"
@@ -3255,6 +3258,9 @@
  AZR_democratic_ADJ:0 "Azerbaijani"
  AZR_neutrality_ADJ:0 "Azerbaijani"
  AZR_communism_ADJ:0 "Azerbaijani"
+ AZR_centrist_republic:0 "Republic of Azerbaijan"
+ AZR_centrist_republic_DEF:0 "Republic of Azerbaijan"
+ AZR_centrist_republic_ADJ:0 "Azerbaijani"
 
  ARM_fascism:0 "Greater State of Armenia"
  ARM_fascism_DEF:0 "The Greater State of Armenia"
