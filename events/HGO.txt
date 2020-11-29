@@ -3189,6 +3189,9 @@ country_event = { #Yeet the princely states
 				owner = {
 					transfer_state = 1317
 					transfer_state = 1007
+					transfer_state = 12381
+					transfer_state = 12392
+					transfer_state = 12393
 			  	 }
 				}
 			10775 = {
@@ -3200,6 +3203,8 @@ country_event = { #Yeet the princely states
 			10777 = {
 				owner = {
 					transfer_state = 1319
+					transfer_state = 10778
+					transfer_state = 12384
 				 }
 				}
 			10774 = {
