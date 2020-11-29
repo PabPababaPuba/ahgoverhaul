@@ -90,6 +90,86 @@ on_actions = {
 		}
 	}
 	on_startup = {
+		#Smash USSR Gamerule
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = HGO_unite_ussr
+						option = DIVIDED_USSR
+					}
+				}
+				RUS = {
+				release = KBK
+				release = NOS
+				release = CHE
+				release = MRE
+				release = KMI
+				release = CHR
+				release = KRC
+				release = ADI
+				release = KPI
+				release = PCR
+				release = YML
+				release = KTM
+				release = TMY
+				release = EVK
+				release = ALI
+				release = KKS
+				release = VMO
+				release = JAO
+				release = CCI
+				release = KYK
+				}
+				every_state = {
+					limit = {
+						OR = {
+						is_core_of = KBK
+						is_core_of = NOS
+						is_core_of = CHE
+						is_core_of = MRE
+						is_core_of = KMI
+						is_core_of = CHR
+						is_core_of = KRC
+						is_core_of = ADI
+						is_core_of = KPI
+						is_core_of = PCR
+						is_core_of = YML
+						is_core_of = KTM
+						is_core_of = TMY
+						is_core_of = EVK
+						is_core_of = ALI
+						is_core_of = KKS
+						is_core_of = VMO
+						is_core_of = JAO
+						is_core_of = CCI
+						is_core_of = KYK
+						}
+					}
+				RUS = {
+					add_state_core = PREV
+					}
+				}
+				every_state = {
+					limit = {
+						is_core_of = NGK
+						}
+				NGK = {
+					transfer_state = PREV
+					}
+				}
+				every_state = {
+					limit = {
+						is_core_of = PMR
+						}
+				PMR = {
+					transfer_state = PREV
+					}
+				}
+			}
+		}
+	}
+	on_startup = {
 		#Unite USSR Game Rule
 		effect = {
 			if = {
@@ -409,7 +489,7 @@ on_actions = {
 		}
 	}	
 	on_startup = {
-		#The Great War Rule
+		#The Great War Rule (1914)
 		effect = {
 			if = {
 				limit = {
@@ -1197,7 +1277,7 @@ on_actions = {
 		}
 	}
 	on_startup = {
-		#Modern Day Gamerule
+		#Modern Day Gamerule (2021)
 		effect = {
 			if = {
 				limit = {
@@ -3200,7 +3280,7 @@ on_actions = {
 		}
 	}
 	on_startup = {
-		#Communism Collapse Game Rule
+		#Communism Collapse Game Rule (1990)
 		effect = {
 			if = {
 				limit = {

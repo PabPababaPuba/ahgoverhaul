@@ -61,8 +61,8 @@ HGO_unite_ussr = {
 	}
 		option = {
 		name = DIVIDED_USSR
-		text = "Divide it Further (Doesn't Currently Work)"
-		desc = "The USSR will be divided into SSRs, ASSRs, Oblasts, Okrugs, and Autonomous Oblasts (Doesn't Work Yet)."
+		text = "Divide it Further"
+		desc = "The USSR will be divided into SSRs, ASSRs, Okrugs, and Autonomous Oblasts."
 		allow_achievements = yes
 	}
 	option = {
