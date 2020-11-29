@@ -24,9 +24,9 @@ set_convoys = 10
 
 
 create_country_leader = {
-	name = "Admiral Nikolai Kuznetsov"
+	name = "Nikolai Kuznetsov"
 	desc = ""
-	picture = "Portrait_Admiral_Nikolai_Kuznetso.dds"
+	picture = "Portrait_Admiral_Nikolai_Kuznetsov.tga"
 	expire = "1965.1.1"
 	ideology = totsoc
 	traits = {
@@ -35,9 +35,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Admiral Nikolai Kuznetsov"
+	name = "Nikolai Kuznetsov"
 	desc = ""
-	picture = "Portrait_Admiral_Nikolai_Kuznetso.dds"
+	picture = "Portrait_Admiral_Nikolai_Kuznetsov.tga"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
