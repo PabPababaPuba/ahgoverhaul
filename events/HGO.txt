@@ -52,47 +52,27 @@ country_event = { #Unite China
 	is_triggered_only = yes
 	immediate = {
 	hidden_effect = {
-			every_state = {
-				limit = {
-					is_owned_by = MUL
-				}
-				add_core_of = PRC
-				add_core_of = CHI				
-			}
-			every_state = {
-				limit = {
-					is_owned_by = NGH
-				}
-				add_core_of = PRC
-				add_core_of = CHI				
-			}
-			every_state = {
-				limit = {
-					is_owned_by = SGY
-				}
-				add_core_of = PRC
-				add_core_of = CHI				
-			}
 			3172 = {
 		    set_demilitarized_zone = no
-		}		
-}			
+			}		
+		}			
 	}	
 	
 	option = { #Blue China
 		name = "Kuomintang shall unite China!" 
 		ai_chance = {
 			factor = 0
-		}
+				}
 				hidden_effect = {
 					every_state = {
 						limit = {
 								OR = {
 									is_core_of = CHI
 									is_core_of = TIB
+									is_claimed_by = CHI
 									is_claimed_by = TIB
 								}
-						}
+							}
 						set_temp_variable = { unitechinaa = THIS.id }
 						CHI = {
 							transfer_state = unitechinaa
@@ -103,95 +83,112 @@ country_event = { #Unite China
 			annex_country = {target = TIB }
 			annex_country = { target = MON }
 			annex_country = { target = TAN }
-			transfer_state = 1007				
+			transfer_state = 1007
+			transfer_state = 12381
+			transfer_state = 12382
+			transfer_state = 12383
 			}
 			every_state = {
 				limit = {
 					is_owned_by = CHI
 				}
 				add_core_of = PRC
-				add_core_of = CHI				
-			}			
-}
+				add_core_of = CHI 
+				remove_state_claim = CHI
+				remove_state_claim = PRC
+				}			
+			}
 		}
 	option = { #Blue China + TAG
 		name = "Kuomintang shall unite China and get another blue colour!" 
 		ai_chance = {
 			factor = 0
-		}
+				}
 				hidden_effect = {
 					every_state = {
 						limit = {
 								OR = {
 									is_core_of = CHI
 									is_core_of = TIB
+									is_claimed_by = CHI
 									is_claimed_by = TIB
 								}
-						}
+							}
 						set_temp_variable = { unitechinab = THIS.id }
 						CHI = {
 							transfer_state = unitechinab
 							add_state_core = unitechinab
+							}
 						}
-					}
 			CHI = {
-		set_cosmetic_tag = CHI_FOXITE
+			set_cosmetic_tag = CHI_FOXITE
 			annex_country = {target = TIB }
 			annex_country = { target = MON }
 			annex_country = { target = TAN }
-			transfer_state = 1007				
-		}
+			transfer_state = 1007
+			transfer_state = 12381
+			transfer_state = 12382
+			transfer_state = 12383
+			}
 			every_state = {
 				limit = {
 					is_owned_by = CHI
 				}
 				add_core_of = PRC
-				add_core_of = CHI				
-			}		
-}
+				add_core_of = CHI
+				remove_state_claim = CHI
+				remove_state_claim = PRC				
+				}		
+			}
 		}	
 	option = { #Red China
 		name = "The Communist Party shall unite China!" 
 		ai_chance = {
 			factor = 0
-		}
+				}
 				hidden_effect = {
 					every_state = {
 						limit = {
 								OR = {
 									is_core_of = PRC
 									is_core_of = TIB
+									is_claimed_by = PRC
 									is_claimed_by = TIB
 								}
-						}
+							}
 						set_temp_variable = { unitechinac = THIS.id }
 						PRC = {
 							transfer_state = unitechinac
 							add_state_core = unitechinac
+							}
 						}
-					}
 		PRC = {
 			annex_country = {target = TIB }
 			annex_country = { target = MON }
 			annex_country = { target = TAN }
-			transfer_state = 1007			
-		set_cosmetic_tag = PRC_proclaimed_communism			
+			transfer_state = 1007
+			transfer_state = 12381
+			transfer_state = 12382
+			transfer_state = 12383
+			set_cosmetic_tag = PRC_proclaimed_communism			
             set_capital = 608				
 			}
 			every_state = {
 				limit = {
 					is_owned_by = PRC
-				}
+					}
 				add_core_of = PRC
-				add_core_of = CHI				
-			}		
-}
+				add_core_of = CHI
+				remove_state_claim = CHI
+				remove_state_claim = PRC				
+				}		
+			}
 		}
 	option = { #Modern East Asia
 		name = "Set East Asian Borders to the Future!" 
 		ai_chance = {
 			factor = 0
-		}
+				}
 				hidden_effect = {
 					every_state = {
 						limit = {
@@ -211,13 +208,13 @@ country_event = { #Unite China
 									is_core_of = MCU
 									is_core_of = RUS
 								}
-						}
+							}
 						set_temp_variable = { unitechinad = THIS.id }
 						PRC = {
 							transfer_state = unitechinad
 							add_state_core = unitechinad
+							}
 						}
-					}
 			655 = {
 				owner = {
 					transfer_state = 537
@@ -225,15 +222,15 @@ country_event = { #Unite China
 					transfer_state = 6353
 					transfer_state = 6354
 					transfer_state = 6355
-			   }
-			}
+					}
+				}
 			637 = {
 				owner = {
 					transfer_state = 3145
 					transfer_state = 3144
 					transfer_state = 555
-			   }
-			}
+					}
+				}
 		RUS = {
 			annex_country = { target = TAN }
 			}
@@ -270,15 +267,16 @@ country_event = { #Unite China
 			transfer_state = 10744
 			transfer_state = 12031
 			transfer_state = 12034
+			transfer_state = 12381
+			transfer_state = 12382
+			transfer_state = 12383
+			transfer_state = 12384
 			transfer_state = 1270	
 			set_politics = {
-                       		ruling_party = socialism_ideology
-                      		last_election = "1935.1.1"
-                       		election_frequency = 48
-                       		elections_allowed = no	
+                ruling_party = socialism_ideology	
 				}		
             set_capital = 608				
-}
+			}
 		CHI = {
 			annex_country = {
 				target = TWN
@@ -360,21 +358,21 @@ country_event = { #Remilitarise everything
 		name = "Let's do this!" 
 		ai_chance = {
 			factor = 0
-		}
+			}
 				hidden_effect = {
 					every_state = {
-                       				 set_demilitarized_zone = no 
+                       	set_demilitarized_zone = no 
 						}			
-}
+					}
 		}
 	option = { #Reject
 		name = "I've changed my mind!"
 		ai_chance = {
 			factor = 100
-		}
+			}
 
-	}		
-}
+		}		
+	}
 
 country_event = { #Desovietization 
 	id = hgo.6
@@ -387,7 +385,7 @@ country_event = { #Desovietization
 		name = "Let's do this!" 
 		ai_chance = {
 			factor = 0
-		}
+			}
 				hidden_effect = {
 			every_state = {
 				limit = {
