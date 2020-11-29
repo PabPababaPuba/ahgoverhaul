@@ -23,9 +23,9 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "No Leader"
+	name = "Willem Powerfish"
 	desc = ""
-	picture = "To_be_added.dds"
+	picture = "Portrait_Willem_Powerfish.dds"
 	expire = "1965.1.1"
 	ideology = total_anarchist
 	traits = {

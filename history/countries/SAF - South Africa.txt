@@ -48,26 +48,6 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tribal Leadership"
-	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = total_anarchist
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Collective Leadership"
-	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = ancom
-	traits = {
-	}
-}
-
-create_country_leader = {
 	name = "James Barry Munnik Hertzog"
 	desc = ""
 	picture = "SAF_james_hertzog.dds"
@@ -103,6 +83,26 @@ create_country_leader = {
 	picture = "Portrait_Prince_David.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
 	traits = {
 	}
 }

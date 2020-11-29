@@ -88,26 +88,6 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tribal Leadership"
-	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = total_anarchist
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Collective Leadership"
-	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = ancom
-	traits = {
-	}
-}
-
-create_country_leader = {
 	name = "Palmiro Togliatti"
 	desc = "POLITICS_ITA_VAN_DESC"
 	picture = "Portrait_Palmiro_Togliatti.tga"
@@ -258,9 +238,29 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Company Leadership"
 	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
-	picture = ""
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
 	expire = "1965.1.1"
 	ideology = ancap
 	traits = {
