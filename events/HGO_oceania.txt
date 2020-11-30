@@ -21,8 +21,11 @@ country_event = { #1914 Oceania
 		SAM = {
 			set_cosmetic_tag = SAM_GER
 			}
+		NFI = {
+			set_cosmetic_tag = NFI_ENG
+			}
+		}
 	}
-}
 	option = { #reject
 		name = "nah"
 		ai_chance = {
@@ -125,6 +128,7 @@ country_event = { #2020 Oceania
 			transfer_state = 711
 			transfer_state = 712
 			transfer_state = 2692
+			annex_country = { target = NFI }
 			}
 			every_state = {
 				limit = {
@@ -158,8 +162,8 @@ country_event = { #2020 Oceania
 					transfer_state = PREV
 						}
 					}
+		}
 	}
-}
 	option = { #reject
 		name = "nah"
 		ai_chance = {

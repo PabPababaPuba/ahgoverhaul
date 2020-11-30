@@ -1273,6 +1273,9 @@ on_actions = {
 		SAM = {
 			set_cosmetic_tag = SAM_GER
 			}
+		NFI = {
+			set_cosmetic_tag = NFI_ENG
+			}
 			}
 		}
 	}
@@ -3026,6 +3029,7 @@ on_actions = {
 			transfer_state = 711
 			transfer_state = 712
 			transfer_state = 2692
+			annex_country = { target = NFI }
 			}
 			every_state = {
 				limit = {
