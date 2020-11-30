@@ -5668,3 +5668,207 @@ BAK = {
 color = rgb { 52 220 153 }
 color_ui = rgb { 52 220 153 }
 }
+SOB = {
+color = rgb { 130 65 0 }
+color_ui = rgb { 130 65 0 }
+}
+NOB = {
+color = rgb { 130 65 0 }
+color_ui = rgb { 130 65 0 }
+}
+WFN = {
+color = rgb { 218 209 101 }
+color_ui = rgb { 218 209 101 }
+}
+EFN = {
+color = rgb { 218 209 101 }
+color_ui = rgb { 218 209 101 }
+}
+LBB = {
+color = rgb { 138 138 0 }
+color_ui = rgb { 138 138 0 }
+}
+UBB = {
+color = rgb { 138 138 0 }
+color_ui = rgb { 138 138 0 }
+}
+WLX = {
+color = rgb { 0 136 136 }
+color_ui = rgb { 0 136 136 }
+}
+EFR = {
+color = rgb { 35 129 124 }
+color_ui = rgb { 35 129 124 }
+}
+FRL = {
+color = rgb { 0 85 170 }
+color_ui = rgb { 0 85 170 }
+}
+MTN = {
+color = rgb { 0 119 0 }
+color_ui = rgb { 0 119 0 }
+}
+BRZ = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+CSV = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+CTA = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+GYY = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+GRK = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+IRK = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+KAM = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+KRT = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+KLY = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+KNY = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+MGD = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+OMO = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+ONG = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+ORS = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+PSS = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+SLK = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+SMM = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+SUG = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+TLU = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+UKH = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+VYY = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+VYA = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+YGR = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+ZLO = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+ULK = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+ATU = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+ALD = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+INM = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+PSK = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+VRN = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+ORO = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+SMO = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+KHU = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+IGR = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+VRS = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+STS = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+KND = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+STV = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+KRK = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+CCR = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
+SWB = {
+color = rgb { 192 192 192 }
+color_ui = rgb { 192 192 192 }
+}
