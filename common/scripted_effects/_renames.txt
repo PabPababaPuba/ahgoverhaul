@@ -16830,6 +16830,156 @@ do_chinese_renames = {
 }
 
 do_russian_renames = {
+
+	if = {
+		limit = {
+			state = 237
+		}		
+		set_province_name = {
+			id = 6794
+			name = "Elista"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 235
+		}		
+		set_province_name = {
+			id = 11696
+			name = "Stavropol"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7191
+		}		
+		set_province_name = {
+			id = 11633
+			name = "Pyatigorsk"
+		}
+	} 
+
+	if = {
+		limit = {
+			state = 2479
+		}		
+		set_province_name = {
+			id = 11668
+			name = "Novorossiysk"
+		}
+	} 
+
+	if = {
+		limit = {
+			state = 7019
+		}		
+		set_province_name = {
+			id = 17060
+			name = "Sochi"
+		}
+	} 
+
+	if = {
+		limit = {
+			state = 2509
+		}		
+		set_province_name = {
+			id = 9674
+			name = "Cherkessk"
+		}
+	} 
+
+	if = {
+		limit = {
+			state = 3548
+		}		
+		set_province_name = {
+			id = 13738
+			name = "Karachayevsk"
+		}
+	}      
+
+	if = {
+		limit = {
+			state = 7012
+		}		
+		set_province_name = {
+			id = 9649
+			name = "Nalchik"
+		}
+	}  
+
+	if = {
+		limit = {
+			state = 7005
+		}		
+		set_province_name = {
+			id = 17405
+			name = "Vladikavkaz"
+		}
+	}  
+
+	if = {
+		limit = {
+			state = 2484
+		}		
+		set_province_name = {
+			id = 670
+			name = "Magas"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7003
+		}		
+		set_province_name = {
+			id = 17411
+			name = "Kizlyar"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 10136
+		}		
+		set_province_name = {
+			id = 3668
+			name = "Makhachkala"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 10138
+		}		
+		set_province_name = {
+			id = 19454
+			name = "Derbent"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7094
+		}		
+		set_province_name = {
+			id = 12441
+			name = "Gyumri"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7126
+		}		
+		set_province_name = {
+			id = 6671
+			name = "Borjumi"
+		}
+	}
 	
 	if = {
 		limit = {
@@ -21457,7 +21607,17 @@ do_standard_arabic_renames = {
 
 }
 
-do_persian_renames = {
+do_persian_renames = { 
+
+	if = {
+		limit = {
+			state = 4015
+		}		
+		set_province_name = {
+			id = 4473
+			name = "Lankaran"
+		}
+	}
 
 	if = {
 		limit = {
@@ -35704,7 +35864,227 @@ do_non_ottoman_turkish_renames = {
 		}
 	}
 }
-do_turkish_renames = {    
+do_turkish_renames = {
+
+    if = {
+		limit = {
+			state = 7403
+		}		
+		set_province_name = {
+			id = 17422
+			name = "Munkaç"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 2472
+		}		
+		set_province_name = {
+			id = 13756
+			name = "Ungvar"
+		}
+	}
+
+    if = {
+		limit = {
+			state = 4823
+		}		
+		set_province_name = {
+			id = 6751
+			name = "Miskolfçe"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 7316
+		}		
+		set_province_name = {
+			id = 17126
+			name = "Satmar"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 116
+		}		
+		set_province_name = {
+			id = 12003
+			name = "Beled"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 237
+		}		
+		set_province_name = {
+			id = 6794
+			name = "Elista"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 235
+		}		
+		set_province_name = {
+			id = 11696
+			name = "Şetkale"
+		}
+	} 
+
+	if = {
+		limit = {
+			state = 7191
+		}		
+		set_province_name = {
+			id = 11633
+			name = "Beşdağ"
+		}
+	} 
+
+	if = {
+		limit = {
+			state = 2479
+		}		
+		set_province_name = {
+			id = 11668
+			name = "Soğucak"
+		}
+	} 
+
+	if = {
+		limit = {
+			state = 7019
+		}		
+		set_province_name = {
+			id = 17060
+			name = "Soçi"
+		}
+	} 
+
+	if = {
+		limit = {
+			state = 2509
+		}		
+		set_province_name = {
+			id = 9674
+			name = "Çerkez Şehir"
+		}
+	}       
+
+	if = {
+		limit = {
+			state = 3548
+		}		
+		set_province_name = {
+			id = 13738
+			name = "Karaçay Şehir"
+		}
+	}      
+
+	if = {
+		limit = {
+			state = 7012
+		}		
+		set_province_name = {
+			id = 9649
+			name = "Nalçık"
+		}
+	}   
+
+	if = {
+		limit = {
+			state = 7005
+		}		
+		set_province_name = {
+			id = 17405
+			name = "Terekkale"
+		}
+	} 
+
+	if = {
+		limit = {
+			state = 2484
+		}		
+		set_province_name = {
+			id = 670
+			name = "Magas"
+		}
+	}   
+
+	if = {
+		limit = {
+			state = 2484
+		}		
+		set_province_name = {
+			id = 670
+			name = "Magas"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7003
+		}		
+		set_province_name = {
+			id = 17411
+			name = "Semender"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 10136
+		}		
+		set_province_name = {
+			id = 3668
+			name = "Mahaçkale"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 10138
+		}		
+		set_province_name = {
+			id = 19454
+			name = "Derbent"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7094
+		}		
+		set_province_name = {
+			id = 12441
+			name = "Gümrü"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7126
+		}		
+		set_province_name = {
+			id = 6671
+			name = "Borcum"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 4015
+		}		
+		set_province_name = {
+			id = 4473
+			name = "Lenkeran"
+		}
+	}
 
 	if = {
 		limit = {
@@ -38010,7 +38390,7 @@ do_turkish_renames = {
 		}		
 		set_province_name = {
 			id = 9417
-			name = "Cir"
+			name = "Temirnik"
 		}
 	}
 
@@ -38567,7 +38947,7 @@ do_turkish_renames = {
 		}		
 		set_province_name = {
 			id = 11969
-			name = "Túnez"
+			name = "Tunus"
 		}
 	}
 	if = {
@@ -38680,7 +39060,7 @@ do_turkish_renames = {
 		}		
 		set_province_name = {
 			id = 8051
-			name = "Doha"
+			name = "Devha"
 		}
 	}
 
@@ -45857,6 +46237,26 @@ do_armenian_renames = {
 
 	if = {
 		limit = {
+			state = 7126
+		}		
+		set_province_name = {
+			id = 6671
+			name = "Borzhom"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7094
+		}		
+		set_province_name = {
+			id = 12441
+			name = "Gyumri"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 3398
 		}		
 		set_province_name = {
@@ -45881,7 +46281,7 @@ do_armenian_renames = {
 		}		
 		set_province_name = {
 			id = 1467
-			name = "Vararakn"
+			name = "Stepanakert"
 		}
 	}	
 
@@ -45976,6 +46376,36 @@ do_armenian_renames = {
 	}	
 }
 do_azerbaijani_renames = {
+
+	if = {
+		limit = {
+			state = 7094
+		}		
+		set_province_name = {
+			id = 12441
+			name = "Gümrü"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7126
+		}		
+		set_province_name = {
+			id = 6671
+			name = "Borcomi"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 4015
+		}		
+		set_province_name = {
+			id = 4473
+			name = "Lənkəran"
+		}
+	}
 
 	if = {
 		limit = {
