@@ -1481,6 +1481,16 @@ on_actions = {
 				ruling_party = democratic
 				}
 			}
+		LAT = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		EST = {
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
 		SLO = {
 			annex_country = { target = CZE }
 			release = CZC
@@ -2204,10 +2214,10 @@ on_actions = {
 			drop_cosmetic_tag = yes
 			}
 		IND = {			
-            		set_capital = 4732
+            set_capital = 4732
 			set_politics = {
-	       		ruling_party = liberal_republic
-              			}				
+	       		ruling_party = democratic
+              		}				
 			}	
 			3180 = {
 				owner = {

@@ -820,10 +820,10 @@ country_event = { #2020 Asia
 			drop_cosmetic_tag = yes
 			}
 		IND = {			
-            		set_capital = 4732
+            set_capital = 4732
 			set_politics = {
-	       		ruling_party = liberal_republic
-              			}				
+	       		ruling_party = democratic
+              		}				
 			}	
 			3180 = {
 				owner = {

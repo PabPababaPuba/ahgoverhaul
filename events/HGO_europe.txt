@@ -417,6 +417,16 @@ country_event = { #2020 Europe
 				ruling_party = democratic
 				}
 			}
+		LAT = {
+			set_politics = {
+				ruling_party = democratic
+				}
+			}
+		EST = {
+			set_politics = {
+				ruling_party = liberal_republic
+				}
+			}
 		SLO = {
 			annex_country = { target = CZE }
 			release = CZC
