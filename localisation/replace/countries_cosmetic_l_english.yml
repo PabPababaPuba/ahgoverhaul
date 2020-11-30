@@ -16,14 +16,6 @@
 
  LBA_subject:0 "Colony of $OVERLORDADJ$ North Africa"
 
- RAJ_UK_democratic:0 "Indian Empire"
- RAJ_UK_democratic_DEF:0 "The Indian Empire"
- RAJ_UK_neutrality:0 "Indian Empire"
- RAJ_UK_neutrality_DEF:0 "The Indian Empire"
- RAJ_UK_subject:0 "$OVERLORDADJ$ India"
- RAJ_UK_autonomy_dominion:0 "Dominion of India"
- RAJ_UK_autonomy_dominion_DEF:0 "The Dominion of India"
-
  SAF_COM_communist:0 "Cape Commune"
  SAF_COM_communist_DEF:0 "The Cape Commune"
 
