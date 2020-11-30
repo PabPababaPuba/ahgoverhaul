@@ -443,6 +443,10 @@
  BRA_ENG_DEF:0 "the Dominion of Brazil"
  BRA_ENG_ADJ:0 "Brazilian"
 
+ NFI_ENG:0 "Norfolk Island Colony"
+ NFI_ENG_DEF:0 "The Norfolk Island Colony"
+ NFI_ENG_ADJ:0 "Norfolk Islander"
+
  #FRA kolonies
  SYR_FRA_democratic:0 "Mandatory Syrian Republic"
  SYR_FRA_democratic_DEF:0 "The Mandatory Syrian Republic"
