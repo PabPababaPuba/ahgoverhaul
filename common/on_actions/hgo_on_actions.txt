@@ -1513,7 +1513,7 @@ on_actions = {
 			}
 		BUL = {
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = centrist_republic
 				}
 			}
 		MOL = {

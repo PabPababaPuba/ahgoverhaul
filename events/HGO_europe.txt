@@ -449,7 +449,7 @@ country_event = { #2020 Europe
 			}
 		BUL = {
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = centrist_republic
 				}
 			}
 		MOL = {
