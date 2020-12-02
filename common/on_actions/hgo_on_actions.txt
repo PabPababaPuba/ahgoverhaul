@@ -2167,6 +2167,10 @@ on_actions = {
 				owner = {
 					transfer_state = 1317
 					transfer_state = 1007
+					transfer_state = 12381
+					transfer_state = 12382
+					transfer_state = 12383
+					transfer_state = 12384
 			  	 }
 				}
 			10775 = {
@@ -2178,6 +2182,7 @@ on_actions = {
 			10777 = {
 				owner = {
 					transfer_state = 1319
+					transfer_state = 12384
 				 }
 				}
 			10774 = {

@@ -434,6 +434,10 @@ country_event = { #2020 Asia
 			transfer_state = 10744
 			transfer_state = 12031
 			transfer_state = 12034
+			transfer_state = 12381
+			transfer_state = 12382
+			transfer_state = 12383
+			transfer_state = 12384
 			transfer_state = 1270	
 			set_politics = {
                        		ruling_party = socialism_ideology	
@@ -773,6 +777,9 @@ country_event = { #2020 Asia
 				owner = {
 					transfer_state = 1317
 					transfer_state = 1007
+					transfer_state = 12381
+					transfer_state = 12382
+					transfer_state = 12383
 			  	 }
 				}
 			10775 = {
@@ -784,6 +791,7 @@ country_event = { #2020 Asia
 			10777 = {
 				owner = {
 					transfer_state = 1319
+					transfer_state = 12384
 				 }
 				}
 			10774 = {
