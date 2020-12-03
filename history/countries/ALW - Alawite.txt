@@ -32,7 +32,7 @@ set_convoys = 10
 
 create_country_leader = {
 	name = "Ernest Marie Hubert Schoeffler"
-	desc = ""
+	desc = "POLITICS_ALW_AUTHREP_DESC"
 	picture = "Portrait_Ernest_Marie_Hubert_Schoeffler.dds"
 	expire = "1965.1.1"
 	ideology = despotism

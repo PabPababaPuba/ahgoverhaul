@@ -34,7 +34,7 @@ set_technology = {
 
 create_country_leader = {
 	name = "Carl Björkman"
-	desc = ""
+	desc = "POLITICS_ALN_LIBREP_DESC"
 	picture = "bjork.dds"
 	expire = "1965.1.1"
 	ideology = socdem

@@ -46,8 +46,8 @@ set_cosmetic_tag = AHI_ENG
 }
 
 create_country_leader = {
-	name = "Arnold Hodson"
-	desc = ""
+	name = "Sir Arnold Wienholt Hodson"
+	desc = "POLITICS_AHI_AUTHMON_DESC"
 	picture = "Portrait_Arnold_Hodson.dds"
 	expire = "1965.1.1"
 	ideology = authmon
