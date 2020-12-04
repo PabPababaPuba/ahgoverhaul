@@ -39,7 +39,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tribal Leadership"
+	name = "Heinrich Spanknobel"
 	desc = ""
 	picture = "Portrait_Heinrich_Spanknobel.dds"
 	expire = "1965.1.1"
