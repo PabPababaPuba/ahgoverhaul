@@ -6842,6 +6842,9 @@
  CHY_monarchism:0 "Kingdom of Chelyabinsk"
  CHY_monarchism_DEF:0 "The Kingdom of Chelyabinsk"
  CHY_monarchism_ADJ:0 "Chelyabinskian"
+ CHY_national_socialism:0 "Reichskommissariat Siberien"
+ CHY_national_socialism_DEF:0 "das Reichskommissariat Siberien"
+ CHY_national_socialism_ADJ:0 "Sibirisch"
  
  SVR_fascism:0 "Empire of Sverdlovsk"
  SVR_fascism_DEF:0 "The Empire of Sverdlovsk"

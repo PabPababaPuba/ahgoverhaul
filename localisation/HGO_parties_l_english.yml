@@ -2160,11 +2160,14 @@
  BAH_monarchism_party:0 "Windsor"
  BAH_monarchism_party_long:0 "House of Windsor"
 
- BGN_national_socialism_party:0 "Schutzstaffel"
- BGN_national_socialism_party_long:0 "SS"
+ BGN_national_socialism_party:0 "SS"
+ BGN_national_socialism_party_long:0 "Schutzstaffel"
 
  CAR_stratocratic_monarchism_party:0 "MESAN"
  CAR_stratocratic_monarchism_party_long:0 "Mouvement pour l'évolution Sociale de l'Afrique Noire"
 
  ADR_conservative_monarchism_party:0 "GNI"
  ADR_conservative_monarchism_party_long:0 "Grup Nacionalista Integral"
+
+ CHY_national_socialism_party:0 "NSDAP"
+ CHY_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
