@@ -4,7 +4,7 @@ oob = "IDS_1936"
 
 set_popularities = {
         anarchism_ideology = 0
-        liberal_republic = 100
+        liberal_republic = 0
         neutrality = 0
         democratic = 0
         communism = 0
@@ -21,7 +21,7 @@ set_popularities = {
         left_anarchism = 0
         right_anarchism = 0
         socialist_monarchy = 0
-        centrist_republic = 0
+        centrist_republic = 100
         centrist_monarchism = 0
         stratocratic_monarchism = 0
 
@@ -29,54 +29,39 @@ set_popularities = {
 
 set_politics = {
 	
-	ruling_party = liberal_republic
+	ruling_party = centrist_republic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "To Be Added"
-	desc = ""
-	picture = "To_be_added.dds"
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = total_anarchist
 	traits = {
 	}
 }
+
 create_country_leader = {
-	name = "To Be Added"
-	desc = ""
-	picture = "To_be_added.dds"
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
 	expire = "1965.1.1"
-	ideology = absolutism
+	ideology = ancom
 	traits = {
 	}
 }
+
 create_country_leader = {
-	name = "To Be Added"
-	desc = ""
-	picture = "To_be_added.dds"
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = ancap
 	traits = {
 	}
 }
-create_country_leader = {
-	name = "To Be Added"
-	desc = ""
-	picture = "To_be_added.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "To Be Added"
-	desc = ""
-	picture = "To_be_added.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-	}
-}
+
