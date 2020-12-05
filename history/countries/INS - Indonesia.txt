@@ -76,9 +76,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Company Leadership"
-	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
-	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	name = "Bonifacius Cornelis de Jonge"
+	desc = ""
+	picture = "Bonifacius_Cornelis_de_Jonge.tga"
 	expire = "1965.1.1"
 	ideology = ancap
 	traits = {
