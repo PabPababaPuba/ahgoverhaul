@@ -12091,4 +12091,15 @@
  SWB_stratocratic_monarchism_DEF:0 "Kingdom of Swabia"
  SWB_stratocratic_monarchism_ADJ:0 "Swabian"
 
-
+ NS2_national_socialism:0 "Reichskolonie Neuschwabenland"
+ NS2_national_socialism_DEF:0 "das Reichskolonie Neuschwabenland"
+ NS2_national_socialism_ADJ:0 "Neuschwäbisch
+ NS2_authoritarian_monarchism:0 "German Antarctica"
+ NS2_authoritarian_monarchism_DEF:0 "German Antarctica"
+ NS2_authoritarian_monarchism_ADJ:0 "German Antarctican"
+ NS2_stratocratic_monarchism:0 "Neuschwabenland"
+ NS2_stratocratic_monarchism_DEF:0 "Neuschwabenland"
+ NS2_stratocratic_monarchism_ADJ:0 "Neuschwäbisch"
+ NS2_stratocratic:0 "New Swabia"
+ NS2_stratocratic_DEF:0 "New Swabia"
+ NS2_stratocratic_ADJ:0 "New Swabian"

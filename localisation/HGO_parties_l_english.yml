@@ -2171,3 +2171,12 @@
 
  CHY_national_socialism_party:0 "NSDAP"
  CHY_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+
+ NS2_national_socialism_party:0 "Kriegsmarine"
+ NS2_national_socialism_party_long:0 "Kriegsmarine"
+ NS2_authoritarian_monarchism_party:0 "Kriegsmarine"
+ NS2_authoritarian_monarchism_party_long:0 "Kriegsmarine"
+ NS2_stratocratic_party:0 "Kriegsmarine"
+ NS2_stratocratic_party_long:0 "Kriegsmarine"
+ NS2_stratocratic_monarchism_party:0 "Kriegsmarine"
+ NS2_stratocratic_monarchism_party_long:0 "Kriegsmarine"
