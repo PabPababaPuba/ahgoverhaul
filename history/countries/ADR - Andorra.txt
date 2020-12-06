@@ -30,7 +30,7 @@ set_technology = {
 			 = 20
 		}
 	set_politics = { 
- ruling_party = theocratic
+ ruling_party = conservative_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 50
 	elections_allowed = no
@@ -56,7 +56,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Justí Guitart i Vilardebó"
-	desc = "POLITICS_ADR_THEOC_DESC"
+	desc = "POLITICS_ADR_CONMON_DESC"
 	picture = "Portrait_Justi_Guitart_i_Vilardebo.dds"
 	expire = "1960.1.1"
 	ideology = conmon

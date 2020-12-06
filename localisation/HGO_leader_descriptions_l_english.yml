@@ -33,7 +33,7 @@ POLITICS_2RA_VAN_DESC:0 "General Ho Lung is a former Kuomintang warlord who defe
 POLITICS_2RA_STRAT_DESC:0 "General Ho Lung is a former Kuomintang warlord who defected to the Chinese Communist forces after the 1927 Shanghai massacre, and was the architect of the failed Nanchang Uprising.\n\nHo Long currently commands the 2nd Red Army, which joined the Long March in 1935, and currently controls a small area in western Sichuan, centred on the city of Ya'an."
 
 ### ANDORRA ###
-POLITICS_ADR_THEOC_DESC:0 "Justí Guitart i Vilardebó is the current Bishop of Urgell, and therefore one of the two Co-Princes of Andorra, alongside the ruler of France.\n\nDuring Guitart's 16 year reign, Andorra has modernized significantly, with the introduction of electricity, construction of proper roads, and establishment of Spanish post offices being among the most notable examples."
+POLITICS_ADR_CONMON_DESC:0 "Justí Guitart i Vilardebó is the current Bishop of Urgell, and therefore one of the two Co-Princes of Andorra, alongside the ruler of France.\n\nDuring Guitart's 16 year reign, Andorra has modernized significantly, with the introduction of electricity, construction of proper roads, and establishment of Spanish post offices being among the most notable examples."
 
 ### AFGHANISTAN ###
 POLITICS_AFG_AUTHMON_DESC:0 "Mohammed Zahir Shah, of the Musahiban tribe, is the current King of Afghanistan, having ruled since late 1933. As he is still young, much of his power is exercised by his uncle and prime minister, Mohammad Hashim Khan.\n\nThe early years of his reign have been marked by an increased focus on establishing international relations, primarily with the west, though the Afghans also provided aid to Muslim rebels in China."
@@ -74,6 +74,30 @@ POLITICS_GER_AUTHREP_DESC:0 "Kuno von Westarp is the current President of the Ge
 POLITICS_GER_CONMON_DESC:0 "Wilhelm III von Hohenzollern ascended to the German throne after the death of his father, Kaiser Wilhelm II. Since his ascension to the throne, Wilhelm III has delegated many of his powers to the Reichstag, becoming more similar to the constitutional monarchs of western Europe.\n\nThe Konservative Volkspartei are in currently in power, and Wilhelm III enjoys widespread popularity both in Germany and abroad."
 POLITICS_GER_LIBMON_DESC:0 "Wilhelm I von Hohenzollern, son of Kaiser Wilhelm II of Germany, was crowned Emperor of the new Holy Roman Empire by German monarchists following the Anschluss of Austria. With the Haus von Habsburg-Lothringen no longer in power following the dissolution of Austria-Hungary, Wilhelm I faced little opposition to his sudden rise to power.\n\nDespite his new title being seen as somewhat archaic, Wilhelm I has proved to be a remarkably modern ruler, with much of the Empire's governance left to the civilian government of the Deutsche Volkspartei."
 
+
+### ITALY ###
+
+POLITICS_ITA_NATSOC_DESC:0 "Benito Mussolini, Duce of the Italian Social Republic, previously served as the nation's Prime Minister under Victor Emmanuel III. Though Mussolini was one of the pioneers of fascism, he found it difficult to fully implement his doctrine due to the King's influence.\n\nAfter Italy was occupied by the German Reich, Mussolini was handed absolute power to run a puppet government. With the heavy German influence over the Italian Social Republic, Mussolini was forced to adapt his ideology yet again, this time implementing many Nazi ideals into the running of the country."
+POLITICS_ITA_THEOC_DESC:0 ""
+POLITICS_ITA_REPFASH_DESC:0 ""
+POLITICS_ITA_CENMON_DESC:0 ""
+POLITICS_ITA_FASCISM_DESC:0 "Victor Emmanuel III, the Soldier King, has ruled Italy since the turn of the 20th century, through the Great War and the rise of fascism.\n\nThough the King is now mostly a figurehead for Mussolini's regime, he is an extremely popular one, and retains many reserve powers. Should Italy become disillusioned with fascism, Victor Emmanuel will likely be involved with its downfall."
+POLITICS_ITA_STRATMON_DESC:0 ""
+POLITICS_ITA_STRAT_DESC:0 ""
+POLITICS_ITA_VAN_DESC:0 ""
+POLITICS_ITA_COM_DESC:0 ""
+POLITICS_ITA_SOC_DESC:0 ""
+POLITICS_ITA_MONSOC_DESC:0 ""
+POLITICS_ITA_AUTHMON_DESC:0 ""
+POLITICS_ITA_ABSMON_DESC:0 ""
+POLITICS_ITA_CONREP_DESC:0 ""
+POLITICS_ITA_LIBREP_DESC:0 ""
+POLITICS_ITA_CENREP_DESC:0 ""
+POLITICS_ITA_AUTHREP_DESC:0 "Gaetano Salvemini, President of Italy, rose to power through his anti-fascist position. While initially a member of the Socialist Party, Salvemini eventually became leader of the Combatants' Party, formed to protect the interests of Great War Veterans.\n\nThe Party joined with many others in opposition to Mussolini's attempted creation of a one party state. After the fascists and Monarchy were desposed, Galvemini was chosen as President of the new Italian Republic as a compromise between the communists and Christian Democrats."
+POLITICS_ITA_CONMON_DESC:0 "Victor Emmanuel III, the Soldier King, has ruled Italy since the turn of the 20th century, leading the nation through the Great War.\n\nVictor Emmanuel currently rules as constitutional monarchy, with the country ruled by the Partito Popolare Italiano."
+POLITICS_ITA_LIBMON_DESC:0 "Victor Emmanuel III has ruled Italy since the turn of the 20th century, a mostly peaceful era in Italian history.\n\nVictor Emmanuel currently rules as constitutional monarchy, with the country ruled by the Partito Liberale Italiano."
+
+
 ### SPAIN ###
 
 POLITICS_SPR_NATSOC_DESC:0 "Miguel Ezquerra Sanchez, Líder of the Westgotisches Reich, was a Falangist who fought for the Nationalists during the Spanish Civil War. Fiercely anti-communist, Ezquerra volunteered for the Waffen-SS after the outbreak of the Second World War, where he was one of the most loyal commanders on the Eastern Front, being named a citizen of Germany and honorary Aryan by Adolf Hitler himself in the last days of the war.\n\nAfter the Nazis emerged victorious, Ezquerra returned to Spain and led an SS-backed coup against Francisco Franco, who he believed had not done enough for the anti-Bolshevik cause.\n\nEzquerra's new state has attempted to reclaim the legacy of the germanic Visigoths who occupied Iberia some time in the 5th century, becoming a key German ally in the new western European political sphere, if not an outright puppet state."
@@ -99,28 +123,6 @@ POLITICS_SPR_CENREP_DESC:0 "Alejandro Lerroux García, leader of the Radical Rep
 POLITICS_SPR_AUTHREP_DESC:0 "José María Gil-Robles y Quiñones is the leader of the Confederación Española de Derechas Autónomas, better known as CEDA, a political party founded in 1933 to \"defend the principles of Christian civilization.\" CEDA initially refused to take a stance on the republic-monarchy debate, arguing that the issue was irrelevant compared to whether or not the government's laws were compatible with religious principles.\n\nAfter the military coup that deposed the government of Manuel Azaña, Gil-Robles emerged triumphant in a power struggle with Francisco Franco for control of Spain, and he now rules the Republic as a one-party state influenced heavily by the Italian fascists, and the corporatist regime of António de Oliveira Salazar."
 POLITICS_SPR_CONMON_DESC:0 "Alfonso XIII de Borbón has ruled Spain for 50 years, through several political crises, though he has managed to hold onto power through it all. One of the biggest challenges came in 1923, when Alfonso appointed Miguel Primo de Rivera as Prime Minister for 90 days, in an effort to eliminate corruption.\n\nAfter Primo de Rivera announced his intention to continue his rule, Alfonso loyalists led a counter-coup in early 1924, restoring democracy to Spain, and ensuring the King's image would not be tainted by his support for the would-be dictator. The Cortes Generales is currently led by the Renovación Española, a conservative-monarchist party."
 POLITICS_SPR_LIBMON_DESC:0 "Alfonso XIII de Borbón is the current King of Spain, having been recently restored to the throne by an anti-republican coup led by Francisco Franco. After regaining power, Alfonso XIII decided to remain a constitutional monarch, which led to a regime of fascist sympathisers and Francoist remnants gaining power.\n\nIn an effort to reclaim his legitimacy, Alfonso used his reserve powers to dismiss the government and outlaw the fascist parties. The Cortes Generales is currently led by the Partido Liberal, a liberal-monarchist party."
-
-### ITALY ###
-
-POLITICS_ITA_NATSOC_DESC:0 "Benito Mussolini, Duce of the Italian Social Republic, previously served as the nation's Prime Minister under Victor Emmanuel III. Though Mussolini was one of the pioneers of fascism, he found it difficult to fully implement his doctrine due to the King's influence.\n\nAfter Italy was occupied by the German Reich, Mussolini was handed absolute power to run a puppet government. With the heavy German influence over the Italian Social Republic, Mussolini was forced to adapt his ideology yet again, this time implementing many Nazi ideals into the running of the country."
-POLITICS_ITA_THEOC_DESC:0 ""
-POLITICS_ITA_REPFASH_DESC:0 ""
-POLITICS_ITA_CENMON_DESC:0 ""
-POLITICS_ITA_FASCISM_DESC:0 "Victor Emmanuel III, the Soldier King, has ruled Italy since the turn of the 20th century, through the Great War and the rise of fascism.\n\nThough the King is now mostly a figurehead for Mussolini's regime, he is an extremely popular one, and retains many reserve powers. Should Italy become disillusioned with fascism, Victor Emmanuel will likely be involved with its downfall."
-POLITICS_ITA_STRATMON_DESC:0 ""
-POLITICS_ITA_STRAT_DESC:0 ""
-POLITICS_ITA_VAN_DESC:0 ""
-POLITICS_ITA_COM_DESC:0 ""
-POLITICS_ITA_SOC_DESC:0 ""
-POLITICS_ITA_MONSOC_DESC:0 ""
-POLITICS_ITA_AUTHMON_DESC:0 ""
-POLITICS_ITA_ABSMON_DESC:0 ""
-POLITICS_ITA_CONREP_DESC:0 ""
-POLITICS_ITA_LIBREP_DESC:0 ""
-POLITICS_ITA_CENREP_DESC:0 ""
-POLITICS_ITA_AUTHREP_DESC:0 "Gaetano Salvemini, President of Italy, rose to power through his anti-fascist position. While initially a member of the Socialist Party, Salvemini eventually became leader of the Combatants' Party, formed to protect the interests of Great War Veterans.\n\nThe Party joined with many others in opposition to Mussolini's attempted creation of a one party state. After the fascists and Monarchy were desposed, Galvemini was chosen as President of the new Italian Republic as a compromise between the communists and Christian Democrats."
-POLITICS_ITA_CONMON_DESC:0 "Victor Emmanuel III, the Soldier King, has ruled Italy since the turn of the 20th century, leading the nation through the Great War.\n\nVictor Emmanuel currently rules as constitutional monarchy, with the country ruled by the Partito Popolare Italiano."
-POLITICS_ITA_LIBMON_DESC:0 "Victor Emmanuel III has ruled Italy since the turn of the 20th century, a mostly peaceful era in Italian history.\n\nVictor Emmanuel currently rules as constitutional monarchy, with the country ruled by the Partito Liberale Italiano."
 
 ### UNCLAIMED ###
 POLITICS_UNC_PENGUIN_DESC:0 "The emperor penguin is the tallest and heaviest of all living penguin species and is endemic to Antarctica.\n\nLike all penguins it is flightless, with a streamlined body, and wings stiffened and flattened into flippers for a marine habitat. Its diet consists primarily of fish, but also includes crustaceans, such as krill, and cephalopods, such as squid.\n\nThe emperor penguin has a circumpolar distribution in the Antarctic almost exclusively between the 66° and 77° south latitudes. It almost always breeds on stable pack ice near the coast and up to 18km offshore."
