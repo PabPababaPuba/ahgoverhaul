@@ -2185,3 +2185,9 @@
  JPA_stratocratic_monarchism_party_long:0 "Dai-Nippon Teikoku Kaigun"
  JPA_authoritarian_monarchism_party:0 "DNTK"
  JPA_authoritarian_monarchism_party_long:0 "Dai-Nippon Teikoku Kaigun"
+
+ FLA_national_socialism_party:0 "NSDAP"
+ FLA_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+
+ WLL_national_socialism_party:0 "NSDAP"
+ WLL_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"

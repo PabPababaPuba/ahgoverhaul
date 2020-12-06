@@ -5407,6 +5407,9 @@
  FLA_monarchism:0 "County of Flanders"
  FLA_monarchism_DEF:0 "The County of Flanders"
  FLA_monarchism_ADJ:0 "Flemish"
+ FLA_national_socialism:0 "Reichskommissariat Belgien"
+ FLA_national_socialism_DEF:0 "das Reichskommissariat Belgien"
+ FLA_national_socialism_ADJ:0 "Belgisch"
  
  WLL_fascism:0 "Walloon Rexist Republic"
  WLL_fascism_DEF:0 "The Walloon Rexist Republic"
@@ -5423,6 +5426,9 @@
  WLL_monarchism:0 "County of Wallonia"
  WLL_monarchism_DEF:0 "The County of Wallonia"
  WLL_monarchism_ADJ:0 "Walloon"
+ WLL_national_socialism:0 "Reichskommissariat Belgien-Nordfrankreich"
+ WLL_national_socialism_DEF:0 "das Reichskommissariat Belgien-Nordfrankreich"
+ WLL_national_socialism_ADJ:0 "Belgisch"
  
  HTY_fascism:0 "Hatay State"
  HTY_fascism_DEF:0 "The Hatay State"
