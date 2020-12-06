@@ -11507,6 +11507,9 @@
  CZC_monarchism:0 "United Kingdoms of Bohemia and Moravia"
  CZC_monarchism_DEF:0 "The United Kingdoms of Bohemia and Moravia"
  CZC_monarchism_ADJ:0 "Bohemo-Moravian"
+ CZC_national_socialism:0 "Reichsprotektorat Böhmen-Mähren"
+ CZC_national_socialism_DEF:0 "das Reichsprotektorat Böhmen-Mähren"
+ CZC_national_socialism_ADJ:0 "Bohemien"
  
  HZB_democratic:0 "Republic of Herzeg-Bosnia"
  HZB_democratic_DEF:0 "The Republic of Herzeg-Bosnia"
