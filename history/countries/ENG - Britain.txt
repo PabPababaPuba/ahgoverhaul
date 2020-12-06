@@ -184,7 +184,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sir Oswald Ernald Mosley"
+	name = "Oswald Mosley"
 	desc = ""
 	picture = "ENG_Mosley.tga"
 	expire = "1965.1.1"
