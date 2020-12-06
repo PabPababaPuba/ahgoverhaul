@@ -38,3 +38,13 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+create_country_leader = {
+	name = "Otto Skorzeny"
+	desc = ""
+	picture = "Otto_Skorzeny.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

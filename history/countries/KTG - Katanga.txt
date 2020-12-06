@@ -28,3 +28,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Konstantin Konstantinovich Rokossovsky"
+	desc = ""
+	picture = "KTG_Rokossovsky.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
