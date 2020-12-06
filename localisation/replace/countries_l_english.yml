@@ -4232,6 +4232,9 @@
  TMS_socialism_ideology:0 "Democratic Socialist Republic of Turkmenistan"
  TMS_socialism_ideology_DEF:0 "The Democratic Socialist Republic of Turkmenistan"
  TMS_socialism_ideology_ADJ:0 "Turkmen"
+ TMS_national_socialism:0 "Reichskommissariat Turkestan"
+ TMS_national_socialism_DEF:0 "das Reichskommissariat Turkestan"
+ TMS_national_socialism_ADJ:0 "Turkisch"
  
  TAJ_fascism:0 "Greater Tajikistan"
  TAJ_fascism_DEF:0 "The Greater Tajikistan"

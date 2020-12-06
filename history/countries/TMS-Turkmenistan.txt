@@ -53,6 +53,13 @@ create_country_leader = {
 	}
 }
 
-
-
-
+create_country_leader = {
+	name = "Josef Dietrich"
+	desc = ""
+	picture = "TMS_Sepp_Dietrich.tga"
+	expire = "1960.1.1"
+	ideology = natsoc
+	traits = {
+		#
+	}
+}
