@@ -9,7 +9,7 @@ state={
 		}
 		add_core_of = ATC
 		add_claim_by = NOR
-		add_claim_by = GER
+		add_core_of = NS2
 	}
 	provinces={
 		14795

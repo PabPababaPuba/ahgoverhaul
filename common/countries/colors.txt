@@ -5872,3 +5872,7 @@ SWB = {
 color = rgb { 192 192 192 }
 color_ui = rgb { 192 192 192 }
 }
+NS2 = {
+color = rgb { 63 63 63 }
+color_ui = rgb { 63 63 63 }
+}
