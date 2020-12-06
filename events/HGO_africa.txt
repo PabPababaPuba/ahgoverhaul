@@ -317,8 +317,9 @@ country_event = { 2020 Africa
 			release = GAB
 			}
 		ALG = {
-			transfer_state = 8138
+			transfer_state = 8139
 			transfer_state = 12367
+			transfer_state = 12368
 			}
 		MOR = {
 			annex_country = { target = RIF }
