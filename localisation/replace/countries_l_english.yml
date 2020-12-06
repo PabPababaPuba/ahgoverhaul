@@ -9706,6 +9706,9 @@
  TSC_socialism_ideology:0 "Transcaucasian Socialist Federative Republic"
  TSC_socialism_ideology_DEF:0 "The Transcaucasian Socialist Federative Republic"
  TSC_socialism_ideology_ADJ:0 "Transcaucasian"
+ TSC_national_socialism:0 "Reichskommissariat Kaukasus"
+ TSC_national_socialism_DEF:0 "das Reichskommissariat Kaukasus"
+ TSC_national_socialism_ADJ:0 "Kaukasisch"
  
  HKG_fascism:0 "Great Lingnan"
  HKG_fascism_DEF:0 "The Great Lingnan"
