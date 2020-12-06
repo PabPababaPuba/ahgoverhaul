@@ -286,4 +286,4 @@ MSH = "countries/Mashonaland.txt"
 MCL = "countries/Manicaland.txt"
 NWD = "countries/Northwest Rhodesia.txt"
 NED = "countries/Northeast Rhodesia.txt"
->>>>>>> Stashed changes
+JPA = "countries/Japanese Antarctica.txt"

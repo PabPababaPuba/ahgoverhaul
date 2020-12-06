@@ -2180,3 +2180,8 @@
  NS2_stratocratic_party_long:0 "Kriegsmarine"
  NS2_stratocratic_monarchism_party:0 "Kriegsmarine"
  NS2_stratocratic_monarchism_party_long:0 "Kriegsmarine"
+
+ JPA_stratocratic_monarchism_party:0 "DNTK"
+ JPA_stratocratic_monarchism_party_long:0 "Dai-Nippon Teikoku Kaigun"
+ JPA_authoritarian_monarchism_party:0 "DNTK"
+ JPA_authoritarian_monarchism_party_long:0 "Dai-Nippon Teikoku Kaigun"
