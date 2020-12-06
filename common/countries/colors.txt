@@ -6285,3 +6285,7 @@ JPA = {
 color = rgb { 165 69 117 }
 color_ui = rgb { 165 69 117 }
 }
+KV2 = {
+color = rgb { 0 128 255 }
+color_ui = rgb { 0 128 255 }
+}
