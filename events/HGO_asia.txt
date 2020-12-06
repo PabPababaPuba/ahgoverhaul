@@ -971,7 +971,6 @@ country_event = { #2020 Asia
 		    transfer_state = 4795
 		    transfer_state = 4794
 		    transfer_state = 3358
-		    transfer_state = 12035		
 		}
 		TUR = {
 		    transfer_state = 5699

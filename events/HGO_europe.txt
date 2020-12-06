@@ -200,6 +200,8 @@ country_event = { #1914 Europe
 		MRN = {
 			transfer_state = 3212
 			}
+		GRE = {
+			transfer_state = 3403
 		}
 	}	
 	option = { #reject
