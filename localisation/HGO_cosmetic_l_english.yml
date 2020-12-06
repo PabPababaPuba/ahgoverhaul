@@ -6888,58 +6888,58 @@
  DUAL_DEF:0 "$OVERLORDNAMEDEF$-$NONIDEOLOGY$"
  
  REIKMS:0 "Reichskommissariat $NONIDEOLOGY$"
- REIKMS_DEF:0 "the Reichskommissariat of $NONIDEOLOGY$"
+ REIKMS_DEF:0 "das Reichskommissariat $NONIDEOLOGY$"
  
  REIPTS:0 "Reichsprotektorat $NONIDEOLOGY$"
- REIPTS_DEF:0 "the Reichsprotektorat of $NONIDEOLOGY$"
+ REIPTS_DEF:0 "das Reichsprotektorat $NONIDEOLOGY$"
  
  REIKOL:0 "Reichskolonie $NONIDEOLOGY$"
- REIKOL_DEF:0 "the Reichskolonie of $NONIDEOLOGY$"
+ REIKOL_DEF:0 "das Reichskolonie $NONIDEOLOGY$"
  
  SSORDN:0 "SS-Ordenstaat $NONIDEOLOGY$"
- SSORDN_DEF:0 "the SS-Ordenstaat of $NONIDEOLOGY$"
+ SSORDN_DEF:0 "das SS-Ordenstaat $NONIDEOLOGY$"
  
  ORDNST:0 "Ordenstaat $NONIDEOLOGY$"
- ORDNST_DEF:0 "the Ordenstaat of $NONIDEOLOGY$"
+ ORDNST_DEF:0 "das Ordenstaat $NONIDEOLOGY$"
  
  SSSTAT:0 "SS-Staat $NONIDEOLOGY$"
- SSSTAT_DEF:0 "the SS-Staat of $NONIDEOLOGY$"
+ SSSTAT_DEF:0 "das SS-Staat $NONIDEOLOGY$"
  
  GNRLBZ:0 "Generalbezirk $NONIDEOLOGY$"
- GNRLBZ_DEF:0 "the Generalbezirk of $NONIDEOLOGY$"
+ GNRLBZ_DEF:0 "das Generalbezirk $NONIDEOLOGY$"
  
  VERNGT:0 "Vereinigte $NONIDEOLOGY$"
- VERNGT_DEF:0 "the Vereinigte of $NONIDEOLOGY$"
+ VERNGT_DEF:0 "das Vereinigte $NONIDEOLOGY$"
  
  OBRBSC:0 "Oberabschnitt $NONIDEOLOGY$"
- OBRBSC_DEF:0 "the Oberabschnitt of $NONIDEOLOGY$"
+ OBRBSC_DEF:0 "das Oberabschnitt $NONIDEOLOGY$"
  
  REISTA:0 "Reichstaat $NONIDEOLOGY$"
- REISTA_DEF:0 "the Reichstaat of $NONIDEOLOGY$"
+ REISTA_DEF:0 "das Reichstaat $NONIDEOLOGY$"
  
  REILND:0 "Reichsland $NONIDEOLOGY$"
- REILND_DEF:0 "the Reichsland of $NONIDEOLOGY$"
+ REILND_DEF:0 "das Reichsland $NONIDEOLOGY$"
  
  BSTZNG:0 "Besatzungsrat $NONIDEOLOGY$"
- BSTZNG_DEF:0 "the Besatzungsrat of $NONIDEOLOGY$"
+ BSTZNG_DEF:0 "das Besatzungsrat $NONIDEOLOGY$"
  
  MLTGRN:0 "Militärregierung $NONIDEOLOGY$"
- MLTGRN_DEF:0 "the Militärregierung of $NONIDEOLOGY$"
+ MLTGRN_DEF:0 "das Militärregierung $NONIDEOLOGY$"
  
  MLTBZK:0 "Militärberzirk $NONIDEOLOGY$"
- MLTBZK_DEF:0 "the Militärberzirk of $NONIDEOLOGY$"
+ MLTBZK_DEF:0 "das Militärberzirk $NONIDEOLOGY$"
  
  VRWTGK:0 "Verwaltungbezirk $NONIDEOLOGY$"
- VRWTGK_DEF:0 "the Verwaltungbezirk of $NONIDEOLOGY$"
+ VRWTGK_DEF:0 "das Verwaltungbezirk $NONIDEOLOGY$"
  
  UBRGSR:0 "Ubergangsregierung $NONIDEOLOGY$"
- UBRGSR_DEF:0 "the Ubergangsregierung of $NONIDEOLOGY$"
+ UBRGSR_DEF:0 "das Ubergangsregierung $NONIDEOLOGY$"
  
  ARMVRB:0 "Armeeverband $NONIDEOLOGY$"
- ARMVRB_DEF:0 "the Armeeverband of $NONIDEOLOGY$"
+ ARMVRB_DEF:0 "das Armeeverband $NONIDEOLOGY$"
  
  BSTZRG:0 "Besatzungsregierung $NONIDEOLOGY$"
- BSTZRG_DEF:0 "the Besatzungsregierung of $NONIDEOLOGY$"
+ BSTZRG_DEF:0 "das Besatzungsregierung $NONIDEOLOGY$"
 
  ATLWAL:0 "Atlantikwall"
  ATLWAL_DEF:0 "das Atlantikwall"
