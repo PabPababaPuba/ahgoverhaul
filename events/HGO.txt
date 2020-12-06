@@ -3513,8 +3513,7 @@ country_event = { #Decolonise Arabia
 		    transfer_state = 5884
 		    transfer_state = 4795
 		    transfer_state = 4794
-		    transfer_state = 3358
-		    transfer_state = 12035		
+		    transfer_state = 3358	
 		}
 		TUR = {
 		    transfer_state = 5699

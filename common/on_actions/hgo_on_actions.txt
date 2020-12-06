@@ -684,6 +684,9 @@ on_actions = {
 		MRN = {
 			transfer_state = 3212
 			}
+		GRE = {
+			transfer_state = 3403
+		}
 		JBL = {
 			transfer_state = 1176
 			transfer_state = 6802
@@ -2361,8 +2364,7 @@ on_actions = {
 		    transfer_state = 5884
 		    transfer_state = 4795
 		    transfer_state = 4794
-		    transfer_state = 3358
-		    transfer_state = 12035		
+		    transfer_state = 3358	
 		}
 		TUR = {
 		    transfer_state = 5699
@@ -2649,8 +2651,9 @@ on_actions = {
 			release = GAB
 			}
 		ALG = {
-		transfer_state = 8138
+		transfer_state = 8139
 		transfer_state = 12367
+		transfer_state = 12368
 		}
 		MOR = {
 			annex_country = { target = RIF }
