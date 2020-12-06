@@ -6940,6 +6940,9 @@
  ARH_monarchism:0 "Kingdom of Arkhangelsk"
  ARH_monarchism_DEF:0 "The Kingdom of Arkhangelsk"
  ARH_monarchism_ADJ:0 "Arkhangelskian"
+ ARH_national_socialism:0 "Reichskommissariat Nordrussland"
+ ARH_national_socialism_DEF:0 "das Reichskommissariat Nordrussland"
+ ARH_national_socialism_ADJ:0 "Nordrussisch"
  
  VLG_fascism:0 "Empire of Vologda"
  VLG_fascism_DEF:0 "The Empire of Vologda"

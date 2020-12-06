@@ -63,5 +63,13 @@ create_country_leader = {
 	}
 }
 
-
-
+create_country_leader = {
+	name = "Ernst Kaltenbrunner"
+	desc = ""
+	picture = "ARH_Kaltenbrunner.tga"
+	expire = "1953.3.1"
+	ideology = natsoc
+	traits = {
+		
+	}
+}
