@@ -122,13 +122,19 @@ HGO_set_scenario = {
 	group = "RULE_GROUP_HGO_SETTINGS"
 	default = {
 		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "The world will be as it was in 1936."
+		text = "The Gathering Storm (Default)"
+		desc = "1 January 1936."
 	}
 	option = {
 		name = GREAT_WAR
 		text = "The Great War"
 		desc = "28 July 1914 - (Insert WW1 Desc Here.)"
+		allow_achievements = yes
+	}
+	option = {
+		name = SECOND_WORLD_WAR
+		text = "The Second World War - COMING SOON"
+		desc = "1 September 1939 - COMING SOON"
 		allow_achievements = yes
 	}
 	option = {
