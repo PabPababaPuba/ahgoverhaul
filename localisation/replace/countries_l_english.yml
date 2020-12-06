@@ -7169,7 +7169,10 @@
  URL_monarchism:0 "Kingdom of the Urals"
  URL_monarchism_DEF:0 "The Kingdom of the Urals"
  URL_monarchism_ADJ:0 "Uralian"
- 
+ URL_national_socialism:0 "Reichskommissariat Ural"
+ URL_national_socialism_DEF:0 "das Reichskommissariat Ural"
+ URL_national_socialism_ADJ:0 "Uralisch" 
+
  KSA_fascism:0 "Empire of Kostroma"
  KSA_fascism_DEF:0 "The Empire of Kostroma"
  KSA_democratic:0 "Republic of Kostroma"
