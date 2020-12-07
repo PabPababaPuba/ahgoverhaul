@@ -6807,71 +6807,100 @@
 
  EMPIRE:0 "Empire of $NONIDEOLOGY$"
  EMPIRE_DEF:0 "the Empire of $NONIDEOLOGY$"
+
  KINGDM:0 "Kingdom of $NONIDEOLOGY$"
  KINGDM_DEF:0 "the Kingdom of $NONIDEOLOGY$"
+
  DUCHIE:0 "Duchy of $NONIDEOLOGY$"
  DUCHIE_DEF:0 "the Duchy of $NONIDEOLOGY$"
+
  ARCDCH:0 "Archduchy of $NONIDEOLOGY$"
  ARCDCH_DEF:0 "the Archduchy of $NONIDEOLOGY$"
+
  GRNDCH:0 "Grand Duchy of $NONIDEOLOGY$"
  GRNDCH_DEF:0 "the Grand Duchy of $NONIDEOLOGY$"
+
  PRINCE:0 "Principality of $NONIDEOLOGY$"
  PRINCE_DEF:0 "the Principality of $NONIDEOLOGY$"
+
  COUNTY:0 "County of $NONIDEOLOGY$"
  COUNTY_DEF:0 "the County of $NONIDEOLOGY$"
+
  BARONY:0 "Barony of $NONIDEOLOGY$"
  BARONY_DEF:0 "the Barony of $NONIDEOLOGY$"
+
  CITYOF:0 "City of $NONIDEOLOGY$"
  CITYOF_DEF:0 "the City of $NONIDEOLOGY$"
+
  CTYFRE:0 "Free City of $NONIDEOLOGY$"
  CTYFRE_DEF:0 "the Free City of $NONIDEOLOGY$"
+
  TOWNIE:0 "$NONIDEOLOGY$ Town"
  TOWNIE_DEF:0 "the $NONIDEOLOGY$ Town"
+
  TOWNOF:0 "Town of $NONIDEOLOGY$"
  TOWNOF_DEF:0 "the Town of $NONIDEOLOGY$"
+
  ORDROF:0 "Order of $NONIDEOLOGY$"
  ORDROF_DEF:0 "the Order of $NONIDEOLOGY$"
+
  CRSDER:0 "Holy Order of $NONIDEOLOGY$"
  CRSDER_DEF:0 "the Holy Order of $NONIDEOLOGY$"
 
  COLNY:0 "Colony of $NONIDEOLOGY$"
  COLNY_DEF:0 "the Colony of $NONIDEOLOGY$"
+
  COLNYOF:0 "$OVERLORDADJ$ Colony of $NONIDEOLOGY$"
  COLNYOF_DEF:0 "the $OVERLORDADJ$ Colony of $NONIDEOLOGY$"
+
  PROVNC:0 "Province of $NONIDEOLOGY$"
  PROVNC_DEF:0 "the Province of $NONIDEOLOGY$"
+
  STATES:0 "State of $NONIDEOLOGY$"
  STATES_DEF:0 "the State of $NONIDEOLOGY$"
+
  FSTATE:0 "Federal State of $NONIDEOLOGY$"
  FSTATE_DEF:0 "the Federal State of $NONIDEOLOGY$"
+
  REGION:0 "Region of $NONIDEOLOGY$"
  REGION_DEF:0 "the Region of $NONIDEOLOGY$"
+
  PEOPLE:0 "People of $NONIDEOLOGY$"
  PEOPLE_DEF:0 "the People of $NONIDEOLOGY$"
 
  CLIPHT:0 "Caliphate of $NONIDEOLOGY$"
  CLIPHT_DEF:0 "the Caliphate of $NONIDEOLOGY$"
+
  SULTIN:0 "Sultinate of $NONIDEOLOGY$"
  SULTIN_DEF:0 "the Sultinate of $NONIDEOLOGY$"
+
  EMIRAT:0 "Emirate of $NONIDEOLOGY$"
  EMIRAT_DEF:0 "the Emirate of $NONIDEOLOGY$"
+
  SHEIKS:0 "Sheikdom of $NONIDEOLOGY$"
  SHEIKS_DEF:0 "the Sheikdom of $NONIDEOLOGY$"
+
  VILYET:0 "Vilayet of $NONIDEOLOGY$"
  VILYET_DEF:0 "the Vilayet of $NONIDEOLOGY$"
 
  FREPUB:0 "Federal Republic of $NONIDEOLOGY$"
  FREPUB_DEF:0 "the Federal Republic of $NONIDEOLOGY$"
+
  REPBLC:0 "Republic of $NONIDEOLOGY$"
  REPBLC_DEF:0 "the Republic of $NONIDEOLOGY$"
+
  FEDRAT:0 "Federation of $NONIDEOLOGY$"
  FEDRAT_DEF:0 "the Federation of $NONIDEOLOGY$"
+
  CONFED:0 "Confederation of $NONIDEOLOGY$"
  CONFED_DEF:0 "the Confederation of $NONIDEOLOGY$"
+
  UNITED:0 "United States of $NONIDEOLOGY$"
  UNITED_DEF:0 "the United States of $NONIDEOLOGY$"
+
  REVLUT:0 "Revolutionary $NONIDEOLOGY$"
  REVLUT_DEF:0 "the Revolutionary $NONIDEOLOGY$"
+
  UNION:0 "Union of $NONIDEOLOGY$"
  UNION_DEF:0 "the Union of $NONIDEOLOGY$"
  
@@ -7132,3 +7161,88 @@
  NZL_ZEAL_monarchism_DEF:0 "The Kingdom of Zealandia"
  NZL_ZEAL_monarchism_ADJ:0 "Zealandian"
  NZL_ZEAL_ADJ:0 "Zealandian"
+
+
+DUM_ASS:0 "Associated State of $NONIDEOLOGY$"
+DUM_ASS_DEF:0 "the Associated State of $NONIDEOLOGY$"
+
+DUM_CLI:0 "Client State of $NONIDEOLOGY$"
+DUM_CLI_DEF:0 "the Client State of $NONIDEOLOGY$"
+
+DUM_DEP:0 "Dependent Territory of $NONIDEOLOGY$"
+DUM_DEP_DEF:0 "the Dependent Territory of $NONIDEOLOGY$"
+
+DUM_DOM:0 "Dominion of $NONIDEOLOGY$"
+DUM_DOM_DEF:0 "the Dominion of $NONIDEOLOGY$"
+
+DUM_VAS:0 "$OVERLORDADJ$ Vassal of $NONIDEOLOGY$"
+DUM_VAS_DEF:0 "$OVERLORDADJ$ Vassal of $NONIDEOLOGY$"
+
+DUM_TRI:0 "$OVERLORDADJ$ Tributary of $NONIDEOLOGY$"
+DUM_TRI_DEF:0 "$OVERLORDADJ$ Tributary of $NONIDEOLOGY$"
+
+DUM_GOV:0 "Governorate of $NONIDEOLOGY$"
+DUM_GOV_DEF:0 "the Governorate of $NONIDEOLOGY$"
+
+DUM_GEN:0 "General-Governorate of $NONIDEOLOGY$"
+DUM_GEN_DEF:0 "the General-Governorate of $NONIDEOLOGY$"
+
+DUM_OBL:0 "$NONIDEOLOGY$ Oblast"
+DUM_GEN_DEF:0 "$NONIDEOLOGY$ Oblast"
+
+DUM_ARB:0 "$NONIDEOLOGYADJ$ Arab Republic"
+DUM_ARB_DEF:0 "the $NONIDEOLOGYADJ$ Arab Republic"
+
+DUM_ISL:0 "$NONIDEOLOGYADJ$ Islamic Republic"
+DUM_ISL_DEF:0 "the $NONIDEOLOGYADJ$ Islamic Republic"
+
+DUM_PRO:0 "$OVERLORDADJ$ Protectorate of $NONIDEOLOGY$"
+DUM_PRO_DEF:0 "$OVERLORDADJ$ Protectorate of $NONIDEOLOGY$"
+
+DUM_CON:0 "$OVERLORDADJ$ Concession of $NONIDEOLOGY$"
+DUM_CON_DEF:0 "$OVERLORDADJ$ Concession of $NONIDEOLOGY$"
+
+DUM_SER:0 "Serene Republic of $NONIDEOLOGY$"
+DUM_SER_DEF:0 "the Serene Republic of $NONIDEOLOGY$"
+
+DUM_EXA:0 "Exarch of $NONIDEOLOGY$"
+DUM_EXA_DEF:0 "the Exarch of $NONIDEOLOGY$"
+
+DUM_CLA:0 "$OVERLORDADJ$ Claims in $NONIDEOLOGY$"
+DUM_CLA_DEF:0 "the $OVERLORDADJ$ Claims in $NONIDEOLOGY$"
+
+DUM_SOI:0 "$OVERLORDADJ$ Sphere of Influence"
+DUM_SOI_DEF:0 "the $OVERLORDADJ$ Sphere of Influence"
+
+DUM_COM:0 "$NONIDEOLOGYADJ$ Commune"
+DUM_COM_DEF:0 "the $NONIDEOLOGYADJ$ Commune"
+
+DUM_HEA:0 "Heavenly Kingdom of $NONIDEOLOGY$"
+DUM_HEA_DEF:0 "the Heavenly Kingdom of $NONIDEOLOGY$"
+
+DUM_CRO:0 "Crown Colony of $NONIDEOLOGY$"
+DUM_CRO_DEF:0 "the Crown Colony of $NONIDEOLOGY$"
+
+DUM_HEA:0 "Heavenly Kingdom of $NONIDEOLOGY$"
+DUM_HEA_DEF:0 "the Heavenly Kingdom of $NONIDEOLOGY$"
+
+DUM_THE:0 "$NONIDEOLOGYADJ$ Theme"
+DUM_THE_DEF:0 "the $NONIDEOLOGYADJ$ Theme"
+
+DUM_DIO:0 "$NONIDEOLOGYADJ$ Dioconese"
+DUM_DIO_DEF:0 "the $NONIDEOLOGYADJ$ Theme"
+
+DUM_PRO_ADM:0 "$NONIDEOLOGYADJ$ Provisional Administration"
+DUM_PRO_ADM_DEF:0 "the $NONIDEOLOGYADJ$ Provisional Administration"
+
+DUM_PRO_GOV:0 "$NONIDEOLOGYADJ$ Provisional Government"
+DUM_PRO_GOV_DEF:0 "the $NONIDEOLOGYADJ$ Provisional Government"
+
+DUM_EXI:0 "$NONIDEOLOGYADJ$ Government in Exile"
+DUM_EXI_DEF:0 "the $NONIDEOLOGYADJ$ Government in Exile"
+
+DUM_NAT:0 "$NONIDEOLOGY$ Native Resevation"
+DUM_NAT_DEF:0 "the $NONIDEOLOGY$ Native Resevation"
+
+DUM_TRA:0 "$NONIDEOLOGYADJ$ Transitional Government"
+DUM_TRA_DEF:0 "the $NONIDEOLOGYADJ$ Transitional Government"
