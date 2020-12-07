@@ -12,6 +12,7 @@ state={
 		add_core_of = MAY
 		add_claim_by = TKS
 		add_core_of = ERS
+		add_core_of = MEV
 
 	}
 
