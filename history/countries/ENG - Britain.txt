@@ -124,7 +124,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Archibald Sinclair"
+	name = "Sir Archibald Sinclair"
 	desc = ""
 	picture = "ENG_Sinclair.tga"
 	expire = "1965.1.1"
@@ -144,7 +144,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Archibald Montgomery-Massingberd"
+	name = "Sir Archibald Montgomery-Massingberd"
 	desc = ""
 	picture = "ENG_Montgomery.tga"
 	expire = "1965.1.1"
@@ -184,7 +184,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oswald Mosley"
+	name = "Sir Oswald Mosley"
 	desc = ""
 	picture = "ENG_Mosley.tga"
 	expire = "1965.1.1"

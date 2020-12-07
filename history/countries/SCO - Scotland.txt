@@ -181,7 +181,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Henry IX of Windsor"
+	name = "Prince Henry of Windsor"
 	desc = ""
 	picture = "ENG_HenryIX.tga"
 	expire = "1965.1.1"
