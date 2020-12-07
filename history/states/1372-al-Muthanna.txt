@@ -13,11 +13,12 @@ state={
 		add_core_of = UZB
 		add_core_of = KPK
 		add_core_of = TKS
+		add_core_of = AMD
 
 	}
 
 	provinces={
-		1576 1614 4618 1479 4488 12471 4499
+		4488 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

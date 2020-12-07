@@ -8,6 +8,11 @@ state={
 		add_core_of = SOV
 		add_core_of = KOK
 		add_core_of = TKS
+		add_core_of = FER
+		
+		victory_points = {
+			20679 5 
+		}
 	}
 	manpower = 1000
 	state_category = pastoral

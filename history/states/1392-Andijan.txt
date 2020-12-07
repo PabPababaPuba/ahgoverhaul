@@ -13,14 +13,13 @@ state={
 		add_core_of = KAZ
 		add_core_of = TKS
 		add_core_of = KYZ
-				victory_points = {
-			10353 5
-		}
+		add_core_of = SYD
+
 
 	}
 
 	provinces={
-		4578 4581 4636 4638 7486 10353 
+		7486 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

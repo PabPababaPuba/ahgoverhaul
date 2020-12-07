@@ -3,11 +3,13 @@ state={
 	name="STATE_12379"
 	
 	history = {
-		owner = KAZ
-		add_core_of = KAZ
+		owner = KPK
 		add_core_of = SOV
-		add_core_of = UST
-		add_claim_by = TKS
+		add_core_of = KPK
+		add_core_of = TKS
+		add_core_of = UZB
+		add_core_of = KHW
+		add_core_of = AMD
 	}
 	manpower = 1000
 	state_category = pastoral

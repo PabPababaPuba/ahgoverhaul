@@ -1,0 +1,20 @@
+state={
+	id=12470
+	name="STATE_12470"
+	
+	history = {
+		owner = TMS
+		add_core_of = SOV
+		add_core_of = TMS
+		add_core_of = KAZ
+		add_core_of = TCP
+		add_core_of = UST
+		add_claim_by = TKS
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		4563
+	}
+	buildings_max_level_factor=1.000
+}

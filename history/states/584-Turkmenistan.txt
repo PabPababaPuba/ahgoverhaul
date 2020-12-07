@@ -18,13 +18,14 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = TMS
-		add_core_of = TKS
+		add_claim_by = TKS
 		add_core_of = BKH
+		add_core_of = ERS
 
 	}
 
 	provinces={
-		1649 7924 
+		7924 
 	}
 	manpower=1064523
 	buildings_max_level_factor=1.000

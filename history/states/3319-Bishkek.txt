@@ -14,7 +14,9 @@ state={
 		owner = KYR
 		add_core_of = SOV
 		add_core_of = KYR
-		add_claim_by = TKS
+		add_core_of = TKS
+		add_core_of = ALS
+		add_core_of = ZHE
 		buildings = {
 			infrastructure = 1
 		}

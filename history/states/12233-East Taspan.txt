@@ -7,8 +7,8 @@ state={
 		add_core_of = SOV
 		add_core_of = KAZ
 		add_core_of = TKS
-		add_claim_by = UZB
-		add_core_of = KYZ
+		add_core_of = UZB
+		add_core_of = SYD
 	}
 	manpower = 1000
 	state_category = pastoral

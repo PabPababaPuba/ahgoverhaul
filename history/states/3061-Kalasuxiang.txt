@@ -9,6 +9,7 @@ state={
 		add_core_of = SIK
 		add_core_of = ZGH
 		add_claim_by = UYG
+		add_core_of = KUJ
 		buildings = {
 			infrastructure = 4
 			

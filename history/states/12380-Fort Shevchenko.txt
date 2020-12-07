@@ -8,6 +8,8 @@ state={
 		add_core_of = SOV
 		add_core_of = UST
 		add_claim_by = TKS
+		add_core_of = TCP
+		add_core_of = ATU
 	}
 	manpower = 1000
 	state_category = pastoral

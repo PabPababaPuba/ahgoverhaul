@@ -6,6 +6,26 @@ on_actions = {
 	on_state_control_changed = {
 		effect = {
 			FROM.FROM = {	
+					### TKS ###
+					if = {
+						limit = {
+							ROOT = {OR = {tag = BKH tag = KOK tag = ZHE tag = KHI tag = ZHE tag = SYD tag = AMD tag = FER tag = SEM tag = TCP tag = ALS tag = MEV tag = TKS }}
+							}
+							do_turkestan_renames = yes
+					}
+					
+					### SOV TKS ###
+					if = {
+						limit = {
+							ROOT = {OR = {has_cosmetic_tag = UZB_SOV
+						                  has_cosmetic_tag = TMS_SOV
+						                  has_cosmetic_tag = KAZ_SOV
+						                  has_cosmetic_tag = KYR_SOV
+						                  has_cosmetic_tag = TAJ_SOV
+						                  has_cosmetic_tag = KPK_SOV}}
+						}
+						do_sovietturkestan_renames = yes
+					}
 
 					### AZR ###
 					if = {

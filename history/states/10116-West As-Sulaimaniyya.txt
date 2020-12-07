@@ -5,16 +5,17 @@ state={
 		19450 19451 
 	}
 	history={
-		owner = TMS
 		buildings = {
 			infrastructure = 2
 
 		}
+		owner = KYR
 		add_core_of = SOV
-		add_core_of = TMS
-		add_core_of = KAZ
+		add_core_of = KYR
+		add_core_of = KOK
 		add_core_of = TKS
-		add_core_of = UST
+		add_claim_by = UZB
+		add_core_of = FER
 
 	}
 	manpower=1

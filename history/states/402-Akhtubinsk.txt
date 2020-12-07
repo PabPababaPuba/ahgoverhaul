@@ -16,11 +16,12 @@ state={
 		add_core_of = KAZ
 		add_claim_by = TKS
 		add_core_of = ATB
+		add_core_of = ALS
 
 	}
 
 	provinces={
-		7337 7354 10164 14385 
+		7337 10164 14385 
 	}
 	manpower=142140
 	buildings_max_level_factor=1.000

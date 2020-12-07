@@ -1,0 +1,19 @@
+state={
+	id=12473
+	name="STATE_12473"
+	
+	history = {
+		owner = KAZ
+		add_core_of = SOV
+		add_core_of = KAZ
+		add_claim_by = TKS
+		add_core_of = ALS
+		add_core_of = KYZ
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		4303
+	}
+	buildings_max_level_factor=1.000
+}

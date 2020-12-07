@@ -5,12 +5,12 @@ state={
 		19449 
 	}
 	history={
-		owner = TMS
+		owner = KPK
 		add_core_of = SOV
-		add_core_of = TMS
-		add_core_of = KAZ
+		add_core_of = UZB
+		add_core_of = KPK
 		add_core_of = TKS
-		add_core_of = UST
+		add_core_of = AMD
 
 	}
 	manpower=1

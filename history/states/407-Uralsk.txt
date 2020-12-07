@@ -13,6 +13,7 @@ state={
 		add_core_of = KAZ
 		add_claim_by = TKS
 		add_core_of = ATY
+		add_core_of = ALS
 
 	}
 

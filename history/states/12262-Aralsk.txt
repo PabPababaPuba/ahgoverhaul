@@ -6,8 +6,13 @@ state={
 		owner = KAZ
 		add_core_of = SOV
 		add_core_of = KAZ
-		add_claim_by = TKS
-		add_core_of = KZY
+		add_core_of = TKS
+		add_core_of = KYZ
+		add_core_of = SYD
+		
+			victory_points = {
+			4227 5 
+		}
 	}
 	manpower = 1000
 	state_category = pastoral

@@ -8,6 +8,8 @@ state={
 		add_core_of = KAZ
 		add_core_of = SOV
 		add_claim_by = TKS
+		add_core_of = ALS
+		add_core_of = KGD
 		buildings = {
 			infrastructure = 1
 
@@ -16,7 +18,7 @@ state={
 	}
 
 	provinces={
-		1243 1382 1402 4250 4389 4492 4595 7335 10179 20630 
+		1243 1382 1402 4250 4389 4595 7335 10179 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

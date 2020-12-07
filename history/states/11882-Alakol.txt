@@ -1,17 +1,23 @@
+
 state={
 	id=11882
 	name="STATE_11882"
-	
-	history = {
+
+	history={
 		owner = KAZ
 		add_core_of = SOV
 		add_core_of = KAZ
-		add_claim_by = TKS
+		add_core_of = TKS
+		add_core_of = ALS
+		add_core_of = SMY
+		add_core_of = ZHE
+
 	}
-	manpower = 1000
-	state_category = pastoral
+
 	provinces={
-		7784 10680 20636 
+		10680 
 	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

@@ -7,7 +7,10 @@ state={
 		owner = TMS
 		add_core_of = SOV
 		add_core_of = TMS
-		add_core_of = TKS
+		add_core_of = TCP
+		add_claim_by = TKS
+		add_core_of = MEV
+		add_core_of = TKE
 		buildings = {
 			infrastructure = 4
 
@@ -16,7 +19,7 @@ state={
 	}
 
 	provinces={
-		7560 10357 
+		10357 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

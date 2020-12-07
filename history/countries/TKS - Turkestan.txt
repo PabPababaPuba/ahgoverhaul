@@ -1,4 +1,4 @@
-﻿capital = 405
+﻿capital = 11838
 
 oob = "TKS_1936"
 
@@ -79,5 +79,16 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Josef Dietrich"
+	desc = ""
+	picture = "TKS_Sepp_Dietrich.tga"
+	expire = "1960.1.1"
+	ideology = natsoc
+	traits = {
+		#
 	}
 }

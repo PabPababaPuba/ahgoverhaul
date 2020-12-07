@@ -4,11 +4,11 @@ state={
 	name="STATE_5904"
 
 	history={
-		owner = KAZ
+		owner = UZB
 		add_core_of = SOV
-		add_core_of = KAZ
+		add_core_of = UZB
+		add_core_of = BKH
 		add_claim_by = TKS
-		add_core_of = UST
 
 	}
 

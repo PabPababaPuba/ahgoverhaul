@@ -5,7 +5,7 @@ state={
 		15920 
 	}
 	history={
-		owner = UZB
+		owner = TAJ
 		buildings = {
 			infrastructure = 3
 
@@ -15,6 +15,7 @@ state={
 		add_core_of = SOV
 		add_core_of = KOK
 		add_core_of = TKS
+		add_core_of = FER
 
 	}
 	manpower=1000

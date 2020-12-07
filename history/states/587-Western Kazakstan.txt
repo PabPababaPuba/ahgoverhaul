@@ -11,15 +11,18 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = KAZ
-		add_claim_by = TKS
+		add_core_of = TCP
 		add_core_of = UST
+		add_claim_by = TKS
+		add_core_of = ATU
 		victory_points = {
 			11701 1 
 		}
+
 	}
 
 	provinces={
-		1517 4523 4620 7641 11701 16386 
+		4620 11701 
 	}
 	manpower=245133
 	buildings_max_level_factor=1.000

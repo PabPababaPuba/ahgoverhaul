@@ -13,11 +13,12 @@ state={
 		add_core_of = SOV
 		add_core_of = UZB
 		add_core_of = TKS
+		add_core_of = SYD
 
 	}
 
 	provinces={
-		1532 10420 
+		10420 
 	}
 	manpower=1013721
 	buildings_max_level_factor=1.000

@@ -1,0 +1,20 @@
+state={
+	id=12386
+	name="STATE_12386"
+	
+	history = {
+		owner = KAZ
+		add_core_of = SOV
+		add_core_of = KAZ
+		add_core_of = TCP
+		add_core_of = UST
+		add_claim_by = TKS
+		add_core_of = ATU
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		16386
+	}
+	buildings_max_level_factor=1.000
+}

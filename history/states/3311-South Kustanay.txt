@@ -16,6 +16,7 @@ state={
 		add_core_of = KAZ
 		add_claim_by = TKS
 		add_core_of = ATB
+		add_core_of = ALS
 		buildings = {
 			infrastructure = 1
 		}
