@@ -49,7 +49,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Gallacher"
+	name = "Willie Gallacher"
 	desc = ""
 	picture = "SCO_Gallacher.tga"
 	expire = "1965.1.1"
@@ -62,7 +62,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "James Maxton"
 	desc = ""
-	picture = "Portrait_James_Maxton.dds"
+	picture = "ENG_Maxton.tga"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -71,7 +71,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Emanuel Shinwell"
+	name = "Manny Shinwell"
 	desc = ""
 	picture = "SCO_Shinwell.tga"
 	expire = "1965.1.1"
@@ -84,7 +84,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Elizabeth II of Windsor"
 	desc = ""
-	picture = "Portrait_Princess_Elizabeth.dds"
+	picture = "ENG_ElizabethII.tga"
 	expire = "1965.1.1"
 	ideology = monsoc
 	traits = {
@@ -117,7 +117,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George VI of Windsor"
 	desc = ""
-	picture = "Portrait_Prince_Albert.tga"
+	picture = "ENG_GeorgeVI.tga"
 	expire = "1965.1.1"
 	ideology = liberal_constitutionalism
 	traits = {
@@ -137,7 +137,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John MacDonald MacCormick"
+	name = "John MacCormick"
 	desc = ""
 	picture = "SCO_Cormick.tga"
 	expire = "1965.1.1"
@@ -150,7 +150,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Edward VIII of Windsor"
 	desc = ""
-	picture = "Portrait_Prince_David.dds"
+	picture = "ENG_EdwardVIII.tga"
 	expire = "1965.1.1"
 	ideology = cenmon
 	traits = {
@@ -181,9 +181,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Prince Henry of Windsor"
+	name = "Henry IX of Windsor"
 	desc = ""
-	picture = "Portrait_Prince_Henry.dds"
+	picture = "ENG_HenryIX.tga"
 	expire = "1965.1.1"
 	ideology = stratmon
 	traits = {
