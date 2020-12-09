@@ -15,6 +15,7 @@ state={
         add_core_of = TRK
 		add_core_of = CSS
 		add_core_of = ING
+		add_core_of = GLD
 
 	}
 	manpower=1000 

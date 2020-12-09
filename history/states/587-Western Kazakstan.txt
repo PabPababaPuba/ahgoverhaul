@@ -15,6 +15,7 @@ state={
 		add_core_of = UST
 		add_claim_by = TKS
 		add_core_of = ATU
+		add_core_of = GLD
 		victory_points = {
 			11701 1 
 		}

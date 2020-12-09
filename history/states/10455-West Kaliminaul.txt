@@ -15,6 +15,7 @@ state={
 		add_core_of = CCS
         add_core_of = TRK
 		add_core_of = KBK
+		add_core_of = GLD
 
 	}
 	manpower = 1000

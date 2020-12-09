@@ -12,6 +12,7 @@ state={
 		add_core_of = CCS
         add_core_of = TRK
 		add_core_of = OSS
+		add_core_of = GLD
 
 	victory_points = {
 		17405 5

@@ -12,6 +12,7 @@ state={
 		add_core_of = KHI
 		add_claim_by = TKS
 		add_core_of = KHW
+		add_core_of = GLD
 
 	}
 	manpower=1

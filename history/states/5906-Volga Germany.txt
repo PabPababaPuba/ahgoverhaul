@@ -8,6 +8,7 @@ state={
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = VGR
+		add_core_of = GLD
 
 		victory_points = {
 			11523 3 

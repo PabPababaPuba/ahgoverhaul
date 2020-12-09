@@ -15,6 +15,7 @@ state={
 		add_core_of = KUB
 		add_core_of = CSS
 		add_core_of = CHR
+		add_core_of = GLD
 
 	victory_points = {
 		9674 5

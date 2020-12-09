@@ -15,6 +15,7 @@ state={
 		add_core_of = CSS
 		add_core_of = NOS
 		add_core_of = OSS
+		add_core_of = GLD
 
 	}
 	
