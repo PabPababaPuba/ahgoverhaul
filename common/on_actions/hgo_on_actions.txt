@@ -1889,6 +1889,9 @@ on_actions = {
 			}
 		IDS = {
 			annex_country { target = INS }
+			set_politics = {
+				ruling_party = neutrality
+				}
 			}
 		MAL = {
 			annex_country = { target = FMS }

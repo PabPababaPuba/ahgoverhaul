@@ -1694,6 +1694,9 @@ country_event = { #Decolonize Southeast Asia
 				hidden_effect = {
 		IDS = {
 			annex_country { target = INS }
+			set_politics = {
+				ruling_party = neutrality
+				}
 			}
 			335 = {
 				owner = {
