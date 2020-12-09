@@ -35,6 +35,14 @@ on_actions = {
 						do_azerbaijani_renames = yes
 					}
 
+					### VIN ###
+					if = {
+						limit = {
+							ROOT = {tag = VIN}
+						}
+						do_vietnamese_renames = yes
+					}
+
 					### KUR ###
 					if = {
 						limit = {

@@ -101,6 +101,40 @@ do_french_renames = {
 
 	if = {
 		limit = {
+			state = 670
+		}		
+		set_province_name = {
+			id = 1563
+			name = "Paksé"
+		}
+		set_province_name = {
+			id = 1464
+			name = "Vientiane"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 5854
+		}		
+		set_province_name = {
+			id = 4302
+			name = "Siem Reap"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 9024
+		}		
+		set_province_name = {
+			id = 7376
+			name = "Phnom Penh"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 5969
 		}		
 		set_province_name = {
@@ -12840,7 +12874,134 @@ do_siamese_renames = {
 	}
 }
 
+do_vietnamese_renames = {
+
+	if = {
+		limit = {
+			state = 3101
+		}		
+		set_province_name = {
+			id = 7236
+			name = "Hat Mai"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 289
+		}		
+		set_province_name = {
+			id = 7408
+			name = "Xin chúc mừng Mahanakorn"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1062
+		}		
+		set_province_name = {
+			id = 10438
+			name = "Nakhon Ratchasima"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1060
+		}		
+		set_province_name = {
+			id = 1488
+			name = "Chiang Mai"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 671
+		}		
+		set_province_name = {
+			id = 4075
+			name = "Kanai"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 670
+		}		
+		set_province_name = {
+			id = 1563
+			name = "Pắc Xế"
+		}	
+		set_province_name = {
+			id = 1464
+			name = "Vạn Tượng"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 5854
+		}		
+		set_province_name = {
+			id = 4302
+			name = "Xiêm Riệp"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 9024
+		}		
+		set_province_name = {
+			id = 7376
+			name = "Kim Biên"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 286
+		}		
+		set_province_name = {
+			id = 10137
+			name = "Đà Nẵng"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 671
+		}		
+		set_province_name = {
+			id = 4075
+			name = "Hà Nội"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1067
+		}		
+		set_province_name = {
+			id = 4401
+			name = "Sài Gòn"
+		}
+	}
+}
+
 do_pinyin_renames = {
+
+	if = {
+		limit = {
+			state = 286
+		}		
+		set_province_name = {
+			id = 10137
+			name = "Tuó Nǎng"
+		}
+	}
 
 	if = {
 		limit = {
