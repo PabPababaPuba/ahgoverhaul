@@ -10,7 +10,7 @@ state={
 		add_core_of = SWI
 		add_core_of = KBS
 		victory_points = {
-			15930 25 
+			15930 5 
 		}
 	}
 	provinces={

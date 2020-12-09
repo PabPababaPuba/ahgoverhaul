@@ -9,7 +9,7 @@ state={
 	history={
 		owner = TSC
 		victory_points = {
-			7661 1 
+			7661 25
 		}
 		buildings = {
 			infrastructure = 4

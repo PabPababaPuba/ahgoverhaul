@@ -10,7 +10,7 @@ state={
         add_core_of = ASY
         add_core_of = KUR
 				victory_points = {
-			4512 5
+			4512 15
 		}
     }
 	manpower = 1000

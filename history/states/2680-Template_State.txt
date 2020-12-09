@@ -9,7 +9,7 @@ state={
 		add_claim_by = SDT
 
 	victory_points = {
-		14162 5
+		14162 25
 	}
 		buildings = {
 			infrastructure = 4

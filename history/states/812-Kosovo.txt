@@ -8,7 +8,7 @@ state={
 		add_core_of = SER
 		add_core_of = KOS
 		victory_points = {
-			13270 25 
+			13270 10 
 		}
 	}
 	provinces={
