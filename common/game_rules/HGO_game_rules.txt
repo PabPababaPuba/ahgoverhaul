@@ -77,7 +77,7 @@ HGO_unite_china = {
 	group = "RULE_GROUP_HGO_SETTINGS"
 	default = {
 		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
+		text = "Warlord China (Default)"
 		desc = "China will be full of Warlord States as it is by default."
 	}
 	option = {
