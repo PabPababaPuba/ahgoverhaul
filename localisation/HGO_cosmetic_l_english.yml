@@ -6797,12 +6797,12 @@
  ADMIN_HOL_DEF:0 "the Dutch Administration of $NONIDEOLOGY$"
  ADMIN_HOL_ADJ:0 "Dutch"
 
- CORPR:0 "$OVERLORDADJ$ Corperation of $NONIDEOLOGY$"
- CORPR_DEF:0 "the $OVERLORDADJ$ Corperation of $NONIDEOLOGY$"
+ CORPR:0 "$OVERLORDADJ$ Corporation of $NONIDEOLOGY$"
+ CORPR_DEF:0 "the $OVERLORDADJ$ Corporation of $NONIDEOLOGY$"
  CORPR_ADJ:0 "$OVERLORDADJ$"
 
- CORPR_HOL:0 "Dutch Corperation of $NONIDEOLOGY$"
- CORPR_HOL_DEF:0 "the Dutch Corperation of $NONIDEOLOGY$"
+ CORPR_HOL:0 "Dutch Corporation of $NONIDEOLOGY$"
+ CORPR_HOL_DEF:0 "the Dutch Corporation of $NONIDEOLOGY$"
  CORPR_HOL_ADJ:0 "Dutch"
 
  EMPIRE:0 "Empire of $NONIDEOLOGY$"
@@ -6871,8 +6871,8 @@
  CLIPHT:0 "Caliphate of $NONIDEOLOGY$"
  CLIPHT_DEF:0 "the Caliphate of $NONIDEOLOGY$"
 
- SULTIN:0 "Sultinate of $NONIDEOLOGY$"
- SULTIN_DEF:0 "the Sultinate of $NONIDEOLOGY$"
+ SULTAN:0 "Sultanate of $NONIDEOLOGY$"
+ SULTAN_DEF:0 "the Sultanate of $NONIDEOLOGY$"
 
  EMIRAT:0 "Emirate of $NONIDEOLOGY$"
  EMIRAT_DEF:0 "the Emirate of $NONIDEOLOGY$"
@@ -7004,15 +7004,15 @@
  KUR_FRA_DEF:0 "The French Protectorate of Kurdistan"
  KUR_FRA_ADJ:0 "Franco-Kurdish"
 
- TUR_ENG_INFSPH:0 "British Influence on Turkey"
+ TUR_ENG_INFSPH:0 "British Influence in Turkey"
  TUR_ENG_INFSPH_DEF:0 "British Influence on Turkey"
  TUR_ENG_INFSPH_ADJ:0 "British Influenced Turks"
 
- TUR_FRA_INFSPH:0 "French Influence on Turkey"
+ TUR_FRA_INFSPH:0 "French Influence in Turkey"
  TUR_FRA_INFSPH_DEF:0 "French Influence on Turkey"
  TUR_FRA_INFSPH_ADJ:0 "French Influenced Turks"
 
- TUR_ITA_INFSPH:0 "Italian Influence on Turkey"
+ TUR_ITA_INFSPH:0 "Italian Influence in Turkey"
  TUR_ITA_INFSPH_DEF:0 "Italian Influence on Turkey"
  TUR_ITA_INFSPH_ADJ:0 "Italian Influenced Turks"
 
@@ -7020,8 +7020,8 @@
  HTY_FRA_DEF:0 "French Zone of Hatay"
  HTY_FRA_ADJ:0 "French-Hataian"
 
- PISS_TUR_ITA:0 "Italian Zone of Antalyia"
- PISS_TUR_ITA_DEF:0 "Italian Zone of Antalyia"
+ PISS_TUR_ITA:0 "Italian Zone of Antalya"
+ PISS_TUR_ITA_DEF:0 "Italian Zone of Adalia"
  PISS_TUR_ITA_ADJ:0 "Italian-Turk"
 
  TUR_GRE:0 "Greek Zone of Izmir"
