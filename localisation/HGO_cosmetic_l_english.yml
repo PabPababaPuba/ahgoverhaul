@@ -7246,3 +7246,7 @@ DUM_NAT_DEF:0 "the $NONIDEOLOGY$ Native Resevation"
 
 DUM_TRA:0 "$NONIDEOLOGYADJ$ Transitional Government"
 DUM_TRA_DEF:0 "the $NONIDEOLOGYADJ$ Transitional Government"
+
+COL_ENG_USA:0 "Anglo-American Condominium of Columbia"
+COL_ENG_USA_DEF:0 "the Anglo-American Condominium of Columbia"
+COL_ENG_USA_ADJ:0 "Columbian"
