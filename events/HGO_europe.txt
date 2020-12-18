@@ -12,7 +12,7 @@ country_event = { #1914 Europe
 		name = "sure"
 		ai_chance = {
 			factor = 0
-		}
+			}
 				hidden_effect = {
 		set_province_name = { id = 3151 name = "Sankt-Peterburg"}
 		195 = { set_state_name = Sankt-Peterburg }
@@ -202,6 +202,7 @@ country_event = { #1914 Europe
 			}
 		GRE = {
 			transfer_state = 3403
+			}
 		}
 	}	
 	option = { #reject
