@@ -1199,7 +1199,7 @@ EHC_JAP = {
 	color_ui = rgb { 165 69 117 }
 }
 HUN_EMPIRE = {
-	color = rgb { 194 198 215 }
+	color = rgb { 200 200 200 }
 	color_ui = rgb { 255 255 255 }
 }
 AUS_NOT_WHITE = {	
