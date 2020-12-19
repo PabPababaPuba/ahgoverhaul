@@ -4919,6 +4919,9 @@
  NMB_monarchism:0 "Kingdom of Namibia"
  NMB_monarchism_DEF:0 "The Kingdom of Namibia"
  NMB_monarchism_ADJ:0 "Namibian"
+ NMB_national_socialism:0 "Reichskolonie Südwestafrika"
+ NMB_national_socialism_DEF:0 "das Reichskolonie Südwestafrika"
+ NMB_national_socialism_ADJ:0 "Südwestafrikisch"
  
  NMB_ENG_fascism:0 "Mandate of South West Africa"
  NMB_ENG_fascism_DEF:0 "The Mandate of South West Africa"
@@ -5423,6 +5426,9 @@
  CMR_monarchism:0 "Kingdom of Cameroon"
  CMR_monarchism_DEF:0 "The Kingdom of Cameroon"
  CMR_monarchism_ADJ:0 "Cameroonian"
+ CMR_national_socialism:0 "Reichskolonie Kamerun"
+ CMR_national_socialism_DEF:0 "das Reichskolonie Kamerun"
+ CMR_national_socialism_ADJ:0 "Kamerunisch"
  
  CMR_FRA_fascism:0 "Mandate of Cameroun"
  CMR_FRA_fascism_DEF:0 "The Mandate of Cameroun"
@@ -7777,6 +7783,9 @@
  TZN_monarchism:0 "Kingdom of Tanganyika"
  TZN_monarchism_DEF:0 "The Kingdom of Tanganyika"
  TZN_monarchism_ADJ:0 "Tanzanian"
+ TZN_national_socialism:0 "Reichskolonie Ostafrika"
+ TZN_national_socialism_DEF:0 "das Reichskolonie Ostafrika"
+ TZN_national_socialism_ADJ:0 "Ostafrikanisch"
  
  TZN_ENG_communism:0 "Communist Tanganyika"
  TZN_ENG_communism_DEF:0 "The Communist Tanganyika"
@@ -8562,6 +8571,9 @@
  SAM_monarchism:0 "Kingdom of Samoa"
  SAM_monarchism_DEF:0 "The Kingdom of Samoa"
  SAM_monarchism_ADJ:0 "Samoan"
+ SAM_national_socialism:0 "Reichsprotektorat Samoa"
+ SAM_national_socialism_DEF:0 "das Reichsprotektorat Samoa"
+ SAM_national_socialism_ADJ:0 "Samoisch"
  
  SAM_NZL_communism:0 "Western Samoa Mandate"
  SAM_NZL_communism_DEF:0 "The Western Samoa Mandate"
@@ -9223,6 +9235,9 @@
  TOG_monarchism:0 "Kingdom of Togo"
  TOG_monarchism_DEF:0 "The Kingdom of Togo"
  TOG_monarchism_ADJ:0 "Togolese"
+ TOG_national_socialism:0 "Reichsprotektorat Togo"
+ TOG_national_socialism_DEF:0 "das Reichsprotektorat Togo"
+ TOG_national_socialism_ADJ:0 "Togoisch"
  
  TOG_FRA_fascism:1 "French Mandate of Togoland"
  TOG_FRA_fascism_DEF:1 "French Mandate of Togoland"
@@ -9689,6 +9704,9 @@
  NGU_monarchism:0 "Kingdom of New Guinea"
  NGU_monarchism_DEF:0 "The Kingdom of New Guinea"
  NGU_monarchism_ADJ:0 "New Guinean"
+ NGU_national_socialism:0 "Reichskolonie Neuguinea"
+ NGU_national_socialism_DEF:0 "das Reichskolonie Neuguinea"
+ NGU_national_socialism_ADJ:0 "Neuguinisch"
  
  NGU_AST_democratic:0 "Territory of New Guinea"
  NGU_AST_democratic_DEF:0 "The Territory of New Guinea"
