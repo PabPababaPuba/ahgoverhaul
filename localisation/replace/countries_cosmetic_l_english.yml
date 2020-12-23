@@ -222,7 +222,7 @@
  HUN_EMPIRE_democratic_DEF:0 "The Union of Austria-Hungary-Croatia"
  HUN_EMPIRE_vanguardism_DEF:0 "The Danubian Soviet Federative Socialist Republic"
  HUN_EMPIRE_communism_DEF:0 "The Association of Autonomous States"
- HUN_EMPIRE_democratic_monarchism DEF:0 "The Danubian Confederation"
+ HUN_EMPIRE_democratic_monarchism_DEF:0 "The Danubian Confederation"
  HUN_EMPIRE_conservative_monarchism_DEF:0 "The Austro-Hungarian Empire"
  HUN_EMPIRE_authoritarian_monarchism_DEF:0 "Austria-Hungary"
  HUN_EMPIRE_monarchism_DEF:0 "The Austro-Hungarian Empire"

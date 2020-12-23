@@ -19,6 +19,7 @@ state={
 		add_core_of = CSA
 		add_core_of = GRG
 		add_core_of = NAF
+		add_core_of = CKC
 		victory_points = {
 			11975 2
 		}

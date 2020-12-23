@@ -16,6 +16,7 @@ state={
 		add_core_of = YEM
 		add_core_of = ADN
 		add_core_of = ADH
+		add_core_of = WDN
 
 	}
 
