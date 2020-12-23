@@ -18,6 +18,7 @@ state={
 		add_claim_by = TKS
 		add_core_of = ATY
 		add_core_of = GLD
+		add_core_of = ALS
 	}
 	buildings_max_level_factor=1.000
 }

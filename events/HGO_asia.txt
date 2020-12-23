@@ -433,6 +433,7 @@ country_event = { #2020 Asia
 			transfer_state = 10742
 			transfer_state = 10743
 			transfer_state = 10744
+			transfer_state = 10778
 			transfer_state = 12031
 			transfer_state = 12034
 			transfer_state = 12381
@@ -631,7 +632,8 @@ country_event = { #2020 Asia
 				limit = {
 					is_core_of = TMS
 					NOT = {
-						is_claimed_by = TKS
+						is_claimed_by = KAZ
+						is_claimed_by = KPK
 						}
 					}
 				TMS = {
@@ -684,6 +686,10 @@ country_event = { #2020 Asia
 			transfer_state = 9249
 			transfer_state = 12224
 			transfer_state = 12250
+			transfer_state = 10132
+			transfer_state = 12375
+			transfer_state = 12376
+			transfer_state = 12377
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
@@ -747,6 +753,7 @@ country_event = { #2020 Asia
 					NOT = {
 						is_core_of = PAK
 						is_core_of = NEP
+						is_owned_by = PRC
 						}
 					}
 				IND = {

@@ -4,12 +4,22 @@ oob = "AZR_1936"
 set_cosmetic_tag = BSH_SOV
 
 	set_popularities = {
-		democratic 
-			 = 0
-		communism
-			 = 0
-		neutrality
-			 = 100
+		neutrality = 0
+        monarchism = 0
+        democratic = 0
+        liberal_republic = 0
+        communism = 15
+        vanguardism = 80
+        fascism = 0
+        anarchism_ideology = 0
+        socialism_ideology = 5
+        democratic_monarchism = 0
+        conservative_monarchism = 0
+        stratocratic = 0
+        authoritarian_monarchism = 0
+        republican_fascism = 0
+        national_socialism = 0
+        theocratic = 0
 		}
 	set_politics = { 
  ruling_party = vanguardism
