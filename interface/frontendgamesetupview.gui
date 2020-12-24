@@ -1711,7 +1711,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x = 30 y = 10300 }
+			position = {x = 30 y = 103 }
 			name = "ironman_text"
 			font = "hoi_24header"
 			maxWidth = 370
