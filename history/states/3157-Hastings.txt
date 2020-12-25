@@ -7,7 +7,7 @@ state={
 		add_core_of = NZL
 		add_core_of = NNZ
 		victory_points = {
-			4804 1 
+			1801 1 
 		}
 		buildings = {
 			infrastructure = 4
@@ -15,7 +15,7 @@ state={
 		}
 	}
 	provinces={
-		1801 4804 7692 7826 
+		1801
 	}
 	manpower=1000 
  state_category = small_island

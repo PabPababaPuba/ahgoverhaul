@@ -16,12 +16,6 @@ state={
 			air_base = 1
 		}
 		victory_points = {
-			2197 1 
-		}
-		victory_points = {
-			2211 1 
-		}
-		victory_points = {
 			8204 1
 		}
 
@@ -29,6 +23,6 @@ state={
 		add_core_of = SNZ
 	}
 	provinces={
-		8204 10650 
+		8204 
 	}
 }

@@ -24,14 +24,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Jack Emmerton"
-	desc = ""
-	picture = "RamRanch.dds"
-	expire = "1965.1.1"
-	ideology = ancap
-	traits = {
-		disdain_for_politicians_2
-	}
-}

@@ -1,21 +1,18 @@
 state={
-	id=3158
-	name="STATE_3158"
+	id=12479
+	name="STATE_12479"
 	history={
 		
 		owner = NZL 
 		add_core_of = NZL
-		add_core_of = NNZ
-		victory_points = {
-			1814 20
-		}
+		add_core_of = SNZ
 		buildings = {
 			infrastructure = 4
 			
 		}
 	}
 	provinces={
-		1814 
+		12974 12980 
 	}
 	manpower=1000 
  state_category = small_island
