@@ -30,9 +30,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V of Windsor"
+	name = "Ernest Augustus III of Hanover"
 	desc = ""
-	picture = "ENG_GeorgeV.tga"
+	picture = "HAN_Ernest.tga"
 	expire = "1965.1.1"
 	ideology = absolutism
 	traits = {
@@ -41,9 +41,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Robert I of Wittelsbach"
+	name = "Edward VIII of Windsor"
 	desc = ""
-	picture = "BAV_Rupprecht.tga"
+	picture = "Portrait_Prince_David.dds"
 	expire = "1965.1.1"
 	ideology = authmon
 	traits = {
@@ -52,9 +52,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Archibald Maule Ramsay"
+	name = "Gerard Vernon Wallop"
 	desc = ""
-	picture = "ENG_Ramsay.tga"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
@@ -74,9 +74,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jock Haston"
+	name = "Philip Snowden"
 	desc = ""
-	picture = "ENG_Haston.tga"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -84,9 +84,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George Lansbury"
+	name = "Clement Richard Attlee"
 	desc = ""
-	picture = "ENG_Lansbury.tga"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = demsoc
 	traits = {
@@ -96,7 +96,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Elizabeth II of Windsor"
 	desc = ""
-	picture = "ENG_ElizabethII.tga"
+	picture = "Portrait_Princess_Elizabeth.dds"
 	expire = "1965.1.1"
 	ideology = monsoc
 	traits = {
@@ -104,19 +104,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James Maxton"
+	name = "Arthur Neville Chamberlain"
 	desc = ""
-	picture = "ENG_Maxton.tga"
-	expire = "1965.1.1"
-	ideology = socdem
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = ""
-	picture = "ENG_Baldwin.tga"
+	picture = "Portrait_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -126,7 +116,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George VI of Windsor"
 	desc = ""
-	picture = "ENG_GeorgeVI.tga"
+	picture = "Portrait_Prince_Albert.tga"
 	expire = "1965.1.1"
 	ideology = liberal_constitutionalism
 	traits = {
@@ -134,9 +124,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Archibald Sinclair"
+	name = "Sir Winston Leonard Spencer Churchill"
 	desc = ""
-	picture = "ENG_Sinclair.tga"
+	picture = "Portrait_Winston_Churchill.dds"
 	expire = "1965.1.1"
 	ideology = cenrep
 	traits = {
@@ -144,9 +134,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward VIII of Windsor"
+	name = "George VI of Windsor"	
 	desc = ""
-	picture = "ENG_EdwardVIII.tga"
+	picture = "Portrait_Prince_George.dds"
 	expire = "1965.1.1"
 	ideology = cenmon
 	traits = {
@@ -154,9 +144,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Archibald Montgomery-Massingberd"
+	name = "Frederick Rudolph Lambart"
 	desc = ""
-	picture = "ENG_Montgomery.tga"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = militarism
 	traits = {
@@ -164,9 +154,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Henry IX of Windsor"
+	name = "Prince Henry of Windsor"
 	desc = ""
-	picture = "ENG_HenryIX.tga"
+	picture = "Portrait_Prince_Henry.dds"
 	expire = "1965.1.1"
 	ideology = stratmon
 	traits = {
@@ -174,9 +164,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Cosmo Gordon Lang"
+	name = "George V of Windsor"
 	desc = ""
-	picture = "ENG_Lang.tga"
+	picture = "ENG_GeorgeV.tga"
 	expire = "1965.1.1"
 	ideology = christian
 	traits = {
@@ -186,7 +176,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Edward VIII of Windsor"
 	desc = ""
-	picture = "ENG_EdwardVIII.tga"
+	picture = "Portrait_Prince_David.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -196,7 +186,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Sir Oswald Ernald Mosley"
 	desc = ""
-	picture = "ENG_Mosley.tga"
+	picture = "Portrait_Oswald_Mosley.dds"
 	expire = "1965.1.1"
 	ideology = repfash
 	traits = {
@@ -204,9 +194,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Arnold Leese"
+	name = "Franz Alfred Six"
 	desc = ""
-	picture = "ENG_Leese.tga"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = natsoc
 	traits = {
@@ -239,6 +229,16 @@ create_country_leader = {
 	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
 	expire = "1965.1.1"
 	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Hugh Todd Naylor Gaitskell"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = socdem
 	traits = {
 	}
 }
