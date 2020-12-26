@@ -119,6 +119,7 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
 	name = "Luijs I no Talleyrandist-Perigord"
 	desc = ""
 	picture = "Portrait_Luijs_I_no_Talleyrandist-Perigord.tga"
