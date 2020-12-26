@@ -207,7 +207,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Antanas Smetona
+	name = "Antanas Smetona"
 	desc = ""
 	picture = "Portrait_lithuania_antanas_smetona.dds"
 	expire = "1965.1.1"
