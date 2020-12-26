@@ -611,8 +611,8 @@
  BYZA_fascism_DEF:0 "The Byzantine Empire"
  BYZA_democratic_DEF:0 "The East-Roman Republic"
  BYZA_communism_DEF:0 "The Byzantine Commune"
- BYZA_monarchism:0 "Byzantine Empire
- BYZA_monarchism_DEF:0 "The Byzantine Empire""
+ BYZA_monarchism:0 "Byzantine Empire"
+ BYZA_monarchism_DEF:0 "The Byzantine Empire"
  BYZA:0 "Byzantium"
  BYZA_DEF:0 "Byzantium"
  
