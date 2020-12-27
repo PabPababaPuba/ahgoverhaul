@@ -59,6 +59,14 @@ create_country_leader = {
 	}
 }
 
-
+create_country_leader = {
+	name = "Adolf Hitler Uunona"
+	desc = ""
+	picture = "Namibian_Hitler.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
 
 

@@ -2171,6 +2171,9 @@
  KTG_communism_party:0 "OKA"
  KTG_communism_party_long:0 "Ostatok Krasnaya Armiya"
 
+ NMB_socialism_ideology_party:0 "SWAPO"
+ NMB_socialism_ideology_party_long:0 "South West Africa People’s Organisation"
+
  KV2_national_socialism_party:0 "KG"
  KV2_national_socialism_party_long:0 "Kampfgruppe Göring"
 

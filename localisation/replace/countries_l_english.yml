@@ -4926,6 +4926,9 @@
  NMB_national_socialism:0 "Reichskolonie Südwestafrika"
  NMB_national_socialism_DEF:0 "das Reichskolonie Südwestafrika"
  NMB_national_socialism_ADJ:0 "Südwestafrikisch"
+ NMB_socialism_ideology:0 "Socialist Republic of Namibia"
+ NMB_socialism_ideology_DEF:0 "The Socialist Republic of Namibia"
+ NMB_socialism_ideology_ADJ:0 "Namibian"
  
  NMB_ENG_fascism:0 "Mandate of South West Africa"
  NMB_ENG_fascism_DEF:0 "The Mandate of South West Africa"
