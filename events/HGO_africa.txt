@@ -570,7 +570,7 @@ country_event = { 2020 Africa
 		NMB = {
 			drop_cosmetic_tag = yes
 			set_politics = {
-				ruling_party = liberal_republic
+				ruling_party = socialism_ideology
 				}
 			}
 		SAF = {
