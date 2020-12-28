@@ -1,0 +1,18 @@
+state={
+	id=11172
+	name="STATE_11172"
+	
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = URL
+		add_core_of = MGN
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		10196 10224 4215
+	}
+	buildings_max_level_factor=1.000
+}

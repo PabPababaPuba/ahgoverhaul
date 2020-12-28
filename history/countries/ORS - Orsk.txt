@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 11172
 
 oob = "ORS_1936"
 
@@ -81,3 +81,24 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+create_country_leader = {
+	name = "Oskar Paul Dirlewanger"
+	desc = ""
+	picture = "ORS_Dirlewanger.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oskar Paul Dirlewanger"
+	desc = ""
+	picture = "ORS_Dirlewanger.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+

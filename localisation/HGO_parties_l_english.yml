@@ -2206,3 +2206,8 @@
  
  TKS_national_socialism_party:0 "SS"
  TKS_national_socialism_party_long:0 "Schutzstaffel"
+
+ ORS_national_socialism_party:0 "SS"
+ ORS_national_socialism_party_long:0 "Schutzstaffel-Sturmbrigade Dirlewanger"
+ ORS_stratocratic_monarchism_party:0 "SS"
+ ORS_stratocratic_monarchism_party_long:0 "Schutzstaffel-Sturmbrigade Dirlewanger"
