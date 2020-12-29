@@ -650,7 +650,7 @@
  STATE_649:0 "Isla Isabela"
  STATE_650:0 "Attu Island"
  STATE_651:0 "Ufa"
- STATE_652:0 "Orenburg"
+ STATE_652:0 "Southern Orenburg"
  STATE_653:0 "Sverdlovsk"
  STATE_654:0 "Gorno-Altaysk"
  STATE_655:0 "North Sakhalin"
@@ -12487,3 +12487,4 @@
  STATE_12488:0 "Dannevirke"
  STATE_12489:0 "Porangahau"
  STATE_12490:0 "Markerwaard"
+ STATE_12491:0 "Orenburg"
