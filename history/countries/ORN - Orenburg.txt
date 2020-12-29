@@ -1,5 +1,5 @@
 ﻿capital = 12491
-oob = "AZR_1936"
+oob = "ORN_1936"
 
 
 	set_popularities = {
