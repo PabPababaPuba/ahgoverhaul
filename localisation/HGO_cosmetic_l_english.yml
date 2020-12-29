@@ -7048,6 +7048,10 @@
  PICT_DEF:0 "Pictland"
  PICT_ADJ:0 "Pictish" 
 
+ SCOT:0 "Kingdom of Scotland"
+ SCOT_DEF:0 "The Kingdom of Scotland"
+ SCOT_ADJ:0 "Scottish"
+
  ##2020 Loc
 
  BRA_2020_anarchism_ideology:0 "Free Territories of Brazil"

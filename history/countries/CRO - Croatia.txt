@@ -33,7 +33,7 @@ set_convoys = 5
 			 = 10
 		}
 	set_politics = { 
- ruling_party = neutrality
+ ruling_party = democratic_monarchism
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no # none after offset 1
@@ -41,12 +41,11 @@ set_convoys = 5
 
 
 create_country_leader = {
-	name = "Ante Pavelic"
-	desc = "ANTE_PAVELIC_DESC"
-	picture = "Portrait_Croatia_Ante_Pavelic.dds"
+	name = "Ante Pavelić"
+	desc = ""
+	picture = "yug_pavelic.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = natsoc
 	traits = {
-		#
 	}
 }

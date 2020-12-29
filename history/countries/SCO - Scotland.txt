@@ -3,7 +3,7 @@
 oob = "SCO_1936"
 
 set_popularities = {
-	democratic 
+	conservative_monarchism 
 		= 85
 	fascism
 		= 10
@@ -12,7 +12,7 @@ set_popularities = {
 }
 
 set_politics = { 
-	ruling_party = democratic
+	ruling_party = conservative_monarchism
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = no
@@ -115,9 +115,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George VI of Windsor"
+	name = "Edward VIII of Windsor"
 	desc = ""
-	picture = "Portrait_Prince_Albert.tga"
+	picture = "Portrait_Prince_David.dds"
 	expire = "1965.1.1"
 	ideology = liberal_constitutionalism
 	traits = {
@@ -148,9 +148,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward VIII of Windsor"
+	name = "George VI of Windsor"
 	desc = ""
-	picture = "Portrait_Prince_David.dds"
+	picture = "Portrait_Prince_Albert.tga"
 	expire = "1965.1.1"
 	ideology = cenmon
 	traits = {
@@ -246,3 +246,12 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "General Assembly of the Church of Scotland"
+	desc = ""
+	picture = "SCO_Church.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
