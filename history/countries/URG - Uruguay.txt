@@ -18,17 +18,11 @@ set_convoys = 5
 
 
 	set_popularities = {
-		neutrality
-			 = 56
-		democratic
-			 = 37
-		communism
-			 = 2
-		socialism_ideology
-			 = 2
-		liberal_republic
-			 = 2
-			
+        neutrality = 56
+        democratic = 37
+        liberal_republic = 3
+        communism = 2
+        socialism_ideology = 2
 		}
 	set_politics = { 
  ruling_party = neutrality
