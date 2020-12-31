@@ -2114,6 +2114,10 @@ DAG_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
+MTN_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
 ABK_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
