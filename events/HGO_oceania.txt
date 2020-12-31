@@ -46,16 +46,19 @@ country_event = { #2020 Oceania
 		ai_chance = {
 			factor = 0
 		}
-				hidden_effect = {
+			hidden_effect = {
 				every_country = {
-				limit = {
-					}
+					limit = {
+						}
 					release = CKI
 					release = NIU
-						}
+					}
 		NIU = {
 			set_cosmetic_tag = NZL_PURPLE
 			}
+		CKI = {
+			set_cosmetic_tag = NZL_PURPLE
+				}
 		ENG = {
 			release = PTC
 			}

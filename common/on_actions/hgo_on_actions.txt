@@ -2986,6 +2986,9 @@ on_actions = {
 		NIU = {
 			set_cosmetic_tag = NZL_PURPLE
 			}
+		CKI = {
+			set_cosmetic_tag = NZL_PURPLE
+				}
 		ENG = {
 			release = PTC
 			}
