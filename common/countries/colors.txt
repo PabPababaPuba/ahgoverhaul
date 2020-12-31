@@ -6410,3 +6410,11 @@ UR2 = {
 color = rgb { 124 176 167 }
 color_ui = rgb { 124 176 167 }
 }
+SK2 = {
+color = rgb { 205 32 44 }
+color_ui = rgb { 205 32 44 }
+}
+AL2 = {
+color = rgb { 24 132 0 }
+color_ui = rgb { 24 132 0 }
+}

@@ -1118,6 +1118,14 @@ JSY_ENG = {
 	color = rgb { 170 10 10 }
 	color_ui = rgb { 200 10 10 }
 }
+SK2_ENG = {
+	color = rgb { 170 10 10 }
+	color_ui = rgb { 200 10 10 }
+}
+AL2_ENG = {
+	color = rgb { 170 10 10 }
+	color_ui = rgb { 200 10 10 }
+}
 TRM_ENG = {
 	color = rgb { 170 10 10 }
 	color_ui = rgb { 200 10 10 }
