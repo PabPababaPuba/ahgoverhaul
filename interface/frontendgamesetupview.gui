@@ -1711,7 +1711,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x = 30 y = 103 }
+			position = {x = 375 y = 120 }
 			name = "ironman_text"
 			font = "hoi_24header"
 			maxWidth = 370
@@ -1724,7 +1724,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "ironman_cb"
-			position = { x=53000 y =10100}
+			position = { x=530 y =118}
 			quadTextureSprite ="GFX_generic_checkbox"	
 			clicksound = click_checkbox
 		}

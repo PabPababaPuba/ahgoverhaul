@@ -723,7 +723,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "back_button"
-				position = { x = 275 y = -845 }
+				position = { x = 275 y = -420 }
 				clicksound = click_close
 				quadTextureSprite ="GFX_button_221x34"
 				buttonFont = "hoi_16mbs"
@@ -897,7 +897,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "close_button"
-			position = { x = -43 y = 8 }
+			position = { x = 0 y = 8 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
