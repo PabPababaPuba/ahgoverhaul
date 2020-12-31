@@ -795,7 +795,7 @@
  AHN_authoritarian_monarchism:0 "Royal Hungarian Navy"
  AHN_authoritarian_monarchism_DEF:0 "The Royal Hungarian Navy"
  AHN_authoritarian_monarchism_ADJ:0 "Hungarian"
- AHN_monarchism:0 "Austro-Hungarian Loyalist Government" 
+ AHN_monarchism:0 "Austro-Hungarian Loyalists" 
  AHN_monarchism_DEF:0 "The Austro-Hungarian Loyalist Government-in-Exile"
  AHN_monarchism_ADJ:0 "Austro-Hungarian"
  AHN_right_anarchism:0 "Adriatic Pirates"
@@ -828,6 +828,8 @@
  NZG_republican_fascism_DEF:0 "Himmler's Germany"
  NZG_national_socialism:0 "Nazi Germany"
  NZG_national_socialism_DEF:0 "Nazi Germany" 
+ NZG_neutrality:0 "Deutschland"
+ NZG_neutrality_DEF:0 "Deutschland"
  NZG_ADJ:0 "German"
 
  JMY:0 "Jan Mayen"
