@@ -4643,6 +4643,9 @@
  NIR_monarchism:0 "Kingdom of Ulaidh"
  NIR_monarchism_DEF:0 "The Kingdom of Ulaidh"
  NIR_monarchism_ADJ:0 "Ulaidian"
+ NIR_centrist_monarchism:0 "Dominion of Northern Ireland"
+ NIR_centrist_monarchism_DEF:0 "The Dominion of Northern Ireland"
+ NIR_centrist_monarchism_ADJ:0 "Northern Irish"
  
  CAL_republican_fascism:0 "Pacific States of America"
  CAL_republican_fascism_DEF:0 "The Pacific States of America"
@@ -14931,6 +14934,9 @@
  LEI_monarchism:0 "Kingdom of Leinster"
  LEI_monarchism_DEF:0 "The Kingdom of Leinster"
  LEI_monarchism_ADJ:0 "Leinsterian"
+ LEI_centrist_monarchism:0 "Dominion of Southern Ireland"
+ LEI_centrist_monarchism_DEF:0 "The Dominion of Southern Ireland"
+ LEI_centrist_monarchism_ADJ:0 "Southern Irish"
  
  CNG_democratic:0 "Republic of Connacht"
  CNG_democratic_DEF:0 "The Republic of Connacht"
@@ -14947,6 +14953,9 @@
  CNG_monarchism:0 "Kingdom of Connacht"
  CNG_monarchism_DEF:0 "The Kingdom of Connacht"
  CNG_monarchism_ADJ:0 "Connachtian"
+ CNG_centrist_monarchism:0 "Southern Ireland"
+ CNG_centrist_monarchism_DEF:0 "Southern Ireland"
+ CNG_centrist_monarchism_ADJ:0 "Southern Irish"
  
  DRN_democratic:0 "Republic of Drenthe"
  DRN_democratic_DEF:0 "The Republic of Drenthe"
