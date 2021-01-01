@@ -1,99 +1,14 @@
-﻿capital = 16
+﻿capital = 5045
 
 oob = "FR2_1936"
 
-#if = {
-#	limit = {
-#		has_dlc = "Together for Victory"
-#	}
-#	set_autonomy = {
-#		target = SYR
-#		autonomous_state = autonomy_dominion
-#		freedom_level = 0.2
-#	}
-#	set_autonomy = {
-#		target = VIN
-#		autonomous_state = autonomy_colony
-#		freedom_level = 0.2
-#	}
-#	set_autonomy = {
-#		target = MOR
-#		autonomous_state = autonomy_dominion
-#		freedom_level = 0.2
-#	}
-#	set_autonomy = {
-#		target = TUN
-#		autonomous_state = autonomy_dominion
-#		freedom_level = 0.2
-#	}
-#	set_autonomy = {
-#		target = FEA
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = FWA
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = DJI
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = CMR
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = MAD
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = TOG
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = LEB
-#		autonomous_state = autonomy_dominion
-#	}
-#	set_autonomy = {
-#		target = JEB
-#		autonomous_state = autonomy_colony
-#	}
-#	set_autonomy = {
-#		target = ALW
-#		autonomous_state = autonomy_colony
-#	}
-#	else = {
-#	puppet = SYR
-#	puppet = VIN
-#	puppet = MOR
-#	puppet = TUN
-#	puppet = FEA
-#	puppet = FWA
-#	puppet = DJI
-#	puppet = CMR
-#	puppet = MAD
-#	puppet = TOG
-#	puppet = LEB
-#	puppet = JEB
-#	puppet = ALW
-#	}
-#}
-
 set_popularities = {
-	vanguardism
-		= 3
-	socialism_ideology
-		= 26
-	liberal_republic
-		= 36
-	democratic
-		= 31
-	neutrality
-		= 4
+	national_socialism
+		= 100
 }
 
 set_politics = { 
-	ruling_party = neutrality
+	ruling_party = national_socialism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
