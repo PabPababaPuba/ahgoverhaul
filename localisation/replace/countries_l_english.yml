@@ -15731,8 +15731,8 @@
  FKL_monarchism_DEF:0 "The Kingdom of Franklin"
  FKL_monarchism_ADJ:0 "Franklinite"
  
- INT_democratic:0 "Republic of the Indian Territory"
- INT_democratic_DEF:0 "The Republic of the Indian Territory"
+ INT_democratic:0 "State of Sequoyah"
+ INT_democratic_DEF:0 "The State of Sequoyah"
  INT_democratic_ADJ:0 "Native American"
  INT_communism:0 "People's Republic of the Indian Territory"
  INT_communism_DEF:0 "The People's Republic of the Indian Territory"
@@ -15747,7 +15747,7 @@
  INT_monarchism_DEF:0 "The Iriquois Confederation"
  INT_monarchism_ADJ:0 "Iriquois"
  INT_theocratic:0 "Sequoyah"
- INT_theocratic_DEF:0 "The State of Sequoyah"
+ INT_theocratic_DEF:0 "Sequoyah"
  INT_theocratic_ADJ:0 "Sequoyan"
  
  NAT_democratic:0 "Republic of Northern Australia"

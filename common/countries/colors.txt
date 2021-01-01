@@ -5201,8 +5201,8 @@ IND = {
 	color_ui = rgb { 226 143 65 }
 }
 FR2 = {
-	color = rgb { 37 72 155 }
-	color_ui = rgb { 37 72 155 }
+	color = rgb { 51 140 193 }
+	color_ui = rgb { 51 140 193 }
 }
 SP2 = {
 	color = rgb { 228 145 22 }
