@@ -48,60 +48,224 @@ if = {
 	elections_allowed = yes
 }
 
-#Start Horty as neutral if DOD
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	create_country_leader = {
-		name = "Miklós Horthy de Nagybánya"
-		desc = "POLITICS_MIKLOS_HORTHY_DESC"
-		picture = "Portrait_Hungary_Miklos_Horthy.dds"
-		expire = "1965.1.1"
-		ideology = authmon
-		traits = {
-			fascist_sympathies
-			anti_communist
-		}
-		id = 500 #Horthy Neutral
-	}
-	else = {
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = authmon
-		}
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-		}
+create_country_leader = {
+	name = "Béla Imrédy de Ómoravicza"
+	desc = ""
+	picture = "Portrait_HUN_Bela_Imredy_de_Omoravicza.tga"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
 	}
 }
 
 create_country_leader = {
 	name = "Mátyás Rákosi"
-	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
-	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
+	desc = ""
+	picture = "Portrait_HUN_Matyas_Rakosi.tga"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = totsoc
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Árpád Szakasits"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Béla Kun"
+	desc = ""
+	picture = "Portrait_HUN_Bela_Kun.tga"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = marxism
 	traits = {
-		#
 	}
 }
 
+create_country_leader = {
+	name = "Árpád Szakasits"
+	desc = ""
+	picture = "Portrait_HUN_Arpad_Szakasits.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ottó I von Habsburg"
+	desc = ""
+	picture = "Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mihály Károlyi de Nagykároly"
+	desc = ""
+	picture = "Portrait_HUN_Mihaly_Adam_Gyorgy_Miklos_Karolyi_de_Nagykaroly.tga"
+	expire = "1965.1.1"
+	ideology = socdem
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zoltán Tildy"
+	desc = ""
+	picture = "Portrait_HUN_Zoltan_Tildy.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Károly IV von Habsburg"
+	desc = ""
+	picture = "Portrait_Karl_Habsburg_2.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ottó I von Habsburg"
+	desc = ""
+	picture = "Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Béla Miklós de Dálnok"
+	desc = ""
+	picture = "Portrait_HUN_Bela_Miklos_de_Dalnok.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "József III von Habsburg"
+	desc = ""
+	picture = "Portrait_HUN_Jozsef_III_von_Habsburg.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jenő Rátz de Nagylak"
+	desc = ""
+	picture = "Portrait_HUN_Jeno_Ratz_de_Nagylak.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "István Horthy de Nagybánya"
+	desc = ""
+	picture = "Portrait_Istvan_Horthy.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Miklós Horthy de Nagybánya"
+	desc = ""
+	picture = "Portrait_Hungary_Miklos_Horthy.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ottó I von Habsburg"
+	desc = ""
+	picture = "Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jusztinián György Serédi"
+	desc = ""
+	picture = "Portrait_HUN_Jusztinian_Gyorgy_Seredi.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "József III von Habsburg"
+	desc = ""
+	picture = "Portrait_HUN_Jozsef_III_von_Habsburg.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ferenc Szálasi"
+	desc = ""
+	picture = "Portrait_HUN_Ferenc_Szalasi.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zoltán Meskó de Széplak"
+	desc = ""
+	picture = "Portrait_HUN_Zoltan_Mesko_de_Szeplak.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
