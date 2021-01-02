@@ -17,13 +17,14 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = RUS
+		add_core_of = DVR
 		add_core_of = SBR
 		add_core_of = BML
 
 	}
 
 	provinces={
-		1696 4766 7751 7816 7835 10658 12644 19766 19770 19781 19792 
+		1696 4766 7816 7835 10658 12644 19766 
 	}
 	manpower=370893
 	buildings_max_level_factor=1.000

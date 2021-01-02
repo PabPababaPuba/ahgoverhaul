@@ -1,17 +1,21 @@
+
 state={
 	id=7908
 	name="STATE_7908"
-	provinces={
-		17695 17696 17697 17698 17700 
-	}
+
 	history={
 		owner = RUS
 		add_core_of = SOV
 		add_core_of = RUS
+		add_core_of = DVR
 		add_core_of = SBR
 
 	}
-	manpower = 1000
-	state_category = pastoral
+
+	provinces={
+		17695 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

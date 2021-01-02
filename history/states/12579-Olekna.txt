@@ -1,18 +1,20 @@
 state={
-	id=12495
-	name="STATE_12495"
+	id=12579
+	name="STATE_12579"
 	history={
 		
-		owner = SPR 
-		add_core_of = SPR
-		add_core_of = ADU
+		owner = RUS 
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = SBR
+		add_core_of = VMO
 		buildings = {
 			infrastructure = 4
 			
 		}
 	}
 	provinces={
-		4065
+		7785 19783
 	}
 	manpower=1000 
  state_category=pastoral

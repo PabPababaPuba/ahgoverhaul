@@ -6418,3 +6418,7 @@ AL2 = {
 color = rgb { 24 132 0 }
 color_ui = rgb { 24 132 0 }
 }
+DVR = {
+color = rgb { 175 10 20 }
+color_ui = rgb { 175 10 20 }
+}

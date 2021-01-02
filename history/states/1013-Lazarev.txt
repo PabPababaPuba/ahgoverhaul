@@ -1,3 +1,4 @@
+
 state={
 	id=1013
 	name="STATE_1013"
@@ -10,15 +11,15 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = RUS
+		add_core_of = DVR
 		add_core_of = SBR
 		add_core_of = KHA
 		add_core_of = TSR
 
 	}
 
-
 	provinces={
-		4841 7868 
+		7868 
 	}
 	manpower=12023
 	buildings_max_level_factor=1.000

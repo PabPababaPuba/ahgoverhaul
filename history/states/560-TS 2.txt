@@ -14,13 +14,14 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = RUS
+		add_core_of = DVR
 		add_core_of = SBR
 		add_core_of = KHA
 
 	}
 
 	provinces={
-		1724 1842 3664 4290 4844 7748 9659 10571 10577 12559 12569 12638 16445
+		12559 
 	}
 	manpower=85623
 	buildings_max_level_factor=1.000

@@ -1,18 +1,20 @@
+
 state={
 	id=11998
 	name="STATE_11998"
-	provinces={
-		12538 19885 
-	}
+
 	history={
-		owner = YKT
+		owner = RUS
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = SBR
-		add_core_of = YKT
 
 	}
-	manpower=1000 
-	state_category=pastoral
+
+	provinces={
+		19885 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

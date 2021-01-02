@@ -1,18 +1,20 @@
 state={
-	id=12494
-	name="STATE_12494"
+	id=12580
+	name="STATE_12580"
 	history={
 		
-		owner = SPR 
-		add_core_of = SPR
-		add_core_of = ADU
+		owner = TSC 
+		add_core_of = SOV
+		add_core_of = TSC
+		add_core_of = AZR
+		add_core_of = NGK
 		buildings = {
 			infrastructure = 4
 			
 		}
 	}
 	provinces={
-		11956 12038
+		600
 	}
 	manpower=1000 
  state_category=pastoral
