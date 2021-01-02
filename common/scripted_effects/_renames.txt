@@ -4499,10 +4499,10 @@ do_french_renames = {
 
 	if = {
 		limit = {
-			state = 7538
+			state = 2418
 		}		
 		set_province_name = {
-			id = 17096
+			id = 14658
 			name = "Vérone"
 		}
 	}
@@ -11112,10 +11112,10 @@ do_german_renames = {
 
 	if = {
 		limit = {
-			state = 7538
+			state = 2418
 		}		
 		set_province_name = {
-			id = 17096
+			id = 14658
 			name = "Welsch Bern"
 		}
 	}
@@ -18930,10 +18930,10 @@ do_russian_renames = {
 
 	if = {
 		limit = {
-			state = 7538
+			state = 2418
 		}		
 		set_province_name = {
-			id = 17096
+			id = 14658
 			name = "Verona"
 		}
 	}
@@ -23972,10 +23972,10 @@ do_latin_renames = {
 
 	if = {
 		limit = {
-			state = 7538
+			state = 2418
 		}		
 		set_province_name = {
-			id = 17096
+			id = 14658
 			name = "Veronae"
 		}
 	}
@@ -28143,10 +28143,10 @@ do_polish_renames = {
 
 	if = {
 		limit = {
-			state = 7538
+			state = 2418
 		}		
 		set_province_name = {
-			id = 17096
+			id = 14658
 			name = "Werona"
 		}
 	}
@@ -32923,10 +32923,10 @@ do_hungarian_renames = {
 
 	if = {
 		limit = {
-			state = 7538
+			state = 2418
 		}		
 		set_province_name = {
-			id = 17096
+			id = 14658
 			name = "Veróna"
 		}
 	}
@@ -34656,10 +34656,10 @@ do_greek_renames = {
 	
 	if = {
 		limit = {
-			state = 7538
+			state = 2418
 		}		
 		set_province_name = {
-			id = 17096
+			id = 14658
 			name = "Veróna"
 		}
 	}
@@ -37479,10 +37479,10 @@ do_turkish_renames = {
 
 	if = {
 		limit = {
-			state = 7538
+			state = 2418
 		}		
 		set_province_name = {
-			id = 17096
+			id = 14658
 			name = "Birune"
 		}
 	}
@@ -43704,10 +43704,10 @@ do_italian_renames = {
 
 	if = {
 		limit = {
-			state = 7538
+			state = 2418
 		}		
 		set_province_name = {
-			id = 17096
+			id = 14658
 			name = "Verona"
 		}
 	}
