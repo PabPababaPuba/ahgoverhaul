@@ -47377,6 +47377,15 @@ do_sovietturkestan_renames = {
 			name = "Bishkek"
 		}
 	}
+			if = {
+		limit = {
+			state = 12471
+		}		
+		set_province_name = {
+			id = 12594
+			name = "Semipalatinsk"
+		}
+	}
 }
 do_turkestan_renames = {
 
@@ -47706,6 +47715,15 @@ do_turkestan_renames = {
 		set_province_name = {
 			id = 11537
 			name = "Yait"
+		}
+	}
+		if = {
+		limit = {
+			state = 12471
+		}		
+		set_province_name = {
+			id = 12594
+			name = "Semey"
 		}
 	}
 }

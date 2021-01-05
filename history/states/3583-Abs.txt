@@ -18,6 +18,7 @@ state={
 		add_core_of = TMS
 		add_core_of = KHI
 		add_claim_by = TKS
+		
 		add_core_of = ERS
 		add_core_of = CHD
 

@@ -1,3 +1,4 @@
+
 state={
 	id=954
 	name="STATE_954"
@@ -10,7 +11,7 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = KAZ
-		add_claim_by = TKS
+		
 		add_core_of = ATY
 		add_core_of = ALS
 		add_core_of = GLD
@@ -18,7 +19,7 @@ state={
 	}
 
 	provinces={
-		432 508 576 1318 4351 9462 9528 11480 11552 
+		432 508 576 1318 9462 11552 
 	}
 	manpower=61502
 	buildings_max_level_factor=1.000

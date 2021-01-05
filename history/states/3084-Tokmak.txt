@@ -8,6 +8,7 @@ state={
 		add_core_of = TMS
 		add_core_of = BKH
 		add_claim_by = TKS
+		
 		add_core_of = ERS
 		buildings = {
 			infrastructure = 4

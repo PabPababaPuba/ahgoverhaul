@@ -10,7 +10,8 @@ state={
 		add_core_of = UST
 		add_claim_by = UZB
 		add_core_of = TCP
-		add_claim_by = TKS
+		add_core_of = TKS
+		
 	add_core_of = UST	
 	}
 	manpower = 1000

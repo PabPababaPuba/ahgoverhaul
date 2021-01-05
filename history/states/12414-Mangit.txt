@@ -7,8 +7,9 @@ state={
 		add_core_of = SOV
 		add_core_of = UZB
 		add_core_of = KPK
-		add_claim_by = TKS
+		
 		add_core_of = KHI
+		add_claim_by = TKS
 		add_core_of = KHW
 	}
 	manpower = 1000

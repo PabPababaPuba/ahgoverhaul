@@ -5,9 +5,10 @@ state={
 	history = {
 		owner = TMS
 		add_core_of = TMS
-		add_claim_by = TKS
+		
 		add_core_of = SOV
 		add_core_of = KHI
+		add_claim_by = TKS
 		add_core_of = CHD
 		add_core_of = SRY
 	}

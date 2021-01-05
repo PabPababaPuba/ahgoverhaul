@@ -1,3 +1,4 @@
+
 state={
 	id=11158
 	name="STATE_11158"
@@ -6,7 +7,7 @@ state={
 		owner = KAZ
 		add_core_of = SOV
 		add_core_of = KAZ
-		add_claim_by = TKS
+		
 		add_core_of = ALS
 		add_core_of = SMY
 		buildings = {
@@ -17,7 +18,7 @@ state={
 	}
 
 	provinces={
-		1818 20638
+		20638 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

@@ -18,8 +18,9 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = TMS
-		add_claim_by = TKS
+		
 		add_core_of = BKH
+		add_claim_by = TKS
 		add_core_of = ERS
 
 	}

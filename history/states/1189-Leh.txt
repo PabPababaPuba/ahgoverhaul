@@ -13,6 +13,7 @@ state={
 		add_core_of = TAJ
 		add_core_of = BKH
 		add_claim_by = TKS
+		
 
 	}
 

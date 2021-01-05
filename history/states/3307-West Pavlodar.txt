@@ -7,7 +7,7 @@ state={
 		owner = KAZ
 		add_core_of = SOV
 		add_core_of = KAZ
-		add_claim_by = TKS
+		
 		add_core_of = PAV
 		add_core_of = ALS
 		buildings = {
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		1879 4670 4685 7317 10630 
+		1879 7317 10630 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

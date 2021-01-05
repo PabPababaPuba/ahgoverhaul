@@ -9,6 +9,7 @@ state={
 		add_core_of = TKS
 		add_core_of = ALS
 		add_core_of = SMY
+		add_core_of = AMT
 		add_core_of = ZHE
 	}
 	manpower = 1000

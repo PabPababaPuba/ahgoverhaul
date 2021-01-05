@@ -6422,3 +6422,7 @@ DVR = {
 color = rgb { 175 10 20 }
 color_ui = rgb { 175 10 20 }
 }
+BKY = {
+color = rgb { 61 64 169 }
+color_ui = rgb { 61 64 169 }
+}
