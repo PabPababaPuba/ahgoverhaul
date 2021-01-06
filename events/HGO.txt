@@ -395,7 +395,8 @@ country_event = { #Desovietization
 						is_core_of = KAZ
 						is_core_of = KPK
 						is_core_of = KYR
-						is_claimed_by = TKS
+						is_claimed_by = KAZ
+						is_claimed_by = UZB
 						}
 					NOT = {
 						is_core_of = FIN
@@ -445,8 +446,8 @@ country_event = { #Desovietization
 				limit = {
 					is_core_of = TMS
 					NOT = {
-						is_claimed_by = TKS
-						
+						is_claimed_by = KAZ
+						is_claimed_by = UZB
 						}
 					}
 				TMS = {
@@ -508,6 +509,7 @@ country_event = { #Desovietization
 			}
 		UZB = {
 			transfer_state = 3083
+			transfer_state = 5902
 			transfer_state = 5903
 			transfer_state = 12265
 			}		
