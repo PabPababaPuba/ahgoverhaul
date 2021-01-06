@@ -14,7 +14,7 @@ state={
 		add_core_of = TCP
 		add_core_of = TKS
 		add_core_of = UST
-		
+		add_core_of = ALS
 		add_core_of = ATU
 		add_core_of = GLD
 		victory_points = {
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		4620 
+		11701
 	}
 	manpower=245133
 	buildings_max_level_factor=1.000
