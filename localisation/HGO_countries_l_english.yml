@@ -830,6 +830,8 @@
  NZG_national_socialism_DEF:0 "Nazi Germany" 
  NZG_neutrality:0 "Deutschland"
  NZG_neutrality_DEF:0 "Deutschland"
+ NZG_authoritarian_monarchism:0 "Deutsche Demokratische Kaiserreich"
+ NZG_authoritarian_monarchism_DEF:0 "das Deutsche Demokratische Kaiserreich"
  NZG_ADJ:0 "German"
 
  JMY:0 "Jan Mayen"
