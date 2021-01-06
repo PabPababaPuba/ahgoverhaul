@@ -1,6 +1,6 @@
-﻿capital = 11169
+﻿capital = 11086
 
-oob = "FER_1936"
+oob = "CSK_1936"
 
 set_popularities = {
         neutrality = 600

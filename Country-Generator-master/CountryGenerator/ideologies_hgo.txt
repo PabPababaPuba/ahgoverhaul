@@ -1,4 +1,4 @@
-neutrality|State of [NAME]
+neutrality|[NAME]
 monarchism|Kingdom of [NAME]
 democratic|Republic of [NAME]
 liberal_republic|Republic of [NAME]
@@ -17,6 +17,6 @@ theocratic|Church State of [NAME]
 left_anarchism|Free Territory of [NAME]
 right_anarchism|[NAME] Company
 socialist_monarchy|Kingdom of [NAME]
-centrist_republic|Republic of [NAME]
+centrist_republic|[ADJ] Republic
 centrist_monarchism|Kingdom of [NAME]
 stratocratic_monarchism|Kingdom of [NAME]
