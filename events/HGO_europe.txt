@@ -203,6 +203,9 @@ country_event = { #1914 Europe
 		GRE = {
 			transfer_state = 3403
 			}
+		WTR = {
+			transfer_state = 3186
+			}
 		}
 	}	
 	option = { #reject

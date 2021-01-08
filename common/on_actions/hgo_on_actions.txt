@@ -687,6 +687,9 @@ on_actions = {
 		GRE = {
 			transfer_state = 3403
 			}
+		WTR = {
+			transfer_state = 3186
+			}
 		JBL = {
 			transfer_state = 1176
 			transfer_state = 6802
