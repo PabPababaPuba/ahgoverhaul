@@ -184,7 +184,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Chairman Sir Oswald Ernald Mosley, Baronet Mosley"
+	name = "Chairman Sir Oswald Ernald Mosley, Baronet Ancoats"
 	desc = ""
 	picture = "Portrait_Oswald_Mosley.dds"
 	expire = "1965.1.1"

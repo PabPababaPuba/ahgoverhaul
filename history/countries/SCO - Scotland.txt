@@ -49,7 +49,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Gallacher"
+	name = "General Secretary William Gallacher"
 	desc = ""
 	picture = "SCO_Gallacher.tga"
 	expire = "1965.1.1"
@@ -60,7 +60,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James Maxton"
+	name = "Chairman James Maxton"
 	desc = ""
 	picture = "Portrait_James_Maxton.dds"
 	expire = "1965.1.1"
@@ -71,7 +71,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Emanuel Shinwell"
+	name = "President Emanuel Shinwell"
 	desc = ""
 	picture = "SCO_Shinwell.tga"
 	expire = "1965.1.1"
@@ -82,7 +82,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Elizabeth II of Windsor"
+	name = "Queen Elizabeth II of Windsor"
 	desc = ""
 	picture = "Portrait_Princess_Elizabeth.dds"
 	expire = "1965.1.1"
@@ -93,7 +93,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Andrew Dewar Gibb"
+	name = "Ceann-Suidhe Andrew Dewar Gibb"
 	desc = ""
 	picture = "SCO_Gibb.tga"
 	expire = "1965.1.1"
@@ -104,7 +104,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James Graham"
+	name = "Chancellor James Graham, Duke of Montrose"
 	desc = ""
 	picture = "SCO_Graham.tga"
 	expire = "1965.1.1"
@@ -115,7 +115,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward VIII of Windsor"
+	name = "King Edward VIII of Windsor"
 	desc = ""
 	picture = "Portrait_Prince_David.dds"
 	expire = "1965.1.1"
@@ -126,7 +126,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V of Windsor"
+	name = "King George V of Windsor"
 	desc = ""
 	picture = "ENG_GeorgeV.tga"
 	expire = "1965.1.1"
@@ -137,7 +137,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John MacDonald MacCormick"
+	name = "President John MacDonald MacCormick"
 	desc = ""
 	picture = "SCO_Cormick.tga"
 	expire = "1965.1.1"
@@ -148,7 +148,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George VI of Windsor"
+	name = "King George VI of Windsor"
 	desc = ""
 	picture = "Portrait_Prince_Albert.tga"
 	expire = "1965.1.1"
@@ -159,7 +159,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alexander Ratcliffe"
+	name = "First Minister Alexander Ratcliffe"
 	desc = ""
 	picture = "SCO_Ratcliffe.tga"
 	expire = "1965.1.1"
@@ -170,7 +170,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Philip Christison"
+	name = "Commander-in-Chief Sir Alexander Philip Christison, Baronet of Moray Place"
 	desc = ""
 	picture = "SCO_Christison.tga"
 	expire = "1965.1.1"
@@ -181,7 +181,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Prince Henry of Windsor"
+	name = "Prince-Regent Henry of Windsor, Duke of Gloucester"
 	desc = ""
 	picture = "Portrait_Prince_Henry.dds"
 	expire = "1965.1.1"
@@ -192,7 +192,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Robert IV of Stuart-Wittelsbach"
+	name = "King Robert IV of Stuart-Wittelsbach"
 	desc = ""
 	picture = "BAV_Rupprecht.tga"
 	expire = "1965.1.1"
@@ -203,7 +203,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Arthur I of Stuart"
+	name = "Ìmpire Arthur I de Stuart"
 	desc = ""
 	picture = "SCO_ArthurI.tga"
 	expire = "1965.1.1"
@@ -214,7 +214,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Walter I of Stuart-Montagu"
+	name = "Rí Ruirech Walter I de Stuart-Montagu"
 	desc = ""
 	picture = "SCO_WalterI.tga"
 	expire = "1965.1.1"
@@ -225,7 +225,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Weir Gilmour"
+	name = "Supreme Leader William Weir Gilmour"
 	desc = ""
 	picture = "SCO_Gilmour.tga"
 	expire = "1965.1.1"
@@ -236,7 +236,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Graham Seton Hutchison"
+	name = "Stiùiriche Graham Seton Hutchison"
 	desc = ""
 	picture = "SCO_Hutchison.tga"
 	expire = "1965.1.1"
