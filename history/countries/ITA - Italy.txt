@@ -47,7 +47,7 @@ oob = "ITA_1936"
 
 
 create_country_leader = {
-	name = "Vittorio Emanuele III di Savoia"
+	name = "Re Vittorio Emanuele III di Savoia"
 	desc = "POLITICS_ITA_FASCISM_DESC"
 	picture = "Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
@@ -58,7 +58,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Benito Amilcare Andrea Mussolini"
+	name = "Presidente Benito Amilcare Andrea Mussolini, Duce del Fascismo"
 	desc = "POLITICS_ITA_NATSOC_DESC"
 	picture = "gfx/leaders/ITA/Italy_Mussolini.dds"
 	expire = "1965.1.1"
@@ -68,7 +68,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vittorio Emanuele III di Savoia"
+	name = "Imperatore Vittorio Emanuele III di Savoia"
 	desc = "POLITICS_ITA_ABSMONS_DESC"
 	picture = "Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
@@ -78,7 +78,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eugenio Chiesa"
+	name = "Presidente Eugenio Chiesa"
 	desc = "POLITICS_ITA_CONREP_DESC"
 	picture = "Portrait_Eugenio_Chiesa.tga"
 	expire = "1965.1.1"
@@ -88,7 +88,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Palmiro Togliatti"
+	name = "Segretario Generale Palmiro Togliatti"
 	desc = "POLITICS_ITA_VAN_DESC"
 	picture = "Portrait_Palmiro_Togliatti.tga"
 	expire = "1965.1.1"
@@ -98,7 +98,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ruggero Grieco"
+	name = "Presidente Ruggero Grieco"
 	desc = "POLITICS_ITA_COM_DESC"
 	picture = "Portrait_Ruggero_Grieco.tga"
 	expire = "1965.1.1"
@@ -108,7 +108,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pietro Sandro Nenni"
+	name = "Presidente Pietro Sandro Nenni"
 	desc = "POLITICS_ITA_SOC_DESC"
 	picture = "Portrait_Pietro_Nenni.tga"
 	expire = "1965.1.1"
@@ -118,7 +118,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mafalda I di Savoia"
+	name = "Regina Mafalda I di Savoia"
 	desc = "POLITICS_ITA_MONSOC_DESC"
 	picture = "Portrait_Mafalda_Savoy.tga"
 	expire = "1965.1.1"
@@ -128,7 +128,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Francesco Saverio Nitti"
+	name = "Presidente Francesco Saverio Nitti"
 	desc = "POLITICS_ITA_LIBREP_DESC"
 	picture = "Portrait_Francesco_Nitti.tga"
 	expire = "1965.1.1"
@@ -138,7 +138,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vittorio Emanuele III di Savoia"
+	name = "Re Vittorio Emanuele III di Savoia"
 	desc = "POLITICS_ITA_LIBMON_DESC"
 	picture = "Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
@@ -148,7 +148,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vittorio Emanuele III di Savoia"
+	name = "Re Vittorio Emanuele III di Savoia"
 	desc = "POLITICS_ITA_CONMON_DESC"
 	picture = "Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
@@ -158,7 +158,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alcide Amedeo Francesco De Gasperi"
+	name = "Cancelliere Alcide Amedeo Francesco De Gasperi"
 	desc = "POLITICS_ITA_CENREP_DESC"
 	picture = "Portrait_Alcide_De_Gasperi.tga"
 	expire = "1965.1.1"
@@ -168,7 +168,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Umberto II di Savoia"
+	name = "Re Umberto II di Savoia"
 	desc = "POLITICS_ITA_CENMON_DESC"
 	picture = "Portrait_Umberto_II.tga"
 	expire = "1965.1.1"
@@ -178,7 +178,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gaetano Salvemini"
+	name = "Presidente Gaetano Salvemini"
 	desc = "POLITICS_ITA_AUTHREP_DESC"
 	picture = "gfx/leaders/ITA/Salvemini.tga"
 	expire = "1965.1.1"
@@ -188,7 +188,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Federico Baistrocchi"
+	name = "Comandante in Capo Federico Baistrocchi"
 	desc = "POLITICS_ITA_STRAT_DESC"
 	picture = "Portrait_Federico_Baistrocchi.tga"
 	expire = "1965.1.1"
@@ -198,7 +198,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Aimone I di Savoia-Aosta"
+	name = "Re Aimone I di Savoia-Aosta"
 	desc = "POLITICS_ITA_STRATMON_DESC"
 	picture = "Portrait_Aimone_Aosta.tga"
 	expire = "1965.1.1"
@@ -208,7 +208,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Amedeo I di Savoia-Aosta"
+	name = "Re Amedeo I di Savoia-Aosta"
 	desc = "POLITICS_ITA_AUTHMON_DESC"
 	picture = "Portrait_Amadeo_Aosta.tga"
 	expire = "1965.1.1"
@@ -218,7 +218,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alfredo Ildefonso Schuster"
+	name = "Segretario Alfredo Ildefonso Schuster"
 	desc = "POLITICS_ITA_THEOC_DESC"
 	picture = "Portrait_Alfredo_Schuster.tga"
 	expire = "1965.1.1"
@@ -228,7 +228,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gian Galeazzo Ciano"
+	name = "Presidente Gian Galeazzo Ciano, Duce del Fascismo, Conte di Cortellazzo e Buccari"
 	desc = "POLITICS_ITA_REPFASH_DESC"
 	picture = "Portrait_Galeazzo_Cianno.tga"
 	expire = "1965.1.1"

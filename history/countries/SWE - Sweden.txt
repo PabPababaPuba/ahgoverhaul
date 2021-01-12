@@ -26,7 +26,7 @@ oob = "SWE_1936"
 
 
 create_country_leader = {
-	name = "Birger Furugård"
+	name = "Riksledare Birger Furugård"
 	desc = ""
 	picture = "Portrait_Birger_Furugard.tga"
 	expire = "1965.1.1"
