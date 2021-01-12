@@ -11,6 +11,7 @@ state={
 		add_core_of = SAU
 		add_core_of = IMO
 		add_core_of = OMN
+		add_core_of = KD0
 
 	}
 
@@ -18,7 +19,6 @@ state={
 		12740 
 	}
 	manpower=4
-	impassable = yes
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

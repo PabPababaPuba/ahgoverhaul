@@ -7,6 +7,7 @@ state={
 		add_core_of = SAU
 		add_core_of = OMN
 		add_core_of = IMO
+		add_core_of = KD0
 		buildings = {
 			infrastructure = 4
 			
@@ -17,6 +18,5 @@ state={
 	}
 	manpower=1000 
   state_category=pastoral
-	impassable = yes
 	buildings_max_level_factor=1.000
 }

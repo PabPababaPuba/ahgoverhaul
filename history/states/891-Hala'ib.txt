@@ -2,8 +2,6 @@ state={
 	id=891
 	name="STATE_891"
 
-	impassable = yes
-
 	history = {
 		owner = SUD
 		buildings = {
@@ -12,6 +10,7 @@ state={
 
 		add_core_of = SUD
 		add_core_of = EGY
+		add_core_of = SD0
 	}
 
 	provinces={
