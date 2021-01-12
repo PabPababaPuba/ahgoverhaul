@@ -40,7 +40,7 @@ oob = "AST_1936"
 }
 
 create_country_leader = {
-	name = "Joseph Alysius Lyons"
+	name = "Prime Minister Joseph Alysius Lyons"
 	desc = ""
 	picture = "Portrait_Joseph_Lyons.tga"
 	expire = "1965.1.1"
@@ -51,7 +51,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Prince Henry of Windsor"
+	name = "Governor-General Prince Henry of Windsor, Duke of Gloucester"
 	desc = ""
 	picture = "Portrait_Prince_Henry.dds"
 	expire = "1965.1.1"
@@ -62,7 +62,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sir Isaac Isaacs"
+	name = "Governor-General Sir Isaac Isaacs"
 	desc = ""
 	picture = "Portrait_Sir_Isaac_Isaacs.dds"
 	expire = "1965.1.1"
@@ -73,7 +73,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Charles Frederic John North"
+	name = "First Minister Charles Frederic John North"
 	desc = ""
 	picture = "Portrait_Charles_Frederic_John_North.dds"
 	expire = "1965.1.1"
@@ -104,7 +104,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jack Miles"
+	name = "General Secretary Jack Miles"
 	desc = ""
 	picture = "Portrait_Jack_Miles.dds"
 	expire = "1965.1.1"
@@ -115,7 +115,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jack Miles"
+	name = "Chairman Jack Miles"
 	desc = ""
 	picture = "Portrait_Jack_Miles.dds"
 	expire = "1965.1.1"
@@ -125,7 +125,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Curtin"
+	name = "Chancellor John Curtin"
 	desc = ""
 	picture = "Portrait_John_Curtin.dds"
 	expire = "1965.1.1"
@@ -135,7 +135,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Curtin"
+	name = "Prime Minister John Curtin"
 	desc = ""
 	picture = "Portrait_John_Curtin.dds"
 	expire = "1965.1.1"
@@ -145,7 +145,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jack Lang"
+	name = "President Jack Lang"
 	desc = ""
 	picture = "Portrait_Jack_Lang.dds"
 	expire = "1965.1.1"
@@ -155,7 +155,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Joseph Alysius Lyons"
+	name = "President Joseph Alysius Lyons"
 	desc = ""
 	picture = "Portrait_Joseph_Lyons.tga"
 	expire = "1965.1.1"
@@ -165,7 +165,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Curtin"
+	name = "Prime Minister John Curtin"
 	desc = ""
 	picture = "Portrait_John_Curtin.dds"
 	expire = "1965.1.1"
@@ -175,7 +175,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Richard Layton Butler"
+	name = "President Richard Layton Butler"
 	desc = ""
 	picture = "Portrait_Richard_Layton_Butler.dds"
 	expire = "1965.1.1"
@@ -185,7 +185,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Earle Page"
+	name = "Prime Minister Earle Christmas Grafton Page"
 	desc = ""
 	picture = "Portrait_Earle_Page.dds"
 	expire = "1965.1.1"
@@ -195,7 +195,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sir Thomas Blamey"
+	name = "Commander-in-Chief Sir Thomas Blamey"
 	desc = ""
 	picture = "Portrait_Sir_Thomas_Blamey.dds"
 	expire = "1965.1.1"
@@ -205,7 +205,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sir William Riddell Birdwood"
+	name = "Governor-General Sir William Riddell Birdwood, Baronet of Anzac and Totnes"
 	desc = ""
 	picture = "Portrait_Sir_William_Riddell_Birdwood.dds"
 	expire = "1965.1.1"
@@ -215,7 +215,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Norman Thomas Gilroy"
+	name = "Prince-Archbishop Norman Thomas Gilroy"
 	desc = ""
 	picture = "Portrait_Norman_Thomas_Gilroy.dds"
 	expire = "1965.1.1"
@@ -225,7 +225,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eric Campbell"
+	name = "Prime Minister Eric Campbell"
 	desc = ""
 	picture = "Portrait_Eric_Campbell.dds"
 	expire = "1965.1.1"
@@ -235,7 +235,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Percy Reginald Stephensen"
+	name = "Supreme Leader Percy Reginald Stephensen"
 	desc = ""
 	picture = "Portrait_Percy_Reginald_Stephensen.dds"
 	expire = "1965.1.1"
@@ -245,7 +245,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William John Miles"
+	name = "Gouverneur William John Miles"
 	desc = ""
 	picture = "Portrait_William_John_Miles.dds"
 	expire = "1965.1.1"
@@ -255,7 +255,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Leslie Bradford"
+	name = "Chief Executive Officer Leslie Bradford"
 	desc = ""
 	picture = "Portrait_Leslie_Bradford.dds"
 	expire = "1965.1.1"
