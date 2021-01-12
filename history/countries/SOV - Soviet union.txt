@@ -48,7 +48,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Mikhail Ivanovich Kalinin"
+	name = "Predsedatel Mikhail Ivanovich Kalinin"
 	desc = ""
 	picture = "gfx/leaders/Russia/Mikhail_Kalinin.dds"
 	expire = "1953.3.1"
@@ -59,7 +59,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Joseph Vissarionovich Stalin"
+	name = "General'nyy Sekretar Joseph Vissarionovich Stalin"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
@@ -70,7 +70,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Lev Davidovich Trotsky"
+	name = "Pervyy Komissar Lev Davidovich Trotsky"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Leon_Trotsky.dds"
 	expire = "1953.3.1"
@@ -81,7 +81,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Georgy Konstantinovich Zhukov"
+	name = "Glavnokomanduyushchiy Georgy Konstantinovich Zhukov"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Georgy_Zhukov.tga"
 	expire = "1989.1.1"
@@ -91,7 +91,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nikolai Dimitrovich Avksentiev"
+	name = "Prezident Nikolai Dimitrovich Avksentiev"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Nikolai_Avksentiev.tga"
 	expire = "1965.1.1"
@@ -101,7 +101,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vsevolod Mikhailovich Eikhenbaum"
+	name = "Pervyy Grazhdanin Vsevolod Mikhailovich Eikhenbaum"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Vsevolod_Eikhenbaum.tga"
 	expire = "1965.1.1"
@@ -111,7 +111,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kirill I Romanovskiy"
+	name = "Tsar Kirill I Romanovskiy"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Kirill_Romanov.tga"
 	expire = "1965.1.1"
@@ -121,7 +121,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
+	name = "Ministr-Prezident Alexander Fyodorovich Kerensky"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Alexander_Kerensky.tga"
 	expire = "1965.1.1"
@@ -131,7 +131,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nikolai Dimitrovich Avksentiev"
+	name = "Ministr-Prezident Nikolai Dimitrovich Avksentiev"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Nikolai_Avksentiev.tga"
 	expire = "1965.1.1"
@@ -141,7 +141,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dmitry I Romanovskiy"
+	name = "Imperator Dmitry I Romanovskiy"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Dmitry_Romanov.tga"
 	expire = "1965.1.1"
@@ -151,7 +151,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dmitry I Romanovskiy"
+	name = "Tsar Dmitry I Romanovskiy"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Dmitry_Romanov.tga"
 	expire = "1965.1.1"
@@ -161,7 +161,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pavel Nikolayevich Milyukov"
+	name = "Prezident Pavel Nikolayevich Milyukov"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Pavel_Milyukov.tga"
 	expire = "1965.1.1"
@@ -171,7 +171,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vladimir IV Romanovskiy"
+	name = "Tsar Vladimir IV Romanovskiy"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Vladimir_Romanov.tga"
 	expire = "1965.1.1"
@@ -181,7 +181,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mikhail Nikolayevich Tukhachevsky"
+	name = "Generalissimus Mikhail Nikolayevich Tukhachevsky"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Mikhail_Tukhachevsky.tga"
 	expire = "1965.1.1"
@@ -191,7 +191,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vladimir IV Romanovskiy"
+	name = "Imperator Vladimir IV Romanovskiy"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Vladimir_Romanov.tga"
 	expire = "1965.1.1"
@@ -201,7 +201,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kirill I Romanovskiy"
+	name = "Imperator Kirill I Romanovskiy"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Kirill_Romanov.tga"
 	expire = "1965.1.1"
@@ -211,7 +211,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pyotr Fyodorovich Polyansky"
+	name = "Patriarkh Pyotr Fyodorovich Polyansky"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Pyotr_Polyansky.tga"
 	expire = "1965.1.1"
@@ -221,7 +221,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kirill I Romanovskiy"
+	name = "Imperator Vserossiyskiy Kirill I Romanovskiy"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Kirill_Romanov.tga"
 	expire = "1965.1.1"
@@ -231,7 +231,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Anastasy Andreyevich Vonsyatsky"
+	name = "Vozhd Anastasy Andreyevich Vonsyatsky"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Anastasy_Vonsyatsky.tga"
 	expire = "1965.1.1"
@@ -241,7 +241,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Konstantin Vladimirovich Rodzaevsky"
+	name = "Fyurer Konstantin Vladimirovich Rodzaevsky"
 	desc = ""
 	picture = "gfx/leaders/Russia/Portrait_Konstantin_Rodzaevsky.tga"
 	expire = "1965.1.1"
