@@ -13,6 +13,7 @@ state={
 		add_core_of = MOR
 		add_core_of = WES
 		add_core_of = SEH
+		add_core_of = SD0
 
 	}
 
@@ -22,5 +23,4 @@ state={
 	manpower=24333
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	impassable = yes
 }

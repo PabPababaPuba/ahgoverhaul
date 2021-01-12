@@ -8,9 +8,9 @@ state={
 	    owner = TUN
         add_core_of = TUN
 	add_core_of = CED
+	add_core_of = SD0
     }	
 	manpower=1000
 	state_category = pastoral
-	impassable = yes
 	buildings_max_level_factor=1.000
 }

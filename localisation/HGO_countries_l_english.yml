@@ -50,6 +50,14 @@
  PTH_DEF:0 "Panth Piploda"
  PTH_ADJ:0 "Panth Piplodan"
 
+ SD0:0 "Sahara Desert"
+ SD0_DEF:0 "The Sahara Desert"
+ SD0_ADJ:0 "Saharan"
+
+ KD0:0 "Rub al' Khali Desert"
+ KD0_DEF:0 "The Rub al' Khali Desert"
+ KD0_ADJ:0 "Bedouin"
+
  LKE:0 "Lake Eyre"
  LKE_DEF:0 "Lake Eyre"
  LKE_ADJ:0 "Lake Eryian" 
