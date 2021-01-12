@@ -14,7 +14,6 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = KAZ
-		
 		add_core_of = ATB
 		add_core_of = ALS
 		add_core_of = GLD
@@ -22,7 +21,7 @@ state={
 	}
 
 	provinces={
-		7337 10164 14385 
+		7337 14385 
 	}
 	manpower=142140
 	buildings_max_level_factor=1.000
