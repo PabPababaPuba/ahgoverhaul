@@ -6430,3 +6430,11 @@ CSK = {
 color = rgb { 236 230 111 }
 color_ui = rgb { 236 230 111 }
 }
+KD0 = {
+color = rgb { 158  130  83 }
+color_ui = rgb { 158  130  83 }
+}
+SD0 = {
+color = rgb { 158  130  83 }
+color_ui = rgb { 158  130  83 }
+}

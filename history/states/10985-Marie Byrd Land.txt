@@ -13,6 +13,5 @@ state={
 		add_core_of = ATC
 		add_core_of = UNC
 	}
-	impassable = yes
 	buildings_max_level_factor=1.000
 }

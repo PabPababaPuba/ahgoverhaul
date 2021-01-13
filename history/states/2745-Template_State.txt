@@ -6,6 +6,7 @@ state={
 		owner = LBA 
 		add_core_of = NGR
 		add_core_of = LBA
+		add_core_of = SD0
 		buildings = {
 			infrastructure = 2
 			
@@ -16,6 +17,5 @@ state={
 	}
 	manpower=1000 
  state_category=wasteland
- impassable = yes
 	buildings_max_level_factor=1.000
 }

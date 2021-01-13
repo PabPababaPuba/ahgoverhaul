@@ -32,7 +32,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Ho Lung"
+	name = "Shiangjiang Ho Lung"
 	desc = "POLITICS_2RA_VAN_DESC"
 	picture = "Portrait_He_Long.tga"
 	expire = "1965.1.1"
@@ -42,7 +42,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ho Lung"
+	name = "Shiangjiang Ho Lung"
 	desc = "POLITICS_2RA_STRAT_DESC"
 	picture = "Portrait_He_Long.tga"
 	expire = "1965.1.1"

@@ -33,7 +33,7 @@ set_politics = {
 #}
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
+	name = "President Franklin Delano Roosevelt"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "USA_FDR.tga"
 	expire = "1947.1.1"
@@ -44,7 +44,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hans-Heinrich Dieckhoff"
+	name = "Gouverneur Hans-Heinrich Dieckhoff"
 	desc = ""
 	picture = "USA_Dieckhoff.tga"
 	expire = "1965.1.1"
@@ -55,7 +55,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wallis I of Simpson"
+	name = "Queen Wallis I of Simpson"
 	desc = ""
 	picture = "USA_Wallis.tga"
 	expire = "1965.1.1"
@@ -65,7 +65,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alf Landon"
+	name = "President Alf Landon"
 	desc = ""
 	picture = "USA_Landon.tga"
 	expire = "1965.1.1"
@@ -95,7 +95,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Earl Russell Browder"
+	name = "General Secretary Earl Russell Browder"
 	desc = ""
 	picture = "USA_Browder.tga"
 	expire = "1965.1.1"
@@ -105,7 +105,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James Patrick Cannon"
+	name = "Chairman James Patrick Cannon"
 	desc = ""
 	picture = "USA_Cannon.tga"
 	expire = "1965.1.1"
@@ -115,7 +115,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Norman Mattoon Thomas"
+	name = "President Norman Mattoon Thomas"
 	desc = ""
 	picture = "USA_Thomas.tga"
 	expire = "1965.1.1"
@@ -125,7 +125,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John III of Washington"
+	name = "King John III of Washington"
 	desc = ""
 	picture = "USA_JohnWashington.tga"
 	expire = "1965.1.1"
@@ -135,7 +135,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alfred Smith"
+	name = "Prime Minister Alfred Smith"
 	desc = ""
 	picture = "USA_Smith.tga"
 	expire = "1965.1.1"
@@ -145,7 +145,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Frederick Steiwer"
+	name = "Prime Minister Frederick Steiwer"
 	desc = ""
 	picture = "USA_Steiwar.tga"
 	expire = "1965.1.1"
@@ -155,7 +155,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Frederick Lemke"
+	name = "Chancellor William Frederick Lemke"
 	desc = ""
 	picture = "USA_Lemke.tga"
 	expire = "1965.1.1"
@@ -165,7 +165,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Lee I of Washington"
+	name = "King Lee I of Washington"
 	desc = ""
 	picture = "USA_LeeWashington.tga"
 	expire = "1965.1.1"
@@ -175,7 +175,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "David Leigh Colvin"
+	name = "President David Leigh Colvin"
 	desc = ""
 	picture = "USA_Colvin.tga"
 	expire = "1965.1.1"
@@ -185,7 +185,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Joseph Pershing"
+	name = "Commander-in-Chief John Joseph Pershing"
 	desc = ""
 	picture = "USA_Pershing.tga"
 	expire = "1965.1.1"
@@ -195,7 +195,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Greer Dill"
+	name = "Governor John Greer Dill"
 	desc = ""
 	picture = "USA_Dill.tga"
 	expire = "1965.1.1"
@@ -205,7 +205,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward Frederick Lindley Wood"
+	name = "Governor-General Edward Frederick Lindley Wood, Viscount Halifax"
 	desc = ""
 	picture = "USA_Halifax.tga"
 	expire = "1965.1.1"
@@ -215,7 +215,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Michael Joseph Curley"
+	name = "Divine President Michael Joseph Curley"
 	desc = ""
 	picture = "USA_Curley.tga"
 	expire = "1965.1.1"
@@ -225,7 +225,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George IV of Lee"
+	name = "Emperor George IV of Lee"
 	desc = ""
 	picture = "USA_GeorgeLee.tga"
 	expire = "1965.1.1"
@@ -235,7 +235,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Dudley Pelley"
+	name = "Princeps-President William Dudley Pelley, Supreme Protector of Congress"
 	desc = ""
 	picture = "USA_Pelley.tga"
 	expire = "1965.1.1"
@@ -245,7 +245,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Smedley Darlington Butler"
+	name = "Chairman Smedley Darlington Butler"
 	desc = ""
 	picture = "USA_Butler.tga"
 	expire = "1965.1.1"

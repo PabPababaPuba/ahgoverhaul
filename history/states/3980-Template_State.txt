@@ -9,6 +9,7 @@ state={
 		}
 		add_core_of = ATC
 		add_claim_by = NOR
+		add_claim_by = URG
 		add_core_of = NS2
 	}
 	provinces={
@@ -16,6 +17,5 @@ state={
 	}
 	manpower = 1
 	state_category = wasteland
-	impassable = yes
 	buildings_max_level_factor=1.000
 }

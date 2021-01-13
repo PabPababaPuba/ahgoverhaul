@@ -19,7 +19,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "George V of Windsor"
+	name = "King George V of Windsor"
 	desc = ""
 	picture = "ENG_GeorgeV.tga"
 	expire = "1938.1.1"
@@ -30,7 +30,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ernest Augustus III of Hanover"
+	name = "King Ernest Augustus III of Hanover"
 	desc = ""
 	picture = "HAN_Ernest.tga"
 	expire = "1965.1.1"
@@ -41,7 +41,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward VIII of Windsor"
+	name = "King Edward VIII of Windsor"
 	desc = ""
 	picture = "Portrait_Prince_David.dds"
 	expire = "1965.1.1"
@@ -52,7 +52,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gerard Vernon Wallop"
+	name = "President Gerard Vernon Wallop"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
@@ -63,7 +63,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Harry Pollitt"
+	name = "General Secretary Harry Pollitt"
 	desc = ""
 	picture = "ENG_Pollitt.tga"
 	expire = "1965.1.1"
@@ -74,7 +74,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Philip Snowden"
+	name = "Chairman Philip Snowden, Viscount Snowden of Ickornshaw"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
@@ -84,7 +84,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Clement Richard Attlee"
+	name = "Chancellor Clement Richard Attlee"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
@@ -94,7 +94,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Elizabeth II of Windsor"
+	name = "Queen Elizabeth II of Windsor"
 	desc = ""
 	picture = "Portrait_Princess_Elizabeth.dds"
 	expire = "1965.1.1"
@@ -104,7 +104,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Arthur Neville Chamberlain"
+	name = "President Arthur Neville Chamberlain"
 	desc = ""
 	picture = "Portrait_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
@@ -114,7 +114,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George VI of Windsor"
+	name = "King George VI of Windsor"
 	desc = ""
 	picture = "Portrait_Prince_Albert.tga"
 	expire = "1965.1.1"
@@ -124,7 +124,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sir Winston Leonard Spencer Churchill"
+	name = "Prime Minister Sir Winston Leonard Spencer Churchill"
 	desc = ""
 	picture = "Portrait_Winston_Churchill.dds"
 	expire = "1965.1.1"
@@ -134,7 +134,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George VI of Windsor"	
+	name = "King George VI of Windsor"	
 	desc = ""
 	picture = "Portrait_Prince_George.dds"
 	expire = "1965.1.1"
@@ -144,7 +144,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Frederick Rudolph Lambart"
+	name = "Commander-in-Chief Frederick Rudolph Lambart, Earl of Cavan"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
@@ -154,7 +154,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Prince Henry of Windsor"
+	name = "Prince-Regent Henry of Windsor, Duke of Gloucester"
 	desc = ""
 	picture = "Portrait_Prince_Henry.dds"
 	expire = "1965.1.1"
@@ -164,7 +164,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V of Windsor"
+	name = "King George V of Windsor"
 	desc = ""
 	picture = "ENG_GeorgeV.tga"
 	expire = "1965.1.1"
@@ -174,7 +174,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward VIII of Windsor"
+	name = "Emperor Edward VIII of Windsor"
 	desc = ""
 	picture = "Portrait_Prince_David.dds"
 	expire = "1965.1.1"
@@ -184,7 +184,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sir Oswald Ernald Mosley"
+	name = "Chairman Sir Oswald Ernald Mosley, Baronet Ancoats"
 	desc = ""
 	picture = "Portrait_Oswald_Mosley.dds"
 	expire = "1965.1.1"
@@ -194,7 +194,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Franz Alfred Six"
+	name = "Reichskommissar Franz Alfred Six"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
@@ -234,7 +234,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hugh Todd Naylor Gaitskell"
+	name = "First Minister Hugh Todd Naylor Gaitskell"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"

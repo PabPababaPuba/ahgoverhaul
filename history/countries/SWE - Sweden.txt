@@ -26,7 +26,7 @@ oob = "SWE_1936"
 
 
 create_country_leader = {
-	name = "Birger Furugård"
+	name = "Riksledare Birger Furugård"
 	desc = ""
 	picture = "Portrait_Birger_Furugard.tga"
 	expire = "1965.1.1"
@@ -57,7 +57,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sven Harald Linderot"
+	name = "Revolutionens Generalsekreterare Sven Harald Linderot"
 	desc = ""
 	picture = "Portrait_Sven_Linderot.tga"
 	expire = "1965.1.1"
@@ -67,7 +67,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nils Svante Flyg"
+	name = "Ordförare Nils Svante Flyg"
 	desc = ""
 	picture = "Portrait_Nils_flyg.tga"
 	expire = "1965.1.1"
@@ -147,7 +147,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Carl Gustaf Ekman"
+	name = "Dem som talar Carl Gustaf Ekman"
 	desc = ""
 	picture = "Portrait_Carl_Ekman.tga"
 	expire = "1965.1.1"
@@ -187,7 +187,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erling Eidem"
+	name = "Prins-Ärkebiskop Erling Eidem"
 	desc = ""
 	picture = "Portrait_Erling_Eidem.tga"
 	expire = "1965.1.1"

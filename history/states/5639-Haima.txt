@@ -8,9 +8,9 @@ state={
 		owner = IMO 
 		add_core_of = OMN
 		add_core_of = IMO
+	   	add_core_of = KD0
 	}
 	state_category = pastoral
 	manpower = 1000
-	impassable = yes
 	buildings_max_level_factor=1.000
 }
