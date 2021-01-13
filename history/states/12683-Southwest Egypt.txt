@@ -1,22 +1,24 @@
+
 state={
-	id=2287
-	name="STATE_2287"
+	id=12683
+	name="STATE_12683"
+
 
 	history={
-		owner = SUD
+		owner = EGY
 		buildings = {
 			infrastructure = 0
 
 		}
-		add_core_of = SUD
+		add_core_of = EGY
 		add_core_of = SD0
 
 	}
-	
+
 	provinces={
-		8103 
+		10907
 	}
-	manpower=912
+	manpower=26539
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }
