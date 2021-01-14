@@ -2499,6 +2499,7 @@ on_actions = {
 		ARM = {
 			transfer_state = 3944
 			transfer_state = 3945
+			transfer_state = 8087
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
