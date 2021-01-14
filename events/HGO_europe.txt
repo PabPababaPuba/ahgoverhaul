@@ -335,6 +335,7 @@ country_event = { #2020 Europe
 							is_owned_by = GER
 							is_owned_by = NOR
 							is_owned_by = SWE
+							is_owned_by = TUR
 								}
 							}
 						set_demilitarized_zone = no

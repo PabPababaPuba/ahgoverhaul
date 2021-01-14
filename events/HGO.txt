@@ -3364,7 +3364,7 @@ country_event = { #Yeet the princely states
 	}
 }
 
-country_event = { #Decolonise Arabia
+country_event = { #Decolonise The Middle East
 	id = hgo.2
 	title = hgo.2.t
 	desc = hgo.2.d
@@ -3572,7 +3572,6 @@ country_event = { #Decolonise Arabia
 				limit = {
 					OR = {
 						is_core_of = NGK
-						is_claimed_by = NGK
 						}
 					}
 				NGK = {
@@ -3617,7 +3616,6 @@ country_event = { #Decolonise Arabia
 					is_core_of = AZR
 					NOT = {
 						is_core_of = NGK
-						is_claimed_by = NGK
 						}
 					}
 				AZR = {
@@ -3629,9 +3627,13 @@ country_event = { #Decolonise Arabia
 			transfer_state = 8085
 			transfer_state = 8086
 			transfer_state = 3579
+			transfer_state = 3941
+			transfer_state = 12312
+			transfer_state = 12319
+			transfer_state = 12320
 			drop_cosmetic_tag = yes
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = centrist_republic
 				}
 			}
 		NGK = {
@@ -3641,6 +3643,8 @@ country_event = { #Decolonise Arabia
 				}
 			}
 		ARM = {
+			transfer_state = 3944
+			transfer_state = 3945
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
@@ -3664,6 +3668,9 @@ country_event = { #Decolonise Arabia
 				ruling_party = democratic
 				}
 			}
+		10107 = {
+			set_demilitarized_zone = yes
+			}
 		PER = {
 			set_politics = {
 				ruling_party = neutrality
@@ -3672,7 +3679,7 @@ country_event = { #Decolonise Arabia
        	 KUW = {
 		    transfer_state = 1174
 		    transfer_state = 9095
-}
+			}
 			every_state = {
 				limit = {
 					is_owned_by = KUW

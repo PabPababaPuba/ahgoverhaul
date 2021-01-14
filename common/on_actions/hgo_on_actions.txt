@@ -2426,7 +2426,6 @@ on_actions = {
 				limit = {
 					OR = {
 						is_core_of = NGK
-						is_claimed_by = NGK
 						}
 					}
 				NGK = {
@@ -2471,7 +2470,6 @@ on_actions = {
 					is_core_of = AZR
 					NOT = {
 						is_core_of = NGK
-						is_claimed_by = NGK
 						}
 					}
 				AZR = {
@@ -2483,9 +2481,13 @@ on_actions = {
 			transfer_state = 8085
 			transfer_state = 8086
 			transfer_state = 3579
+			transfer_state = 3941
+			transfer_state = 12312
+			transfer_state = 12319
+			transfer_state = 12320
 			drop_cosmetic_tag = yes
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = centrist_republic
 				}
 			}
 		NGK = {
@@ -2495,6 +2497,8 @@ on_actions = {
 				}
 			}
 		ARM = {
+			transfer_state = 3944
+			transfer_state = 3945
 			drop_cosmetic_tag = yes
 			set_politics = {
 				ruling_party = democratic
@@ -2518,6 +2522,9 @@ on_actions = {
 			set_politics = {
 				ruling_party = democratic
 				}
+			}
+		10107 = {
+			set_demilitarized_zone = yes
 			}
 		PER = {
 			set_politics = {
