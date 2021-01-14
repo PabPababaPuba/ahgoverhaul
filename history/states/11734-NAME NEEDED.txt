@@ -10,9 +10,9 @@ state={
 		add_core_of = PRC
 		add_core_of = SIK
 		add_core_of = UYG
+		add_core_of = TD0
 	}
 	manpower = 1000
 	state_category = pastoral
-	impassable = yes
 	buildings_max_level_factor=1.000
 }

@@ -2,8 +2,6 @@ state={
 	id=858
 	name="STATE_858"
 
-	impassable = yes
-
 	history={
 		owner = LBA
 		buildings = {
@@ -12,6 +10,7 @@ state={
 		}
 		add_core_of = LBA
 		add_core_of = FZN
+		add_core_of = SD0
 
 	}
 
