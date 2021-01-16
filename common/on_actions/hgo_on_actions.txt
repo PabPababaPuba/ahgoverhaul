@@ -2626,8 +2626,10 @@ on_actions = {
 				}
 			}
 		SUD = {
+			annex_country = { target = TNA }
 			release = SSU
 			release = ETH
+			release = KEN
 			transfer_state = 10307
 			transfer_state = 10308
 			transfer_state = 1628
@@ -2694,10 +2696,6 @@ on_actions = {
 			transfer_state = 5489
 			transfer_state = 5488
 			transfer_state = 6782
-			}
-		SSU = {
-			annex_country = { target = TNA }
-			release = KEN
 			}
 		ERI = {
 			release = ETH
@@ -2980,14 +2978,17 @@ on_actions = {
 				ruling_party = neutrality
 				}	
 			}
+			MRS = {
+			release = DGC
+			}
 			every_state = {
 				limit = {
 					is_owned_by = SUD
 					}
 				SUD = {
 					add_state_core = PREV
-						}
 					}
+				}
 				every_country = {
 				limit = {
 					}
