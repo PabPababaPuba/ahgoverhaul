@@ -270,8 +270,10 @@ country_event = { 2020 Africa
 				}
 			}
 		SUD = {
+			annex_country = { target = TNA }
 			release = SSU
 			release = ETH
+			release = KEN
 			transfer_state = 10307
 			transfer_state = 10308
 			transfer_state = 1628
@@ -338,10 +340,6 @@ country_event = { 2020 Africa
 			transfer_state = 5489
 			transfer_state = 5488
 			transfer_state = 6782
-			}
-		SSU = {
-			annex_country = { target = TNA }
-			release = KEN
 			}
 		ERI = {
 			release = ETH
@@ -624,14 +622,17 @@ country_event = { 2020 Africa
 				ruling_party = neutrality
 				}	
 			}
+		MRS = {
+			release = DGC
+			}
 			every_state = {
 				limit = {
 					is_owned_by = SUD
 					}
 				SUD = {
 					add_state_core = PREV
-						}
-					}		
+					}
+				}		
 		}
 	}
 	
