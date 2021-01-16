@@ -4744,6 +4744,12 @@
  MNT_GER_autonomy_reichsprotectorate_DEF:0 "Das Reichsprotektorat Montenegro"
  MNT_GER_DEF:0 "Reichkommissariat Montrnegro"
  MNT_GER:0 "Reichskommissariat Montenegro"
+ 
+ NZL_GER_autonomy_satellite:0 "Das Deutsch Neuseeland Marinezone"
+ NZL_GER_autonomy_integrated_puppet:0 "Reichskommisariat Neuseeland"
+ NZL_GER_autonomy_puppet:0 "Reichsprotektorat Neuseeland"
+ NZL_GER_autonomy_colony:0 "Reichskolonie Neuseeland"
+ NZL_GER_autonomy_colony:0 "Reichsherrschaft Neuseeland"
 
  #soviet socialist republics
  SOVIET:0 "Union of Soviet Socialist Republics"
