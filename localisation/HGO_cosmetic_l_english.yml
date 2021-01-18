@@ -7256,3 +7256,18 @@ DUM_TRA_DEF:0 "the $NONIDEOLOGYADJ$ Transitional Government"
 COL_ENG_USA:0 "Anglo-American Condominium of Columbia"
 COL_ENG_USA_DEF:0 "the Anglo-American Condominium of Columbia"
 COL_ENG_USA_ADJ:0 "Columbian"
+
+ ENG_EMPIRE:0 "British Empire"
+ ENG_EMPIRE_DEF:0 "The British Empire"
+ ENG_EMPIRE_ADJ:0 "British"
+
+ SWE_UNION:0 "Union of Sweden-Norway"
+ SWE_UNION_DEF:0 "The Union of Sweden-Norway"
+ SWE_UNION_ADJ:0 "Swedish-Norwegian"
+
+ AUS_EMPIRE_monarchism:0 "Austro-Hungarian Empire"
+ AUS_EMPIRE_monarchism_DEF:0 "The Austro-Hungarian Empire"
+ AUS_EMPIRE_monarchism_ADJ:0 "Austro-Hungarian"
+ AUS_EMPIRE_fascism:0 "Österreichisch-Ungarische Reich"
+ AUS_EMPIRE_fascism_DEF:0 "das Österreichisch-Ungarische Reich"
+ AUS_EMPIRE_fascism_ADJ:0 "Österreichisch-Ungarische"
