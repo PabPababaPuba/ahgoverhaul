@@ -7274,3 +7274,7 @@ AUS_EMPIRE_monarchism_ADJ:0 "Austro-Hungarian"
 AUS_EMPIRE_fascism:0 "Österreichisch-Ungarische Reich"
 AUS_EMPIRE_fascism_DEF:0 "das Österreichisch-Ungarische Reich"
 AUS_EMPIRE_fascism_ADJ:0 "Österreichisch-Ungarische"
+
+MEX_EMPIRE:0 "Second Mexican Empire"
+MEX_EMPIRE_DEF:0 "The Second Mexican Empire"
+MEX_EMPIRE_ADJ:0 "Mexican"
