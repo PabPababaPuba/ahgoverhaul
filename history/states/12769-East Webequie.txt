@@ -1,6 +1,6 @@
 state={
-	id=12767
-	name="STATE_12767"
+	id=12769
+	name="STATE_12769"
 	
 	state_category=rural
 	
