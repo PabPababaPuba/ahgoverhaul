@@ -1,9 +1,7 @@
+
 state={
-	id=4662
-	name="STATE_4662"
-	provinces={
-		12682
-	}
+	id=12777
+	name="STATE_12777"
 	history={
 		
 		owner = CAN 
@@ -15,7 +13,10 @@ state={
 			
 		}
 	}
-	manpower = 1000
-	state_category = pastoral
+	provinces={
+		3498
+	}
+	manpower=1000 
+ state_category=pastoral
 	buildings_max_level_factor=1.000
 }

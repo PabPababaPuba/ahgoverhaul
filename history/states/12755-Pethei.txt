@@ -1,7 +1,7 @@
 
 state={
-	id=472
-	name="STATE_472"
+	id=12755
+	name="STATE_12755"
 
 	history={
 		owner = CAN
@@ -15,7 +15,7 @@ state={
 	}
 
 	provinces={
-		7901
+		4272 
 	}
 	manpower=27681
 	buildings_max_level_factor=1.000

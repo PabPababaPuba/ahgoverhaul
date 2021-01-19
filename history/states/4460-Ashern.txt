@@ -10,9 +10,6 @@ state={
 		add_core_of = CAN
 		add_core_of = MNB
 		add_core_of = MET
-		victory_points = {
-			4872 5 
-		}
 	}
 	manpower=1000 
 	state_category=pastoral

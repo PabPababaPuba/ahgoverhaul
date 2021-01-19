@@ -1,22 +1,21 @@
-
 state={
-	id=2001
-	name="STATE_2001"
+	id=12767
+	name="STATE_12767"
 	
 	state_category=rural
 	
 	history = {
 		owner = CAN
 		add_core_of = CAN
-		add_core_of = ALT
-		add_core_of = MET
+		add_core_of = ONT
 		buildings = {
 			infrastructure = 4
 		}
 	}
 
 	provinces={
-		2407 7858 13263 
+		4753 
 	}
-	manpower=302	buildings_max_level_factor=1.000
+	manpower=9919
+	buildings_max_level_factor=1.000
 }

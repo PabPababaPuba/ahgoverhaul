@@ -1,20 +1,21 @@
 state={
-	id=4414
-	name="STATE_4414"
+	id=12754
+	name="STATE_12754"
 	provinces={
-		15177 15180 
+		13265
 	}
 	history={
-		
-		owner = CAN 
-		add_core_of = CAN
-		add_core_of = MNB
-		add_core_of = MET
-		victory_points = {
-			15180 5 
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+
 		}
+		add_core_of = CAN
+		add_core_of = NWT
+		add_core_of = MET
+
 	}
-	manpower=1000 
+	manpower=1030
 	state_category=pastoral
 	buildings_max_level_factor=1.000
 }

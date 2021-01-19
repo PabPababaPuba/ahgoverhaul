@@ -1,15 +1,14 @@
 state={
-	id=4662
-	name="STATE_4662"
+	id=4718
+	name="STATE_4718"
 	provinces={
-		12682
+		15552 
 	}
 	history={
 		
 		owner = CAN 
 		add_core_of = CAN
-		add_core_of = SAS
-		add_core_of = MET
+		add_core_of = ONT
 		buildings = {
 			infrastructure = 4
 			

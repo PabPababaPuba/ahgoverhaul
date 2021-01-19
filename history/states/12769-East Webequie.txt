@@ -1,26 +1,21 @@
 state={
-	id=2006
-	name="STATE_2006"
+	id=12767
+	name="STATE_12767"
 	
 	state_category=rural
 	
 	history = {
 		owner = CAN
 		add_core_of = CAN
-		add_core_of = SAS
-		add_core_of = MET
+		add_core_of = ONT
 		buildings = {
 			infrastructure = 4
-		}
-		victory_points = {
-			10611 1 
 		}
 	}
 
 	provinces={
-		10611
+		761 
 	}
-	manpower=45320
+	manpower=9919
 	buildings_max_level_factor=1.000
-        state_category=town
 }

@@ -1,16 +1,13 @@
 state={
-	id=4051
-	name="STATE_4051"
+	id=12758
+	name="STATE_12758"
 	provinces={
-		14494
+		14502
 	}
 	history = {
 		owner = CAN
 		add_core_of = CAN
 		add_core_of = YUK
-		buildings = {
-			infrastructure = 4
-		}
 	}
 	manpower=1000 
  state_category = small_island

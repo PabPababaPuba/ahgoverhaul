@@ -1,23 +1,23 @@
 
 state={
-	id=472
-	name="STATE_472"
+	id=12760
+	name="STATE_12760"
 
 	history={
 		owner = CAN
 		buildings = {
-			infrastructure = 0
+			infrastructure = 5
 
 		}
 		add_core_of = CAN
-		add_core_of = NWT
+		add_core_of = BRC
 
 	}
 
 	provinces={
-		7901
+		14486
 	}
-	manpower=27681
+	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=town
 }
