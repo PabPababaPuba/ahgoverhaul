@@ -7253,6 +7253,12 @@ DUM_NAT_DEF:0 "the $NONIDEOLOGY$ Native Resevation"
 DUM_TRA:0 "$NONIDEOLOGYADJ$ Transitional Government"
 DUM_TRA_DEF:0 "the $NONIDEOLOGYADJ$ Transitional Government"
 
+DUM_PTC:0 "Protectorate of $NONIDEOLOGY$"
+DUM_SFR:0 "$NONIDEOLOGYADJ$ Socialist Federative Republic"
+
+DUM_SCR:0 "$NONIDEOLOGYADJ$ Socialist Republic"
+DUM_ASR:0 "$NONIDEOLOGYADJ$ Autonomous Socialist Republic"
+
 COL_ENG_USA:0 "Anglo-American Condominium of Columbia"
 COL_ENG_USA_DEF:0 "the Anglo-American Condominium of Columbia"
 COL_ENG_USA_ADJ:0 "Columbian"
