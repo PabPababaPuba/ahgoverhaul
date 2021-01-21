@@ -5,8 +5,9 @@ state={
 		17564 
 	}
 	history={
-	    owner = SYR
-        add_core_of = SYR
+	    owner = SAU
+        add_core_of = SAU
+		add_core_of = JBL
     }	
 	manpower=1000
 	state_category = pastoral
