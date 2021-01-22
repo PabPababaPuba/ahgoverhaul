@@ -62,6 +62,17 @@ country_event = { #1914 Asia
 			transfer_state = 3357
 			transfer_state = 2425
 			transfer_state = 12364
+			transfer_state = 3358
+			transfer_state = 5884
+			transfer_state = 3353
+			transfer_state = 5668
+			transfer_state = 5669
+			transfer_state = 12782
+			transfer_state = 12783
+			transfer_state = 3273
+			transfer_state = 9094
+			transfer_state = 6803
+			transfer_state = 6804
 			}
 			every_state = {
 				limit = {
@@ -93,13 +104,13 @@ country_event = { #1914 Asia
 						}
 					}
 		TUR = {
+			transfer_state = 2333
+			transfer_state = 3356
 			transfer_state = 9395
-			transfer_state = 9389
-			transfer_state = 5612
-			transfer_state = 5648
-			transfer_state = 5327
 			transfer_state = 3875
 			transfer_state = 9871
+			transfer_state = 12780
+			transfer_state = 12781
 			set_cosmetic_tag = OTTO
 			set_politics = {
 				ruling_party = monarchism
@@ -283,6 +294,7 @@ country_event = { #1914 Asia
 			transfer_state = 1192
 			}
 		PER = {
+			transfer_state = 12784
 			set_cosmetic_tag = PERS
 			}
 		AFG = {
@@ -297,6 +309,13 @@ country_event = { #1914 Asia
 			}
 		KHI = {
 			set_cosmetic_tag = RUS_GREEN
+			}
+		KUW = {
+			transfer_state = 1174
+			transfer_state = 5167
+			}
+		BHN = {
+			transfer_state = 9390
 			}
 			every_state = {
 				limit = {

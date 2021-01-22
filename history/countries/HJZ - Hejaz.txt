@@ -1,5 +1,4 @@
-﻿capital = 2215
-
+﻿capital = 12786
 oob = "HJZ_1936"
 
 # Starting tech

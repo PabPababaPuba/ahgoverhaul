@@ -20842,20 +20842,20 @@ do_arabic_renames = {
 
 	if = {
 		limit = {
-			state = 679
+			state = 962
 		}		
 		set_province_name = {
-			id = 1923
+			id = 14409
 			name = "Al-Makkah"
 		}
 	}
 
 	if = {
 		limit = {
-			state = 3372
+			state = 12786
 		}		
 		set_province_name = {
-			id = 12758
+			id = 14408
 			name = "Al-Madinah"
 		}
 	}
@@ -21488,20 +21488,20 @@ do_standard_arabic_renames = {
 
 	if = {
 		limit = {
-			state = 679
+			state = 962
 		}		
 		set_province_name = {
-			id = 1923
+			id = 14409
 			name = "Al-Makkah"
 		}
 	}
 
 	if = {
 		limit = {
-			state = 3372
+			state = 12786
 		}		
 		set_province_name = {
-			id = 12758
+			id = 14408
 			name = "Al-Madinah"
 		}
 	}
@@ -23576,20 +23576,20 @@ do_latin_renames = {
 
 	if = {
 		limit = {
-			state = 3372
+			state = 12786
 		}		
 		set_province_name = {
-			id = 12758
+			id = 14408
 			name = "Medina"
 		}
 	}
 
 	if = {
 		limit = {
-			state = 679
+			state = 962
 		}		
 		set_province_name = {
-			id = 1923
+			id = 14409
 			name = "Mecca"
 		}
 	}
@@ -34906,20 +34906,20 @@ do_greek_renames = {
 
 	if = {
 		limit = {
-			state = 3372
+			state = 12786
 		}		
 		set_province_name = {
-			id = 12758
+			id = 14408
 			name = "Medína"
 		}
 	}
 
 	if = {
 		limit = {
-			state = 679
+			state = 962
 		}		
 		set_province_name = {
-			id = 1923
+			id = 14409
 			name = "Mékka"
 		}
 	}
@@ -39187,20 +39187,20 @@ do_turkish_renames = {
 
 	if = {
 		limit = {
-			state = 679
+			state = 962
 		}		
 		set_province_name = {
-			id = 1923
+			id = 14409
 			name = "Mekke"
 		}
 	}
 
 	if = {
 		limit = {
-			state = 3372
+			state = 12786
 		}		
 		set_province_name = {
-			id = 12758
+			id = 14408
 			name = "Medine"
 		}
 	}
@@ -42973,20 +42973,20 @@ do_italian_renames = {
 
 	if = {
 		limit = {
-			state = 679
+			state = 962
 		}		
 		set_province_name = {
-			id = 1923
+			id = 14409
 			name = "La Mecca"
 		}
 	}
 
 	if = {
 		limit = {
-			state = 3372
+			state = 12786
 		}		
 		set_province_name = {
-			id = 12758
+			id = 14408
 			name = "Medina"
 		}
 	}

@@ -171,9 +171,10 @@ country_event = { 1914 Africa
 			transfer_state = 8107
 			}
 		LBA = {
+			transfer_state = 450
 			transfer_state = 451
 			transfer_state = 7271
-			transfer_state = 450
+			transfer_state = 9847
 			}
 		CYR = {
 			transfer_state = 6953

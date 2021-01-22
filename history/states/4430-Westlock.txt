@@ -2,7 +2,7 @@ state={
 	id=4430
 	name="STATE_4430"
 	provinces={
-		3010 12166 15198 
+		3010
 	}
 	history={
 		
@@ -10,10 +10,6 @@ state={
 		add_core_of = CAN
 		add_core_of = ALT
 		add_core_of = MET
-		buildings = {
-			infrastructure = 4
-			
-		}
 	}
 	manpower=1000 
 	state_category=pastoral
