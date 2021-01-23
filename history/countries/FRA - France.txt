@@ -30,7 +30,7 @@ set_politics = {
 #}
 
 create_country_leader = {
-	name = "Albert François Lebrun"
+	name = "Président Albert François Lebrun"
 	desc = ""
 	picture = "Portrait_Albert_Lebrun.dds"
 	expire = "1965.1.1"
@@ -42,7 +42,7 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Maurice Thorez"
+	name = "Secrétaire Général Maurice Thorez"
 	desc = ""
 	picture = "FRA_Thorez.tga"
 	expire = "1965.1.1"
@@ -52,7 +52,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Marceau Pivert"
+	name = "Président Marceau Pivert"
 	desc = ""
 	picture = "FRA_Pivert.tga"
 	expire = "1965.1.1"
@@ -62,7 +62,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "André Léon Blum"
+	name = "Président André Léon Blum"
 	desc = ""
 	picture = "FRA_Blum.tga"
 	expire = "1965.1.1"
@@ -72,7 +72,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jean III de Orléans"
+	name = "Roi Jean III de Orléans"
 	desc = ""
 	picture = "FRA_JeanIII.tga"
 	expire = "1965.1.1"
@@ -82,7 +82,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Édouard Daladier"
+	name = "Premier Ministre Édouard Daladier"
 	desc = ""
 	picture = "FRA_Daladier.tga"
 	expire = "1965.1.1"
@@ -92,7 +92,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jean III de Orléans"
+	name = "Roi Jean III de Orléans"
 	desc = ""
 	picture = "FRA_JeanIII.tga"
 	expire = "1965.1.1"
@@ -102,7 +102,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Napoleon VI de Bonaparte"
+	name = "Empereur Napoleon VI de Bonaparte"
 	desc = ""
 	picture = "FRA_NapoleonVI.tga"
 	expire = "1965.1.1"
@@ -112,7 +112,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "François de La Rocque"
+	name = "Chancelier Suprême François de La Rocque, Seigneur d'Alsace-Lorraine"
 	desc = ""
 	picture = "FRA_Rocque.tga"
 	expire = "1965.1.1"
@@ -122,7 +122,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Charles XII de Bourbon"
+	name = "Roi Charles XII de Bourbon"
 	desc = ""
 	picture = "FRA_CharlesXII.tga"
 	expire = "1965.1.1"
@@ -132,7 +132,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Charles de Gaulle"
+	name = "Président Charles André Marie de Gaulle"
 	desc = ""
 	picture = "FRA_DeGaulle.tga"
 	expire = "1965.1.1"
@@ -142,7 +142,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Maurice Gustave Gamelin"
+	name = "Commandant en Chef Maurice Gustave Gamelin"
 	desc = ""
 	picture = "FRA_Gamelin.tga"
 	expire = "1965.1.1"
@@ -152,7 +152,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Napoleon VI de Bonaparte"
+	name = "Empereur Napoleon VI de Bonaparte"
 	desc = ""
 	picture = "FRA_NapoleonVI.tga"
 	expire = "1965.1.1"
@@ -162,7 +162,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Charles XII de Bourbon"
+	name = "Roi Charles XII de Bourbon"
 	desc = ""
 	picture = "FRA_CharlesXII.tga"
 	expire = "1965.1.1"
@@ -172,7 +172,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Charles XII & V de Bourbon"
+	name = "Roi Charles XII & V de Bourbon"
 	desc = ""
 	picture = "FRA_CharlesXII.tga"
 	expire = "1965.1.1"
@@ -182,7 +182,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jean Verdier"
+	name = "Prince-Primat Jean Verdier"
 	desc = ""
 	picture = "FRA_Verdier.tga"
 	expire = "1965.1.1"
@@ -192,7 +192,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Napoleon VI de Bonaparte"
+	name = "Empereur Napoleon VI de Bonaparte"
 	desc = ""
 	picture = "FRA_NapoleonVI.tga"
 	expire = "1965.1.1"
@@ -202,7 +202,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Henri Philippe Benoni Pétain"
+	name = "Président Henri Philippe Benoni Pétain"
 	desc = ""
 	picture = "FRA_Petain.tga"
 	expire = "1965.1.1"
@@ -212,7 +212,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jacques Doriot"
+	name = "Réalisateur Jacques Doriot"
 	desc = ""
 	picture = "FRA_Doriot.tga"
 	expire = "1965.1.1"
