@@ -5233,8 +5233,8 @@ KRS = {
 	color_ui = rgb { 156 235 137 }
 }
 AIB = {
-	color = rgb { 156 235 137 }
-	color_ui = rgb { 156 235 137 }
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 171 190 152 }
 }
 AIB = {
 	color = rgb { 232 215 227 }
