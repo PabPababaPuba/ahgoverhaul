@@ -5,8 +5,10 @@ state={
 		13136 
 	}
 	history={
-		owner = WTR
-		add_core_of = WTR
+		owner = GCO
+		add_core_of = GCO
+		add_core_of = GHA
+		add_core_of = LCT
 
 	}
 	manpower = 1

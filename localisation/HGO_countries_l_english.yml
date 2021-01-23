@@ -106,9 +106,9 @@
  LCN_DEF:0 "Lake Congo"
  LCN_ADJ:0 "Lake Congolese"
 
- LCT:0 "Turkish Lakes"
- LCT_DEF:0 "Turkish Lakes"
- LCT_ADJ:0 "Turkish"
+ LCT:0 "Modern Lakes"
+ LCT_DEF:0 "Modern Lakes"
+ LCT_ADJ:0 "Modern"
 
  UR2_anarchism_ideology:0 "South Ural Tribes"
  UR2_anarchism_ideology_DEF:0 "South Ural Tribes"
@@ -8639,7 +8639,7 @@
  FR2:0 "Free France"
  SP2:0 "Nationalist Spain"
  AHN:0 "Austro-Hungarian Navy"
- LCT:0 "Turkish Lakes"
+ LCT:0 "Modern Lakes"
  KMN:0 "Karaman"
  KRS:0 "Karesi"
  AIB:0 "Ahi"
