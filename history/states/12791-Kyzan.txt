@@ -1,9 +1,7 @@
 state={
-	id=9607
-	name="STATE_9607"
-	provinces={
-		18868
-	}
+	id=12791
+	name="STATE_12791"
+
 	history={
 		owner = KAZ
 		add_core_of = KAZ
@@ -16,7 +14,11 @@ state={
 		add_core_of = ALS
 
 	}
-	manpower = 1
-	state_category = wasteland
+
+	provinces={
+		19460 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

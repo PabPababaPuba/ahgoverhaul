@@ -5,8 +5,15 @@ state={
 		18869
 	}
 	history={
-		owner = WTR
-		add_core_of = WTR
+		owner = KAZ
+		add_core_of = KAZ
+		add_core_of = SOV
+		add_core_of = UST
+		add_core_of = TCP
+		add_core_of = TKS
+		add_core_of = ATU
+		add_core_of = GLD
+		add_core_of = ALS
 
 	}
 	manpower = 1
