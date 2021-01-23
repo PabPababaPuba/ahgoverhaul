@@ -79,7 +79,7 @@ set_convoys = 80
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Leopold III der Belgen"
+	name = "Koning Leopold III van Belgie"
 	desc = "POLITICS_HUBERT_PIERLOT_DESC"
 	picture = "Portrait_Belgium_Leopold_iii.dds"
 	expire = "1965.1.1"

@@ -12,6 +12,7 @@ state={
 	history={
 		owner = SRL
 		add_core_of = SRL
+		add_core_of = TE2
 		buildings = {
 			infrastructure = 1
 		}
