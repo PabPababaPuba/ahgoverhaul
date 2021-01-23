@@ -10,7 +10,6 @@ state={
 		add_core_of = TIB
 	}
 	provinces={
-		20202 
+		20202 10755
 	}
-	impassable = yes
 }

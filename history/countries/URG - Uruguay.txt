@@ -18,27 +18,25 @@ set_convoys = 5
 
 
 	set_popularities = {
-		socialism_ideology 
-			 = 97
-		fascism
-			 = 0
-		communism
-			 = 3
-			
+        neutrality = 56
+        democratic = 37
+        liberal_republic = 3
+        communism = 2
+        socialism_ideology = 2
 		}
 	set_politics = { 
- ruling_party = socialism_ideology
+ ruling_party = neutrality
 	last_election = "1934.4.19"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Gabriel Terra"
+	name = "Gabriel Terra Leivas"
 	desc = "POLITICS_GABRIEL_TERRA_DESC"
 	picture = "portrait_uruguay_portrait_gabriel_terra.dds"
 	expire = "1965.1.1"
-	ideology = demsoc
+	ideology = oligarchism
 	traits = {
 		#
 	}

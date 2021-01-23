@@ -4,7 +4,7 @@ state={
 	name="STATE_579"
 
 	history={
-		owner = YML
+		owner = RUS
 		buildings = {
 			infrastructure = 1
 
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		1664 1684 4669 7689 7738 8461 9142 19931 
+		1664 1684 7689 7738 9142 19931 
 	}
 	manpower=45484
 	buildings_max_level_factor=1.000

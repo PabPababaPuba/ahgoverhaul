@@ -18,6 +18,7 @@ state={
 		add_core_of = BAY
 		add_core_of = WGR
 		add_core_of = SCG
+		add_core_of = SCB
 	
 	}
 	buildings_max_level_factor=1.000

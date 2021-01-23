@@ -13,11 +13,13 @@ state={
 		add_core_of = RUS
 		add_core_of = ULA
 		add_core_of = CVS
+		add_core_of = IDL
+		add_core_of = GLD
 
 	}
 
 	provinces={
-		19842 3315 19840 19834
+		19831 
 	}
 	manpower=1572061
 	buildings_max_level_factor=1.000

@@ -14,7 +14,7 @@ state={
 		add_core_of = THU
 		add_core_of = DDR
 		add_core_of = RGR
-		add_core_of = ANH
+		add_core_of = RSS
 		buildings = {
 			infrastructure = 5
 		}

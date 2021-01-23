@@ -1,23 +1,16 @@
-
 state={
 	id=812
 	name="STATE_812"
 
 	history={
 		owner = YUG
-		victory_points = {
-			13270 5 
-		}
-		buildings = {
-			infrastructure = 3
-
-		}
 		add_core_of = YUG
 		add_core_of = SER
 		add_core_of = KOS
-
+		victory_points = {
+			13270 10 
+		}
 	}
-
 	provinces={
 		13270 
 	}

@@ -2,32 +2,6 @@
 
 oob = "CAN_1936"
 
-set_cosmetic_tag = CAN_UK
-set_research_slots = 3
-set_country_flag = monroe_doctrine
-set_stability = 0.8
-set_war_support = 0.1
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	gw_artillery = 1
-	gwtank = 1
-	basic_light_tank = 1
-	early_fighter = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	transport = 1
-	trench_warfare = 1
-	fleet_in_being = 1
-}
-
 set_popularities = {
 	democratic_monarchism 
 		= 98
@@ -45,11 +19,86 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Mackenzie King"
+	name = "William Lyon Mackenzie King"
 	desc = ""
 	picture = "Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
 	ideology = liberal_constitutionalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Richard Bedford Bennet"
+	desc = ""
+	picture = "Portrait_Richard_Bennet.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prince David of Windsor"
+	desc = ""
+	picture = "Portrait_Prince_David.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "John Buchan"
+	desc = ""
+	picture = "Portrait_John_Buchan.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "John Horne Blackmore"
+	desc = ""
+	picture = "Portrait_John_Blackmore.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tim Buck"
+	desc = ""
+	picture = "CAN_Buck.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
 	traits = {
 		#
 	}
@@ -62,7 +111,116 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		#
+	}
+}
+
+create_country_leader = {
+	name = "James Shaver Woodsworth"
+	desc = ""
+	picture = "Portrait_James_Woodsworth.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "James Shaver Woodsworth"
+	desc = ""
+	picture = "Portrait_James_Woodsworth.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "William Lyon Mackenzie King"
+	desc = ""
+	picture = "Portrait_Canada_Mackenzie_King.dds"
+	expire = "1965.1.1"
+	ideology = socdem
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Richard Bedford Bennet"
+	desc = ""
+	picture = "Portrait_Richard_Bennet.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Henry Herbert Stevens"
+	desc = ""
+	picture = "Portrait_Henry_Stevens.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Henry Herbert Stevens"
+	desc = ""
+	picture = "Portrait_Henry_Stevens.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Andrew George Latta McNaughton"
+	desc = ""
+	picture = "Portrait_Andrew_McNaughton.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince Arthur of Windsor"
+	desc = ""
+	picture = "Portrait_Prince_Arthur.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Derwyn Owen"
+	desc = ""
+	picture = "Portrait_Derwyn_Owen.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "John Ross Taylor"
+	desc = ""
+	picture = "Portrait_John_Taylor.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "John Ross Taylor"
+	desc = ""
+	picture = "Portrait_John_Taylor.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
 	}
 }
 
@@ -71,36 +229,17 @@ create_country_leader = {
 	desc = ""
 	picture = "CAN_Arcand.tga"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = natsoc
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "George V of Windsor"
+	name = "Patrick Ashley Cooper"
 	desc = ""
-	picture = "Portrait_Britain_George_v.dds"
+	picture = "Portrait_Patrick_Cooper.dds"
 	expire = "1965.1.1"
-	ideology = absolutism
+	ideology = ancap
 	traits = {
-		#
-	}
-}
-
-
-set_convoys = 100
-set_stability = 0.75
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Sanguenay Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 1
-		destroyer_engine_upgrade = 1
-		ship_ASW_upgrade = 1
-		ship_anti_air_upgrade = 1
 	}
 }

@@ -1,12 +1,7 @@
+
 state={
 	id=3371
 	name="STATE_3371"
-	provinces={
-		4981 5037 14408
-	}
-	manpower = 1000
-	
-	state_category = pastoral
 
 	history={
 		owner = SAU
@@ -14,7 +9,15 @@ state={
 		add_core_of = HJZ
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		5037 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

@@ -9,9 +9,12 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = RUS
+		owner = UZB
 		add_core_of = SOV
 		add_core_of = UZB
+		add_core_of = KOK
+				add_core_of = TKS
+				add_core_of = FER
 	}
 	
 	buildings_max_level_factor=1.000

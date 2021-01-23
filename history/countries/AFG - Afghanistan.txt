@@ -1,4 +1,4 @@
-﻿capital = 267
+﻿capital = 3089
 
 oob = "AFG_1936"
 
@@ -31,23 +31,11 @@ set_technology = {
 # Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
 	name = "Mohammed Zahir Shah of Musahiban"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	desc = "POLITICS_AFG_AUTHMON_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
 	ideology = authmon
 	traits = {
 		#
 	}
-}
-
-
-create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
-	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = { desert_fox }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
 }

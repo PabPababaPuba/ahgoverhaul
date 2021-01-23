@@ -6,6 +6,7 @@ state={
 		owner = KEL 
 		add_core_of = KEL
 		add_core_of = MAL
+		add_core_of = FMS
 		buildings = {
 			infrastructure = 4
 			

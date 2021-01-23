@@ -1,15 +1,24 @@
+
 state={
 	id=10129
 	name="STATE_10129"
-	provinces={
-		10262 16384 19462 19463 19464 
-	}
+
 	history={
-	    owner = KAZ
-        add_core_of = SOV
-        add_core_of = KAZ
-    }	
+		owner = KPK
+		add_core_of = SOV
+		add_core_of = UZB
+		add_core_of = KPK
+		add_core_of = SYD
+		add_core_of = TKS
+		add_core_of = KHW
+		add_core_of = AMD
+
+	}
+
+	provinces={
+		10262 
+	}
 	manpower=1000
-	state_category = pastoral
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

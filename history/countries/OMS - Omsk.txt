@@ -63,5 +63,13 @@ create_country_leader = {
 	}
 }
 
-
+create_country_leader = {
+	name = "Dmitry Mikhaylovich Karbyshev"
+	desc = ""
+	picture = "OMS_Karbyshev.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
 

@@ -17,11 +17,12 @@ state={
 		add_core_of = RUS
 		add_core_of = CSS
 		add_core_of = ASK
+		add_core_of = GLD
 
 	}
 
 	provinces={
-		618 757 3435 6620 9592 9753 11429 11736 
+		757 9753 
 	}
 	manpower=647208
 	buildings_max_level_factor=1.000

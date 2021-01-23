@@ -5,8 +5,10 @@ state={
 		17123 
 	}
 	history={
-	    owner = SWI
-        add_core_of = SWI
+	    owner = AUS
+        add_core_of = AUS
+        add_core_of = TYR
+        add_core_of = WAS
     }	
 	manpower=1000
 	state_category = pastoral

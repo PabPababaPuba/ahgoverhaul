@@ -4,15 +4,16 @@ state={
 	name="STATE_1189"
 
 	history={
-		owner = PMR
+		owner = TAJ
 		buildings = {
 			infrastructure = 1
 
 		}
 		add_core_of = SOV
 		add_core_of = TAJ
-		add_core_of = PMR
 		add_core_of = BKH
+		add_claim_by = TKS
+		
 
 	}
 

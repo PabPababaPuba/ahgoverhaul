@@ -2,47 +2,6 @@
 
 oob = "ITA_1936"
 
-set_research_slots = 4
-set_stability = 0.6
-set_war_support = 0.7
-add_ideas = {
-	victor_emmanuel
-	vittoria_mutilata
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
-
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	gwtank = 1
-	basic_light_tank = 1
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	early_fighter = 1
-	early_bomber = 1
-	naval_bomber1 = 1
-	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	basic_battleship = 1
-	early_battlecruiser = 1
-	transport = 1
-	trench_warfare = 1
-	fleet_in_being = 1
-}
-
 #if = {
 #	limit = {
 #		has_dlc = "Together for Victory"
@@ -67,8 +26,6 @@ set_technology = {
 #}
 
 
-set_convoys = 200
-
 
 
 	set_popularities = {
@@ -90,8 +47,8 @@ set_convoys = 200
 
 
 create_country_leader = {
-	name = "Vittorio Emanuele III di Savoia"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	name = "Re Vittorio Emanuele III di Savoia"
+	desc = "POLITICS_ITA_FASCISM_DESC"
 	picture = "Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -101,242 +58,211 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ferruccio Parri"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_italy_ferruccio_parri"
+	name = "Presidente Benito Amilcare Andrea Mussolini, Duce del Fascismo"
+	desc = "POLITICS_ITA_NATSOC_DESC"
+	picture = "gfx/leaders/ITA/Italy_Mussolini.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = natsoc
 	traits = {
-		
 	}
 }
 
 create_country_leader = {
-	name = "Palmiro Togliatti"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_ita_palmiro_togliatti"
+	name = "Imperatore Vittorio Emanuele III di Savoia"
+	desc = "POLITICS_ITA_ABSMONS_DESC"
+	picture = "Portrait_Italy_Victor_Emmanuel_III.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Eugenio Chiesa"
+	desc = "POLITICS_ITA_CONREP_DESC"
+	picture = "Portrait_Eugenio_Chiesa.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Segretario Generale Palmiro Togliatti"
+	desc = "POLITICS_ITA_VAN_DESC"
+	picture = "Portrait_Palmiro_Togliatti.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Ruggero Grieco"
+	desc = "POLITICS_ITA_COM_DESC"
+	picture = "Portrait_Ruggero_Grieco.tga"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		
 	}
 }
 
-create_field_marshal = {
-	name = "Pietro Badoglio"
-	picture = "Portrait_Italy_Pietro_Badoglio.dds"
-	traits = { defensive_doctrine old_guard politically_connected inflexible_strategist }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_field_marshal = {
-	name = "Emilio De Bono"
-	picture = "portrait_italy_emilio_de_bono.dds"
-	traits = { defensive_doctrine old_guard politically_connected trait_cautious }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Ugo Cavallero"
-	picture = "Portrait_Italy_Ugo_Cavallero.dds"
-	traits = {  old_guard trait_cautious career_officer }
-	skill = 2
-	rank = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Giovanni Messe"
-	picture = "Portrait_Italy_Giovanni_Messe.dds"
-	traits = {  armor_officer war_hero }
-	skill = 4
-	rank = 1
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Sebastiano Visconti Prasca"
-	picture = "Portrait_Italy_Sebastiano_Visconti_Prasca.dds"
-	traits = { career_officer inflexible_strategist }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Ubaldo Soddu"
-	picture = "Portrait_Italy_Ubaldo_Soddu.dds"
-	traits = { career_officer trait_cautious }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Italo Balbo"
-	picture = "portrait_italy_italo_balbo.dds"
-	traits = { career_officer politically_connected }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_field_marshal = {
-	name = "Rodolfo Graziani"
-	picture = "portrait_italy_radolfo_graziani.dds"
-	traits = { offensive_doctrine politically_connected trait_cautious }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_navy_leader = {
-	name = "Inigo Campioni"
-		picture = "Portrait_Italy_Inigo_Campioni.dds"
-	traits = { superior_tactician spotter }
-	skill = 2
-}
-
-create_navy_leader = {
-	name = "Alberto Da Zara"
-		picture = "Portrait_Italy_Alberto_Da_Zara.dds"
-	traits = { superior_tactician }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Giuseppe Fioravanzo"
-		picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
-	traits = { superior_tactician }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Carlo Bergamini"
-		picture = "Portrait_Italy_Carlo_Bergamini.dds"
-	traits = { superior_tactician }
-	skill = 2
-}
-
-create_navy_leader = {
-	name = "Angelo Iachino"
-		picture = "Portrait_Italy_Angelo_Iachino.dds"
-	traits = { superior_tactician spotter }
-	skill = 2
-}
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Bandiera Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Sirena Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		sub_engine_upgrade = 2
-		sub_stealth_upgrade = 2
-		sub_torpedo_upgrade = 2
+create_country_leader = {
+	name = "Presidente Pietro Sandro Nenni"
+	desc = "POLITICS_ITA_SOC_DESC"
+	picture = "Portrait_Pietro_Nenni.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
 	}
 }
 
-create_equipment_variant = {
-	name = "Navigatori Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 1
-		destroyer_engine_upgrade = 1
-		ship_ASW_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Maestrale Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 3
-		destroyer_engine_upgrade = 3
-		ship_ASW_upgrade = 3
-		ship_anti_air_upgrade = 3
+create_country_leader = {
+	name = "Regina Mafalda I di Savoia"
+	desc = "POLITICS_ITA_MONSOC_DESC"
+	picture = "Portrait_Mafalda_Savoy.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
 	}
 }
 
-create_equipment_variant = {
-	name = "Giussano Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Montecuccoli Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 3
-		ship_engine_upgrade = 3
-		ship_gun_upgrade = 3
-		ship_anti_air_upgrade = 3
+create_country_leader = {
+	name = "Presidente Francesco Saverio Nitti"
+	desc = "POLITICS_ITA_LIBREP_DESC"
+	picture = "Portrait_Francesco_Nitti.tga"
+	expire = "1965.1.1"
+	ideology = socdem
+	traits = {
 	}
 }
 
-create_equipment_variant = {
-	name = "Zara Class"
-	type = heavy_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_armor_upgrade = 2
-		ship_gun_upgrade = 2
+create_country_leader = {
+	name = "Re Vittorio Emanuele III di Savoia"
+	desc = "POLITICS_ITA_LIBMON_DESC"
+	picture = "Portrait_Italy_Victor_Emmanuel_III.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
 	}
 }
 
-#plane variants
-create_equipment_variant = {
-		name = "CR.42"
-		type = fighter_equipment_0
-		upgrades = {
-			plane_gun_upgrade = 1
-			plane_range_upgrade = 0  
-			plane_engine_upgrade = 2
-			plane_reliability_upgrade = 1
-		}
+create_country_leader = {
+	name = "Re Vittorio Emanuele III di Savoia"
+	desc = "POLITICS_ITA_CONMON_DESC"
+	picture = "Portrait_Italy_Victor_Emmanuel_III.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
 	}
+}
+
+create_country_leader = {
+	name = "Cancelliere Alcide Amedeo Francesco De Gasperi"
+	desc = "POLITICS_ITA_CENREP_DESC"
+	picture = "Portrait_Alcide_De_Gasperi.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Re Umberto II di Savoia"
+	desc = "POLITICS_ITA_CENMON_DESC"
+	picture = "Portrait_Umberto_II.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Gaetano Salvemini"
+	desc = "POLITICS_ITA_AUTHREP_DESC"
+	picture = "gfx/leaders/ITA/Salvemini.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Comandante in Capo Federico Baistrocchi"
+	desc = "POLITICS_ITA_STRAT_DESC"
+	picture = "Portrait_Federico_Baistrocchi.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Re Aimone I di Savoia-Aosta"
+	desc = "POLITICS_ITA_STRATMON_DESC"
+	picture = "Portrait_Aimone_Aosta.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Re Amedeo I di Savoia-Aosta"
+	desc = "POLITICS_ITA_AUTHMON_DESC"
+	picture = "Portrait_Amadeo_Aosta.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Segretario Alfredo Ildefonso Schuster"
+	desc = "POLITICS_ITA_THEOC_DESC"
+	picture = "Portrait_Alfredo_Schuster.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Gian Galeazzo Ciano, Duce del Fascismo, Conte di Cortellazzo e Buccari"
+	desc = "POLITICS_ITA_REPFASH_DESC"
+	picture = "Portrait_Galeazzo_Cianno.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

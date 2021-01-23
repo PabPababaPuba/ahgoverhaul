@@ -1,18 +1,22 @@
+
 state={
 	id=5904
 	name="STATE_5904"
-	provinces={
-		475 3593 19461 19460 19465 19467 19466
-	}
-	manpower = 1000
-	
-	state_category = pastoral
 
 	history={
-		owner = KAZ
+		owner = UZB
 		add_core_of = SOV
-		add_core_of = KAZ
+		add_core_of = UZB
+		add_core_of = BKH
+		add_claim_by = TKS
+		
+
 	}
-	
+
+	provinces={
+		19465 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

@@ -6,13 +6,16 @@ state={
 		owner = NZL 
 		add_core_of = NZL
 		add_core_of = NNZ
+				victory_points = {
+			4718 1
+		}
 		buildings = {
 			infrastructure = 4
 			
 		}
 	}
 	provinces={
-		1746 1786 4718 10609 12664 
+		4718
 	}
 	manpower=1000 
  state_category = small_island

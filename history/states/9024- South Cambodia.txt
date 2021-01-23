@@ -6,7 +6,11 @@ state={
 
 	history={
 		add_core_of = CAM
-	    owner = IND
+		add_core_of = INC
+	    owner = INC
+		victory_points = {
+			7376 1 
+		}
 
 	}
 

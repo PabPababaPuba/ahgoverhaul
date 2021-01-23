@@ -2,7 +2,7 @@ state={
 	id=10419
 	name="STATE_10419"
 	provinces={
-		291 6246 6285 7416 7431 7444 19847 
+		1278 6246 6285 7416 7431 7444 19847 
 	}
 	history={
 		owner = BSH
@@ -13,6 +13,8 @@ state={
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = BSH
+		add_core_of = IDL
+		add_core_of = GLD
 
 	}
 	manpower = 1000

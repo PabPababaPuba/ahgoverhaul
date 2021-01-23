@@ -8,6 +8,7 @@ state={
 		add_core_of = ETM
 		add_core_of = LSU
 		add_claim_by = INS
+		add_claim_by = IDS
 		buildings = {
 			infrastructure = 3
 			12190 = {

@@ -10,6 +10,7 @@ state={
 
 	history={
 		owner = ANG
+		add_core_of = BSL
 		add_core_of = ANG
 	}
 	

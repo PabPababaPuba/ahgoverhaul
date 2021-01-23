@@ -1,41 +1,6 @@
 ﻿capital = 2025
 
 oob = "AST_1936"
-set_stability = 0.8
-set_war_support = 0.3
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	gw_artillery = 1
-	gwtank = 1
-	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_submarine = 1
-	transport = 1
-	trench_warfare = 1
-
-	fleet_in_being = 1
-}
-
-#if = {
-#	limit = {
-#		has_dlc = "Together for Victory"
-#	}
-#	add_ideas = AST_great_depression_1
-#
-#	add_to_tech_sharing_group = commonwealth_research
-#}
 
 #if = {
 #	limit = {
@@ -58,34 +23,35 @@ set_technology = {
 
 
 	set_popularities = {
-		democratic_monarchism 
-			 = 98
-		fascism
-			 = 0
 		communism
 			 = 2
-			
+		conservative_monarchism 
+			= 52
+		democratic_monarchism
+			= 44
+		liberal_republic
+			= 2
 		}
 	set_politics = { 
- ruling_party = democratic_monarchism
+ ruling_party = conservative_monarchism
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Joseph Lyons"
-	desc = "POLITICS_JOHN_CURTIN_DESC"
-	picture = "Portrait_Joseph_Lyons.dds"
+	name = "Prime Minister Joseph Alysius Lyons"
+	desc = ""
+	picture = "Portrait_Joseph_Lyons.tga"
 	expire = "1965.1.1"
-	ideology = liberal_constitutionalism
+	ideology = conservative_constitutionalism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Prince Henry of Windsor"
+	name = "Governor-General Prince Henry of Windsor, Duke of Gloucester"
 	desc = ""
 	picture = "Portrait_Prince_Henry.dds"
 	expire = "1965.1.1"
@@ -96,52 +62,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eric Campbell"
-	desc = "POLITICS_ERIC_CAMPBELL_DESC"
-	picture = "GFX_AST_eric_campbell"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-
-}
-
-create_country_leader = {
-	name = "Richard Dixon"
-	desc = "POLITICS_RICHARD_DIXON_DESC"
-	picture = "GFX_AST_richard_dixon"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Earle Page"
-	desc = "POLITICS_EARLE_PAGE_DESC"
-	picture = "GFX_AST_earle_page"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rod Hull"
-	desc = ""
-	picture = "Portrait_Australia_Rod_Hull.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sir Isaac Isaacs"
+	name = "Governor-General Sir Isaac Isaacs"
 	desc = ""
 	picture = "Portrait_Sir_Isaac_Isaacs.dds"
 	expire = "1965.1.1"
@@ -151,105 +72,194 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 100
-
-create_corps_commander = {
-	name = "Leslie Morshead"
-	gfx = "GFX_AST_leslie_morshead"
-	traits = { }
-	skill = 4
-    attack_skill = 4
-    defense_skill = 2
-    planning_skill = 5
-    logistics_skill = 2
-}
-
-
-
-create_corps_commander = {
-	name = "Thomas Blamey"
-	gfx = "GFX_AST_thomas_blamey"
-	traits = { }
-	skill = 4
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Henry Wynter"
-	gfx = "GFX_AST_henry_wynter"
-	traits = { }
-	skill = 4
-    attack_skill = 3
-    defense_skill = 4
-    planning_skill = 3
-    logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Alan Vasey"
-	gfx = "GFX_AST_alan_vasey"
-	traits = { hill_fighter }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 4
-    planning_skill = 3
-    logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Horace Robertson"
-	gfx = "GFX_AST_horace_robertson"
-	traits = { desert_fox }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 1
-    planning_skill = 3
-    logistics_skill = 3
-}
-create_corps_commander = {
-	name = "John Northcott"
-	gfx = "GFX_AST_john_northcott"
-	traits = { armor_officer}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_navy_leader = {
-	name = "Harold Farncomb"
-	gfx = "GFX_AST_harold_farncomb"
-	traits = { air_controller }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Victor Crutchley"
-	gfx = "GFX_AST_victor_crutchley"
-	traits = { }
-	skill = 3
-}
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Sydney Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_gun_upgrade = 2
-		ship_anti_air_upgrade = 2
+create_country_leader = {
+	name = "First Minister Charles Frederic John North"
+	desc = ""
+	picture = "Portrait_Charles_Frederic_John_North.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
 	}
 }
 
-create_equipment_variant = {
-	name = "Canberra Class"
-	type = heavy_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_armor_upgrade = 2
-		ship_gun_upgrade = 2
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Secretary Jack Miles"
+	desc = ""
+	picture = "Portrait_Jack_Miles.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Jack Miles"
+	desc = ""
+	picture = "Portrait_Jack_Miles.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chancellor John Curtin"
+	desc = ""
+	picture = "Portrait_John_Curtin.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister John Curtin"
+	desc = ""
+	picture = "Portrait_John_Curtin.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Jack Lang"
+	desc = ""
+	picture = "Portrait_Jack_Lang.dds"
+	expire = "1965.1.1"
+	ideology = socdem
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Joseph Alysius Lyons"
+	desc = ""
+	picture = "Portrait_Joseph_Lyons.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister John Curtin"
+	desc = ""
+	picture = "Portrait_John_Curtin.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Richard Layton Butler"
+	desc = ""
+	picture = "Portrait_Richard_Layton_Butler.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister Earle Christmas Grafton Page"
+	desc = ""
+	picture = "Portrait_Earle_Page.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commander-in-Chief Sir Thomas Blamey"
+	desc = ""
+	picture = "Portrait_Sir_Thomas_Blamey.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir William Riddell Birdwood, Baronet of Anzac and Totnes"
+	desc = ""
+	picture = "Portrait_Sir_William_Riddell_Birdwood.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince-Archbishop Norman Thomas Gilroy"
+	desc = ""
+	picture = "Portrait_Norman_Thomas_Gilroy.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister Eric Campbell"
+	desc = ""
+	picture = "Portrait_Eric_Campbell.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Supreme Leader Percy Reginald Stephensen"
+	desc = ""
+	picture = "Portrait_Percy_Reginald_Stephensen.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur William John Miles"
+	desc = ""
+	picture = "Portrait_William_John_Miles.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief Executive Officer Leslie Bradford"
+	desc = ""
+	picture = "Portrait_Leslie_Bradford.dds"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
 	}
 }

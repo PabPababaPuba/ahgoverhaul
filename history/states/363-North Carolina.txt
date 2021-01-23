@@ -15,6 +15,7 @@ state={
 		add_core_of = CSA
 		add_core_of = NCR
 		add_core_of = NAF
+		add_core_of = PEP
 		victory_points = {
 			7138 3 
 		}

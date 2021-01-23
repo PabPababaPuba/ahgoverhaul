@@ -67,3 +67,13 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Bonkey Donk House"
+	desc = ""
+	picture = "gfx/leaders/Anarchy/Shack.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}

@@ -11,7 +11,9 @@ state={
 
 		}
 		add_core_of = JRA
-		add_core_of = RAJ
+		add_core_of = RAJ 
+		add_core_of = IND
+		add_core_of = MDY
 
 	}
 	manpower=1030

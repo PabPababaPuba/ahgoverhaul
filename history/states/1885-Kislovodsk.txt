@@ -4,15 +4,19 @@ state={
 	state_category=rural
 
 	history={
-		owner = KBK
+		owner = RUS
 		buildings = {
 			infrastructure = 4
 
 		}
 		add_core_of = SOV
 		add_core_of = RUS
+        add_core_of = TRK
+		add_core_of = CSK
 		add_core_of = CSS
 		add_core_of = KBK
+		add_core_of = GLD
+		add_core_of = MTN
 
 	}
 	

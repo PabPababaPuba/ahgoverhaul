@@ -3,9 +3,10 @@ state={
 	name="STATE_1150"
 
 	history = {
-	    owner = IND
+	    owner = INC
 		add_core_of = CAM
 		add_core_of = CCH
+		add_core_of = INC
 	}
 
 	provinces={

@@ -8,7 +8,9 @@ state={
 		owner = NBO
 		add_core_of = NBO
 		add_core_of = PHI
-		add_core_of = INS
+		add_core_of = INS 
+		add_core_of = IDS
+		add_core_of = MAL
 
 	}
 	manpower = 1000

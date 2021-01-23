@@ -4,7 +4,7 @@ state={
 	name="STATE_603"
 
 	history={
-		owner = CHI
+		owner = KWC
 		add_core_of = CHI
 		add_core_of = PRC
 		add_core_of = KWC
@@ -14,7 +14,6 @@ state={
 			arms_factory = 2
 
 		}
-		
 		victory_points = {
 			4504 3 
 		}
@@ -22,7 +21,7 @@ state={
 	}
 
 	provinces={
-		1474 1884 4192 4504 4532 7549 7577 8095 10335 10616 
+		4504 
 	}
 	manpower=7543200
 	buildings_max_level_factor=1.000

@@ -9,6 +9,8 @@ state={
 		add_core_of = GER
         add_core_of = DDR
 		add_core_of = THU
+		add_core_of = SW2
+		add_core_of = SWM
 		victory_points = {
 			18007 5 
 		}

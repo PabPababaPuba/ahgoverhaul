@@ -5,6 +5,9 @@ state={
 	
 	state_category = town
 	history={
+		victory_points = {
+			5157 5 
+		}
 		owner = RAJ 
 		add_core_of = UTT
 		buildings = {
@@ -12,7 +15,9 @@ state={
 			arms_factory = 1
 			industrial_complex = 2 
 		}
-		add_core_of = RAJ
+		add_core_of = RAJ 
+		add_core_of = URK
+		add_core_of = IND
 	}
 	provinces={
 		1898 3989 5157 10021 

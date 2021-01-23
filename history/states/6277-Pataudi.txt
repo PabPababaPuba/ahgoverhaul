@@ -7,8 +7,10 @@ state={
 	manpower=1000
 	history={
 		owner = PTD
-		add_core_of = RAJ
+		add_core_of = RAJ 
+		add_core_of = IND
 		add_core_of = PTD
+		add_core_of = HRY
 	}
  
 	state_category=pastoral

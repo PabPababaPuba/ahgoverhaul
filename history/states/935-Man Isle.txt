@@ -13,7 +13,9 @@ state={
 
 		}
 		add_core_of = MNX
-
+		victory_points = {
+			3311 5 
+		}
 	}
 
 	provinces={

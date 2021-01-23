@@ -1,9 +1,7 @@
+
 state={
 	id=955
 	name="STATE_955"
-	resources={
-		steel=20.000
-	}
 
 	history={
 		owner = RUS
@@ -14,11 +12,12 @@ state={
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = ORN
+		add_core_of = GLD
 
 	}
 
 	provinces={
-		227 1210 1350 3265 3330 3357 3385 3486 4324 6379 6424 6515 7343 9420 9445 10299 11433 12128 12242 12270 12298 403 19784 19769
+		227 403 1350 3265 3330 3357 3385 4324 6379 7343 19784 
 	}
 	manpower=813040
 	buildings_max_level_factor=1.000

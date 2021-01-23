@@ -15,6 +15,7 @@ state={
 		add_core_of = THU
 		add_claim_by = BAY
 		add_core_of = WGR
+		add_core_of = SCB
 		buildings = {
 			infrastructure = 5
 		}

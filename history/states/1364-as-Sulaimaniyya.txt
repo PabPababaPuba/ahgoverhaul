@@ -11,11 +11,16 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = TMS
+		add_core_of = TCP
+		add_core_of = TKS
+		add_core_of = UST
+		
+		add_core_of = GLD
 
 	}
 
 	provinces={
-		4563 10406 
+		10406 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -47,48 +47,223 @@ set_convoys = 100
 set_stability = 0.75
 
 
+
 create_country_leader = {
-	name = "Antonio Óscar Fragoso Carmona"
+	name = "António Ginestal Machado"
+	desc = ""
+	picture = "Portrait_Antonio_Machado.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bento António Gonçalves"
+	desc = ""
+	picture = "Portrait_Bento_Goncalves.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bento António Gonçalves"
+	desc = ""
+	picture = "Portrait_Bento_Goncalves.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Amílcar da Silva Ramada Curto"
+	desc = ""
+	picture = "Portrait_Amilcar_Curto.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duarte I de Bragança"
+	desc = ""
+	picture = "POR_Duarte.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "José Domingues dos Santos"
+	desc = ""
+	picture = "Portrait_Jose_Santos.tga"
+	expire = "1965.1.1"
+	ideology = socdem
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duarte I de Bragança"
+	desc = ""
+	picture = "POR_Duarte.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duarte I de Bragança"
+	desc = ""
+	picture = "POR_Duarte.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Afonso Augusto da Costa"
+	desc = ""
+	picture = "Portrait_Afonso_Costa.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pedro VI de Orléans-Bragança"
+	desc = ""
+	picture = "POR_Pedro.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "António Óscar Fragoso Carmona"
 	desc = ""
 	picture = "Portrait_Oscar_Carmona.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Bento Gonçalves"
-	desc = "POLITICS_BENTO_GONCALVES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Duarte II of Braganza"
+	name = "António Óscar Fragoso Carmona"
 	desc = ""
-	picture = "Portrait_Duarte_II_of_Braganza.dds"
+	picture = "Portrait_Oscar_Carmona.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duarte I de Bragança"
+	desc = ""
+	picture = "POR_Duarte.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duarte I de Bragança"
+	desc = ""
+	picture = "POR_Duarte.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duarte I de Bragança"
+	desc = ""
+	picture = "POR_Duarte.tga"
 	expire = "1965.1.1"
 	ideology = absolutism
 	traits = {
-		#
 	}
 }
 
-create_corps_commander = {
-	name = "José Vicente de Freitas"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  }
-	skill = 3
-
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
+create_country_leader = {
+	name = "Manuel Gonçalves Cerejeira"
+	desc = ""
+	picture = "Portrait_Manuel_Cerejeira.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
 }
 
+create_country_leader = {
+	name = "Duarte I de Bragança"
+	desc = ""
+	picture = "POR_Duarte.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Francisco Rolão Preto"
+	desc = ""
+	picture = "Portrait_Francisco_Preto.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oswald von Hoyningen-Huene"
+	desc = ""
+	picture = "Portrait_Hoyningen-Huene.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

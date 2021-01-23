@@ -16,6 +16,10 @@ state={
 			}
 		}
 		add_core_of = TUR
+		add_core_of = PON
+		add_claim_by = LAZ
+		add_claim_by = GEO
+        	add_claim_by = ARM
 
 	}
 

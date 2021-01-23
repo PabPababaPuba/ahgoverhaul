@@ -15,28 +15,11 @@ state={
 			infrastructure = 3
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger"
-
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
 
 	}
 
 	provinces={
-		4559 5009 7965 7976 12789 12898 
+		7965 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

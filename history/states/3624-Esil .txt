@@ -1,20 +1,26 @@
+
 state={
 	id=3624
 	name="STATE_3624"
-	provinces={
-		1229 1391 4238 4281 4309 7326 7741
-	}
-	manpower = 1000
-	
-	state_category = pastoral
 
 	history={
 		owner = KAZ
 		add_core_of = KAZ
 		add_core_of = SOV
+		
+		add_core_of = KSU
+		add_core_of = ALS
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		1391 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

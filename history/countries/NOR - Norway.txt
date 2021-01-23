@@ -27,7 +27,7 @@ set_convoys = 80		# biggest merchant marine in the world
 set_stability = 0.7
 
 set_popularities = {
-	democratic_monarchism 
+	socialist_monarchy 
 		= 96
 	fascism
 		= 2
@@ -36,10 +36,91 @@ set_popularities = {
 	}
 
 set_politics = { 
-	ruling_party = democratic_monarchism
+	ruling_party = socialist_monarchy
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Josef Antonius Heinrich Terboven "
+	desc = ""
+	picture = "Portrait_Josef_Terboven.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII av Glücksburg"
+	desc = ""
+	picture = "NOR_HaakonVII.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Carl Joachim Hambro"
+	desc = ""
+	picture = "Portrait_Carl_Hambro.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Adam Egede Nissen"
+	desc = ""
+	picture = "NOR_EgedeNissen.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Adam Egede Nissen"
+	desc = ""
+	picture = "NOR_EgedeNissen.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oscar Frederik Torp"
+	desc = ""
+	picture = "Portrait_Oscar_Torp.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII av Glücksburg"
+	desc = ""
+	picture = "NOR_HaakonVII.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Johan Ludwig Mowinckel"
+	desc = ""
+	picture = "NOR_Mowinckel.tga"
+	expire = "1965.1.1"
+	ideology = socdem
+	traits = {
+	}
 }
 
 create_country_leader = {
@@ -49,39 +130,135 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberal_constitutionalism
 	traits = {
-		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII av Glücksburg"
+	desc = ""
+	picture = "NOR_HaakonVII.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jens Valentinsen Hundseid"
+	desc = ""
+	picture = "Portrait_Jens_Hundseid.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Eugen I av Bernadotte"
+	desc = ""
+	picture = "Portrait_Eugen_Norway.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Anton Wilhelm Brøgger"
+	desc = ""
+	picture = "Portrait_Anton_Brogger.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Otto Ruge"
+	desc = ""
+	picture = "Portrait_Otto_Ruge.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Olav V av Glücksburg"
+	desc = ""
+	picture = "Portrait_Olav_Norway.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII av Glücksburg"
+	desc = ""
+	picture = "NOR_HaakonVII.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Johan Lunde"
+	desc = ""
+	picture = "Portrait_Johan_Lunde.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Olav V av Glücksburg"
+	desc = ""
+	picture = "Portrait_Olav_Norway.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
 	}
 }
 
 create_country_leader = {
 	name = "Vidkun Quisling"
-	desc = "POLITICS_VIDKUN_QUISLING_DESC"
+	desc = ""
 	picture = "NOR_Quisling.tga"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = repfash
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Johan Ludwig Mowinckel"
-	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
-	picture = "NOR_Mowinckel.tga"
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = total_anarchist
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Adam Egede-Nissen"
-	desc = "POLITICS_ADAM_EGEDE_NISSEN_DESC"
-	picture = "NOR_EgedeNissen.tga"
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = ancom
 	traits = {
-		#
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
 	}
 }

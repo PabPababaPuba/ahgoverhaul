@@ -10,7 +10,9 @@ state={
 		}
 		add_core_of = OLA
 		add_core_of = SWE
-
+		victory_points = {
+			211 5 
+		}
 	}
 
 	provinces={

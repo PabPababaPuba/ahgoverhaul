@@ -11,6 +11,8 @@ state={
 	history={
 		owner = NGA
 		add_core_of = NGA
+        add_core_of = SNI
+        add_core_of = LGC
 		buildings = {
 			infrastructure = 1
 		}

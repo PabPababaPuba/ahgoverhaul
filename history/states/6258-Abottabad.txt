@@ -9,6 +9,7 @@ state={
 		owner = AMB
 		add_core_of = PAK
 		add_core_of = AMB
+		add_core_of = RAJ
 	}
  
 	buildings_max_level_factor=1.000

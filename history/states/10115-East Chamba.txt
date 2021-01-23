@@ -5,9 +5,12 @@ state={
 		19438 
 	}
 	history={
-		owner = TMS
+		owner = TAJ
 		add_core_of = SOV
-		add_core_of = TMS
+		add_claim_by = UZB
+		add_core_of = TAJ
+		add_core_of = TKS
+		add_core_of = SEM
 
 	}
 

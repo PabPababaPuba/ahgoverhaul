@@ -1,11 +1,11 @@
+
 state={
 	id=1037
 	name="STATE_1037"
 
-	impassable = yes
-
 	history={
 		owner = SUD
+		add_core_of = SD0
 		buildings = {
 			infrastructure = 0
 
@@ -15,7 +15,7 @@ state={
 	}
 
 	provinces={
-		10902 13296 
+		13296 
 	}
 	manpower=30003
 	buildings_max_level_factor=1.000

@@ -11,6 +11,7 @@ state={
 		add_core_of = CAL
 		add_core_of = CLC
 		add_core_of = NAF
+		add_core_of = LAN
 		buildings = {
 			infrastructure = 4
 			

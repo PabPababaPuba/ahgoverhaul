@@ -2,10 +2,14 @@ state={
 	id=3105
 	name="STATE_3105"
 	history={
-		
+		victory_points = {
+			10349 5 
+		}
 		owner = RAJ 
-		add_core_of = RAJ
+		add_core_of = RAJ 
+		add_core_of = IND
 		add_core_of = ASM
+		add_core_of = ASA
 		buildings = {
 			infrastructure = 4
 			

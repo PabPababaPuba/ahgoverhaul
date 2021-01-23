@@ -5,14 +5,15 @@ state={
 	
 	history={
 		owner = TGA
+		add_core_of = TGA
+		add_core_of = MAL
+		add_core_of = FMS
 		victory_points = {
 			7329 1 
 		}
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = TGA
-		add_core_of = MAL
 
 	}
 

@@ -10,16 +10,15 @@ state={
 			industrial_complex = 1
 
 		}
-		victory_points = {
-			1278 1 
-		}
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = BSH
+		add_core_of = IDL
+		add_core_of = GLD
 	}
 
 	provinces={
-		273 1305 3289 4283 4354 7237 9349 12172 
+		273 1305 3289 4283 4354 7237 9349 12172 19817  
 	}
 	manpower=2552075
 	buildings_max_level_factor=1.000

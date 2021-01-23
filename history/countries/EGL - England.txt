@@ -2,119 +2,243 @@
 
 oob = "EGL_1936"
 
-set_research_slots = 3
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	#improved_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
-	trench_warfare = 1
-
-	transport = 1
-	fleet_in_being = 1
-	electronic_mechanical_engineering = 1
-	radio = 1
-	radio_detection = 1
+set_popularities = {
+	conservative_monarchism 
+		= 52
+	democratic_monarchism
+		= 46
+	liberal_republic
+		= 2
 }
 
-set_convoys = 100
-
-
-
-
-
-	set_popularities = {
-		democratic 
-			 = 97
-		fascism
-			 = 2
-		communism
-			 = 1
-		}
-	set_politics = { 
- ruling_party = democratic
+set_politics = { 
+	ruling_party = conservative_monarchism
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
+	name = "King George V of Windsor"
+	desc = ""
+	picture = "ENG_GeorgeV.tga"
+	expire = "1938.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "King Ernest Augustus III of Hanover"
+	desc = ""
+	picture = "HAN_Ernest.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Edward VIII of Windsor"
+	desc = ""
+	picture = "Portrait_Prince_David.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "President Gerard Vernon Wallop"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "General Secretary Harry Pollitt"
+	desc = ""
+	picture = "ENG_Pollitt.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Philip Snowden, Viscount Snowden of Ickornshaw"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chancellor Clement Richard Attlee"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Queen Elizabeth II of Windsor"
+	desc = ""
+	picture = "Portrait_Princess_Elizabeth.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Arthur Neville Chamberlain"
+	desc = ""
+	picture = "Portrait_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
 	}
 }
 
-
 create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = liberalism
+	name = "King George VI of Windsor"
+	desc = ""
+	picture = "Portrait_Prince_Albert.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
 	traits = {
-		
 	}
 }
 
-#create_country_leader = {
-#	name = "Neville Chamberlain"
-#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#		
-#	}
-#}
+create_country_leader = {
+	name = "Prime Minister Sir Winston Leonard Spencer Churchill"
+	desc = ""
+	picture = "Portrait_Winston_Churchill.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
 
 create_country_leader = {
-	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_Britain_Oswald_Mosley.dds"
+	name = "King George VI of Windsor"	
+	desc = ""
+	picture = "Portrait_Prince_George.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commander-in-Chief Frederick Rudolph Lambart, Earl of Cavan"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince-Regent Henry of Windsor, Duke of Gloucester"
+	desc = ""
+	picture = "Portrait_Prince_Henry.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King George V of Windsor"
+	desc = ""
+	picture = "ENG_GeorgeV.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Edward VIII of Windsor"
+	desc = ""
+	picture = "Portrait_Prince_David.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		
 	}
 }
 
 create_country_leader = {
-	name = "Rajani Palme Dutt"
-	desc = "POLITICS_PALME_DUTT_DESC"
-	picture = "Portrait_Britain_Palme_Dutt.dds"
+	name = "Chairman Sir Oswald Ernald Mosley, Baronet Ancoats"
+	desc = ""
+	picture = "Portrait_Oswald_Mosley.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = repfash
 	traits = {
-		
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Franz Alfred Six"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "First Minister Hugh Todd Naylor Gaitskell"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = socdem
+	traits = {
 	}
 }

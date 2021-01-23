@@ -26,11 +26,11 @@ if = {
 		communism
 			 = 0
 			
-		neutrality
+		stratocratic
 			 = 80
 		}
 	set_politics = { 
- ruling_party = neutrality
+ ruling_party = stratocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,19 +41,8 @@ create_country_leader = {
 	desc = "POLITICS_LONG_YUN_DESC"
 	picture = "Portrait_Yunnan_Long_Yun.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = militarism
 	traits = {
 		#
 	}
-}
-
-create_corps_commander = {
-	name = "Lu Han"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
-	traits = { }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 3
 }

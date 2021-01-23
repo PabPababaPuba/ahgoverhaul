@@ -3,8 +3,6 @@ state={
 	id=515
 	name="STATE_515"
 
-	impassable = yes
-
 	history={
 		owner = FEA
 		buildings = {
@@ -13,6 +11,7 @@ state={
 		}
 		add_core_of = CHA
 		add_core_of = LCH
+		add_core_of = SD0
 
 	}
 

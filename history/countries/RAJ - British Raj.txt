@@ -34,7 +34,7 @@ if = {
 
 set_convoys = 20
 
-set_cosmetic_tag = RAJ_UK # British Raj
+#set_cosmetic_tag = RAJ_UK #British Raj
 
 #if = {
 #	limit = {
@@ -395,20 +395,16 @@ set_cosmetic_tag = RAJ_UK # British Raj
 
 
 	set_popularities = {
-		democratic 
-			 = 17
-		fascism
-			 = 2
-		communism
-			 = 1
-		authoritarian_monarchism
-			 = 80
+		democratic = 17
+		fascism = 2
+		communism = 1
+		authoritarian_monarchism = 80
 		}
 	set_politics = { 
- ruling_party = authoritarian_monarchism
-	last_election = "1935.11.14"
-	election_frequency = 48
-	elections_allowed = no
+		ruling_party = authoritarian_monarchism
+		last_election = "1935.11.14"
+		election_frequency = 48
+		elections_allowed = no
 }
 
 create_country_leader = {
@@ -454,44 +450,4 @@ create_country_leader = {
 	traits = {
 		
 	}
-}
-
-create_corps_commander = {
-	name = "Noel Beresford-Peirse"
-	gfx = "GFX_RAJ_noel_beresford_peirse"
-	traits = { armor_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Frank Messervy"
-	gfx = "GFX_RAJ_frank_messervy"
-	traits = { hill_fighter }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Douglas Gracey"
-	gfx = "GFX_RAJ_douglas_gracey"
-	traits = { desert_fox }
-	skill = 3
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_navy_leader = {
-	name = "Herbert Fitzherbert"
-	gfx = "GFX_RAJ_herbert_fitzherbert"
-	traits = { }
-	skill = 3
 }

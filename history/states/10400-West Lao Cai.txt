@@ -5,9 +5,11 @@ state={
 		19736 19737 
 	}
 	history={
-	    owner = IND
-        add_core_of = IND
-        add_core_of = LAO
+	    owner = INC
+        add_core_of = INC
+        add_core_of = TKI
+        add_core_of = VIN
+        add_core_of = NVI
     }	
 	manpower=1000
 	state_category = pastoral

@@ -4,8 +4,8 @@ state={
 	name="STATE_754"
 
 	history={
-		owner = XSM
-		add_core_of = XSM
+		owner = YSH
+		add_core_of = YSH
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
@@ -17,27 +17,11 @@ state={
 			arms_factory = 1
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger"
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
 
 	}
 
 	provinces={
-		1882 10817 
+		1882 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

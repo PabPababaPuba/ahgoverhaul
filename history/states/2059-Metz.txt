@@ -11,6 +11,9 @@ state={
 		}
 		add_core_of = FRA
 		add_core_of = LOR
+		victory_points = { 
+			9559 15 
+		}
 	}
 
 	provinces={

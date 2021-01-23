@@ -9,7 +9,7 @@ state={
 	history={
 		owner = TSC
 		victory_points = {
-			7661 1 
+			7661 25
 		}
 		buildings = {
 			infrastructure = 4
@@ -20,6 +20,7 @@ state={
 		add_core_of = SOV
 		add_core_of = TSC
 		add_core_of = AZR
+		add_core_of = BAK
 
 	}
 

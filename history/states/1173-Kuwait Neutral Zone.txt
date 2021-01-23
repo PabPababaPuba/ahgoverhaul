@@ -9,6 +9,7 @@ state={
 	{
 		owner = KUW
 		add_core_of = KUW
+		add_core_of = SAU
 		buildings = {
 			infrastructure = 1
 			}

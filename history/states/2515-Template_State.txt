@@ -3,6 +3,8 @@ state={
 	name="STATE_2515"
 	history={
 		owner = MEX 
+		add_core_of = MEX
+		add_core_of = CLM
 		buildings = {
 			infrastructure = 4
 			

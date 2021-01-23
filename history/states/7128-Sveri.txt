@@ -5,11 +5,12 @@ state={
 		9626 
 	}
 	history={
-	    owner = SOS
+	    owner = TSC
         add_core_of = SOV 
 		add_core_of = TSC
         add_core_of = GEO
         add_core_of = SOS
+        add_core_of = OSS
     }	
 	manpower=1000
 	state_category = pastoral

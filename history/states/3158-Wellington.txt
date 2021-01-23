@@ -6,6 +6,9 @@ state={
 		owner = NZL 
 		add_core_of = NZL
 		add_core_of = NNZ
+		victory_points = {
+			1814 20
+		}
 		buildings = {
 			infrastructure = 4
 			

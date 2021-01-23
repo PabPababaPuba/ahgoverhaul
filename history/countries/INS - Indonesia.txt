@@ -2,7 +2,6 @@
 
 oob = "INS_1936"
 
-set_cosmetic_tag = INS_DEI #Dutch East Indies
 set_research_slots = 2
 
 # Starting tech
@@ -45,14 +44,34 @@ set_convoys = 25
 	election_frequency = 50
 	elections_allowed = no
 }
+
 create_country_leader = {
-	name = "Sukarno"
+	name = "Bonifacius Cornelis de Jonge"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
+	picture = "Bonifacius_Cornelis_de_Jonge.tga"
+	expire = "1965.1.1"
+	ideology = authmon
 	traits = {
-		
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
 	}
 }
 
@@ -60,45 +79,8 @@ create_country_leader = {
 	name = "Bonifacius Cornelis de Jonge"
 	desc = ""
 	picture = "Bonifacius_Cornelis_de_Jonge.tga"
-	expire = "1953.3.1"
-	ideology = authmon 
+	expire = "1965.1.1"
+	ideology = ancap
 	traits = {
-		
 	}
 }
-
-create_country_leader = {
-	name = "Amir Sjarifuddin Harahap"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Suharto"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Sutan Sjahrir"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
-	traits = {
-		
-	}
-}
-
-
-

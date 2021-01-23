@@ -1,3 +1,4 @@
+
 state={
 	id=617
 	name="STATE_617"
@@ -7,6 +8,7 @@ state={
 		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
+		add_core_of = UYG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -19,7 +21,7 @@ state={
 	}
 
 	provinces={
-		4709 4770 7702 7792 10545 10614 12656 12524 7732 10839
+		7792 
 	}
 	manpower=1080500
 	buildings_max_level_factor=1.000

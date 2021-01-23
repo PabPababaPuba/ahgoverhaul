@@ -11,6 +11,10 @@ state={
 
 		}
 		add_core_of = TUR
+		add_core_of = ERE
+				victory_points = {
+			9777 10
+		}
 
 	}
 

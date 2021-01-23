@@ -2,7 +2,7 @@ state={
 	id=4216
 	name="STATE_4216"
 	provinces={
-		7244 7395 10190 
+		10190 
 	}
 	manpower = 1000
 	
@@ -11,7 +11,12 @@ state={
 	history={
 		owner = RAJ 
 		add_core_of = TML
-		add_core_of = RAJ
+		add_core_of = RAJ 
+		add_core_of = IND
+		add_core_of = KER
+		victory_points = {
+			10190 5
+		}
 	}
 	buildings_max_level_factor=1.000
 }

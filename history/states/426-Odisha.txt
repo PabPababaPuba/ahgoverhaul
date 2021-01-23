@@ -9,7 +9,10 @@ state={
 	}
 
 	history={
-		owner = RAJ 
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = IND
+		add_core_of = ODI
 		add_core_of = TML
 		buildings = {
 			infrastructure = 4
@@ -20,7 +23,7 @@ state={
 	}
 
 	provinces={
-		4237 7090 7372 7428 7465 9946 10001 10255 10428 11924 11978 12241 12462
+		7090 7372 11924 11978 12241 12462 
 	}
 	manpower=14520100
 	buildings_max_level_factor=1.000

@@ -9,6 +9,7 @@ state={
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = CRM
+		add_core_of = GLD
 	}
 	state_category=pastoral
 	manpower=1000

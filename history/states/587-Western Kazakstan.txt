@@ -11,11 +11,20 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = KAZ
+		add_core_of = TCP
+		add_core_of = TKS
+		add_core_of = UST
+		add_core_of = ALS
+		add_core_of = ATU
+		add_core_of = GLD
+		victory_points = {
+			11701 1 
+		}
 
 	}
 
 	provinces={
-		1517 4523 4620 7641 11701 12383 16386
+		11701
 	}
 	manpower=245133
 	buildings_max_level_factor=1.000

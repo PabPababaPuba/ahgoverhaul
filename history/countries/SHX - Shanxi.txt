@@ -23,7 +23,7 @@ if = {
 
 
 	set_politics = { 
- ruling_party = neutrality
+ ruling_party = stratocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,7 +37,7 @@ if = {
 		communism
 			 = 0
 			
-		neutrality 
+		stratocratic 
 			 = 100
 		
 	}
@@ -46,19 +46,8 @@ create_country_leader = {
 	desc = "POLITICS_YAN XISHAN_DESC"
 	picture = "Portrait_Shanxi_Yan_Xishan.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = militarism
 	traits = {
 		#
 	}
-}
-
-create_corps_commander = {
-	name = "Wang Chingkuo"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { politically_connected }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
 }

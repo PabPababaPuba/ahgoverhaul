@@ -11,10 +11,11 @@ state={
 
 		}
 		victory_points = {
-			9508 1 
+			9508 25 
 		}
 		add_core_of = POL
 		add_core_of = LDZ
+		add_core_of = SPS
 		
 
 	}

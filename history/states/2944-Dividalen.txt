@@ -3,8 +3,8 @@ state={
 	name="STATE_2944"
 	history={
 		
-		owner = SWE 
-		add_core_of = SWE
+		owner = NOR 
+		add_core_of = NOR
 		add_core_of = SAP
 		buildings = {
 			infrastructure = 4

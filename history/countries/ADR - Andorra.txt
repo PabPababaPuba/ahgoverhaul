@@ -22,13 +22,15 @@ set_technology = {
 
 
 	set_popularities = {
-		democratic 
-			 = 10
+		conservative_monarchism
+			 = 50
+		democratic
+			 = 30
 		theocratic
-			 = 90
+			 = 20
 		}
 	set_politics = { 
- ruling_party = theocratic
+ ruling_party = conservative_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 50
 	elections_allowed = no
@@ -42,8 +44,8 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Justi Guitart i Vilardebo"
-	desc = ""
+	name = "Justí Guitart i Vilardebó"
+	desc = "POLITICS_ADR_THEOC_DESC"
 	picture = "Portrait_Justi_Guitart_i_Vilardebo.dds"
 	expire = "1960.1.1"
 	ideology = christian
@@ -51,3 +53,15 @@ create_country_leader = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "Justí Guitart i Vilardebó"
+	desc = "POLITICS_ADR_CONMON_DESC"
+	picture = "Portrait_Justi_Guitart_i_Vilardebo.dds"
+	expire = "1960.1.1"
+	ideology = conmon
+	traits = {
+		
+	}
+}
+

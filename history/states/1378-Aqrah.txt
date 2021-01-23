@@ -12,11 +12,16 @@ state={
 		add_core_of = SOV
 		add_core_of = UZB
 		add_core_of = BKH
+		add_claim_by = TKS
+		
+		victory_points = {
+			1573 1 
+		}
 
 	}
 
 	provinces={
-		1573 7639 10671 12722 12239 10205
+		1573 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

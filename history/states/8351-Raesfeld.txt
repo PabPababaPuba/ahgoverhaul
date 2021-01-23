@@ -9,7 +9,9 @@ state={
 		add_core_of = GER
         add_core_of = WGR
 		add_core_of = PRE
+		add_core_of = ARB
 		add_core_of = NRW
+		add_core_of = RHI
 		buildings = {
 			infrastructure = 4
 		}

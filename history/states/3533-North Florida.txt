@@ -14,6 +14,9 @@ state={
 		add_core_of = USA
 		add_core_of = FLO
 		add_core_of = CSA
+		add_core_of = FLW
+		add_core_of = FLN
+		add_core_of = MKG
 		buildings = {
 			infrastructure = 1
 		}

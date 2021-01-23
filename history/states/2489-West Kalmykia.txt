@@ -10,9 +10,12 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = SOV
+		add_core_of = DON
+		add_core_of = CSK
 		add_core_of = RUS
 		add_core_of = CSS
 		add_core_of = KMK
+		add_core_of = GLD
 	}
 	manpower=1000 
  state_category=small_island

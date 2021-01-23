@@ -6,15 +6,12 @@ state={
 	}
 	history={
 		
-		owner = RUS 
+		owner = FIN 
 		buildings = {
 			infrastructure = 4
 			
 		}
-		add_core_of = PTG
-		add_core_of = RUS
-		add_core_of = SOV
-		add_claim_by = OML
+		add_core_of = FIN
 	}
 	manpower = 6900
 	state_category = pastoral

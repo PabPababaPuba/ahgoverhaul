@@ -2,7 +2,8 @@ state={
 	id=2539
 	name="STATE_2539"
 	history={
-		owner = NZL 
+		owner = NZL
+		add_core_of = NZL
 		buildings = {
 			infrastructure = 4
 			

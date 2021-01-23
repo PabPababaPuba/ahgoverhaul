@@ -7,12 +7,12 @@ state={
 	history={
 		owner = GER
 		add_core_of = GER
-		add_core_of = PRE
 		add_core_of = HKA
 		add_core_of = HEN
-		add_core_of = NSU
+		add_core_of = HES
 		add_core_of = WGR
 		add_core_of = HSN
+		add_core_of = KWF
 		buildings = {
 			infrastructure = 5
 		}

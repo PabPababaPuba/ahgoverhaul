@@ -11,7 +11,7 @@ state={
 		owner = BEL
 		add_core_of = BEL
 		add_core_of = FLA
-		add_core_of = LIM
+		add_core_of = BRB
 		buildings = {
 			infrastructure = 5
 		}

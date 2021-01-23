@@ -3,6 +3,7 @@ state={
 	name="STATE_2551"
 	history={
 		owner = NZL
+		add_core_of = NZL
 		add_claim_by = USA
 		add_claim_by = ESM
 		add_core_of = TKL

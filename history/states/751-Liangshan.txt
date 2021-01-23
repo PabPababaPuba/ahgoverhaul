@@ -4,20 +4,19 @@ state={
 	name="STATE_751"
 
 	history={
-		owner = XIG
+		owner = CCG
 		add_core_of = CHI
-		add_core_of = XIG
+		add_core_of = CCG
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
 
 		}
-		
 
 	}
 
 	provinces={
-		2067 4999 7294 10726 10841 12141 12819 
+		12141 
 	}
 	manpower=300000
 	buildings_max_level_factor=1.000

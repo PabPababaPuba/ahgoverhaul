@@ -11,10 +11,12 @@ state={
 
 	history={
 		owner = COC
-		buildings = {
-			infrastructure = 1
+		victory_points = {
+			14318 5
 		}
-		add_core_of = RAJ
+		add_core_of = RAJ 
+		add_core_of = IND
+		add_core_of = KER
 		add_core_of = COC
 	}
 	buildings_max_level_factor=1.000

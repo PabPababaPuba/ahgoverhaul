@@ -5,10 +5,13 @@ state={
 		19128 
 	}
 	history={
-	    owner = HPC
-        add_core_of = HPC
+	    owner = EHC
+        add_core_of = EHC
         add_core_of = CHI
         add_core_of = PRC
+	add_core_of = RGC
+	add_core_of = CIL
+	add_core_of = PSC
     }	
 	manpower=1000
 	state_category = pastoral

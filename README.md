@@ -1,11 +1,13 @@
-How install this trainwreck - presented by the HGO team
+How to install this trainwreck - presented by the HGO team
 1) Download the mod, check your download directory (usually ThisPC/Downloads)
 2) Unzip the modfile. Make sure the folder name is still ahgoverhaul, and if isn't rename it.
 3) Enter the folder, Take out the .MOD file (the file called ahgoverhaul.mod) and put it outside the folder into whatever directory you downloaded the mod into.
 4) Hold control, and click the folder and the .MOD file and press copy
 5) Go to documents/Paradox Interactive/Hearts of Iron 4/mod and paste it into the mod folder.
-6) Boot up HOI4, select Historic Geographical Overhaul - Development Version and activate the mod.
-7) Play the mod and enjoy.
+6) Boot up HOI4, click "Manage Playset, then click "Add More Mods" 
+7) Select Historic Geographical Overhaul - Github Version and click "Add to Playset"
+8) Search for Historic Geographical Overhaul - Github Version and activate the mod.
+9) Play the mod and enjoy.
 ---------------
 Extra notes:
 
@@ -13,9 +15,9 @@ Extra notes:
 - don't expect every version to not be a buggy mess. as OCD-pleasing the mod may be, it's not bug-pleasing.
 ---------------
 Credits:
-The HGO team: Skylar129, Faaz Noushad, Ainsley, Luminisenc, scrylveon, birdirdirbirb/ReiFly/GardenGnostic, and Kels.
+The HGO team: Skylar129, Faaz Noushad, Ainsley, Luminisenc, birdirdirbirb/ReiFly/GardenGnostic, and Kels.
 
-Former Devs: MihalRacovita, TrueSoviet, Holy Doggo, Generalis, JoshyFlip, crasher925, SamFan2, blue69982, Gindisi, and K0rhan.
+Former Devs: MihalRacovita, TrueSoviet, Holy Doggo, Generalis, JoshyFlip, crasher925, SamFan2, blue69982, Gindisi, K0rhan, and scryl.
 
 Special Thanks to:
 - gerrade, for letting us build off of his mod, Beautiful States.

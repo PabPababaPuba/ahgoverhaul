@@ -14,6 +14,7 @@ state={
 		add_core_of = CSA
 		add_core_of = ALM
 		add_core_of = NAF
+		add_claim_by = WFL
 		buildings = {
 			infrastructure = 1
 		}

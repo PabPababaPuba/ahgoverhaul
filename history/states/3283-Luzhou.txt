@@ -1,21 +1,25 @@
+
 state={
 	id=3283
 	name="STATE_3283"
-	provinces={
-		4141 4431 11972 
-	}
-	manpower = 1000
-	
-	state_category = pastoral
 
 	history={
-		owner = SHC
-		add_core_of = SHC
+		owner = KWC
+		add_core_of = KWC
 		add_core_of = PRC
 		add_core_of = CHI
+		add_core_of = SHC
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		4431 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

@@ -35,12 +35,12 @@ set_convoys = 5
 		communism
 			 = 0
 			
-		neutrality 
+		stratocratic 
 			 = 100
 		
 	}
 	set_politics = { 
- ruling_party = neutrality
+ ruling_party = stratocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -51,19 +51,8 @@ create_country_leader = {
 	desc = "POLITICS_LI_ZONGREN_DESC"
 	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = militarism
 	traits = {
 		#
 	}
-}
-
-create_corps_commander = {
-	name = "Chen Chitang"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	traits = { }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
 }

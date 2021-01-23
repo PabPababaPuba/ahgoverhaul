@@ -8,6 +8,9 @@ state={
 	    owner = YUG
         add_core_of = YUG
         add_core_of = SLV
+		victory_points = {
+			9627 25
+		}
     }	
 	manpower=1000
 	state_category = pastoral

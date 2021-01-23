@@ -5,10 +5,16 @@ state={
 		9628 
 	}
 	history={
-	    owner = NOS
+	    owner = RUS
         add_core_of = RUS
         add_core_of = SOV
+		add_core_of = CCS
         add_core_of = NOS
+		add_core_of = OSS
+        add_core_of = TRK
+		add_core_of = CSK
+		add_core_of = GLD
+		add_core_of = MTN
     }	
 	manpower = 1000
 	state_category = pastoral

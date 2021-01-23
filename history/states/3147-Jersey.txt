@@ -5,6 +5,9 @@ state={
 		
 		owner = JSY 
 		add_core_of = JSY
+		victory_points = {
+			13287 5 
+		}
 		buildings = {
 			infrastructure = 4
 			

@@ -11,6 +11,10 @@ state={
 		}
 		add_core_of = TUR
 		add_core_of = KUR
+        	add_claim_by = ARM
+				victory_points = {
+			6935 5
+		}
 	}
 
 	provinces={

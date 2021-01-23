@@ -37,7 +37,67 @@ set_convoys = 10
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Kārlis Augusts Vilhelms Ulmanis"
+	desc = ""
+	picture = "Portrait_Karlis_Ulmanis.tga"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
 
+create_country_leader = {
+	name = "Jānis Kalnbērziņš"
+	desc = ""
+	picture = "Portrait_Janis_Kalnberzins.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jūlijs Kārlis Daniševskis"
+	desc = ""
+	picture = "Portrait_Julijs_Karlis_Danisevskis.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pauls Kalniņš"
+	desc = ""
+	picture = "Portrait_Pauls_Kalnins.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Luijs I no Talleyrandist-Perigord"
+	desc = ""
+	picture = "Portrait_Luijs_I_no_Talleyrandist-Perigord.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ādolfs Bļodnieks"
+	desc = ""
+	picture = "Portrait_Adolfs_Blodnieks.tga"
+	expire = "1965.1.1"
+	ideology = socdem
+	traits = {
+	}
+}
 
 create_country_leader = {
 	name = "Alberts Kviesis"
@@ -46,38 +106,155 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		#
+	}
+}
+
+create_country_leader = {
+	name = "Luijs I no Talleyrandist-Perigord"
+	desc = ""
+	picture = "Portrait_Luijs_I_no_Talleyrandist-Perigord.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Luijs I no Talleyrandist-Perigord"
+	desc = ""
+	picture = "Portrait_Luijs_I_no_Talleyrandist-Perigord.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gustavs Zemgals"
+	desc = ""
+	picture = "Portrait_Gustavs_Zemgals.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Luijs I no Talleyrandist-Perigord"
+	desc = ""
+	picture = "Portrait_Luijs_I_no_Talleyrandist-Perigord.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jānis Balodis"
+	desc = ""
+	picture = "Portrait_Janis_Balodis.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alfred Fletcher"
+	desc = ""
+	picture = "Portrait_Alfred_Fletcher.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Adolf Friedrich I von Mecklenburg-Schwerin"
+	desc = ""
+	picture = "Portrait_Adolf Friedrich_I_von_Mecklenburg-Schwerin.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Louis I de Talleyrand-Périgord"
+	desc = ""
+	picture = "Portrait_Luijs_I_no_Talleyrandist-Perigord.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Antonijs Springovičs"
+	desc = ""
+	picture = "Portrait_Antonijs_Springovics.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Luijs I no Talleyrandist-Perigord"
+	desc = ""
+	picture = "Portrait_Luijs_I_no_Talleyrandist-Perigord.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
 	}
 }
 
 create_country_leader = {
 	name = "Gustavs Celmiņš"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "Portrait_Gustavs_Celmins.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = repfash
 	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Vilis Lacis"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
 	}
 }
 
-create_corps_commander = {
-	name = "Berkis Krisjanis"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { ranger }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
+create_country_leader = {
+	name = "Hinrich Lohse"
+	desc = ""
+	picture = "Portrait_Hinrich_Lohse.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
 }

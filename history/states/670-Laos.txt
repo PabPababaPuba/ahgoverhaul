@@ -9,8 +9,15 @@ state={
 	}
 
 	history={
-	    owner = IND
+	    owner = INC
 		add_core_of = LAO
+		add_core_of = INC
+		victory_points = {
+			1464 5 
+		}
+		victory_points = {
+			1563 1 
+		}
 		buildings = {
 			infrastructure = 2
 

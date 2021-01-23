@@ -9,7 +9,6 @@ state={
 
 		}
 		add_core_of = COG
-		add_core_of = SDK
 		add_core_of = LCN
 
 	}

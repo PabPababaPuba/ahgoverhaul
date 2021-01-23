@@ -18,6 +18,8 @@ state={
 		add_core_of = PRE
 		add_core_of = WGR
 		add_claim_by = OLD
+		add_core_of = FRS
+		add_core_of = HAN
 		add_core_of = NSA
 	
 	}

@@ -9,9 +9,9 @@ state={
 	state_category = pastoral
 
 	history={
-	    owner = IND
-		add_core_of = VIN
+	    owner = INC
 		add_core_of = CAM
+		add_core_of = INC
 	}
 	
 	buildings_max_level_factor=1.000

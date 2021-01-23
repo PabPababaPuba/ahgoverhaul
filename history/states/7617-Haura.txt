@@ -5,11 +5,12 @@ state={
 		14372 
 	}
 	history={
-	    owner = AWH
-        add_core_of = YEM
-        add_core_of = ADN
-        add_core_of = AWH
-    }	
+		owner = AWH
+        	add_core_of = YEM
+        	add_core_of = ADN
+        	add_core_of = AWH
+		add_core_of = WDN
+    	}	
 	manpower=1000
 	state_category = pastoral
 	buildings_max_level_factor=1.000

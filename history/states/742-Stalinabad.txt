@@ -5,9 +5,6 @@ state={
 
 	history={
 		owner = TAJ
-		victory_points = {
-			12250 3 
-		}
 		buildings = {
 			infrastructure = 1
 
@@ -15,11 +12,13 @@ state={
 		add_core_of = SOV
 		add_core_of = TAJ
 		add_core_of = BKH
+		add_claim_by = TKS
+		
 
 	}
 
 	provinces={
-		12250 4542
+		12250 
 	}
 	manpower=230000
 	buildings_max_level_factor=1.000

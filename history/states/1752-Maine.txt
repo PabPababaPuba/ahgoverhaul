@@ -10,7 +10,7 @@ state={
 
 		}
 		add_core_of = FRA
-
+		add_core_of = AJ2
 	}
 
 	provinces={

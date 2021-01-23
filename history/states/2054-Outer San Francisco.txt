@@ -13,7 +13,12 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = CAL
-		
+		add_core_of = NCA
+		add_core_of = SLC
+
+		victory_points = {
+			3677 5 
+		}		
 
 	}
 

@@ -12,6 +12,7 @@ state={
 		owner = SPR
 		add_core_of = SPR
 		add_core_of = CMX
+		add_core_of = GLC
 		buildings = {
 			infrastructure = 1
 		}

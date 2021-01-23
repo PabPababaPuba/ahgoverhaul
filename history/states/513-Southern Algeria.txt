@@ -7,13 +7,13 @@ state={
 	}
 	manpower = 811486
 	
-	impassable = yes
 	state_category = wasteland
 
 	history={
 	    owner = SGR
         add_core_of = SGR
         add_core_of = ALG
+	add_core_of = SD0
 	}
 
 	provinces={

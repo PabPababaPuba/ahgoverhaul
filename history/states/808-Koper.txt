@@ -10,15 +10,13 @@ state={
 		add_core_of = TRS
 		add_core_of = IST
 		add_core_of = VNC
-		buildings = {
-			infrastructure = 2
-
+		victory_points = {
+			13276 5
 		}
-
 	}
 
 	provinces={
-		13276 
+		 13276
 	}
 	manpower=12000
 	buildings_max_level_factor=1.000

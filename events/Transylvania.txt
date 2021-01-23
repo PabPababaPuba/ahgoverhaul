@@ -12,8 +12,8 @@ country_event = {
 	picture = GFX_report_event_romanian_soldiers
 	
 	trigger = {
-		tag = TRV
-		country_exists = TRV
+		tag = TRA
+		country_exists = TRA
 	}
 
 	mean_time_to_happen = { days = 7 }
@@ -23,7 +23,7 @@ country_event = {
 	option = { # Independence
 		name = transylvania.1.a
 		ai_chance = { factor = 100 }
-		load_oob = "TRV"
+		load_oob = "TRA"
 		add_political_power = 200
 		1219 = {
 			add_building_construction = {
@@ -147,7 +147,7 @@ hidden_effect =  {
 		1490 = { add_core_of = ROM }
 		1217 = { add_core_of = ROM }
 		}
-		ROM = { annex_country = { target = TRV transfer_troops = yes }
+		ROM = { annex_country = { target = TRA transfer_troops = yes }
 		}
 	}
 

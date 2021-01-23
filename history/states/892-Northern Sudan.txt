@@ -3,8 +3,6 @@ state={
 	id=892
 	name="STATE_892"
 
-	impassable = yes
-
 	history={
 		owner = SUD
 		buildings = {
@@ -12,6 +10,7 @@ state={
 
 		}
 		add_core_of = SUD
+		add_core_of = SD0
 
 	}
 

@@ -6,7 +6,8 @@ state={
 	}
 	history={
 		
-		owner = MAL 
+		owner = FMS
+		add_core_of = FMS
 		add_core_of = MAL
 		add_core_of = PRK
 		buildings = {

@@ -14,11 +14,13 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = KAZ
+		add_core_of = ALS
+		add_core_of = SMY
 
 	}
 
 	provinces={
-		4867 10161 10218 10292 10584 10653 
+		4867 
 	}
 	manpower=659223
 	buildings_max_level_factor=1.000

@@ -1,14 +1,6 @@
-﻿capital = 751
+﻿capital = 10841
 
 oob = "XIG_1936"
-
-set_research_slots = 1
-
-set_technology = {
-	infantry_weapons = 1
-
-}
-
 
 
 	set_popularities = {
@@ -20,12 +12,12 @@ set_technology = {
 		communism
 			 = 0
 			
-		neutrality
+		stratocratic
 			 = 100
 	}
 
 	set_politics = { 
- ruling_party = neutrality
+ ruling_party = stratocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,12 +29,5 @@ create_country_leader = {
 	desc = "POLITICS_LIU_XIANG_DESC"
 	picture = "Portrait_Sichuan_Liu_Wenhui.dds"
 	expire = "1938.1.20"
-	ideology = despotism
-}
-
-create_field_marshal = {
-	name = "Liu Wenhui"
-	portrait_path = "gfx/leaders/XIK/Portrait_Sichuan_Liu_Wenhui.dds"
-	traits = { logistics_wizard }
-	skill = 3
+	ideology = militarism
 }

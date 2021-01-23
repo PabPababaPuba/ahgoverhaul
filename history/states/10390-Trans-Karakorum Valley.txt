@@ -11,7 +11,11 @@ state={
 	history={
 		owner = TUG
 		add_core_of = KAS
+		add_core_of = RAJ
 		add_core_of = TUG
+		add_core_of = UYG
+		add_core_of = PRC
+		add_core_of = CHI
 	}
 	buildings_max_level_factor=1.000
 }

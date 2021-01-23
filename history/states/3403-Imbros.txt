@@ -14,6 +14,7 @@ state={
 		add_core_of = RUM
 		set_demilitarized_zone = yes
 		add_core_of = GRE
+		add_core_of = THR
 		buildings = {
 			infrastructure = 1
 		}

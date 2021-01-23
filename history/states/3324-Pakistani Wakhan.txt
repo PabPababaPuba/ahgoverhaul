@@ -13,6 +13,7 @@ state={
 		owner = CTL
 		add_core_of = CTL
 		add_core_of = PAK
+		add_core_of = RAJ
 		add_claim_by = PMR
 		buildings = {
 			infrastructure = 1
