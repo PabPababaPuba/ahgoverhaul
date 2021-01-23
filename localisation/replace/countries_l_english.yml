@@ -8224,6 +8224,9 @@
  MAD_monarchism:0 "Merina Kingdom"
  MAD_monarchism_DEF:0 "The Merina Kingdom"
  MAD_monarchism_ADJ:0 "Merinan"
+ MAD_national_socialism:0 "Reichskolonie Madagaskar"
+ MAD_national_socialism_DEF:0 "das Reichskolonie Madagaskar"
+ MAD_national_socialism_ADJ:0 "Madagassisch"
  
  MAD_FRA_communism:0 "Democratic Republic of Madagascar"
  MAD_FRA_communism_DEF:0 "The Democratic Republic of Madagascar"
