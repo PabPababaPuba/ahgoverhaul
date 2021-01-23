@@ -8118,6 +8118,10 @@
  WES_monarchism:0 "Kingdom of Sahrawi"
  WES_monarchism_DEF:0 "The Kingdom of Sahrawi"
  WES_monarchism_ADJ:0 "Sahrawi"
+ WES_authoritarian_monarchism:0 "Federation of the Western Sahara"
+ WES_authoritarian_monarchism_DEF:0 "The Federation of the Western Sahara"
+ WES_authoritarian_monarchism_ADJ:0 "Western Saharan"
+
  
  SIE_communism:0 "People's Republic Sierra Leone"
  SIE_communism_DEF:0 "The People's Republic Sierra Leone"
