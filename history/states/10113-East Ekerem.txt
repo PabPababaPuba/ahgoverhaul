@@ -10,7 +10,7 @@ state={
         add_core_of = TMS
 		add_core_of = TCP
 		add_core_of = TKS
-		
+		add_core_of = MEV
 		add_core_of = YMT
     }	
 	manpower=1000

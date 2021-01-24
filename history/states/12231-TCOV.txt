@@ -9,12 +9,8 @@ state={
 		add_core_of = TCP
 		add_core_of = TKS
 		add_core_of = SOV
-		add_core_of = TCP
-		add_core_of = TKS
 		add_core_of = MAY
-		
 		add_core_of = ERS
-		add_core_of = MEV
 
 	}
 
