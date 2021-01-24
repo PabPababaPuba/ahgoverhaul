@@ -7259,6 +7259,12 @@ DUM_SFR:0 "$NONIDEOLOGYADJ$ Socialist Federative Republic"
 DUM_SCR:0 "$NONIDEOLOGYADJ$ Socialist Republic"
 DUM_ASR:0 "$NONIDEOLOGYADJ$ Autonomous Socialist Republic"
 
+DUM_UNTT:0 "$OVERLORDADJ$ United Nations Trust Territory of $NONIDEOLOGY$"
+PR1:0 "People's Republic of $NONIDEOLOGY$"
+
+PR2:0 "$NONIDEOLOGYADJ$ People's Republic"
+PR3:0 "People's Democratic Republic of $NONIDEOLOGY$"
+
 COL_ENG_USA:0 "Anglo-American Condominium of Columbia"
 COL_ENG_USA_DEF:0 "the Anglo-American Condominium of Columbia"
 COL_ENG_USA_ADJ:0 "Columbian"
