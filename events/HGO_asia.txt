@@ -317,6 +317,16 @@ country_event = { #1914 Asia
 		BHN = {
 			transfer_state = 9390
 			}
+		WTR = {
+			transfer_state = 9606
+			transfer_state = 9607
+			transfer_state = 9608
+			transfer_state = 9610
+			transfer_state = 10132
+			transfer_state = 12375
+			transfer_state = 12377
+			transfer_state = 12791
+			}
 			every_state = {
 				limit = {
 					OR = {
@@ -697,12 +707,15 @@ country_event = { #2020 Asia
            			}
 			}
 		KAZ = {
+			transfer_state = 8646
 			transfer_state = 9244
 			transfer_state = 9245
 			transfer_state = 9246
 			transfer_state = 9247
 			transfer_state = 9248
 			transfer_state = 9249
+			transfer_state = 9586
+			transfer_state = 9587
 			transfer_state = 12224
 			transfer_state = 12250
 			transfer_state = 10132
@@ -712,7 +725,7 @@ country_event = { #2020 Asia
 			drop_cosmetic_tag = yes
 			set_politics = {
 	       		ruling_party = democratic
-           			}	
+           		}	
 			}
 		KYR = {
 			drop_cosmetic_tag = yes	
