@@ -3047,6 +3047,8 @@
  OMA_neutrality_ADJ:0 "Oman"
  OMA_communism_ADJ:0 "Oman"
  
+ YEM:0 "Yemen"
+ YEM_DEF:0 "Yemen"
  YEM_fascism:0 "Federation of South Arabia"
  YEM_fascism_DEF:0 "The Federation of South Arabia"
  YEM_democratic:0 "Yemen Arab Republic"
@@ -3062,6 +3064,7 @@
  YEM_democratic_ADJ:0 "Yemeni"
  YEM_neutrality_ADJ:0 "Yemeni"
  YEM_communism_ADJ:0 "Yemeni"
+ YEM_AJD:0 "Yemeni"
  
  ETH_fascism:0 "Axum"
  ETH_fascism_DEF:0 "The Axsum"
