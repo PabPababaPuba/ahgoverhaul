@@ -6980,7 +6980,43 @@
 
  PACWAL:0 "Pazifikwall"
  PACWAL_DEF:0 "Pazifikwall"
+ 
+ PROTEC:0 "Protectorate of $NONIDEOLOGY$"
+ PROTEC_DEF:0 "the Protectorate of $NONIDEOLOGY$"
+ 
+ SFR:0 "$NONIDEOLOGYADJ$ Socialist Federative Republic"
+ SFR_DEF:0 "the $NONIDEOLOGYADJ$ Socialist Federative Republic"
+ 
+ SCR:0 "$NONIDEOLOGYADJ$ Socialist Republic"
+ SCR_DEF:0 "the $NONIDEOLOGYADJ$ Socialist Republic"
+ 
+ ASR:0 "$NONIDEOLOGYADJ$ Autonomous Socialist Republic"
+ ASR_DEF:0 "the $NONIDEOLOGYADJ$ Autonomous Socialist Republic"
 
+ UNTT:0 "$OVERLORDADJ$ United Nations Trust Territory of $NONIDEOLOGY$"
+ UNTT_DEF:0 "the $OVERLORDADJ$ United Nations Trust Territory of $NONIDEOLOGY$"
+ 
+ PR1:0 "People's Republic of $NONIDEOLOGY$"
+ PR1_DEF:0 "the People's Republic of $NONIDEOLOGY$"
+ 
+ PR2:0 "$NONIDEOLOGYADJ$ People's Republic"
+ PR2_DEF:0 "the $NONIDEOLOGYADJ$ People's Republic"
+
+ FEDERAT2:0 "$NONIDEOLOGYADJ$ Federation"
+ FEDERAT2_DEF:0 "the $NONIDEOLOGYADJ$ Federation"
+ 
+ CO1:0 "North $NONIDEOLOGY$"
+ CO1_DEF:0 "the North $NONIDEOLOGY$"
+ 
+ CO2:0 "East $NONIDEOLOGY$"
+ CO2_DEF:0 "the East $NONIDEOLOGY$"
+
+ CO3:0 "South $NONIDEOLOGY$"
+ CO3_DEF:0 "the South $NONIDEOLOGY$"
+
+ CO4:0 "West $NONIDEOLOGY$"
+ CO4_DEF:0 "the West $NONIDEOLOGY$"
+ 
  FUCK_YOU_AZRAEELIAN:0 "First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_DEF:0 "the First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_ADJ:0 "Chinese but worse"
@@ -7260,10 +7296,19 @@ DUM_SCR:0 "$NONIDEOLOGYADJ$ Socialist Republic"
 DUM_ASR:0 "$NONIDEOLOGYADJ$ Autonomous Socialist Republic"
 
 DUM_UNTT:0 "$OVERLORDADJ$ United Nations Trust Territory of $NONIDEOLOGY$"
-PR1:0 "People's Republic of $NONIDEOLOGY$"
+DUM_PR1:0 "People's Republic of $NONIDEOLOGY$"
 
-PR2:0 "$NONIDEOLOGYADJ$ People's Republic"
-PR3:0 "People's Democratic Republic of $NONIDEOLOGY$"
+DUM_PR2:0 "$NONIDEOLOGYADJ$ People's Republic"
+DUM_PR3:0 "People's Democratic Republic of $NONIDEOLOGY$"
+
+DUM_PR4:0 "$NONIDEOLOGYADJ$ People's Democratic Republic"
+DUM_FEDERAT2:0 "$NONIDEOLOGYADJ$ Federation"
+
+DUM_CO1:0 "North $NONIDEOLOGY$"
+DUM_CO2:0 "East $NONIDEOLOGY$
+
+DUM_CO3:0 "South $NONIDEOLOGY$"
+DUM_CO4:0 "West $NONIDEOLOGY$"
 
 COL_ENG_USA:0 "Anglo-American Condominium of Columbia"
 COL_ENG_USA_DEF:0 "the Anglo-American Condominium of Columbia"
