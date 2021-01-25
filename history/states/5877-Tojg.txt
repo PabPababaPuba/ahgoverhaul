@@ -9,8 +9,10 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = AFG
-		add_core_of = AFG
+		owner = PER
+		add_core_of = PER
+		add_core_of = KRM
+		add_claim_by = BLO
 	}
 	
 	buildings_max_level_factor=1.000
