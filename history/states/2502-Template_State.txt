@@ -8,7 +8,7 @@ state={
 		add_core_of = CSA
 		add_core_of = FLE
 		add_core_of = FLS
-
+		add_core_of = CCR
 		buildings = {
 			infrastructure = 4
 			

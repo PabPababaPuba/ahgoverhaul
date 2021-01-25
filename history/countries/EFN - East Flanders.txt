@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 7478
 
 oob = "EFN_1936"
 

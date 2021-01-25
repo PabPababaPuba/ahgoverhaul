@@ -4613,16 +4613,16 @@ NIU = {
 	color_ui = rgb { 15 116 98 }
 }
 TKL = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 63 117 51 }
+	color_ui = rgb { 63 117 51 }
 }
 CKI = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 244 107 66 }
+	color_ui = rgb { 244 107 66 }
 }
 DGC = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 172 41 105 }
+	color_ui = rgb { 172 41 105 }
 }
 MRG = {
 	color = rgb { 97 67 173 }
@@ -5665,8 +5665,8 @@ color = rgb { 52 220 153 }
 color_ui = rgb { 52 220 153 }
 }
 SOB = {
-color = rgb { 130 65 0 }
-color_ui = rgb { 130 65 0 }
+color = rgb { 85 85 166 }
+color_ui = rgb { 85 85 166 }
 }
 NOB = {
 color = rgb { 130 65 0 }
@@ -5677,8 +5677,8 @@ color = rgb { 218 209 101 }
 color_ui = rgb { 218 209 101 }
 }
 EFN = {
-color = rgb { 218 209 101 }
-color_ui = rgb { 218 209 101 }
+color = rgb { 116 9 47 }
+color_ui = rgb { 116 9 47 }
 }
 LBB = {
 color = rgb { 138 138 0 }
@@ -6441,6 +6441,12 @@ color_ui = rgb { 158  130  83 }
 TKI = {
 color = rgb { 230  223  50 }
 color_ui = rgb { 230  223  50 }
+}
 TE2 = {
 color = rgb { 255 199 0 }
 color_ui = rgb { 255 199 0 }
+}
+FKK = {
+color = rgb { 0 104 178 }
+color_ui = rgb { 0 104 178 }
+}
