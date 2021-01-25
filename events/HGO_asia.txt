@@ -1241,11 +1241,17 @@ country_event = { #2020 Asia
 			every_state = {
 				limit = {
 					is_owned_by = RUS
-					}
+				}
 				RUS = {
 					add_state_core = PREV
-						}
-					}				
+					}
+				}	
+			every_state = {
+				limit = {
+					is_owned_by = PRC
+				}
+				set_demilitarized_zone = no
+				}
 		}
 	}
 	option = { #Reject

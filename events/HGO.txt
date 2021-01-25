@@ -336,7 +336,13 @@ country_event = { #Unite China
 				}
 				add_core_of = PRC
 				add_core_of = CHI				
-			}		
+			}
+			every_state = {
+				limit = {
+					is_owned_by = PRC
+				}
+				set_demilitarized_zone = no
+				}			
 }
 		}
 	option = { #Reject

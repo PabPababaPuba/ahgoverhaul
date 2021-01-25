@@ -2641,8 +2641,14 @@ on_actions = {
 					}
 				RUS = {
 					add_state_core = PREV
-						}
 					}
+				}
+			every_state = {
+				limit = {
+					is_owned_by = PRC
+				}
+				set_demilitarized_zone = no
+				}
 		1775 = {
 			set_demilitarized_zone = no
 			}
