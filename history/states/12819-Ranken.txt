@@ -1,6 +1,6 @@
 state={
-	id=10635
-	name="STATE_10635"
+	id=12819
+	name="STATE_12819"
 
 	history={
 		owner = AST
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		10979
+		12936
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000
