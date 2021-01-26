@@ -1057,8 +1057,8 @@ LOU = {
 	color_ui = rgb { 42 49 84 }
 }
 TUG = {
-	color = rgb { 191 67 45 }
-	color_ui = rgb { 191 67 45 }
+	color = rgb { 77 90 112 }
+	color_ui = rgb { 77 90 112 }
 }
 XIG = {
 	color = rgb { 39 86 112 }

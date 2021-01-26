@@ -9,7 +9,7 @@ state={
 		add_core_of = MOR
 		add_core_of = RIF
 		victory_points = {
-			4199 5 
+			12087 5 
 		}
 	}
 	manpower=521000

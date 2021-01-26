@@ -44,7 +44,7 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Justí Guitart i Vilardebó"
+	name = "Bisbe Justí Guitart i Vilardebó"
 	desc = "POLITICS_ADR_THEOC_DESC"
 	picture = "Portrait_Justi_Guitart_i_Vilardebo.dds"
 	expire = "1960.1.1"
@@ -55,11 +55,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Justí Guitart i Vilardebó"
+	name = "Co-Príncep Episcopal Justí Guitart i Vilardebó, Bisbe d’Urgell"
 	desc = "POLITICS_ADR_CONMON_DESC"
 	picture = "Portrait_Justi_Guitart_i_Vilardebo.dds"
 	expire = "1960.1.1"
-	ideology = conmon
+	ideology = conservative_constitutionalism
 	traits = {
 		
 	}
