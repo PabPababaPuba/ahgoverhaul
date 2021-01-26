@@ -2528,8 +2528,8 @@
  CAN_centrist_republic_DEF:0 "The Canadian Republic"
  CAN_centrist_monarchism:0 "Dominion of North America"
  CAN_centrist_monarchism_DEF:0 "The Dominion of North America"
- CAN_stratocratic_monarchism:0 "Royal Canadian Military Junta"
- CAN_stratocratic_monarchism_DEF:0 "The Royal Canadian Military Junta"
+ CAN_stratocratic_monarchism:0 "Royal Canadian Military Government"
+ CAN_stratocratic_monarchism_DEF:0 "The Royal Canadian Military Government"
  CAN_ADJ:0 "Canadian"
   
  PRC_fascism:0 "Chinese Empire"

@@ -19,7 +19,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "William Lyon Mackenzie King"
+	name = "Prime Minister William Lyon Mackenzie King"
 	desc = ""
 	picture = "Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
@@ -30,7 +30,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Richard Bedford Bennet"
+	name = "Chancellor Richard Bedford Bennet"
 	desc = ""
 	picture = "Portrait_Richard_Bennet.dds"
 	expire = "1965.1.1"
@@ -41,7 +41,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Prince David of Windsor"
+	name = "Governor-General Prince David of Windsor, Duke of Cornwall"
 	desc = ""
 	picture = "Portrait_Prince_David.dds"
 	expire = "1965.1.1"
@@ -52,7 +52,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Buchan"
+	name = "Governor-General John Buchan, Baron Tweedsmuir"
 	desc = ""
 	picture = "Portrait_John_Buchan.dds"
 	expire = "1965.1.1"
@@ -63,7 +63,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Horne Blackmore"
+	name = "President John Horne Blackmore"
 	desc = ""
 	picture = "Portrait_John_Blackmore.dds"
 	expire = "1965.1.1"
@@ -94,7 +94,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tim Buck"
+	name = "First Secretary Tim Buck"
 	desc = ""
 	picture = "CAN_Buck.tga"
 	expire = "1965.1.1"
@@ -105,7 +105,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tim Buck"
+	name = "Chairman Tim Buck"
 	desc = ""
 	picture = "CAN_Buck.tga"
 	expire = "1965.1.1"
@@ -115,7 +115,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James Shaver Woodsworth"
+	name = "President James Shaver Woodsworth"
 	desc = ""
 	picture = "Portrait_James_Woodsworth.dds"
 	expire = "1965.1.1"
@@ -125,7 +125,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James Shaver Woodsworth"
+	name = "First Minister James Shaver Woodsworth"
 	desc = ""
 	picture = "Portrait_James_Woodsworth.dds"
 	expire = "1965.1.1"
@@ -135,7 +135,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Lyon Mackenzie King"
+	name = "President William Lyon Mackenzie King"
 	desc = ""
 	picture = "Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
@@ -145,7 +145,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Richard Bedford Bennet"
+	name = "President Richard Bedford Bennet"
 	desc = ""
 	picture = "Portrait_Richard_Bennet.dds"
 	expire = "1965.1.1"
@@ -155,7 +155,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Henry Herbert Stevens"
+	name = "President Henry Herbert Stevens"
 	desc = ""
 	picture = "Portrait_Henry_Stevens.dds"
 	expire = "1965.1.1"
@@ -165,7 +165,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Henry Herbert Stevens"
+	name = "Prime Minister Henry Herbert Stevens"
 	desc = ""
 	picture = "Portrait_Henry_Stevens.dds"
 	expire = "1965.1.1"
@@ -175,7 +175,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Andrew George Latta McNaughton"
+	name = "Commander-in-Chief Andrew George Latta McNaughton"
 	desc = ""
 	picture = "Portrait_Andrew_McNaughton.dds"
 	expire = "1965.1.1"
@@ -185,7 +185,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Prince Arthur of Windsor"
+	name = "Governor-General Prince Arthur of Windsor, Duke of Connaught and Strathearn"
 	desc = ""
 	picture = "Portrait_Prince_Arthur.dds"
 	expire = "1965.1.1"
@@ -195,7 +195,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Derwyn Owen"
+	name = "Prince-Primate Derwyn Owen, Bishop of Niagara"
 	desc = ""
 	picture = "Portrait_Derwyn_Owen.dds"
 	expire = "1965.1.1"
@@ -205,7 +205,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Ross Taylor"
+	name = "Lord Chancellor John Ross Taylor"
 	desc = ""
 	picture = "Portrait_John_Taylor.dds"
 	expire = "1965.1.1"
@@ -215,7 +215,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Ross Taylor"
+	name = "Supreme Leader John Ross Taylor"
 	desc = ""
 	picture = "Portrait_John_Taylor.dds"
 	expire = "1965.1.1"
@@ -225,7 +225,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Adrien Arcand"
+	name = "Supreme Leader Adrien Arcand"
 	desc = ""
 	picture = "CAN_Arcand.tga"
 	expire = "1965.1.1"
@@ -235,7 +235,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Patrick Ashley Cooper"
+	name = "Chief Executive Officer Patrick Ashley Cooper"
 	desc = ""
 	picture = "Portrait_Patrick_Cooper.dds"
 	expire = "1965.1.1"
