@@ -4290,6 +4290,12 @@
  TUN_fascism:0 "Italian Protectorate of Tunisia"
  TUN_fascism_DEF:0 "The Italian Protectorate of Tunisia"
  TUN_fascism_ADJ:0 "Tunisian"
+ TUN_anarchism_ideology:0 "Carthage"
+ TUN_anarchism_ideology_DEF:0 "Carthage"
+ TUN_anarchism_ideology_ADJ:0 "Carthaginian"
+ TUN_centrist_monarchism:0 "Vandal Kingdom"
+ TUN_centrist_monarchism_DEF:0 "The Vandal Kingdom"
+ TUN_centrist_monarchism_ADJ:0 "Vandal"
  
  TUN_FRA_fascism:0 "French Protectorate of Tunisia"
  TUN_FRA_fascism_DEF:0 "The French Protectorate of Tunisia"
