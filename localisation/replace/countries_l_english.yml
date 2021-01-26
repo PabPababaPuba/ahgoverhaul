@@ -2849,6 +2849,9 @@
  SAU_democratic_monarchism:0 "Saudi Arab Kingdom"
  SAU_democratic_monarchism_DEF:0 "Saudi Arab Kingdom"
  SAU_democratic_monarchism_ADJ:0 "Saudi Arabian"
+ SAU_conservative_monarchism:0 "Emirate of Nejd"
+ SAU_conservative_monarchism_DEF:0 "The Emirate of Nejd"
+ SAU_conservative_monarchism_ADJ:0 "Saudi Arabian"
  
  SIA_fascism:0 "Siamese Empire"
  SIA_fascism_DEF:0 "The Siamese Empire"
