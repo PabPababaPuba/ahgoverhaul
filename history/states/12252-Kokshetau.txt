@@ -7,7 +7,6 @@ state={
 		owner = KAZ
 		add_core_of = SOV
 		add_core_of = KAZ
-		
 		add_core_of = KSU
 		add_core_of = ALS
 		victory_points = {
@@ -17,7 +16,7 @@ state={
 	}
 
 	provinces={
-		1418 1662 1680 7298 10211 10239 10633 
+		1418 1662 7298 10211 10239 10633 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000
