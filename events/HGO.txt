@@ -1665,6 +1665,7 @@ country_event = { #Decolonize Central Asia
            		}	
 			}
 		KYR = {
+			transfer_state = 1364
 			drop_cosmetic_tag = yes	
 			set_politics = {
 	       		ruling_party = democratic
