@@ -7017,6 +7017,18 @@
  CO4:0 "West $NONIDEOLOGY$"
  CO4_DEF:0 "the West $NONIDEOLOGY$"
  
+ SPCLIMTRTTY:0 "Specialized Imperial Territory of $NONIDEOLOGY$"
+ SPCLIMTRTTY_DEF:0 "the Specialized Imperial Territory of $NONIDEOLOGY$"
+ 
+ TRTTYOF:0 "Territory of $NONIDEOLOGY$"
+ TRTTYOF_DEF:0 "the Territory of $NONIDEOLOGY$"
+ 
+ UNORDTRTTY:0 "Unorganized Territory"
+ UNORDTRTTY_DEF:0 "the Unorganized Territory"
+ 
+ TRTTYIE:0 "$NONIDEOLOGY$ Territory"
+ TRTTYIE_DEF:0 "the $NONIDEOLOGY$ Territory"
+ 
  FUCK_YOU_AZRAEELIAN:0 "First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_DEF:0 "the First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_ADJ:0 "Chinese but worse"
