@@ -2252,6 +2252,15 @@
  TKS_national_socialism_party:0 "SS"
  TKS_national_socialism_party_long:0 "Schutzstaffel"
 
+ SZ2_stratocratic_monarchism_party:0 "RN"
+ SZ2_stratocratic_monarchism_party_Long:0 "Royal Navy"
+ SZ2_authoritarian_monarchism_party:0 "RN"
+ SZ2_authoritarian_monarchism_party_Long:0 "Royal Navy"
+ SZ2_fascism_party:0 "RM"
+ SZ2_fascism_party_Long:0 "Regia Marina"
+ SZ2_national_socialism_party:0 "Kriegsmarine"
+ SZ2_national_socialism_party_Long:0 "Kriegsmarine"
+
  ORS_national_socialism_party:0 "SS"
  ORS_national_socialism_party_long:0 "Schutzstaffel-Sturmbrigade Dirlewanger"
  ORS_stratocratic_monarchism_party:0 "SS"
