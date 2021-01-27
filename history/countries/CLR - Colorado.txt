@@ -29,8 +29,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "William Miller"
-	picture = "gfx/leaders/CLR/Portrait_Colorado_William_Miller.dds"
+	name = "William Afton"
+	picture = "gfx/leaders/CLR/Portrait_Colorado_William_Afton.dds"
 	expire = "1965.1.1"
 	ideology = natsoc
 	traits = {
