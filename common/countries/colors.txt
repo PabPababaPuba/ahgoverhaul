@@ -618,7 +618,7 @@ EGL = {
 }
 RUS = {
 	color = rgb { 0 127 14 }
-    color_ui = rgb { 16  127  163 }	
+    color_ui = rgb { 0 127 14 }	
 }
 SUR = {
 	color = rgb { 205 99  38 }
@@ -1213,8 +1213,8 @@ NOS = {
     color_ui = rgb { 205 226 97 }
 }
 KPK = {
-    color = rgb { 147 0 0 }
-    color_ui = rgb { 147 0 0 }
+    color = rgb { 186 170 55 }
+    color_ui = rgb { 186 170 55 }
 }
 TRN = {
     color = rgb { 147 0 0 }
