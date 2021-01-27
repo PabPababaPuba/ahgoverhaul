@@ -194,7 +194,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Haakon VII av Glücksburg"
+	name = "Småkonge Haakon VII av Glücksburg"
 	desc = ""
 	picture = "NOR_HaakonVII.tga"
 	expire = "1965.1.1"

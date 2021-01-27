@@ -49,7 +49,7 @@ set_stability = 0.75
 
 
 create_country_leader = {
-	name = "António Ginestal Machado"
+	name = "Presidente António Ginestal Machado"
 	desc = ""
 	picture = "Portrait_Antonio_Machado.tga"
 	expire = "1965.1.1"
@@ -59,7 +59,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bento António Gonçalves"
+	name = "Primeiro Secretário Bento António Gonçalves"
 	desc = ""
 	picture = "Portrait_Bento_Goncalves.tga"
 	expire = "1965.1.1"
@@ -69,7 +69,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bento António Gonçalves"
+	name = "Primeiro Ministro Bento António Gonçalves"
 	desc = ""
 	picture = "Portrait_Bento_Goncalves.tga"
 	expire = "1965.1.1"
@@ -79,7 +79,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Amílcar da Silva Ramada Curto"
+	name = "Presidente Amílcar da Silva Ramada Curto"
 	desc = ""
 	picture = "Portrait_Amilcar_Curto.tga"
 	expire = "1965.1.1"
@@ -89,7 +89,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Duarte I de Bragança"
+	name = "Imperador Duarte I de Bragança"
 	desc = ""
 	picture = "POR_Duarte.tga"
 	expire = "1965.1.1"
@@ -99,7 +99,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "José Domingues dos Santos"
+	name = "Presidente José Domingues dos Santos"
 	desc = ""
 	picture = "Portrait_Jose_Santos.tga"
 	expire = "1965.1.1"
@@ -109,7 +109,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Duarte I de Bragança"
+	name = "Rei Duarte I de Bragança"
 	desc = ""
 	picture = "POR_Duarte.tga"
 	expire = "1965.1.1"
@@ -119,7 +119,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Duarte I de Bragança"
+	name = "Rei Duarte I de Bragança"
 	desc = ""
 	picture = "POR_Duarte.tga"
 	expire = "1965.1.1"
@@ -129,7 +129,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Afonso Augusto da Costa"
+	name = "Chanceler Afonso Augusto da Costa"
 	desc = ""
 	picture = "Portrait_Afonso_Costa.tga"
 	expire = "1965.1.1"
@@ -139,7 +139,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pedro VI de Orléans-Bragança"
+	name = "Rei Pedro VI de Orléans-Bragança"
 	desc = ""
 	picture = "POR_Pedro.tga"
 	expire = "1965.1.1"
@@ -149,7 +149,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "António Óscar Fragoso Carmona"
+	name = "Presidente António Óscar Fragoso Carmona"
 	desc = ""
 	picture = "Portrait_Oscar_Carmona.dds"
 	expire = "1965.1.1"
@@ -159,7 +159,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "António Óscar Fragoso Carmona"
+	name = "Comandante em Chefe António Óscar Fragoso Carmona"
 	desc = ""
 	picture = "Portrait_Oscar_Carmona.dds"
 	expire = "1965.1.1"
@@ -169,7 +169,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Duarte I de Bragança"
+	name = "Imperador Duarte I de Bragança"
 	desc = ""
 	picture = "POR_Duarte.tga"
 	expire = "1965.1.1"
@@ -179,7 +179,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Duarte I de Bragança"
+	name = "Rei Duarte I de Bragança"
 	desc = ""
 	picture = "POR_Duarte.tga"
 	expire = "1965.1.1"
@@ -189,7 +189,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Duarte I de Bragança"
+	name = "Rei Duarte I de Bragança"
 	desc = ""
 	picture = "POR_Duarte.tga"
 	expire = "1965.1.1"
@@ -199,7 +199,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Manuel Gonçalves Cerejeira"
+	name = "Principe-Primata Manuel Gonçalves Cerejeira, Cardeal-Patriarca de Lisboa"
 	desc = ""
 	picture = "Portrait_Manuel_Cerejeira.tga"
 	expire = "1965.1.1"
@@ -209,7 +209,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Duarte I de Bragança"
+	name = "Rei Duarte I de Bragança"
 	desc = ""
 	picture = "POR_Duarte.tga"
 	expire = "1965.1.1"
@@ -219,7 +219,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Francisco Rolão Preto"
+	name = "Líder Francisco Rolão Preto"
 	desc = ""
 	picture = "Portrait_Francisco_Preto.tga"
 	expire = "1965.1.1"
@@ -229,7 +229,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oswald von Hoyningen-Huene"
+	name = "Reichsbevollmächtigter Oswald von Hoyningen-Huene"
 	desc = ""
 	picture = "Portrait_Hoyningen-Huene.tga"
 	expire = "1965.1.1"

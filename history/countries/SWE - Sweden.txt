@@ -37,7 +37,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustaf V av Bernadotte"
+	name = "Konung Gustaf V av Bernadotte"
 	desc = ""
 	picture = "Portrait_Gustaf_V.dds"
 	expire = "1965.1.1"
@@ -47,7 +47,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Salomon Arvid Achates Lindman"
+	name = "Kansler Salomon Arvid Achates Lindman"
 	desc = ""
 	picture = "Portrait_Arvid_Lindman.tga"
 	expire = "1965.1.1"
@@ -77,7 +77,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Per Albin Hansson"
+	name = "Ordförare Per Albin Hansson"
 	desc = ""
 	picture = "Portrait_Albin_Hansson.tga"
 	expire = "1965.1.1"
@@ -87,7 +87,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustaf V av Bernadotte"
+	name = "Konung Gustaf V av Bernadotte"
 	desc = ""
 	picture = "Portrait_Gustaf_V.dds"
 	expire = "1965.1.1"
@@ -97,7 +97,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jonas Eliel Löfgren"
+	name = "Ordförare Jonas Eliel Löfgren"
 	desc = ""
 	picture = "Portrait_Eliel_Lofgren.tga"
 	expire = "1965.1.1"
@@ -107,7 +107,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustaf VI av Bernadotte"
+	name = "Konung Gustaf VI av Bernadotte"
 	desc = ""
 	picture = "Portrait_Gustaf_VI.tga"
 	expire = "1965.1.1"
@@ -117,7 +117,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eugen I av Bernadotte"
+	name = "Konung Eugen I av Bernadotte"
 	desc = ""
 	picture = "Portrait_Eugen_Sweden.tga"
 	expire = "1965.1.1"
@@ -127,7 +127,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Olof Olsson i Kullenbergstorp"
+	name = "Ordförare Olof Olsson i Kullenbergstorp"
 	desc = ""
 	picture = "Portrait_Olof_olsson.tga"
 	expire = "1965.1.1"
@@ -137,7 +137,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Frederick II av Bernadotte"
+	name = "Konung Frederick II av Bernadotte"
 	desc = ""
 	picture = "Portrait_Frederick_Sweden.tga"
 	expire = "1965.1.1"
@@ -157,7 +157,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oscar Eugéne Nygren"
+	name = "Befälhavare Oscar Eugéne Nygren"
 	desc = ""
 	picture = "Portrait_Oscar_Nygren.tga"
 	expire = "1965.1.1"
@@ -167,7 +167,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oscar III av Bernadotte"
+	name = "Konung Oscar III av Bernadotte"
 	desc = ""
 	picture = "Portrait_Oscar_Sweden.tga"
 	expire = "1965.1.1"
@@ -177,7 +177,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Carl XVI av Bernadotte"
+	name = "Småkung Carl XVI av Bernadotte"
 	desc = ""
 	picture = "Portrait_Carl_Sweden.tga"
 	expire = "1965.1.1"
@@ -187,7 +187,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Prins-Ärkebiskop Erling Eidem"
+	name = "Prins-Primat Erling Eidem, Ärkebiskop av Uppsala"
 	desc = ""
 	picture = "Portrait_Erling_Eidem.tga"
 	expire = "1965.1.1"
@@ -197,7 +197,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Frederick II av Bernadotte"
+	name = "Kejsare Frederick II av Bernadotte"
 	desc = ""
 	picture = "Portrait_Frederick_Sweden.tga"
 	expire = "1965.1.1"
@@ -207,7 +207,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Konrad Otto Kristian Hallgren"
+	name = "Högsta Ledare Konrad Otto Kristian Hallgren"
 	desc = ""
 	picture = "Portrait_Konrad_Hallgren.tga"
 	expire = "1965.1.1"
