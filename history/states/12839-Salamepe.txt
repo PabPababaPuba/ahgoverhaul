@@ -1,17 +1,18 @@
 state={
-	id=3841
-	name="STATE_3841"
+	id=12839
+	name="STATE_12839"
 	provinces={
-		5135 12931 
+		1629
 	}
 	manpower = 1000
 	
 	state_category = pastoral
 
 	history={
-		owner = NGU
-		add_core_of = NGU
-		add_core_of = PNG
+		owner = INS
+		add_core_of = INS 
+		add_core_of = IDS
+		add_core_of = WPP
 		buildings = {
 			infrastructure = 1
 		}

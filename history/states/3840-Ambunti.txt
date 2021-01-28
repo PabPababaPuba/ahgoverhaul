@@ -11,6 +11,7 @@ state={
 	history={
 		owner = NGU
 		add_core_of = PNG
+		add_core_of = NGU
 		buildings = {
 			infrastructure = 1
 		}

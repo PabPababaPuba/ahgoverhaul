@@ -1,17 +1,17 @@
 state={
-	id=3841
-	name="STATE_3841"
+	id=12837
+	name="STATE_12837"
 	provinces={
-		5135 12931 
+		1283 
 	}
 	manpower = 1000
 	
 	state_category = pastoral
 
 	history={
-		owner = NGU
-		add_core_of = NGU
+		owner = PNG
 		add_core_of = PNG
+		add_claim_by = QNS
 		buildings = {
 			infrastructure = 1
 		}
