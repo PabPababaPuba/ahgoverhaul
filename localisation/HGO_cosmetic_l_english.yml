@@ -874,8 +874,8 @@
 
  #ITA kolonies
  
- ETH_ITA:0 "Italian East Africa"
- ETH_ITA_DEF:0 "Italian East Africa"
+ ETH_ITA:0 "Colony of Italian East Africa"
+ ETH_ITA_DEF:0 "The Colony of Italian East Africa"
 
  CYP_ITA_autonomy_satellite:0 "Cyprus"
  CYP_ITA_autonomy_reichsprotectorate:0 "Italian Protectorate of Cyprus"
