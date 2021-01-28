@@ -4,63 +4,29 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "ICE"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
+		"ICE"={
+			history = "ICE_HGO_BOOKMARK_DESC"
 			ideology = democratic
 		}
-		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+		"---"={
+			history = "OTHER_HGO_BOOKMARK_DESC"
 		}
 		"ENG"={
+			minor = yes
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
-		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { has_dlc = "Waking the Tiger" }
-		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
-		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
-		}
-		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
-		}
-		"RUS"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-		}
-
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
-
-
-		# minors from DLC ####
-		"POL"={
-			minor = yes
-			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
-		}
-		"CAN"={
-			minor = yes
-			history = "CAN_GATHERING_STORM_DESC"
 			ideology = democratic
 		}
 		"AST"={
 			minor = yes
 			history = "AST_GATHERING_STORM_DESC"
+			ideology = democratic
+		}
+		"CAN"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
 			ideology = democratic
 		}
 		"NZL"={
@@ -78,28 +44,20 @@ bookmarks = {
 			history = "RAJ_GATHERING_STORM_DESC"
 			ideology = neutrality
 		}
-		"CZE"={
+		"GER"={
 			minor = yes
-			history = "CZE_GATHERING_STORM_DESC"
-			ideology = democratic
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
 		}
-
-		"HUN"={
+		"ITA"={
 			minor = yes
-			history = "HUN_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
 		}
-
-		"ROM"={
+		"JAP"={
 			minor = yes
-			history = "ROM_GATHERING_STORM_DESC"
-			ideology = neutrality
-		}
-		
-		"YUG"={
-			minor = yes
-			history = "YUG_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
 		}
 		"CHI"={
 			minor = yes
@@ -116,74 +74,83 @@ bookmarks = {
 			history = "MAN_GATHERING_STORM_DESC"
 			ideology = fascism
 		}
-		
-		"GXC"={
+
+		"RUS"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-		}		
-		"YUN"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-		}		
-		"SHX"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
 		}
-		"XSM"={
+		"USA"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-		}		
-		"SIK"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
 		}
-		
-		"MEX"={
+		"FRA"={
 			minor = yes
-			history = "MEXICO_GATHERING_STORM_DESC"
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+		}
+		"POL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
 			ideology = neutrality
 		}
-
-		"HOL"={
+		"YUG"={
 			minor = yes
-			history = "NETHERLANDS_GATHERING_STORM_DESC"
-			ideology = democratic
-		}
-	
-		"SPR"={
-			minor = yes
-			history = "SPAIN_GATHERING_STORM_DESC"
-			ideology = democratic
-		}
-
-		"POR"={
-			minor = yes
-			history = "PORTUGAL_GATHERING_STORM_DESC"
-			ideology = democratic
-		}
-		
-		"BUL"={
-			minor = yes
-			history = "BUL_GATHERING_STORM_DESC"
+			history = "YUG_GATHERING_STORM_DESC"
 			ideology = neutrality
 		}
-
 		"GRE"={
 			minor = yes
 			history = "GRE_GATHERING_STORM_DESC"
 			ideology = neutrality
 		}
-
+		"MEX"={
+			minor = yes
+			history = "MEXICO_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
+		"HOL"={
+			minor = yes
+			history = "NETHERLANDS_GATHERING_STORM_DESC"
+			ideology = democratic
+		}
+		"HUN"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
+		"ROM"={
+			minor = yes
+			history = "ROM_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
+		"BUL"={
+			minor = yes
+			history = "BUL_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
+		"CZE"={
+			minor = yes
+			history = "CZE_GATHERING_STORM_DESC"
+			ideology = democratic
+		}
+		"SPR"={
+			minor = yes
+			history = "SPAIN_GATHERING_STORM_DESC"
+			ideology = democratic
+		}
+		"POR"={
+			minor = yes
+			history = "PORTUGAL_GATHERING_STORM_DESC"
+			ideology = democratic
+		}
 		"TUR"={
 			minor = yes
 			history = "TUR_GATHERING_STORM_DESC"
 			ideology = neutrality
 		}
+
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
