@@ -74,12 +74,6 @@ bookmarks = {
 			history = "MAN_GATHERING_STORM_DESC"
 			ideology = fascism
 		}
-
-		"RUS"={
-			minor = yes
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-		}
 		"USA"={
 			minor = yes
 			history = "USA_GATHERING_STORM_DESC"
