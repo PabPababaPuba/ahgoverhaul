@@ -5,9 +5,8 @@ state={
 		17178 
 	}
 	history={
-	    owner = LAT
-        add_core_of = LAT
-		add_core_of = COU
+	    owner = LIT
+        add_core_of = LIT
     }	
 	manpower=1000
 	state_category = pastoral
