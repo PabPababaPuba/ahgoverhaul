@@ -8629,7 +8629,10 @@
  NCL_monarchism:0 "Kingdom of New Caledonia"
  NCL_monarchism_DEF:0 "The Kingdom of New Caledonia"
  NCL_monarchism_ADJ:0 "New Caledonian"
- 
+ NCL_national_socialism:0 "Reichskolonie Neu-Kaledonien"
+ NCL_national_socialism_DEF:0 "das Reichskolonie Neu-Kaledonien"
+ NCL_national_socialism_ADJ:0 "Neukaledonisch " 
+
  FIJ_communism:0 "Communist Fiji"
  FIJ_communism_DEF:0 "The Communist Fiji"
  FIJ_communism_ADJ:0 "Fijian"
@@ -9501,6 +9504,9 @@
  VAN_monarchism:0 "Kingdom of Vanuatu"
  VAN_monarchism_DEF:0 "The Kingdom of Vanuatu"
  VAN_monarchism_ADJ:0 "Vanuatuan"
+ VAN_authoritarian_monarchism:0 "Colony of Vanuatu"
+ VAN_authoritarian_monarchism_DEF:0 "The Colony of Vanuatu"
+ VAN_authoritarian_monarchism_ADJ:0 "Vanuatuan"
  
  ZAN_fascism:1 "Caliphate of Zanzibar"
  ZAN_fascism_DEF:1 "The Caliphate of Zanzibar"
