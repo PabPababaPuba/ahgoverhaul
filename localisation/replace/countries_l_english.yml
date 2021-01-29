@@ -5373,7 +5373,10 @@
  ZAM_monarchism:0 "Kingdom of Northern Rhodesia"
  ZAM_monarchism_DEF:0 "The Kingdom of Northern Rhodesia"
  ZAM_monarchism_ADJ:0 "Rhodesian"
- 
+ ZAM_centrist_monarchism:0 "Condominium of Northern Rhodesia" 
+ ZAM_centrist_monarchism_DEF:0 "The Condominium of Northern Rhodesia" 
+ ZAM_centrist_monarchism_ADJ:0 "North Rhodesian" 
+
  ZAM_ENG_fascism:0 "North Rhodesian Nationalist Republic"
  ZAM_ENG_fascism_DEF:0 "The North Rhodesian Nationalist Republic"
  ZAM_ENG_democratic:0 "Republic of North Rhodesia"
