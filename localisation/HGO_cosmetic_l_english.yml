@@ -7030,6 +7030,9 @@
  TRTTYIE:0 "$NONIDEOLOGY$ Territory"
  TRTTYIE_DEF:0 "the $NONIDEOLOGY$ Territory"
  
+ ELYET:0 "Eyalet of $NONIDEOLOGY$"
+ ELYET_DEF:0 "the Eyalet of $NONIDEOLOGY$"
+ 
  FUCK_YOU_AZRAEELIAN:0 "First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_DEF:0 "the First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_ADJ:0 "Chinese but worse"
