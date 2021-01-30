@@ -3065,7 +3065,7 @@ YUN_GREEN = {
 
 RUS_GREEN = {
 	color = rgb { 0 127 14 }
-    color_ui = rgb { 16  127  163 }	
+    color_ui = rgb { 0 127 14 }	
 }
 
 MEN_GREEN = {
