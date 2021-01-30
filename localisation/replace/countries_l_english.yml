@@ -8716,6 +8716,9 @@
  TAH_monarchism:0 "Kingdom of Tahiti"
  TAH_monarchism_DEF:0 "The Kingdom of Tahiti"
  TAH_monarchism_ADJ:0 "Tahitian"
+ TAH_authoritarian_monarchism:0 "Colony of Tahiti"
+ TAH_authoritarian_monarchism_DEF:0 "The Colony of Tahiti"
+ TAH_authoritarian_monarchism_ADJ:0 "Tahitian"
  
  SAM_communism:0 "Western Samoa"
  SAM_communism_DEF:0 "The Western Samoa"
