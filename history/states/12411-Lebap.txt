@@ -3,8 +3,9 @@ state={
 	name="STATE_12411"
 	
 	history = {
-		owner = UZB
+		owner = KPK
 		add_core_of = SOV
+		add_core_of = KPK
 		add_core_of = UZB
 		add_core_of = TKS
 		add_core_of = AMD
