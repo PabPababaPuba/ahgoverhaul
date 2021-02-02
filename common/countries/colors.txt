@@ -6454,3 +6454,7 @@ SZ2 = {
 color = rgb { 150 26 10 }
 color_ui = rgb { 150 26 10 }
 }
+CIE = {
+color = rgb { 249 225 96 }
+color_ui = rgb { 249 225 96 }
+}
