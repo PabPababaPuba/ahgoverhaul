@@ -3078,6 +3078,11 @@ INS_GREEN = {
 	color_ui = rgb { 128  158  118 } #green
 }	
 
+HUN_GREEN = {
+	color = rgb { 77 143 92 } 
+	color_ui = rgb { 77 143 92 } 
+}	
+
 #/
 #### Shades of yellow/orange/brown
 #\

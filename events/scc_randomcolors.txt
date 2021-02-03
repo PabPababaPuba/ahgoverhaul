@@ -628,6 +628,14 @@ country_event = {
 		drop_cosmetic_tag = yes
 		set_cosmetic_tag = CHI_BLUE
 	}
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = sccrandom.0002.76
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = HUN_GREEN
+	}
 }
 
 country_event = { #Drop
