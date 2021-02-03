@@ -3,7 +3,7 @@ state={
 	name="STATE_12853"
 	
 	history = {
-		owner = TSC
+		owner = ARM
 		add_core_of = SOV
 		add_core_of = ARM
 		add_core_of = TUR

@@ -1,17 +1,18 @@
 state={
-	id=12318
-	name="STATE_12318"
+	id=12854
+	name="STATE_12854"
 	
 	history = {
-		owner = AZR
+		owner = TSC
 		add_core_of = SOV
 		add_core_of = TSC
-		add_core_of = AZR
+		add_core_of = GEO
+
 	}
 	manpower = 1000
 	state_category = pastoral
 	provinces={
-		21014
+		1235
 	}
 	buildings_max_level_factor=1.000
 }

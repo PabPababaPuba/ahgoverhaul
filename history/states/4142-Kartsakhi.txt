@@ -9,7 +9,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = TSC
+		owner = ARM
 		add_core_of = SOV
 		add_core_of = ARM
 		add_core_of = TUR

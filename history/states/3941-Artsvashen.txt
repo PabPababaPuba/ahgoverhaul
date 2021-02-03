@@ -9,7 +9,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = TSC
+		owner = ARM
 		buildings = {
 			infrastructure = 8
 

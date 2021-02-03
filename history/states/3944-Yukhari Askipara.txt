@@ -9,7 +9,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = TSC
+		owner = AZR
 		buildings = {
 			infrastructure = 8
 
