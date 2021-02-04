@@ -3270,8 +3270,13 @@ country_event = { #Yeet the princely states
 			set_capital = 4732
 			set_politics = {
 	       		ruling_party = democratic
-              		}				
-			}		
+              	}				
+			}
+		PAK = {
+			set_politics = {
+				ruling_party = theocratic
+				}
+			}
 		}
 	}
 	option = { #1947 India

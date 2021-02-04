@@ -2275,8 +2275,13 @@ on_actions = {
             set_capital = 4732
 			set_politics = {
 	       		ruling_party = democratic
-              		}				
-			}	
+              	}				
+			}
+		PAK = {
+			set_politics = {
+				ruling_party = theocratic
+				}
+			}
 			3180 = {
 				owner = {
 					transfer_state = 1914
