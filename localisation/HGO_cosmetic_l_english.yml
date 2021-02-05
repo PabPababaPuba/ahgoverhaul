@@ -7351,3 +7351,90 @@ AUS_EMPIRE_fascism_ADJ:0 "Österreichisch-Ungarische"
 MEX_EMPIRE:0 "Second Mexican Empire"
 MEX_EMPIRE_DEF:0 "The Second Mexican Empire"
 MEX_EMPIRE_ADJ:0 "Mexican"
+
+FRA_ITA_SV:0 "Territorio Spazio Vitale Della Provenza"
+FRA_ITA_SV_DEF:0 "Il Vitale Territorio Spaziale Della Provenza"
+FRA_ITA_SV_ADJ:0 "Italiano-Francesi"
+
+DLM_ITA_SV:0 "Territorio Spazio Vitale Della Dalmazia"
+DLM_ITA_SV_DEF:0 "Il Vitale Territorio Spaziale Della Dalmazia"
+DLM_ITA_SV_ADJ:0 "Italiano-Dalmata"
+
+LBA_ITA_SV:0 "Territorio Spazio Vitale della Libia"
+LBA_ITA_SV_DEF:0 "Il Territorio Spazio Vitale della Libia"
+LBA_ITA_SV_ADJ:0 "Italiano-Libici"
+
+EGY_ITA_SV:0 "Protettorato Italiano d'Egitto"
+EGY_ITA_SV_DEF:0 "Il Protettorato Italiano d'Egitto"
+EGY_ITA_SV_ADJ:0 "Egiziani"
+
+EGY_ITA_SUD_SV:0 "Condominio Italo-Egiziano del Sudan"
+EGY_ITA__SUD_SV_DEF:0 "Il Condominio Italo-Egiziano del Sudan"
+EGY_ITA_SUD_SV_ADJ:0 "Sudanese"
+
+ETH_ITA_SV:0 "Territorio Spazio Vitale Africa dell'est"
+ETH_ITA_SV_DEF:0 "Il Territorio Vitale Spaziale Africa dell'est"
+ETH_ITA_SV_ADJ:0 "Italiano dell'Africa Orientale"
+
+TUN_ITA_SV:0 "Territorio Spazio Vitale della Tunisia"
+TUN_ITA_SV_DEF:0 "Il Territorio Spazio Vitale della Tunisia"
+TUN_ITA_SV_ADJ:0 "Italiano-Tunisino"
+
+CHA_ITA_SV:0 "Protettorato Italiano del Ciad"
+CHA_ITA_SV_DEF:0 "Il Protettorato Italiano del Ciad"
+CHA_ITA_SV_ADJ:0 "Ciadiano"
+
+CMR_ITA_SV:0 "Protettorato Italiano del Camerun"
+CMR_ITA_SV_DEF:0 "Il Protettorato Italiano del Camerun"
+CMR_ITA_SV_ADJ:0 "Camerunese"
+
+ALB_ITA_SV:0 "Protettorato Italiano d'Albania"
+ALB_ITA_SV_DEF:0 "Il Protettorato Italiano d'Albania"
+ALB_ITA_SV_ADJ:0 "Albanese"
+
+MNT_ITA_SV:0 "Protettorato Italiano del Montenegro"
+MNT_ITA_SV_DEF:0 "Il Protettorato Italiano del Montenegro"
+MNT_ITA_SV_ADJ:0 "Montenegrino"
+
+MOR_ITA_SP2:0 "Italo-Spanish Condominium of Morroco"
+MOR_ITA_SP2_DEF:0 "The Italo-Spanish Condominium of Morroco"
+MOR_ITA_SP2_ADJ:0 "Morrocan"
+
+FRA_GER_LB:0 "Lebensraumgebiet von Nordfrankreich"
+FRA_GER_LB_DEF:0 "Das Lebensraumgebiet von Nordfrankreich"
+FRA_GER_LB_ADJ:0 "Deutsches-Französisch"
+
+GRE_GER_LB:0 "Militärgebiet von Griechenland"
+GRE_GER_LB_DEF:0 "Das Militärgebiet Griechenlands"
+GRE_GER_LB_ADJ:0 "Deutscher Militärgriechisch"
+
+GRE_GER_BUL_LB:0 "German-Bulgarian Condominium of Thessaloniki"
+GRE_GER_BUL_LB_DEF:0 "The German-Bulgarian Condominium of Thessaloniki"
+GRE_GER_BUL_LB_ADJ:0 "German-Bulgarian"
+
+DAN_GER_LB:0 "Lebensraumgebiet der Donau"
+DAN_GER_LB_DEF:0 "Das Lebensraumgebiet der Donau"
+DAN_GER_LB_ADJ:0 "Deutsche-Donau"
+
+ULS_IRE:0 "Ulster Autonomy"
+ULS_IRE_DEF:0 "The Ulster Autonomy"
+ULS_IRE_ADJ:0 "North Irish"
+
+EAF_USA:0 "American Mandate of East Africa"
+EAF_USA_DEF:0 "The American Mandate of East Africa"
+EAF_USA_ADJ:0 "East African"
+
+RHO_USA:0 "American Mandate of Rhodesia"
+RHO_USA_DEF:0 "The American Mandate of Rhodesia"
+RHO_USA_ADJ:0 "Rhodesian"
+
+PLAN:0 "PLAN"
+SWAPO:0 "SWAPO"
+FRELIMO:0 "FRELIMO"
+FNLA:0 "FNLA"
+MPLA:0 "MPLA"
+ANC:0 "ANC"
+ZANU:0 "ZANU"
+ADFL:0 "ADFL"
+PMR:0 "PMR"
+MAU:0 "Mau-Mau"
