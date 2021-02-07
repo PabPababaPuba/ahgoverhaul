@@ -166,6 +166,23 @@ on_actions = {
 					transfer_state = PREV
 					}
 				}
+				every_state = {
+					limit = {
+						is_core_of = ING
+						}
+				CHE = {
+					transfer_state = PREV
+				}
+				every_state = {
+					limit = {
+						is_core_of = SOS
+						}
+				SOS = {
+					transfer_state = PREV
+				}
+				CHE = {
+					transfer_state = 12341
+				}
 			}
 		}
 	}
