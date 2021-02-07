@@ -3617,3 +3617,7 @@ NZL_ZEAL = {
 	color = rgb { 2 165 219 }
 	color_ui = rgb { 2 165 219 }
 }
+IGR_SWE = {
+	color = rgb { 29 108 198 }
+	color_ui = rgb { 29 108 198 }
+}

@@ -15,6 +15,7 @@ state={
 		add_core_of = RUS
 		add_core_of = MSC
 		add_core_of = VOT
+		add_core_of = IGR
 	}
 	manpower = 69
 	state_category = pastoral

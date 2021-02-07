@@ -6399,6 +6399,10 @@
  DEL_SWE:0 "Ny Sveriges Koloni"
  DEL_SWE_DEF:0 "den Nya Sveriges Koloni"
  DEL_SWE_ADJ:0 "Nya Svenska"
+ 
+ IGR_SWE:0 "Svenska Ingermanland"
+ IGR_SWE_DEF:0 "den Svenska Ingermanland"
+ IGR_SWE_ADJ:0 "Swedish"
 
  NWY_HOL:0 "Kolonie van Nieuw Amsterdam"
  NWY_HOL_DEF:0 "de Kolonie van Nieuw Amsterdam"

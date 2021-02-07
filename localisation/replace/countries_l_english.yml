@@ -21259,8 +21259,8 @@
  WBH_fascism_DEF:0 "The Wahidi Haban State"
  WBH_fascism_ADJ:0 "Wahidi Haban"
 
- WBA_monarchism:0 " Wahidi Sultanate of Bir Ali"
- WBA_monarchism_DEF:0 "The  Wahidi Sultanate of Bir Ali"
+ WBA_monarchism:0 "Wahidi Sultanate of Bir Ali"
+ WBA_monarchism_DEF:0 "The Wahidi Sultanate of Bir Ali"
  WBA_monarchism_ADJ:0 "Wahidi Bir Ali"
  WBA_neutrality:0 "Wahidi Bir Ali State"
  WBA_neutrality_DEF:0 "The Wahidi Bir Ali State"
@@ -22303,7 +22303,9 @@
  BDT_communism:0 "Pirates"
  BDT_communism_DEF:0 "The Pirates"
  BDT_monarchism:0 "Bandit Kingdom" 
- BDT_monarchism_DEF:0 "The Kingdom of the Bandits" 
+ BDT_monarchism_DEF:0 "The Kingdom of the Bandits"
+ BDT_republican_fascism:0 "Warlords"
+ BDT_republican_fascism_DEF:0 "The Warlords"
  BDT_ADJ:0 "Bandit"
 
  TRB_fascism:0 "Barbarians"
@@ -22327,7 +22329,9 @@
  WST_communism:0 "Industrial Wasteland"
  WST_communism_DEF:0 "The Industrial Wasteland"
  WST_monarchism:0 "Nuclear Wasteland" 
- WST_monarchism_DEF:0 "The Nuclear Wasteland" 
+ WST_monarchism_DEF:0 "The Nuclear Wasteland"
+ WST_left_anarchism:0 "Infected"
+ WST_left_anarchism_DEF:0 "The Infected"
  WST_ADJ:0 "Wasted"
 
  NOM_fascism:0 "Nomadic Hordes"

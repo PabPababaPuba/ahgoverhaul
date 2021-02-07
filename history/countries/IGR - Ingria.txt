@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 1080
 
 oob = "IGR_1936"
 

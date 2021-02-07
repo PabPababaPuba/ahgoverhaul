@@ -12,11 +12,12 @@ state={
 		}
 		add_core_of = EST
 		add_core_of = LIV
+		add_core_of = VRS
 
 	}
 	
 	provinces={
-		6408 9485 
+		9485 
 	}
 	manpower=109386
 	buildings_max_level_factor=1.000

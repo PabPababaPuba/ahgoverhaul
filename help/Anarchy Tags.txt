@@ -16,9 +16,10 @@ Bandits
     Conservative Republicanism - Raiders - Alternative name to bandits. No real difference.
     Authoritarian Republicanism - Bandits - An area that lacks a real government, but various unconnected bandit clans have control of most land
     Fascism - Warlord Cliques - An area ruled by warlords.
+    Republican Fascism - Warlords - Alternative name to warlord cliques. No real difference.
     Vanguardism - Pirates - A coastal area that lacks a real government, but various unconnected pirate crews have control of most of the region.
     Absolute Monarchism - Bandit Kingdom - An area ruled by one bandit with centralized control. closer to a real nation. alternative name.
- 
+    
 Tribes
     Conservative Republicanism - Tribals - alternative name to tribes. no real difference.
     Authoritarian Republicanism - Tribes - Loose groups of human tribes. Not technologically advanced and with no real nation.
@@ -32,6 +33,7 @@ Wasteland
     Fascism - Death Zone - Land that is deadly to human life
     Vanguardism - Industrial Wasteland - Ruined cities and industrial zones that are largely uninhabited
     Absolute Monarchism - Nuclear Wasteland - Wasteland created by radiation. generally uninhabitable.
+    Left Anarchism - Infected - Land that has been overrun by organisms with a disease - zombies, parasitic beings, et cetera.
  
 Nomads
     Conservative Republicanism - Nomadic Tribes - More primitive type of nomadic tribe, as opposed to the general, nonaligned definition.

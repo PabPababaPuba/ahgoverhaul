@@ -5837,16 +5837,16 @@ color = rgb { 192 192 192 }
 color_ui = rgb { 192 192 192 }
 }
 IGR = {
-color = rgb { 192 192 192 }
-color_ui = rgb { 192 192 192 }
+color = rgb { 244 175 114 }
+color_ui = rgb { 244 175 114 }
 }
 VRS = {
-color = rgb { 192 192 192 }
-color_ui = rgb { 192 192 192 }
+color = rgb { 54 150 73 }
+color_ui = rgb { 54 150 73 }
 }
 STS = {
-color = rgb { 192 192 192 }
-color_ui = rgb { 192 192 192 }
+color = rgb { 211 93 103 }
+color_ui = rgb { 211 93 103 }
 }
 KND = {
 color = rgb { 192 192 192 }
