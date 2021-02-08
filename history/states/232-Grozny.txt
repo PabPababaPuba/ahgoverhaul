@@ -20,7 +20,6 @@ state={
 		add_core_of = CSK
 		add_core_of = RUS
 		add_core_of = CSS
-		add_core_of = CHE
 		add_core_of = GLD
 
 	}

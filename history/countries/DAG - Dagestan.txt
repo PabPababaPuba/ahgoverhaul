@@ -1,4 +1,4 @@
-﻿capital = 10138
+﻿capital = 10136
 
 oob = "DAG_1936"
 
