@@ -258,7 +258,7 @@ do_french_renames = {
 			state = 290
 		}		
 		set_province_name = {
-			id = 4199
+			id = 12087
 			name = "Tétouan"
 		}
 	}
@@ -5233,7 +5233,7 @@ do_spanish_renames = {
 			state = 290
 		}		
 		set_province_name = {
-			id = 4199
+			id = 12087
 			name = "Tetuán"
 		}
 	}
@@ -12995,6 +12995,36 @@ do_pinyin_renames = {
 
 	if = {
 		limit = {
+			state = 3173
+		}		
+		set_province_name = {
+			id = 19004
+			name = "Jīngdū"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 3105
+		}		
+		set_province_name = {
+			id = 10349
+			name = "Dìsīpǔ'ěr"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 7068
+		}		
+		set_province_name = {
+			id = 16984
+			name = "Yītǎnàgá"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 286
 		}		
 		set_province_name = {
@@ -13919,6 +13949,16 @@ do_pinyin_renames = {
 }
 
 do_japanese_renames = {
+
+	if = {
+		limit = {
+			state = 3173
+		}		
+		set_province_name = {
+			id = 19004
+			name = "Kyōto"
+		}
+	}
 
 	if = {
 		limit = {
@@ -22726,7 +22766,7 @@ do_latin_renames = {
 			state = 290
 		}		
 		set_province_name = {
-			id = 4199
+			id = 12087
 			name = "Tamuda"
 		}
 	}
@@ -36572,7 +36612,7 @@ do_turkish_renames = {
 			state = 290
 		}		
 		set_province_name = {
-			id = 4199
+			id = 12087
 			name = "Tetuvan"
 		}
 	}
@@ -42295,7 +42335,7 @@ do_italian_renames = {
 			state = 290
 		}		
 		set_province_name = {
-			id = 4199
+			id = 12087
 			name = "Tetuan"
 		}
 	}
@@ -45669,6 +45709,16 @@ do_esperanto_renames = {
 	}
 }
 do_korean_renames = {
+
+	if = {
+		limit = {
+			state = 3173
+		}		
+		set_province_name = {
+			id = 19004
+			name = "Gyeongdo"
+		}
+	}
 
 	if = {
 		limit = {
