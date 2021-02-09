@@ -73,6 +73,7 @@ country_event = { #1914 Asia
 			transfer_state = 9094
 			transfer_state = 6803
 			transfer_state = 6804
+			transfer_state = 12818
 			}
 			every_state = {
 				limit = {
