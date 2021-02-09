@@ -183,6 +183,10 @@ on_actions = {
 				CHE = {
 					transfer_state = 12341
 				}
+				ADY = {
+					transfer_state = 10457
+					transfer_state = 3503
+				}
 			}
 		}
 	}
