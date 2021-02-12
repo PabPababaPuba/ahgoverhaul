@@ -7690,3 +7690,9 @@ REVL_PPN_DEF:0 "The Peleponesian Revolt"
 
 REVL_MTG:0 "Corinthian Revolt"
 REVL_MTG_DEF:0 "The Corinthian Revolt"
+
+POE_ROM:0 "Alpes Poeniae"
+
+COT_ROM:0 "Alpes Cottiae"
+
+MAR_ROM:0 "Alpes Maritimae"
