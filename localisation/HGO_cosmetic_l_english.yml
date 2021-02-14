@@ -7692,7 +7692,10 @@ REVL_MTG:0 "Corinthian Revolt"
 REVL_MTG_DEF:0 "The Corinthian Revolt"
 
 POE_ROM:0 "Alpes Poeniae"
+POE_ROM_DEF:0 "Alpes Poeniae"
 
 COT_ROM:0 "Alpes Cottiae"
+COT_ROM_DEF:0 "Alpes Cottiae"
 
 MAR_ROM:0 "Alpes Maritimae"
+MAR_ROM_DEF:0 "Alpes Maritimae"
