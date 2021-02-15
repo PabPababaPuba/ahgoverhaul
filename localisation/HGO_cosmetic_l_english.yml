@@ -7052,6 +7052,9 @@
  AOBLST:0 "$NONIDEOLOGYADJ$ Autonomous Oblast"
  AOBLST_DEF:0 "the $NONIDEOLOGYADJ$ Autonomous Oblast"
  
+ CTLEDOILFLD:0 "$OVERLORDADJ$ Controlled Oil Fields in $NONIDEOLOGY$"
+ CTLEDOILFLD_DEF:0 "the $OVERLORDADJ$-Owned Oil Fields in $NONIDEOLOGY$"
+ 
  FUCK_YOU_AZRAEELIAN:0 "First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_DEF:0 "the First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_ADJ:0 "Chinese but worse"
