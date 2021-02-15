@@ -6989,38 +6989,38 @@
  PROTEC:0 "Protectorate of $NONIDEOLOGY$"
  PROTEC_DEF:0 "the Protectorate of $NONIDEOLOGY$"
  
- SFR:0 "$NONIDEOLOGYADJ$ Socialist Federative Republic"
- SFR_DEF:0 "the $NONIDEOLOGYADJ$ Socialist Federative Republic"
+ SOCFEDRPLC:0 "$NONIDEOLOGYADJ$ Socialist Federative Republic"
+ SOCFEDRPLC_DEF:0 "the $NONIDEOLOGYADJ$ Socialist Federative Republic"
  
- SCR:0 "$NONIDEOLOGYADJ$ Socialist Republic"
- SCR_DEF:0 "the $NONIDEOLOGYADJ$ Socialist Republic"
+ SOCRPLC:0 "$NONIDEOLOGYADJ$ Socialist Republic"
+ SOCRPLC_DEF:0 "the $NONIDEOLOGYADJ$ Socialist Republic"
  
- ASR:0 "$NONIDEOLOGYADJ$ Autonomous Socialist Republic"
- ASR_DEF:0 "the $NONIDEOLOGYADJ$ Autonomous Socialist Republic"
+ ATMSSOCRPLC:0 "$NONIDEOLOGYADJ$ Autonomous Socialist Republic"
+ ATMSSOCRPLC_DEF:0 "the $NONIDEOLOGYADJ$ Autonomous Socialist Republic"
 
  UNTT:0 "$OVERLORDADJ$ United Nations Trust Territory of $NONIDEOLOGY$"
  UNTT_DEF:0 "the $OVERLORDADJ$ United Nations Trust Territory of $NONIDEOLOGY$"
  
- PR1:0 "People's Republic of $NONIDEOLOGY$"
- PR1_DEF:0 "the People's Republic of $NONIDEOLOGY$"
+ PPLRPLC1:0 "People's Republic of $NONIDEOLOGY$"
+ PPLRPLC1_DEF:0 "the People's Republic of $NONIDEOLOGY$"
  
- PR2:0 "$NONIDEOLOGYADJ$ People's Republic"
- PR2_DEF:0 "the $NONIDEOLOGYADJ$ People's Republic"
+ PPLRPLC2:0 "$NONIDEOLOGYADJ$ People's Republic"
+ PPLRPLC2_DEF:0 "the $NONIDEOLOGYADJ$ People's Republic"
 
  FEDERAT2:0 "$NONIDEOLOGYADJ$ Federation"
  FEDERAT2_DEF:0 "the $NONIDEOLOGYADJ$ Federation"
  
- CO1:0 "North $NONIDEOLOGY$"
- CO1_DEF:0 "the North $NONIDEOLOGY$"
+ COMP1:0 "North $NONIDEOLOGY$"
+ COMP1_DEF:0 "the North $NONIDEOLOGY$"
  
- CO2:0 "East $NONIDEOLOGY$"
- CO2_DEF:0 "the East $NONIDEOLOGY$"
+ COMP2:0 "East $NONIDEOLOGY$"
+ COMP2_DEF:0 "the East $NONIDEOLOGY$"
 
- CO3:0 "South $NONIDEOLOGY$"
- CO3_DEF:0 "the South $NONIDEOLOGY$"
+ COMP3:0 "South $NONIDEOLOGY$"
+ COMP3_DEF:0 "the South $NONIDEOLOGY$"
 
- CO4:0 "West $NONIDEOLOGY$"
- CO4_DEF:0 "the West $NONIDEOLOGY$"
+ COMP4:0 "West $NONIDEOLOGY$"
+ COMP4_DEF:0 "the West $NONIDEOLOGY$"
  
  SPCLIMTRTTY:0 "Specialized Imperial Territory of $NONIDEOLOGY$"
  SPCLIMTRTTY_DEF:0 "the Specialized Imperial Territory of $NONIDEOLOGY$"
@@ -7036,6 +7036,21 @@
  
  ELYET:0 "Eyalet of $NONIDEOLOGY$"
  ELYET_DEF:0 "the Eyalet of $NONIDEOLOGY$"
+ 
+ SFSR:0 "$NONIDEOLOGYADJ$ Soviet Federative Socialist Republic"
+ SFSR_DEF:0 "the $NONIDEOLOGYADJ$ Soviet Federative Socialist Republic"
+ 
+ SOVSOCRPLC:0 "$NONIDEOLOGYADJ$ Soviet Socialist Republic"
+ SOVSOCRPLC_DEF:0 "the $NONIDEOLOGYADJ$ Soviet Socialist Republic"
+ 
+ ASSR:0 "$NONIDEOLOGYADJ$ Autonomous Soviet Socialist Republic"
+ ASSR_DEF:0 "the $NONIDEOLOGYADJ$ Autonomous Soviet Socialist Republic"
+ 
+ OKRUG:0 "$NONIDEOLOGYADJ$ National Okrug"
+ OKRUG_DEF:0 "the $NONIDEOLOGYADJ$ National Okrug"
+ 
+ AOBLST:0 "$NONIDEOLOGYADJ$ Autonomous Oblast"
+ AOBLST_DEF:0 "the $NONIDEOLOGYADJ$ Autonomous Oblast"
  
  FUCK_YOU_AZRAEELIAN:0 "First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_DEF:0 "the First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
