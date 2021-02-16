@@ -5,8 +5,10 @@ state={
 		4654 
 	}
 	history={
-	    owner = RAJ
-        add_core_of = BRM
+		owner = INC
+		add_core_of = CAM
+		add_core_of = INC
+		add_core_of = CPK
     }	
 	manpower=1000
 	state_category = pastoral

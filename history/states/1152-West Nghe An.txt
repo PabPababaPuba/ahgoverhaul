@@ -6,7 +6,6 @@ state={
 		owner = INC
 		add_core_of = INC
 		add_core_of = VIN
-		add_core_of = LAO
 		add_core_of = NVI
 		add_core_of = ANN
 		buildings = {

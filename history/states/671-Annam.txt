@@ -9,7 +9,7 @@ state={
 
 	history={
 		add_core_of = VIN
-	    owner = INC
+		owner = INC
 		add_core_of = INC
 		add_core_of = TKI
 		add_core_of = NVI
@@ -30,7 +30,7 @@ state={
 	}
 
 	provinces={
-		1185 4075 10129 11909 11936 
+		4075 
 	}
 	manpower=5231000
 	buildings_max_level_factor=1.000

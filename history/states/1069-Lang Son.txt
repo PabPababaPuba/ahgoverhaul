@@ -1,13 +1,15 @@
+
 state={
 	id=1069
 	name="STATE_1069"
 
 	history={
 		add_core_of = VIN
-	    owner = INC
+		owner = INC
 		add_core_of = INC
 		add_core_of = TKI
 		add_core_of = NVI
+		add_core_of = BAC
 		buildings = {
 			infrastructure = 3
 
@@ -16,7 +18,7 @@ state={
 	}
 
 	provinces={
-		1157 4119 7015 7093 9948 12048 
+		9948 
 	}
 	manpower=1608000
 	buildings_max_level_factor=1.000

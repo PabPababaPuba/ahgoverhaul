@@ -6458,3 +6458,27 @@ CIE = {
 color = rgb { 249 225 96 }
 color_ui = rgb { 249 225 96 }
 }
+TAI = {
+color = rgb { 26 181 198 }
+color_ui = rgb { 26 181 198 }
+}
+BAC = {
+color = rgb { 250 169 18 }
+color_ui = rgb { 250 169 18 }
+}
+TNG = {
+color = rgb { 87 64 157 }
+color_ui = rgb { 87 64 157 }
+}
+LUA = {
+color = rgb { 20 167 46 }
+color_ui = rgb { 20 167 46 }
+}
+CPK = {
+color = rgb { 222 150 211 }
+color_ui = rgb { 222 150 211 }
+}
+VTN = {
+color = rgb { 253 242 225 }
+color_ui = rgb { 253 242 225 }
+}

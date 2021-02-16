@@ -5,7 +5,6 @@ state={
 	history = {
 	    owner = INC
 		add_core_of = CAM
-		add_core_of = CCH
 		add_core_of = INC
 	}
 

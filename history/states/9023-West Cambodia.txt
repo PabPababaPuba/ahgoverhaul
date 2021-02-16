@@ -2,16 +2,16 @@
 state={
 	id=9023
 	name="STATE_9023"
-	
+
 	history={
 		add_core_of = CAM
 		add_core_of = INC
-	    owner = INC
+		owner = INC
 
 	}
 
 	provinces={
-		1324 4639 12447 12475 
+		1324 4639 12475 
 	}
 	manpower=4428321
 	buildings_max_level_factor=1.000

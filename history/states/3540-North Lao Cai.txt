@@ -10,8 +10,7 @@ state={
 		add_core_of = INC
 		add_core_of = TKI
 		add_core_of = NVI
-		add_claim_by = CHI
-		add_claim_by = PRC
+		add_core_of = TAI
 		buildings = {
 			infrastructure = 2
 

@@ -6,9 +6,10 @@ state={
 	}
 	manpower=1000
 	history={
-		owner = RAJ
-		add_core_of = BRM
-		add_claim_by = SHA
+	    owner = INC
+        add_core_of = INC
+        add_core_of = CAM
+		add_core_of = CPK
 	}
  
 	state_category=pastoral

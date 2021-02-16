@@ -10,12 +10,12 @@ state={
 	history={
 		add_core_of = CAM
 		add_core_of = INC
-	    owner = INC
+		owner = INC
 
 	}
 
 	provinces={
-		1620 4330 7645 10204 12260 
+		4330 7645 
 	}
 	manpower=4428321
 	buildings_max_level_factor=1.000

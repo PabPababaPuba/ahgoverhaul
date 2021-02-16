@@ -1,23 +1,25 @@
+
 state={
 	id=2735
 	name="STATE_2735"
+
 	history={
-		
-	    owner = INC
+		owner = INC
 		buildings = {
 			infrastructure = 4
-			
+
 		}
 		add_core_of = INC
 		add_core_of = VIN
 		add_core_of = SVI
 		add_core_of = CCH
-		
+
 	}
+
 	provinces={
-		7238 10261 1396 1423
+		1396 
 	}
-	manpower=1000 
- state_category=small_island
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=small_island
 }

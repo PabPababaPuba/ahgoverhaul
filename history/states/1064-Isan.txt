@@ -1,3 +1,4 @@
+
 state={
 	id=1064
 	name="STATE_1064"
@@ -10,11 +11,12 @@ state={
 
 		}
 		add_core_of = SIA
+		add_core_of = VTN
 
 	}
 
 	provinces={
-		1535 1548 4511 7516 12360 
+		1535 1548 4511 12360 
 	}
 	manpower=2110200
 	buildings_max_level_factor=1.000

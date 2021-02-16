@@ -104,12 +104,18 @@ do_french_renames = {
 			state = 670
 		}		
 		set_province_name = {
-			id = 1563
-			name = "Paksé"
-		}
-		set_province_name = {
 			id = 1464
 			name = "Vientiane"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12911
+		}		
+		set_province_name = {
+			id = 1563
+			name = "Paksé"
 		}
 	}
 
@@ -13141,13 +13147,20 @@ do_vietnamese_renames = {
 			state = 670
 		}		
 		set_province_name = {
-			id = 1563
-			name = "Pắc Xế"
-		}	
-		set_province_name = {
 			id = 1464
 			name = "Vạn Tượng"
 		}
+	}
+	
+
+	if = {
+		limit = {
+			state = 12911
+		}		
+		set_province_name = {
+			id = 1563
+			name = "Pắc Xế"
+		}	
 	}
 
 	if = {

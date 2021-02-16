@@ -1,3 +1,4 @@
+
 state={
 	id=1068
 	name="STATE_1068"
@@ -5,14 +6,12 @@ state={
 		rubber=15.000
 	}
 
-
 	history={
 		add_core_of = VIN
-	    owner = INC
+		owner = INC
 		add_core_of = SVI
 		add_core_of = INC
 		add_core_of = ANN
-
 		buildings = {
 			infrastructure = 3
 
@@ -21,7 +20,7 @@ state={
 	}
 
 	provinces={
-		1285 7271 7347 10232 12150 12176 12204 12232 
+		7271 12176 
 	}
 	manpower=1130000
 	buildings_max_level_factor=1.000

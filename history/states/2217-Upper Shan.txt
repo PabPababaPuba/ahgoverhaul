@@ -1,9 +1,8 @@
+
 state={
 	id=2217
 	name="STATE_2217"
 
-	state_category=pastoral
-	
 	history={
 		owner = SHA
 		add_core_of = BRM
@@ -14,9 +13,11 @@ state={
 		}
 
 	}
+
 	provinces={
-		2061 1566 1607 7603 
+		1566 1607 2061 4585 4626 7603 
 	}
-	manpower=1000 
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
