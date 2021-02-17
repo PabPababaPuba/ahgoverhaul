@@ -244,7 +244,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dictador José Antonio Primo de Rivera, Marqués de Estella"
+	name = "Director José Antonio Primo de Rivera, Marqués de Estella"
 	desc = "POLITICS_SPR_REPFASH_DESC"
 	picture = "Portrait_Primo_de_Rivera.dds"
 	expire = "1965.1.1"

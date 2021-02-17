@@ -95,7 +95,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "General Secretary Earl Russell Browder"
+	name = "Director Earl Russell Browder"
 	desc = ""
 	picture = "USA_Browder.tga"
 	expire = "1965.1.1"
