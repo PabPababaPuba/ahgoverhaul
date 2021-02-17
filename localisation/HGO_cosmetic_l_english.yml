@@ -7055,6 +7055,19 @@
  CTLEDOILFLD:0 "$OVERLORDADJ$ Controlled Oil Fields in $NONIDEOLOGY$"
  CTLEDOILFLD_DEF:0 "the $OVERLORDADJ$-Owned Oil Fields in $NONIDEOLOGY$"
  
+ GRNLGOV1:0 "General-Governate of $NONIDEOLOGY$"
+ GRNLGOV1_DEF:0 "the General-Governate of $NONIDEOLOGY$"
+ 
+ GRNLGOV2:0 "General Government of $NONIDEOLOGY$"
+ GRNLGOV2_DEF:0 "the General Government of $NONIDEOLOGY$" 
+ 
+ GRNGOVGER:0 "Generalgouvernment $NONIDEOLOGY$"
+ GRNGOVGER_DEF:0 "das Generalgouvernment $NONIDEOLOGY$"
+ 
+ CPTNCY:0 "Captaincy of $NONIDEOLOGY$"
+ CPTNCY_DEF:0 "the Captaincy of $NONIDEOLOGY$"
+ 
+ 
  FUCK_YOU_AZRAEELIAN:0 "First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_DEF:0 "the First United Imperial Junta of the Chinese People's Islamic Caliphate of the United Commonwealth Confederated States of the New Grand Chinese Empire"
  FUCK_YOU_AZRAEELIAN_ADJ:0 "Chinese but worse"
@@ -7062,6 +7075,8 @@
  OSS_SOV:0 "Ossetian Autonomous Oblast"
  OSS_SOV_DEF:0 "The Ossetian Autonomous Oblast"
  OSS_SOV_ADJ:0 "Ossetian"
+
+
 
  TEST:0 "$GETRULINGPARTY$"
  TEST_DEF:0 "$GETRULINGPARTY$"
