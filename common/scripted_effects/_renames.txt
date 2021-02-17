@@ -101,6 +101,56 @@ do_french_renames = {
 
 	if = {
 		limit = {
+			state = 286
+		}		
+		set_province_name = {
+			id = 10137
+			name = "Tourane"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12917
+		}		
+		set_province_name = {
+			id = 10496
+			name = "Louang Phrabang"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12860
+		}		
+		set_province_name = {
+			id = 4119
+			name = "Haïphong"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1071
+		}		
+		set_province_name = {
+			id = 4397
+			name = "Vinh"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12887
+		}		
+		set_province_name = {
+			id = 10129
+			name = "Cantho"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 670
 		}		
 		set_province_name = {
@@ -125,7 +175,7 @@ do_french_renames = {
 		}		
 		set_province_name = {
 			id = 4302
-			name = "Siem Reap"
+			name = "Siem-Reap"
 		}
 	}
 
@@ -3286,7 +3336,7 @@ do_french_renames = {
 		}		
 		set_province_name = {
 			id = 4075
-			name = "Hanoi"
+			name = "Hanoï"
 		}
 	}
 
@@ -3296,7 +3346,7 @@ do_french_renames = {
 		}		
 		set_province_name = {
 			id = 4401
-			name = "Saigon"
+			name = "Saïgon"
 		}
 	}
 		
@@ -12884,6 +12934,266 @@ do_vietnamese_renames = {
 
 	if = {
 		limit = {
+			state = 2191
+		}		
+		set_province_name = {
+			id = 957
+			name = "Hải Sâm Uy"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 409
+		}		
+		set_province_name = {
+			id = 12189
+			name = "Bá Lực"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 745
+		}		
+		set_province_name = {
+			id = 1150
+			name = "Đại Liên"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 716
+		}		
+		set_province_name = {
+			id = 11771
+			name = "Thẩm Dương"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 11203
+		}		
+		set_province_name = {
+			id = 10433
+			name = "Cáp Nhĩ Tân"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 328
+		}		
+		set_province_name = {
+			id = 4572
+			name = "Trường Xuân"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 608
+		}		
+		set_province_name = {
+			id = 9843
+			name = "Bắc Kinh"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1192
+		}		
+		set_province_name = {
+			id = 10068
+			name = "Thiên Tân"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 743
+		}		
+		set_province_name = {
+			id = 10000
+			name = "Thanh Đảo"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 597
+		}		
+		set_province_name = {
+			id = 1069
+			name = "Tế Nam"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 956
+		}		
+		set_province_name = {
+			id = 13282
+			name = "Uy Hải Vệ"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 11301
+		}		
+		set_province_name = {
+			id = 12331
+			name = "Bách Linh Miếu"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 615
+		}		
+		set_province_name = {
+			id = 1519
+			name = "Thái Nguyên"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 11692
+		}		
+		set_province_name = {
+			id = 12732
+			name = "Lan Châu"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 622
+		}		
+		set_province_name = {
+			id = 8049
+			name = "Diên An"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 607
+		}		
+		set_province_name = {
+			id = 9958
+			name = "Trịnh Châu"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 606
+		}		
+		set_province_name = {
+			id = 7222
+			name = "Hợp Phì"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 753
+		}		
+		set_province_name = {
+			id = 2045
+			name = "Thiên Thủy"
+		}
+	}
+
+	if = {	
+		limit = {
+			state = 11625
+		}	
+		set_province_name = {
+			id = 7418
+			name = "Tây An"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 11629
+		}	
+		set_province_name = {
+			id = 8026
+			name = "Thành Đô"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 605
+		}		
+		set_province_name = {
+			id = 6999
+			name = "Trùng Khánh"
+		}	
+	}
+	
+	if = {
+		limit = {
+			state = 11603
+		}		
+		set_province_name = {
+			id = 10841
+			name = "Khang Định"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12917
+		}		
+		set_province_name = {
+			id = 10496
+			name = "Luổng Phạ Bang"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12860
+		}		
+		set_province_name = {
+			id = 4119
+			name = "Hải Phòng"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1071
+		}		
+		set_province_name = {
+			id = 4397
+			name = "Vinh"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 12887
+		}		
+		set_province_name = {
+			id = 10129
+			name = "Cần Thơ"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 747
 		}		
 		set_province_name = {
@@ -13108,7 +13418,7 @@ do_vietnamese_renames = {
 		}		
 		set_province_name = {
 			id = 7408
-			name = "Xin chúc mừng Mahanakorn"
+			name = "Băng Cốc"
 		}
 	}
 
@@ -13215,6 +13525,16 @@ do_vietnamese_renames = {
 }
 
 do_pinyin_renames = {
+
+	if = {
+		limit = {
+			state = 11603
+		}		
+		set_province_name = {
+			id = 10841
+			name = "Kāngdìng"
+		}
+	}
 
 	if = {
 		limit = {
@@ -13882,7 +14202,7 @@ do_pinyin_renames = {
 
 	if = {
 		limit = {
-			state = 3285
+			state = 11625
 		}		
 		set_province_name = {
 			id = 7418
@@ -14122,10 +14442,10 @@ do_pinyin_renames = {
 
 	if = {
 		limit = {
-			state = 3535
+			state = 11301
 		}		
 		set_province_name = {
-			id = 11752
+			id = 12331
 			name = "Bǎilíngmiào"
 		}
 	}
@@ -14172,6 +14492,16 @@ do_pinyin_renames = {
 }
 
 do_japanese_renames = {
+
+	if = {
+		limit = {
+			state = 11603
+		}		
+		set_province_name = {
+			id = 10841
+			name = "Yasusada"
+		}
+	}
 
 	if = {
 		limit = {
@@ -16515,7 +16845,7 @@ do_japanese_renames = {
 
 	if = {
 		limit = {
-			state = 3285
+			state = 11625
 		}		
 		set_province_name = {
 			id = 7418
@@ -16755,10 +17085,10 @@ do_japanese_renames = {
 
 	if = {
 		limit = {
-			state = 3535
+			state = 11301
 		}		
 		set_province_name = {
-			id = 11752
+			id = 12331
 			name = "Hakureimyao"
 		}
 	}
@@ -16851,6 +17181,16 @@ do_japanese_renames = {
 }
 
 do_chinese_renames = {
+
+	if = {
+		limit = {
+			state = 11603
+		}		
+		set_province_name = {
+			id = 10841
+			name = "Kangding"
+		}
+	}
 
 	if = {
 		limit = {
@@ -16964,7 +17304,7 @@ do_chinese_renames = {
 
 	if = {	
 		limit = {
-			state = 3285
+			state = 11625
 		}	
 		set_province_name = {
 			id = 7418
@@ -17204,10 +17544,10 @@ do_chinese_renames = {
 
 	if = {
 		limit = {
-			state = 3535
+			state = 11301
 		}		
 		set_province_name = {
-			id = 11752
+			id = 12331
 			name = "Bailingmiao"
 		}
 	}
@@ -18401,10 +18741,10 @@ do_russian_renames = {
 
 	if = {
 		limit = {
-			state = 3535
+			state = 11301
 		}		
 		set_province_name = {
-			id = 11752
+			id = 12331
 			name = "Baylingmiyao"
 		}
 	}
@@ -37998,10 +38338,10 @@ do_turkish_renames = {
 
 	if = {
 		limit = {
-			state = 3535
+			state = 11301
 		}		
 		set_province_name = {
-			id = 11752
+			id = 12331
 			name = "Baylinmiyavo"
 		}
 	}
@@ -46747,6 +47087,16 @@ do_korean_renames = {
 
 	if = {
 		limit = {
+			state = 11603
+		}		
+		set_province_name = {
+			id = 10841
+			name = "Gangjeong"
+		}
+	}
+
+	if = {
+		limit = {
 			state = 3173
 		}		
 		set_province_name = {
@@ -47057,7 +47407,7 @@ do_korean_renames = {
  
  	if = {
  		limit = {
- 			state = 3285
+ 			state = 11625
  		}		
  		set_province_name = {
  			id = 7418
@@ -47307,10 +47657,10 @@ do_korean_renames = {
  
  	if = {
  		limit = {
- 			state = 3535
+ 			state = 11301
  		}		
  		set_province_name = {
- 			id = 11752
+ 			id = 12331
  			name = Baeglyeongmyo
  		}
  	}
