@@ -3302,7 +3302,7 @@
  MEN_democratic_ADJ:0 "Mengjiang"
  MEN_neutrality_ADJ:0 "Mongolian"
  MEN_communism_ADJ:0 "Mengjiang"
- MEN_stratocratic_:0 "Chahar Clique"
+ MEN_stratocratic:0 "Chahar Clique"
  MEN_stratocratic_DEF:0 "The Chahar Clique"
  MEN_stratocratic_ADJ:0 "Mongolian"
  MEN_stratocratic_monarchism:0 "East Chahar Autonomous Region"
