@@ -5041,8 +5041,8 @@ CKL = {
 	color_ui = rgb { 150 150 150 }
 }
 CHN = {
-	color = rgb { 103 101 140 }
-	color_ui = rgb { 103 101 140 }
+	color = rgb { 0 11 112 }
+	color_ui = rgb { 0 11 112 }
 }
 LKE = {
 	color = rgb { 206 200 117 }
@@ -5309,12 +5309,12 @@ STI = {
 	color_ui = rgb { 51 113 147 }
 }
 KNM = {
-	color = rgb { 0 11 112 }
-	color_ui = rgb { 0 11 112 }
+	color = rgb { 77 90 112 }
+	color_ui = rgb { 77 90 112 }
 }
 LBG = {
-	color = rgb { 103 101 140 }
-	color_ui = rgb { 103 101 140 }
+	color = rgb { 0 11 112 }
+	color_ui = rgb { 0 11 112 }
 }
 SKK = {
 	color = rgb { 230 187 48 }
