@@ -6482,3 +6482,11 @@ VTN = {
 color = rgb { 253 242 225 }
 color_ui = rgb { 253 242 225 }
 }
+WT2 = {
+	color = rgb { 173 116 64 }
+	color_ui = rgb { 173 116 64 }
+}
+BS2 = {
+	color = rgb { 173 116 64 }
+	color_ui = rgb { 173 116 64 }
+}

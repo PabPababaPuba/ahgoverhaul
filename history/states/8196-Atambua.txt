@@ -5,7 +5,8 @@ state={
 		17744 
 	}
 	history={
-		owner = INS
+		owner = WT2
+		add_core_of = WT2
 		add_core_of = INS 
 		add_core_of = IDS
 	}
