@@ -5,7 +5,6 @@ state={
 	history={
 		owner = INS
 		add_core_of = INS 
-		add_core_of = IDS
 		add_core_of = BEO
                 victory_points = {
 			7415 1
@@ -13,7 +12,7 @@ state={
 		}
 	
 	provinces={
-		1404 2047 7415 12243 
+		1404 2047 7415 
 	}
 	
 	manpower=391843

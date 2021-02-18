@@ -5,7 +5,6 @@ state={
 	history={
 		owner = INS
 		add_core_of = INS 
-		add_core_of = IDS
 		add_core_of = BEO
 		buildings = {
 			infrastructure = 2
@@ -19,7 +18,7 @@ state={
 	}
 	
 	provinces={
-		1316 4335 4409 7227 10282 12955 
+		10282 
 	}
 	
 	manpower=418481
