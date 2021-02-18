@@ -16,6 +16,14 @@
  BS2_authoritarian_monarchism_DEF:0 "The Bima Sultanate"
  BS2_authoritarian_monarchism_ADJ:0 "Bima"
 
+ TD2_authoritarian_monarchism:0 "Sultanate of Tidore"
+ TD2_authoritarian_monarchism_DEF:0 "The Sultanate of Tidore"
+ TD2_authoritarian_monarchism_ADJ:0 "Tidore"
+
+ TN2_authoritarian_monarchism:0 "Sultanate of Ternate"
+ TN2_authoritarian_monarchism_DEF:0 "The Sultanate of Ternate"
+ TN2_authoritarian_monarchism_ADJ:0 "Ternate"
+
  WT2_authoritarian_monarchism:0 "Kupang Princely Federation"
  WT2_authoritarian_monarchism_DEF:0 "The Kupang Princely Federation"
  WT2_authoritarian_monarchism_ADJ:0 "Timorese"

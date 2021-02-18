@@ -6490,3 +6490,11 @@ BS2 = {
 	color = rgb { 173 116 64 }
 	color_ui = rgb { 173 116 64 }
 }
+TD2 = {
+	color = rgb { 173 116 64 }
+	color_ui = rgb { 173 116 64 }
+}
+TN2 = {
+	color = rgb { 173 116 64 }
+	color_ui = rgb { 173 116 64 }
+}

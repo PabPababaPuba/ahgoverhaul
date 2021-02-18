@@ -5,7 +5,8 @@ state={
 	state_category=town
 
 	history={
-		owner = INS
+		owner = TN2
+		add_core_of = TN2
 		add_core_of = INS 
 		add_core_of = IDS
 		add_core_of = MLK
@@ -14,7 +15,7 @@ state={
 		}
 	}
 	provinces={
-		1419 7413 10141 
+		1419 
 	}
 	manpower=4045555	buildings_max_level_factor=1.000
 }
