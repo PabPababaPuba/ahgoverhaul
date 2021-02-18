@@ -1,6 +1,6 @@
 state={
-	id=2161
-	name="STATE_2161"
+	id=12958
+	name="STATE_12958"
 	
 	state_category=town
 
@@ -9,17 +9,12 @@ state={
 		add_core_of = INS 
 		add_core_of = IDS
 		add_core_of = SLW
-		buildings = {
-			infrastructure = 3
-			10153 = {
-				naval_base = 3
-
-			}
-		}
 	}
+	
 	provinces={
-		10153
+		2160
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	
 }
