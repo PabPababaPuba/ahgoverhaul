@@ -3303,8 +3303,8 @@ color_ui = rgb { 185 185 185 }
 }
 
 HUN_SCC = {
-color = rgb { 154 59 126 }
-color_ui = rgb { 200 80 161 }
+color = rgb { 143 77 77 }
+color_ui = rgb { 143 77 77 }
 }
 
 ARG_SCC = {
