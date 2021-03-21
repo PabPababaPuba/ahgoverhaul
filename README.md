@@ -1,5 +1,4 @@
 Historic Geographical Overhaul has been put on indefinite hiatus. 
-
 ---------------
 
 How to install this trainwreck - presented by the HGO team
