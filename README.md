@@ -18,6 +18,7 @@ Credits:
 The HGO team: Unperson
 
 And unlike the traitors who refuse to credit me, I credit my former developers. 
+
 Former Devs: MihalRacovita, TrueSoviet, Holy Doggo, Generalis, JoshyFlip, crasher925, SamFan2, blue69982, Gindisi, K0rhan, and scryl, Faaz Noushad, Ainsley, Luminisenc, birdirdirbirb/ReiFly/GardenGnostic, and Kels.
 
 Special Thanks to:
